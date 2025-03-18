@@ -1,0 +1,133 @@
+---
+title: Ottimizzare il coinvolgimento con Sites Optimizer
+description: Scopri come migliorare il coinvolgimento con Sites Optimizer.
+source-git-commit: 62909a9c65a62beb202896d98bb9ab058bcd984a
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 4%
+
+---
+
+
+# Opportunità di coinvolgimento
+
+![Opportunità di coinvolgimento](./assets/engagement/hero.png){align="center"}
+
+Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per migliorare le esperienze digitali fornendo informazioni fruibili sul modo in cui gli utenti interagiscono con le pagine web. Identificando le aree da migliorare (ad esempio problemi di accessibilità, collegamenti interni interrotti, tassi di mancato recapito elevati e testo alt mancante), gli esperti di marketing e gli autori di contenuti possono ottimizzare i siti per migliorare le prestazioni e il coinvolgimento degli utenti. Queste opportunità contribuiscono a garantire che i contenuti siano efficaci, individuabili e coinvolgenti, determinando in ultima analisi conversioni più elevate e un percorso di clienti più semplice. Sfruttando i consigli di AEM Sites Optimizer i team possono perfezionare continuamente la propria strategia digitale e fornire esperienze di alto impatto su larga scala.
+
+
+## Opportunità
+
+
+<!-- CARDS
+
+* ../documentation/opportunities/accessibility-issues.md
+  {title=Accessibility issues}
+  {image=../assets/common/card-puzzle.png}
+* ../documentation/opportunities//broken-internal-links.md
+  {title=Broken internal links}
+  {image=../assets/common/card-link.png}
+* ../documentation/opportunities//high-bounce-rate.md
+  {title=High bounce rate}
+  {image=../assets/common/card-arrows.png}
+* ../documentation/opportunities/missing-alt-text.md  
+  {title=Missing alt text}
+  {image=../assets/common/card-arrows.png}
+
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../documentation/opportunities/accessibility-issues.md" title="Problemi di accessibilità" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-puzzle.png" alt="Problemi di accessibilità"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" title="Problemi di accessibilità">Problemi di accessibilità</a>
+                    </p>
+                    <p class="is-size-6">Scopri l’opportunità dei problemi di accessibilità e come utilizzarla per aumentare la sicurezza di sul tuo sito web.</p>
+                </div>
+                <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Broken internal links">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../documentation/opportunities//broken-internal-links.md" title="Collegamenti interni interrotti" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-link.png" alt="Collegamenti interni interrotti"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../documentation/opportunities//broken-internal-links.md" target="_blank" rel="referrer" title="Collegamenti interni interrotti">Collegamenti interni interrotti</a>
+                    </p>
+                    <p class="is-size-6">Scopri l’opportunità di collegamenti interrotti e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
+                </div>
+                <a href="../documentation/opportunities//broken-internal-links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="High bounce rate">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../documentation/opportunities//high-bounce-rate.md" title="Frequenza di rimbalzo elevata" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Frequenza di rimbalzo elevata"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Frequenza di rimbalzo elevata">Percentuale di mancato recapito elevata</a>
+                    </p>
+                    <p class="is-size-6">Scopri l’opportunità delle visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                </div>
+                <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Missing alt text">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../documentation/opportunities/missing-alt-text.md" title="Testo alt mancante" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Testo alt mancante"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" title="Testo alt mancante">Testo alt mancante</a>
+                    </p>
+                    <p class="is-size-6">Scopri l’opportunità di testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
+                </div>
+                <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
