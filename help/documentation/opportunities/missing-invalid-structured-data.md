@@ -2,7 +2,7 @@
 title: Documentazione sui dati strutturati mancanti o non validi
 description: Scopri l’opportunità di dati strutturati mancante o non valida e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
-source-git-commit: 0a333a4055e59c49d3266d8c3ed55d7e60771923
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
@@ -41,8 +41,9 @@ L’opportunità di dati strutturati mancanti o non validi fornisce anche sugger
 * **Problemi** - Campo contenente il numero di problemi e un menu a discesa in cui sono elencati tutti i problemi.
 * **Campo di suggerimento** - Una descrizione generata dall&#39;intelligenza artificiale e suggerimenti per aggiornamenti di dati strutturati appropriati. Puoi scorrere verso il basso per ulteriori suggerimenti e problemi.
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Ottimizzazione automatica dei dati strutturati suggeriti mancanti o non validi](./assets/missing-or-invalid-structured-data/auto-optimize.png){align="center"}
 

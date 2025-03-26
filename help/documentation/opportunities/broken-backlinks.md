@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità di collegamenti interrotti
 description: Scopri l’opportunità di backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
-source-git-commit: d2f8df0515265f6bc983cf906e07e9bf7230becf
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 1%
@@ -60,9 +60,9 @@ Puoi scegliere di ignorare le voci con l’URL di destinazione non funzionante. 
 
 >[!ENDTABS]
 
+## Ottimizzazione automatica
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Ottimizzazione automatica collegamenti interrotti](./assets/broken-backlinks/auto-optimize.png){align="center"}
 

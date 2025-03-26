@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità di metadati non valida o mancante
 description: Scopri l’opportunità di metadati non valida o mancante e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
-source-git-commit: 850c1ed49d4ee117ece19c865a329f13b69bc8dc
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 1%
@@ -64,8 +64,9 @@ Puoi scegliere di ignorare le voci con i metadati non validi o interrotti di des
 
 >[!ENDTABS]
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![L&#39;ottimizzazione automatica ha suggerito metadati non validi o mancanti](./assets/missing-or-invalid-metadata/auto-optimize.png){align="center"}
 

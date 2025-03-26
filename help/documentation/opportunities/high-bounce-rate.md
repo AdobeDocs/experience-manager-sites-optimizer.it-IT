@@ -2,7 +2,7 @@
 title: Documentazione sulle opportunità di tasso di mancato recapito elevato
 description: Scopri l’opportunità delle visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: 393feffe477eff99a026b7ad7cad5531c20254ea
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -50,7 +50,9 @@ Fai clic su ciascuna variante per visualizzarne l’anteprima sul lato destro de
 
 >[!ENDTABS]
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Ottimizzazione automatica percentuale di mancato recapito elevata](./assets/high-bounce-rate/auto-optimize.png){align="center"}
 

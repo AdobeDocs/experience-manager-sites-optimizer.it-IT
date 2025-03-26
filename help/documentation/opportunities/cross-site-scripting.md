@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità di scripting tra siti
 description: Scopri l’opportunità di scripting tra siti e come identificare e correggere le vulnerabilità relative alla sicurezza dei siti.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 4%
@@ -29,8 +29,9 @@ L’opportunità di scripting tra siti identifica e corregge le vulnerabilità n
 
 * **Correzione suggerita**: un suggerimento generato dall&#39;intelligenza artificiale su come correggere la vulnerabilità.
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 >[!BEGINTABS]
 

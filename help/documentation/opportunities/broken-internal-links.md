@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità di collegamenti interni interrotti
 description: Scopri l’opportunità di collegamenti interrotti e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: 40ed1b3d60bd4eb1e5410c8c76a7d45856a3d79b
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -61,8 +61,9 @@ Puoi scegliere di ignorare le voci con gli URL interrotti di destinazione. Se si
 >[!ENDTABS]
 
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 

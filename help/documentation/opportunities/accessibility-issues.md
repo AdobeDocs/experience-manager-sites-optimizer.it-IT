@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità dei problemi di accessibilità
 description: Scopri l’opportunità dei problemi di accessibilità e come utilizzarla per aumentare la sicurezza di sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: fd439ce1e5191005fd79c81aef790f3cc7550e94
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
@@ -34,7 +34,9 @@ L&#39;**opportunità per problemi di accessibilità** identifica i problemi di a
 
 Il suggerimento automatico fornisce consigli generati dall&#39;intelligenza artificiale nel campo **Come risolvere il problema**, che fornisce indicazioni prescrittive su cosa fare per risolvere il problema.
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Problemi di accessibilità con ottimizzazione automatica](./assets/accessibility-issues/auto-optimize.png){align="center"}
 

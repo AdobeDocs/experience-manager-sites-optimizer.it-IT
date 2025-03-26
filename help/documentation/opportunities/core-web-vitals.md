@@ -2,7 +2,7 @@
 title: Documentazione dell’opportunità Core Web Vitals
 description: Scopri le principali opportunità di web vitals e come utilizzarle per migliorare l’acquisizione del traffico.
 badgeSiteHealth: label="Integrità del sito" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Integrità del sito"
-source-git-commit: 81343812472477448fd0ee8be89bd6ae784a9e61
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -42,8 +42,9 @@ L’opportunità web vitals di base fornisce suggerimenti di correzione generati
 
 Ogni categoria può contenere diversi problemi, quindi accertati di scorrere verso il basso per visualizzare l’elenco completo dei problemi e dei consigli.  Inoltre, per ogni metrica sono disponibili due misuratori di prestazioni sia per dispositivi mobili che per sistemi desktop.
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Opportunità di ottimizzazione automatica dei componenti Web principali](./assets/core-web-vitals/auto-optimize.png){align="center"}
 

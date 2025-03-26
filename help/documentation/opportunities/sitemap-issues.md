@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità dei problemi di Sitemap
 description: Scopri l’opportunità di problemi con sitemap e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
-source-git-commit: d812a49e4b49d329717586b9f3c7a235aff3e69a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
@@ -75,8 +75,9 @@ Ogni problema di sitemap [ che soddisfa i criteri di filtro](#auto-identify) è 
 
 I suggerimenti in genere includono un percorso del sito aggiornato per correggere la voce sitemap. In alcuni casi, possono anche fornire istruzioni più dettagliate, come ad esempio specificare il target di reindirizzamento corretto.
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Problemi relativi all&#39;ottimizzazione automatica di Sitemap](./assets/sitemap-issues/auto-optimize.png){align="center"}
 

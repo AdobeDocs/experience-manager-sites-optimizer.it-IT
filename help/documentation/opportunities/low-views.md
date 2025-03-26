@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità di visualizzazioni ridotte
 description: Scopri l’opportunità delle visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.
 badgeFormOptimization: label="Ottimizzazione del modulo" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione del modulo"
-source-git-commit: 258024606c732a4f4d4fe21a9ee36e1e2d3572f5
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -50,8 +50,9 @@ Fai clic su ciascuna variante per visualizzarne l’anteprima sul lato destro de
 
 >[!ENDTABS]
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Ottimizzazione automatica visualizzazioni basse](./assets/low-views/auto-optimize.png){align="center"}
 

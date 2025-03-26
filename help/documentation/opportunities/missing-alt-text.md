@@ -2,7 +2,7 @@
 title: Documentazione di testo ALT mancante
 description: Scopri l’opportunità di testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: 84f922b5d0f788c1affe47a9013ed640947d0ec4
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -57,8 +57,9 @@ Se non sei d&#39;accordo con il suggerimento generato da AI, puoi modificare il 
 
 >[!ENDTABS]
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Ottimizzazione automatica testo alternativo mancante](./assets/missing-alt-text/auto-optimize.png){align="center"}
 

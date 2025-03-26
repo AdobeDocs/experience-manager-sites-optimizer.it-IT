@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità di basse conversioni
 description: Scopri l’opportunità di basse conversioni e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.
 badgeFormOptimization: label="Ottimizzazione del modulo" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione del modulo"
-source-git-commit: f83926c9136e3d83be56faa403bc9609b2ee09df
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 1%
@@ -50,8 +50,9 @@ Fai clic su ciascuna variante per visualizzarne l’anteprima sul lato destro de
 
 >[!ENDTABS]
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Ottimizzazione automatica conversioni basse](./assets/low-conversions/auto-optimize.png){align="center"}
 

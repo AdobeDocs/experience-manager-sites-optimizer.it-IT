@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità relativa alle vulnerabilità dei siti web
 description: Scopri l’opportunità di vulnerabilità del sito web e come utilizzarla per aumentare la sicurezza di sul sito web.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -52,7 +52,9 @@ Puoi scegliere di ignorare le voci dall’elenco delle vulnerabilità. Se si sel
 >[!ENDTABS]
 
 
-## Ottimizza automaticamente [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Ottimizzazione automatica
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Ottimizzazione automatica vulnerabilità sito Web](./assets/website-vulnerabilities/auto-optimize.png){align="center"}
 
