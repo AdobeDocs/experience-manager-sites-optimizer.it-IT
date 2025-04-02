@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità dei problemi di accessibilità
 description: Scopri l’opportunità dei problemi di accessibilità e come utilizzarla per aumentare la sicurezza di sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
+source-git-commit: c52b60fb483009856cb6976eddbf86141d0846fc
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
@@ -22,7 +22,7 @@ L&#39;opportunità Problemi di accessibilità identifica la conformità del sito
 
 L&#39;**opportunità per problemi di accessibilità** identifica i problemi di accessibilità nel sito Web e include quanto segue:
 
-* **Problemi** - È stato rilevato il problema specifico di accessibilità.
+* **Problemi** - È stato rilevato il problema di accessibilità specifico.
 * **Linee guida** - [ID linee guida WCAG](https://www.w3.org/TR/WCAG21/) il problema viola.
 * **Impatto utente** - Valutazione dell&#39;impatto sugli utenti con disabilità.
 * **Elementi non riusciti** - Gli elementi HTML nella pagina Web interessati dal problema.
