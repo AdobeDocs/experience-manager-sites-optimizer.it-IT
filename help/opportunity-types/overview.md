@@ -1,10 +1,10 @@
 ---
-title: Tipi di opportunità Sites Optimizer
+title: Tipi di opportunità di Sites Optimizer
 description: Scopri i tipi di opportunità chiave in Sites Optimizer e come possono aiutarti a migliorare le prestazioni del tuo sito.
 source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 9%
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 AEM Sites Optimizer fornisce informazioni e consigli utili per migliorare le prestazioni, l’usabilità e la sicurezza del sito web. Queste informazioni sono raggruppate in aree di opportunità chiave: Coinvolgimento, Acquisizione del traffico, Posizione di sicurezza e Integrità del sito. Ogni categoria evidenzia modi specifici per migliorare il sito, aumentando l’interazione con i visitatori, migliorando la reperibilità, rafforzando la sicurezza o mantenendo la stabilità del sito.
 
-Sfruttando queste opportunità si migliora l’esperienza utente, si attrae il pubblico giusto e si mantiene il sito sicuro e affidabile. Migliorando il coinvolgimento e l&#39;acquisizione del traffico si favoriscono l&#39;interazione e la visibilità, mentre una posizione di sicurezza e un&#39;integrità del sito solide contribuiscono a garantire la fiducia e la stabilità.  Esplora i collegamenti riportati di seguito per vedere le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
+Sfruttando queste opportunità migliori l’esperienza utente, attiri il pubblico giusto e mantieni il sito sicuro e affidabile. Migliorando il coinvolgimento e l&#39;acquisizione del traffico si favoriscono l&#39;interazione e la visibilità, mentre una posizione di sicurezza e un&#39;integrità del sito solide contribuiscono a garantire la fiducia e la stabilità.  Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
 
 ## Tipi di opportunità
 
@@ -69,7 +69,7 @@ Sfruttando queste opportunità si migliora l’esperienza utente, si attrae il p
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./security-posture.md" target="_blank" rel="referrer" title="Livello di sicurezza">Postura di sicurezza</a>
+                        <a href="./security-posture.md" target="_blank" rel="referrer" title="Livello di sicurezza">Livello di sicurezza</a>
                     </p>
                     <p class="is-size-6">Scopri come migliorare la sicurezza del tuo sito con Sites Optimizer.</p>
                 </div>
@@ -92,7 +92,7 @@ Sfruttando queste opportunità si migliora l’esperienza utente, si attrae il p
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./site-health.md" target="_blank" rel="referrer" title="Integrità del sito">Integrità sito</a>
+                        <a href="./site-health.md" target="_blank" rel="referrer" title="Integrità del sito">Integrità del sito</a>
                     </p>
                     <p class="is-size-6">Scopri come migliorare lo stato del tuo sito con Sites Optimizer.</p>
                 </div>

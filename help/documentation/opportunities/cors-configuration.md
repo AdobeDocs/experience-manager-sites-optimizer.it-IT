@@ -1,35 +1,35 @@
 ---
-title: Documentazione sull’opportunità di configurazione CORS
-description: Scopri l’opportunità di configurazione CORS e come identificare e correggere le vulnerabilità di sicurezza del sito.
+title: Documentazione sull’opportunità Configurazione CORS
+description: Scopri l’opportunità da cogliere in caso di configurazione CORS e come identificare e correggere le vulnerabilità di sicurezza del sito.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 3%
+ht-degree: 98%
 
 ---
 
 
-# Opportunità di configurazione CORS
+# Opportunità configurazione CORS
 
-![opportunità di configurazione CORS](./assets/cors-configuration/hero.png){align="center"}
+![Opportunità configurazione CORS](./assets/cors-configuration/hero.png){align="center"}
 
-La corretta configurazione di Cross-Origin Resource Sharing (CORS) è essenziale per proteggere le applicazioni web dall’accesso non autorizzato ai dati. Quando l&#39;intestazione `Access-Control-Allow-Origin` è impostata su `*`, qualsiasi dominio può richiedere e ricevere risposte, esponendo potenzialmente informazioni riservate ad attacchi. Ciò offre l’opportunità di rafforzare la sicurezza implementando un inserisco nell&#39;elenco Consentiti controllato di domini affidabili o disabilitando CORS laddove non sia richiesto. Garantire una configurazione CORS sicura aiuta a proteggere i contenuti privati mantenendo al contempo l’accesso senza soluzione di continuità per gli utenti autorizzati.
+La corretta configurazione CORS (Cross-Origin Resource Sharing) è essenziale per proteggere le applicazioni web dall’accesso non autorizzato ai dati. Quando l’intestazione `Access-Control-Allow-Origin` è impostata su `*`, qualsiasi dominio può richiedere e ricevere risposte, esponendo potenzialmente informazioni riservate ad attacchi. Questo offre la possibilità di rafforzare la sicurezza implementando un elenco Consentiti controllato di domini affidabili o disabilitando CORS laddove non sia richiesto. Garantire una configurazione CORS sicura aiuta a proteggere i contenuti privati mantenendone al contempo l’accesso semplice per gli utenti autorizzati.
 
 ## Identificazione automatica
 
-![Identificazione automatica opportunità di configurazione CORS](./assets/cors-configuration/auto-identify.png){align="center"}
+![Identificazione automatica opportunità configurazione CORS](./assets/cors-configuration/auto-identify.png){align="center"}
 
-L’identificazione automatica ricerca nel sito web eventuali configurazioni non cors e rileva gli URL che potrebbero essere soggetti ad accesso non autorizzato. Questi URL sono elencati nella tabella superiore, insieme ai seguenti dettagli:
+L’identificazione automatica analizza il sito web per rilevare eventuali configurazioni CORS errate e URL che potrebbero essere suscettibili ad accesso non autorizzato. Questi URL sono elencati nella tabella nella parte superiore, insieme ai seguenti dettagli:
 
-* **Prefisso pagina** - Prefisso del percorso URL vulnerabile a errori di configurazione CORS.
-* **Esempio di pagina** - URL di esempio suscettibile di accesso non autorizzato.
+* **Prefisso pagina**: prefisso del percorso URL vulnerabile alla configurazione CORS errata.
+* **Esempio di pagina**: URL di esempio suscettibile all’accesso non autorizzato.
 
 ## Suggerimento automatico
 
-![Suggerisci automaticamente l&#39;opportunità di configurazione CORS](./assets/cors-configuration/auto-suggest.png){align="center"}
+![Suggerimento automatico per opportunità configurazione CORS](./assets/cors-configuration/auto-suggest.png){align="center"}
 
-Suggerimento automatico fornisce **file di codice applicazione** e le relative **righe** da rivedere che potrebbero impostare criteri CORS lassisti.
+Il suggerimento automatico fornisce **file di codice applicazione** e le relative **righe** da rivedere che potrebbero impostare criteri CORS deboli.
 
 
 ## Ottimizzazione automatica
@@ -38,7 +38,7 @@ Suggerimento automatico fornisce **file di codice applicazione** e le relative *
 
 >[!BEGINTABS]
 
->[!TAB Ottimizzazione distribuzione]
+>[!TAB Distribuisci ottimizzazione]
 
 {{auto-optimize-deploy-optimization-slack}}
 

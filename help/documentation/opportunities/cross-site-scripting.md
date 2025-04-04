@@ -1,33 +1,33 @@
 ---
-title: Documentazione sull’opportunità di scripting tra siti
-description: Scopri l’opportunità di scripting tra siti e come identificare e correggere le vulnerabilità relative alla sicurezza dei siti.
+title: Documentazione sull’opportunità Cross-site scripting
+description: Scopri l’opportunità da cogliere in caso di cross-site scripting e come identificare e correggere le vulnerabilità relative alla sicurezza dei siti.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 4%
+ht-degree: 98%
 
 ---
 
 
-# Opportunità di scripting tra siti
+# Opportunità cross-site scripting
 
-![Opportunità intersito](./assets/cross-site-scripting/hero.png){align="center"}
+![Opportunità cross-site](./assets/cross-site-scripting/hero.png){align="center"}
 
-L’opportunità di scripting tra siti identifica e corregge le vulnerabilità nel codice del sito che potrebbero essere sfruttate da utenti non autorizzati per inserire script dannosi nelle pagine web visualizzate da altri utenti. Questi script possono sottrarre informazioni riservate, ad esempio cookie di sessione, o eseguire azioni per conto dell&#39;utente, ad esempio modificare la password dell&#39;utente.
+L’opportunità Cross-site scripting identifica e corregge le vulnerabilità nel codice del sito che potrebbero essere sfruttate da utenti non autorizzati per inserire script dannosi nelle pagine web visualizzate da altri utenti. Questi script possono sottrarre informazioni riservate, ad esempio cookie di sessione, o eseguire azioni per conto dell’utente, ad esempio modificarne la password.
 
 ## Identificazione automatica
 
-![Identificazione automatica opportunità intersito](./assets/cross-site-scripting/auto-identify.png){align="center"}
+![Identificazione automatica di opportunità cross-site scripting](./assets/cross-site-scripting/auto-identify.png){align="center"}
 
-* **Codice vulnerabile** - Qualsiasi codice vulnerabile ad attacchi di cross-site scripting.
+* **Codice vulnerabile**: qualsiasi codice vulnerabile ad attacchi di cross-site scripting.
 * **Collegamento da riprodurre**: il collegamento alla pagina in cui è stata trovata la vulnerabilità.
 
 ## Suggerimento automatico
 
-![Suggerisci automaticamente opportunità intersito](./assets/cross-site-scripting/auto-suggest.png){align="center"}
+![Suggerimento automatico per opportunità di cross-site scripting](./assets/cross-site-scripting/auto-suggest.png){align="center"}
 
-* **Correzione suggerita**: un suggerimento generato dall&#39;intelligenza artificiale su come correggere la vulnerabilità.
+* **Correzione suggerita**: un suggerimento generato dall’intelligenza artificiale su come correggere la vulnerabilità.
 
 ## Ottimizzazione automatica
 
@@ -35,7 +35,7 @@ L’opportunità di scripting tra siti identifica e corregge le vulnerabilità n
 
 >[!BEGINTABS]
 
->[!TAB Ottimizzazione distribuzione]
+>[!TAB Distribuisci ottimizzazione]
 
 {{auto-optimize-deploy-optimization-slack}}
 

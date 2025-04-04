@@ -1,49 +1,49 @@
 ---
-title: Documentazione sull’opportunità delle autorizzazioni per il sito web
-description: Scopri l’opportunità di autorizzazioni del sito web e come utilizzarla per aumentare la sicurezza di sul sito web.
+title: Documentazione sull’opportunità Autorizzazioni del sito web
+description: Scopri l’opportunità da cogliere in caso di autorizzazioni del sito web e come utilizzarla per aumentare la sicurezza del sito web.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 2%
+ht-degree: 99%
 
 ---
 
 
-# Opportunità di autorizzazioni per il sito Web
+# Opportunità Autorizzazioni del sito web
 
-![Opportunità autorizzazioni sito Web](./assets/website-permissions/hero.png){align="center"}
+![Opportunità Autorizzazioni del sito web](./assets/website-permissions/hero.png){align="center"}
 
-L’opportunità di autorizzazioni del sito web ottimizza le autorizzazioni del sito web, essenziali per mantenere un ambiente AEM sicuro e gestibile. Questa opportunità consente di perfezionare i controlli di accesso rimuovendo le autorizzazioni eccessivamente ampie, ad esempio `jcr:all` su percorsi generici come `/` o `/content`, e allineando l&#39;accesso degli utenti al principio del privilegio minimo. Semplificando le autorizzazioni ed eliminando le ridondanze, è possibile ridurre i rischi per la sicurezza, migliorare la manutenzione ed evitare configurazioni errate in futuro. Rivedi e aggiorna le autorizzazioni nella console Autorizzazioni di sicurezza di AEM o nell’archivio del codice, assicurandoti che gli utenti del servizio abbiano solo l’accesso di cui hanno realmente bisogno.
+L’opportunità da cogliere in caso di autorizzazioni del sito web ottimizza le autorizzazioni del sito web, essenziali per mantenere un ambiente AEM sicuro e gestibile. Questa opportunità consente di perfezionare i controlli di accesso rimuovendo le autorizzazioni eccessivamente ampie, ad esempio `jcr:all` su percorsi generici come `/` o `/content`, e allineando l’accesso utenti al principio del privilegio minimo. Semplificando le autorizzazioni ed eliminando le ridondanze, è possibile ridurre i rischi per la sicurezza, migliorare la manutenzione ed evitare configurazioni errate in futuro. Intervieni rivedendo e aggiornando le autorizzazioni nella console Autorizzazioni di sicurezza di AEM o nell’archivio del codice, assicurandoti che gli utenti del servizio abbiano solo l’accesso di cui hanno realmente bisogno.
 
 ## Identificazione automatica
 
-![Autorizzazione dell&#39;identificazione automatica del sito Web](./assets/website-permissions/auto-identify.png){align="center"}
+![Identificazione automatica delle autorizzazioni del sito web](./assets/website-permissions/auto-identify.png){align="center"}
 
-La funzionalità **Opportunità autorizzazioni sito Web** identifica ed elenca automaticamente
+La funzionalità **Opportunità autorizzazioni sito web** identifica ed elenca automaticamente
 
-* **Utente** - L&#39;account utente con l&#39;autorizzazione sospetta.
-* **Percorso**: il percorso in AEM interessato dall&#39;autorizzazione.
-* **Autorizzazione** - Autorizzazione sospetta.
-* **Problema** - Indica il tipo di problema che influisce sull&#39;autorizzazione.
+* **Utente**: l’account utente con l’autorizzazione sospetta.
+* **Percorso**: il percorso in AEM interessato dall’autorizzazione.
+* **Autorizzazione**: l’autorizzazione che risulta sospetta.
+* **Problema**: indica il tipo di problema che influisce sull’autorizzazione.
 
 ## Suggerimento automatico
 
-![Suggerisci automaticamente le vulnerabilità del sito Web](./assets/website-permissions/auto-suggest.png){align="center"}
+![Suggerimento automatico per le vulnerabilità del sito web](./assets/website-permissions/auto-suggest.png){align="center"}
 
-La funzione di suggerimento automatico fornisce consigli generati dall&#39;intelligenza artificiale nel campo **Autorizzazioni suggerite**, consentendoti di sostituire eventuali autorizzazioni contrassegnate con alternative sicure.
+Il suggerimento automatico fornisce consigli generati dall’intelligenza artificiale nel campo **Autorizzazioni suggerite**, consentendoti di sostituire eventuali autorizzazioni contrassegnate con alternative sicure.
 
 ## Ottimizzazione automatica
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Ottimizzazione automatica autorizzazioni sito Web](./assets/website-permissions/auto-optimize.png){align="center"}
+![Ottimizzazione automatica delle autorizzazioni del sito web](./assets/website-permissions/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate consente inoltre di distribuire l’ottimizzazione automatica per le vulnerabilità rilevate.
+Sites Optimizer Ultimate aggiunge la possibilità di distribuire l’ottimizzazione automatica per le vulnerabilità rilevate.
 
 >[!BEGINTABS]
 
->[!TAB Ottimizzazione distribuzione]
+>[!TAB Implementa ottimizzazione]
 
 {{auto-optimize-deploy-optimization-slack}}
 
