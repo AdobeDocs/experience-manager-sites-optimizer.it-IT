@@ -2,9 +2,9 @@
 title: Documentazione di Sites Optimizer
 description: Documentazione di Experience Manager Sites Optimizer.
 source-git-commit: a0b7fcae81bee2bce5ed1d3186026f4577708512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ Esplora la documentazione di AEM Sites Optimizer per scoprire i componenti chiav
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./basics.md" title="Home" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/basics/card.png" alt="Home"
+                    <a href="./basics.md" title="Pagina Home" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/basics/card.png" alt="Pagina Home"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -47,7 +47,7 @@ Esplora la documentazione di AEM Sites Optimizer per scoprire i componenti chiav
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./basics.md" target="_blank" rel="referrer" title="Funzioni di base">Nozioni di base</a>
                     </p>
-                    <p class="is-size-6">Scopri le nozioni di base di Sites Optimizer e come navigarlo.</p>
+                    <p class="is-size-6">Scopri le nozioni di base di Sites Optimizer e come spostarsi al suo interno.</p>
                 </div>
                 <a href="./basics.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -70,7 +70,7 @@ Esplora la documentazione di AEM Sites Optimizer per scoprire i componenti chiav
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/overview.md" target="_blank" rel="referrer" title="Opportunità">Opportunità</a>
                     </p>
-                    <p class="is-size-6">Scopri tutte le opportunità di Site Optimizer disponibili e come utilizzarle per migliorare le prestazioni del sito.</p>
+                    <p class="is-size-6">Scopri tutte le opportunità disponibili in Site Optimizer e come utilizzarle per migliorare le prestazioni del sito.</p>
                 </div>
                 <a href="./opportunities/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>

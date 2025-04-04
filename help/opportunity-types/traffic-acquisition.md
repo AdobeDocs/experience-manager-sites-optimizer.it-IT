@@ -1,19 +1,19 @@
 ---
-title: Ottimizzare l’acquisizione del traffico con Sites Optimizer
+title: Ottimizzare l’acquisizione traffico con Sites Optimizer
 description: Scopri come aumentare l’acquisizione del traffico con Sites Optimizer.
 source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 
-# Opportunità di acquisizione del traffico
+# Opportunità Acquisizione traffico
 
-![Opportunità di acquisizione traffico](./assets/traffic-acquisition/hero.png){align="center"}
+![Opportunità Acquisizione traffico](./assets/traffic-acquisition/hero.png){align="center"}
 
-L’acquisizione del traffico è essenziale per indirizzare potenziali clienti verso il sito web e creare opportunità di vendita o di generazione di lead. Sfruttando strategie quali l’ottimizzazione SEO (Search Engine Optimization), le aziende possono migliorare la visibilità delle ricerche e facilitare l’individuazione dei contenuti da parte degli utenti. Un flusso costante di visitatori non solo aumenta la brand awareness e la fiducia, ma fornisce anche informazioni preziose sul comportamento degli utenti, aiutando i team a perfezionare le proprie offerte e migliorare l’esperienza complessiva. Sfruttando le informazioni di AEM Sites Optimizer è possibile eseguire un’ottimizzazione continua, garantendo una crescita sostenuta e tassi di conversione migliorati nel tempo.
+L’acquisizione traffico è essenziale per indirizzare potenziali clienti verso il sito web e creare opportunità di vendita o di generazione di lead. Sfruttando strategie quali l’ottimizzazione SEO (Search Engine Optimization), le aziende possono migliorare la visibilità di ricerca e facilitare ulteriormente l’individuazione dei contenuti da parte degli utenti. Un flusso costante di visitatori non solo aumenta la brand awareness e la fiducia, ma fornisce anche informazioni preziose sul comportamento degli utenti, aiutando i team a perfezionare le proprie offerte e a migliorare l’esperienza complessiva. Sfruttando le informazioni di AEM Sites Optimizer è possibile eseguire un’ottimizzazione continua, garantendo una crescita sostenuta e tassi di conversione migliorati nel tempo.
 
 ## Opportunità
 
@@ -48,9 +48,9 @@ L’acquisizione del traffico è essenziale per indirizzare potenziali clienti v
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/broken-backlinks.md" target="_blank" rel="referrer" title="Backlink interrotti">Collegamenti interrotti</a>
+                        <a href="../documentation/opportunities/broken-backlinks.md" target="_blank" rel="referrer" title="Backlink interrotti">Backlink interrotti</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="../documentation/opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -73,7 +73,7 @@ L’acquisizione del traffico è essenziale per indirizzare potenziali clienti v
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Metadati non validi o mancanti">Metadati non validi o mancanti</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di metadati non valida o mancante e come utilizzarla per migliorare l’acquisizione del traffico.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di metadati non validi o mancanti e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -96,7 +96,7 @@ L’acquisizione del traffico è essenziale per indirizzare potenziali clienti v
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/missing-invalid-structured-data.md" target="_blank" rel="referrer" title="Dati strutturati mancanti o non validi">Dati strutturati mancanti o non validi</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di dati strutturati mancante o non valida e come utilizzarla per migliorare l’acquisizione del traffico.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di dati strutturati mancanti o non validi e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="../documentation/opportunities/missing-invalid-structured-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -117,9 +117,9 @@ L’acquisizione del traffico è essenziale per indirizzare potenziali clienti v
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" title="Problemi relativi alla mappa del sito">Problemi con Sitemap</a>
+                        <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" title="Problemi relativi alla mappa del sito">Problemi relativi alla mappa del sito</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di problemi con sitemap e come utilizzarla per migliorare l’acquisizione del traffico.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di problemi relativi alla mappa del sito e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>

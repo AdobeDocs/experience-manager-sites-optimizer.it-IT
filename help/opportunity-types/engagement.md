@@ -2,9 +2,9 @@
 title: Ottimizzare il coinvolgimento con Sites Optimizer
 description: Scopri come migliorare il coinvolgimento con Sites Optimizer.
 source-git-commit: 62909a9c65a62beb202896d98bb9ab058bcd984a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ![Opportunità di coinvolgimento](./assets/engagement/hero.png){align="center"}
 
-Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per migliorare le esperienze digitali fornendo informazioni fruibili sul modo in cui gli utenti interagiscono con le pagine web. Identificando le aree da migliorare (ad esempio problemi di accessibilità, collegamenti interni interrotti, tassi di mancato recapito elevati e testo alt mancante), gli esperti di marketing e gli autori di contenuti possono ottimizzare i siti per migliorare le prestazioni e il coinvolgimento degli utenti. Queste opportunità contribuiscono a garantire che i contenuti siano efficaci, individuabili e coinvolgenti, determinando in ultima analisi conversioni più elevate e un percorso di clienti più semplice. Sfruttando i consigli di AEM Sites Optimizer i team possono perfezionare continuamente la propria strategia digitale e fornire esperienze di alto impatto su larga scala.
+Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per migliorare le esperienze digitali fornendo informazioni fruibili sul modo in cui gli utenti interagiscono con le pagine web. Identificando le aree da migliorare, ad esempio problemi di accessibilità, collegamenti interni interrotti, tassi di mancato recapito elevati e testo alternativo mancante, i marketer e chi crea i contenuti possono ottimizzare i siti per migliorare le prestazioni e il coinvolgimento utenti. Queste opportunità contribuiscono a garantire che i contenuti siano efficaci, individuabili e coinvolgenti, promuovendo in ultima analisi conversioni più elevate e un percorso cliente più semplice. Sfruttando i consigli di AEM Sites Optimizer i team possono perfezionare continuamente la propria strategia digitale e fornire esperienze di alto impatto su larga scala.
 
 
 ## Opportunità
@@ -52,7 +52,7 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" title="Problemi di accessibilità">Problemi di accessibilità</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità dei problemi di accessibilità e come utilizzarla per aumentare la sicurezza di sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di problemi di accessibilità e come utilizzarla per aumentare la sicurezza di sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -75,7 +75,7 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//broken-internal-links.md" target="_blank" rel="referrer" title="Collegamenti interni interrotti">Collegamenti interni interrotti</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di collegamenti interrotti e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di collegamenti interrotti e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities//broken-internal-links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -87,8 +87,8 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities//high-bounce-rate.md" title="Frequenza di rimbalzo elevata" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Frequenza di rimbalzo elevata"
+                    <a href="../documentation/opportunities//high-bounce-rate.md" title="Tasso di mancato recapito elevato" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Tasso di mancato recapito elevato"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -96,9 +96,9 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Frequenza di rimbalzo elevata">Percentuale di mancato recapito elevata</a>
+                        <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Tasso di mancato recapito elevato">Tasso di mancato recapito elevato</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità delle visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -110,8 +110,8 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/missing-alt-text.md" title="Testo alt mancante" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Testo alt mancante"
+                    <a href="../documentation/opportunities/missing-alt-text.md" title="Testo alternativo mancante" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Testo alternativo mancante"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -119,9 +119,9 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" title="Testo alt mancante">Testo alt mancante</a>
+                        <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" title="Testo alternativo mancante">Testo alternativo mancante</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
