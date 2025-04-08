@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Questa è una descrizione della guida utente che verrà visualizzata nella pagina di destinazione.
-source-git-commit: 80d40840aecf1bc2506ccbb5f1cb9a32e74d5fd5
+source-git-commit: 85a97362b5078dd33e84fab5671f153c423b3420
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 92%
+source-wordcount: '81'
+ht-degree: 100%
 
 ---
 
@@ -38,4 +38,3 @@ ht-degree: 92%
       + [Autorizzazioni del sito web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnerabilità del sito web](/help/documentation/opportunities/website-vulnerabilities.md)
    + [Impostazioni](/help/documentation/settings.md)
-+ [File nascosto per attivare l’aggiornamento del sommario locale](hidden-delete-me.md)
