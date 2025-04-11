@@ -3,9 +3,9 @@ title: Documentazione sull’opportunità Visualizzazioni basse
 description: Scopri l’opportunità da cogliere in caso di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.
 badgeFormOptimization: label="Ottimizzazione modulo" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione modulo"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

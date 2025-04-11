@@ -2,9 +2,9 @@
 title: Tipi di opportunità di Sites Optimizer
 description: Scopri i tipi di opportunità chiave in Sites Optimizer e come possono aiutarti a migliorare le prestazioni del tuo sito.
 source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 71%
 
 ![Tipi di opportunità](./assets/overview/hero.png){align="center"}
 
-AEM Sites Optimizer fornisce informazioni e consigli utili per migliorare le prestazioni, l’usabilità e la sicurezza del sito web. Queste informazioni sono raggruppate in aree di opportunità chiave: Coinvolgimento, Acquisizione del traffico, Posizione di sicurezza e Integrità del sito. Ogni categoria evidenzia modi specifici per migliorare il sito, aumentando l’interazione con i visitatori, migliorando la reperibilità, rafforzando la sicurezza o mantenendo la stabilità del sito.
+AEM Sites Optimizer fornisce informazioni e consigli utili per migliorare le prestazioni, l’usabilità e la sicurezza del sito web. Queste informazioni sono raggruppate nelle seguenti aree di opportunità: Coinvolgimento, Acquisizione traffico, Livello di sicurezza e Integrità del sito. Ogni categoria evidenzia modi specifici per migliorare il sito, ad esempio per aumentare le interazioni da parte del visitatore, migliorare la reperibilità del sito, rafforzarne la sicurezza o mantenerne la stabilità.
 
-Sfruttando queste opportunità migliori l’esperienza utente, attiri il pubblico giusto e mantieni il sito sicuro e affidabile. Migliorando il coinvolgimento e l&#39;acquisizione del traffico si favoriscono l&#39;interazione e la visibilità, mentre una posizione di sicurezza e un&#39;integrità del sito solide contribuiscono a garantire la fiducia e la stabilità.  Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
+Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare il pubblico giusto e mantenere il tuo sito sicuro e affidabile. Migliorando il coinvolgimento e l’acquisizione del traffico si favoriscono l’interazione e la visibilità, mentre la solidità del livello di sicurezza e l’integrità del sito contribuiscono a garantire fiducia e stabilità.  Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
 
 ## Tipi di opportunità
 
