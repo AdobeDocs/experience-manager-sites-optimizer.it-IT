@@ -3,14 +3,14 @@ title: Documentazione sull’opportunità Collegamenti interni interrotti
 description: Scopri l’opportunità da cogliere in caso di collegamenti interrotti e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
 source-git-commit: c2bd3f7dc998b103ecdd02c239b1ea0312db20f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Opportunità collegamenti interni interrotti
+# Opportunità di collegamenti interni interrotti
 
 ![Opportunità di collegamenti interni interrotti](./assets/broken-internal-links/hero.png){align="center"}
 
