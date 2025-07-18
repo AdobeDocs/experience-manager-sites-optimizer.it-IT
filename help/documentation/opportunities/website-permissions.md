@@ -2,10 +2,10 @@
 title: Documentazione sull’opportunità Autorizzazioni del sito web
 description: Scopri l’opportunità da cogliere in caso di autorizzazioni del sito web e come utilizzarla per aumentare la sicurezza del sito web.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 79%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Opportunità Autorizzazioni del sito web](./assets/website-permissions/hero.png){align="center"}
 
-L’opportunità da cogliere in caso di autorizzazioni del sito web ottimizza le autorizzazioni del sito web, essenziali per mantenere un ambiente AEM sicuro e gestibile. Questa opportunità consente di perfezionare i controlli di accesso rimuovendo le autorizzazioni eccessivamente ampie, ad esempio `jcr:all` su percorsi generici come `/` o `/content`, e allineando l’accesso utenti al principio del privilegio minimo. Semplificando le autorizzazioni ed eliminando le ridondanze, è possibile ridurre i rischi per la sicurezza, migliorare la manutenzione ed evitare configurazioni errate in futuro. Intervieni rivedendo e aggiornando le autorizzazioni nella console Autorizzazioni di sicurezza di AEM o nell’archivio del codice, assicurandoti che gli utenti del servizio abbiano solo l’accesso di cui hanno realmente bisogno.
+L’opportunità da cogliere in caso di autorizzazioni del sito web ottimizza le autorizzazioni del sito web, essenziali per mantenere un ambiente AEM sicuro e gestibile. Questa opportunità consente di perfezionare i controlli di accesso rimuovendo le autorizzazioni eccessivamente ampie, ad esempio `jcr:all` su percorsi generici come `/` o `/content`, e allineando l’accesso utenti al principio del privilegio minimo. Semplificando le autorizzazioni ed eliminando le ridondanze, è possibile ridurre i rischi per la sicurezza, migliorare la manutenzione ed evitare configurazioni errate in futuro. Rivedi e aggiorna le autorizzazioni nella console Autorizzazioni di sicurezza di AEM o nell’archivio del codice. In questo modo gli utenti del servizio potranno accedere solo a quelli effettivamente necessari.
 
 ## Identificazione automatica
 
@@ -23,8 +23,8 @@ L’opportunità da cogliere in caso di autorizzazioni del sito web ottimizza le
 La funzionalità **Opportunità autorizzazioni sito web** identifica ed elenca automaticamente
 
 * **Utente**: l’account utente con l’autorizzazione sospetta.
-* **Percorso**: il percorso in AEM interessato dall’autorizzazione.
-* **Autorizzazione**: l’autorizzazione che risulta sospetta.
+* **Percorso**: utilizza le schede nella parte superiore per organizzare e filtrare le opportunità in base allo stato.
+* **Autorizzazione** - Autorizzazione sospetta.
 * **Problema**: indica il tipo di problema che influisce sull’autorizzazione.
 
 ## Suggerimento automatico

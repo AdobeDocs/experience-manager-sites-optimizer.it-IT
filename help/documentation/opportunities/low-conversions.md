@@ -2,9 +2,9 @@
 title: Documentazione sull’opportunità Conversioni basse
 description: Scopri l’opportunità da cogliere in caso di conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.
 badgeFormOptimization: label="Ottimizzazione modulo" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione modulo"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '343'
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Ogni pagina Web con un modulo con conversioni basse è elencata come opportunit�
 
 ![Suggerimento automatico per basse conversioni](./assets/low-conversions/auto-suggest.png){align="center"}
 
-La funzione di suggerimento automatico fornisce varianti di pagina web generate dall’intelligenza artificiale progettate per aumentare le conversioni dei moduli. Ogni variante mostra l’**aumento del tasso di conversione del progetto** in base al relativo potenziale di miglioramento del coinvolgimento nei moduli, che ti aiuta a dare priorità ai suggerimenti più efficaci.
+La funzione di suggerimento automatico fornisce varianti di pagina web generate dall’intelligenza artificiale progettate per aumentare le conversioni dei moduli. Ogni variante mostra l’**incremento previsto del tasso di conversione del progetto** in base al relativo potenziale di miglioramento del coinvolgimento nei moduli, per aiutarti a dare priorità ai suggerimenti più efficaci.
 
 >[!BEGINTABS]
 

@@ -1,10 +1,10 @@
 ---
 title: Nozioni di base su Sites Optimizer
 description: Scopri le nozioni di base di Sites Optimizer e come spostarsi al suo interno.
-source-git-commit: 38e6921ab511b34e54fe97e7317ba1442a4d2121
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ Il menu di scelta rapida di Gestione dominio consente di scegliere il sito AEM d
 La sezione Navigazione consente di accedere in modo rapido e persistente ad aree chiave di Sites Optimizer da qualsiasi punto di Sites Optimizer, tra cui:
 
 * **Pagina Home**: dashboard principale che fornisce una panoramica di alto livello delle prestazioni del sito e delle opportunità di miglioramento.
-* **Opportunità**: puoi visualizzare e gestire le opportunità identificate da Sites Optimizer, incluse quelle ottimizzate e quelle non ottimizzate.
+* **Opportunità** - Visualizza e gestisci le opportunità identificate da Sites Optimizer, incluse quelle ottimizzate o non ottimizzate.
 * **Impostazioni**: puoi configurare le impostazioni di Sites Optimizer, inclusi i siti monitorati e le notifiche ricevute.
 
 ## Riepilogo sito
@@ -50,7 +50,8 @@ La sezione Riepilogo sito fornisce un’istantanea delle prestazioni del sito, d
 
 La sezione Opportunità ad impatto elevato evidenzia le opportunità di miglioramento in sospeso più significative, in base al relativo potenziale impatto sulle prestazioni del sito. Queste opportunità sono organizzate per tipo, per facilitare l’assegnazione delle priorità alle attività di ottimizzazione.
 
-Le opportunità possono essere filtrate in base a parole chiave, tag o URL oppure in base al [tipo di opportunità](../opportunity-types/overview.md) per consentirti di concentrarti sulle aree più critiche di miglioramento.
+Filtra le opportunità in base a parole chiave, tag, URL o [tipo di opportunità](../opportunity-types/overview.md) per concentrarti sulle aree di miglioramento più critiche.
+
 
 ### Dettagli dell’opportunità
 
@@ -58,10 +59,10 @@ Le opportunità possono essere filtrate in base a parole chiave, tag o URL oppur
 
 Ogni opportunità fornisce una breve descrizione del problema, del suo potenziale impatto sul sito e un collegamento ai dettagli completi. Puoi anche visualizzarne lo stato, che indica se è stato ottimizzato o è ancora in sospeso.
 
-* **Titolo opportunità**: breve descrizione del problema e del suo potenziale impatto sulle prestazioni del sito.
-* **Ultimo aggiornamento**: data dell’ultimo aggiornamento dell’opportunità da parte di Sites Optimizer con nuovi dati.
-* **Numero problemi**: numero di istanze del problema identificate sul sito.
-* **Tipi di opportunità**: i [tipi di opportunità](../opportunity-types/overview.md) di cui fa parte questa opportunità, ad esempio Acquisizione del traffico, Coinvolgimento o Integrità del sito.
+* **Titolo dell’opportunità**: breve descrizione del problema e del suo potenziale impatto sulle prestazioni del sito.
+* **Ultimo aggiornamento** - Sites Optimizer ha aggiornato l&#39;opportunità con nuovi dati in questa data.
+* **Numero di problemi**: numero di istanze del problema identificate sul sito.
+* **Tipi di opportunità** - I [tipi di opportunità](../opportunity-types/overview.md) di cui fa parte l&#39;opportunità, ad esempio l&#39;acquisizione del traffico, il coinvolgimento o l&#39;integrità del sito.
 
 Le informazioni di riepilogo per ogni opportunità variano in base al tipo e possono includere dettagli sull’impatto sulle entrate, sul traffico, sul coinvolgimento degli utenti o sulle minacce alla sicurezza.
 

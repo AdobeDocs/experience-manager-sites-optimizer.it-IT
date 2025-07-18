@@ -1,10 +1,10 @@
 ---
 title: Ottimizzare l’acquisizione traffico con Sites Optimizer
 description: Scopri come aumentare l’acquisizione del traffico con Sites Optimizer.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 63%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunità Acquisizione traffico](./assets/traffic-acquisition/hero.png){align="center"}
 
-L’acquisizione traffico è essenziale per indirizzare potenziali clienti verso il sito web e creare opportunità di vendita o di generazione di lead. Sfruttando strategie quali l’ottimizzazione SEO (Search Engine Optimization), le aziende possono migliorare la visibilità di ricerca e facilitare ulteriormente l’individuazione dei contenuti da parte degli utenti. Un flusso costante di visitatori non solo aumenta la brand awareness e la fiducia, ma fornisce anche informazioni preziose sul comportamento degli utenti, aiutando i team a perfezionare le proprie offerte e a migliorare l’esperienza complessiva. Sfruttando le informazioni di AEM Sites Optimizer è possibile eseguire un’ottimizzazione continua, garantendo una crescita sostenuta e tassi di conversione migliorati nel tempo.
+L&#39;acquisizione del traffico porta i potenziali clienti al tuo sito Web e crea opportunità di vendita o di lead. Utilizzando strategie come SEO (Search Engine Optimization), le aziende possono migliorare la visibilità delle ricerche e facilitare l’individuazione dei contenuti da parte degli utenti. Un flusso costante di visitatori aumenta la brand awareness e crea fiducia. Fornisce inoltre informazioni preziose sul comportamento degli utenti. Queste informazioni aiutano i team a perfezionare le offerte e a migliorare l’esperienza complessiva. L’utilizzo delle informazioni di AEM Sites Optimizer consente un’ottimizzazione continua, garantendo una crescita sostenuta e tassi di conversione migliorati nel tempo.
 
 ## Opportunità
 

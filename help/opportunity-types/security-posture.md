@@ -1,10 +1,10 @@
 ---
 title: Ottimizzare il livello di sicurezza con Sites Optimizer
 description: Scopri come migliorare la sicurezza del tuo sito con Sites Optimizer.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunità Livello di sicurezza](./assets/security-posture/hero.png){align="center"}
 
-Mantenere un elevato livello di sicurezza in AEM Sites Optimizer è fondamentale per proteggere le esperienze digitali e i dati degli utenti. Identificando opportunità di miglioramento, ad esempio in merito a configurazione CORS, vulnerabilità cross-site scripting, autorizzazioni per il sito web e vulnerabilità del sito, i team possono affrontare in modo proattivo i potenziali rischi per la sicurezza e garantire la conformità alle best practice. Il rafforzamento delle misure di sicurezza non solo tutela le informazioni sensibili, ma aumenta anche la fiducia degli utenti e l’affidabilità dei siti. Sfruttando gli insight forniti da AEM Sites Optimizer, le organizzazioni possono monitorare e migliorare continuamente la propria posizione in materia di sicurezza, riducendo i rischi e mantenendo un ambiente digitale sicuro.
+Mantenere un elevato livello di sicurezza in AEM Sites Optimizer è fondamentale per proteggere le esperienze digitali e i dati degli utenti. Identificando opportunità di miglioramento, ad esempio in merito a configurazione CORS, vulnerabilità cross-site scripting, autorizzazioni per il sito web e vulnerabilità del sito, i team possono affrontare in modo proattivo i potenziali rischi per la sicurezza e garantire la conformità alle best practice. Il rafforzamento delle misure di sicurezza non solo tutela le informazioni sensibili, ma aumenta anche la fiducia degli utenti e l’affidabilità dei siti. L’utilizzo delle informazioni di AEM Sites Optimizer aiuta le organizzazioni a monitorare e migliorare continuamente la propria posizione in materia di sicurezza, riducendo i rischi e mantenendo un ambiente digitale sicuro.
 
 ## Opportunità
 

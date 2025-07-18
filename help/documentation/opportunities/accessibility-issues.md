@@ -2,10 +2,10 @@
 title: Documentazione sull’opportunità Problemi di accessibilità
 description: Scopri l’opportunità da cogliere in caso di problemi di accessibilità e come utilizzarla per aumentare la sicurezza di sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: c52b60fb483009856cb6976eddbf86141d0846fc
-workflow-type: ht
-source-wordcount: '253'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 73%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Opportunità dei problemi di accessibilità](./assets/accessibility-issues/hero.png){align="center"}
 
-L’opportunità dei problemi di accessibilità identifica la conformità del sito web alle esigenze delle persone affette da disabilità e se queste seguono le [linee guida per l’accessibilità dei contenuti web (WCAG)](https://www.w3.org/TR/WCAG21/). Valutando la conformità del sito alle linee guida per l’accessibilità dei contenuti web, puoi creare un’esperienza online inclusiva, che consenta alle persone affette da disabilità visive, uditive, cognitive e motorie di navigare, interagire con i contenuti e trarne vantaggio. Non solo è essenziale per motivi etici, ma promuove anche la conformità ai requisiti legali, migliora la SEO (Search Engine Optimization) e può aumentare la portata del pubblico, migliorando sia l’esperienza utente che le prestazioni aziendali.
+L’opportunità dei problemi di accessibilità identifica la conformità del sito web alle esigenze delle persone affette da disabilità e se queste seguono le [linee guida per l’accessibilità dei contenuti web (WCAG)](https://www.w3.org/TR/WCAG21/). Valutando la conformità del sito alle linee guida WCAG, puoi contribuire a creare un’esperienza online inclusiva. A sua volta, consente alle persone con disabilità visive, uditive, cognitive e motorie di navigare, interagire con i contenuti e trarne vantaggio. Questa funzionalità è essenziale non solo per motivi etici, ma promuove anche la conformità ai requisiti legali, migliora l’ottimizzazione SEO (Search Engine Optimization) e può aumentare la portata del pubblico, migliorando sia l’esperienza utente che le prestazioni aziendali.
 
 ## Identificazione automatica
 

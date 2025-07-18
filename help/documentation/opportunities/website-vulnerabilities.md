@@ -2,10 +2,10 @@
 title: Documentazione sull’opportunità Vulnerabilità del sito web
 description: Scopri l’opportunità da cogliere in caso di vulnerabilità dei siti web e come utilizzarla per aumentare la sicurezza del sito web.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 77%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Opportunità Vulnerabilità del siti web](./assets/website-vulnerabilities/hero.png){align="center"}
 
-L’opportunità Vulnerabilità del siti web identifica le vulnerabilità di sicurezza nelle librerie di terze parti utilizzate dal codice applicazione. Queste vulnerabilità potrebbero essere sfruttate da utenti malintenzionati, aumentando il rischio e riducendo ol livello di sicurezza del sito web.
+L’opportunità di vulnerabilità del sito web identifica le vulnerabilità di sicurezza nelle librerie di terze parti utilizzate dal codice dell’applicazione. Gli aggressori malintenzionati sfruttano tali vulnerabilità, aumentando il rischio e diminuendo la postura di sicurezza del tuo sito web.
 
 L’opportunità Vulnerabilità del sito web presenta un riepilogo nella parte superiore della pagina, che include quanto segue:
 
@@ -37,17 +37,17 @@ L’**opportunità Vulnerabilità del siti web** identifica ed elenca automatica
 
 ![Suggerimento automatico per vulnerabilità del sito web](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
 
-Il suggerimento automatico fornisce suggerimenti generati dall’IA relativi alla **versione consigliata** a cui aggiornare la libreria vulnerabile. Ogni voce ha un **Punteggio** che ne indica la gravità complessiva, utile per dare priorità alle vulnerabilità più critiche.
+La funzione di suggerimento automatico fornisce suggerimenti generati dall&#39;intelligenza artificiale per la **versione consigliata** di una libreria vulnerabile a cui eseguire l&#39;aggiornamento. Ogni voce ha un **Punteggio** che ne indica la gravità complessiva, utile per dare priorità alle vulnerabilità più critiche.
 
 >[!BEGINTABS]
 
 >[!TAB Dettagli delle vulnerabilità]
 
-Ogni vulnerabilità contiene un collegamento alle informazioni dettagliate riportate nel [National Vulnerability Database (NVD)](https://nvd.nist.gov/). Quando fai clic sull’identificatore della vulnerabilità o sul collegamento a destra della descrizione, puoi passare alla pagina NVD relativa a tale vulnerabilità.
+Ogni vulnerabilità contiene un collegamento alle informazioni dettagliate riportate nel [National Vulnerability Database (NVD)](https://nvd.nist.gov/). Facendo clic sull’identificatore di vulnerabilità o sull’elemento di collegamento a destra della descrizione, viene visualizzata la pagina NVD relativa a tale vulnerabilità.
 
 >[!TAB Ignorare le voci]
 
-Puoi scegliere di ignorare le voci dall’elenco delle vulnerabilità. Se selezioni l’**icona Ignora**, la voce corrispondente verrà rimossa dall’elenco. Le voci ignorate possono essere riattivate dalla scheda **Ignorate** nella parte superiore della pagina dell’opportunità.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
+Puoi scegliere di ignorare le voci dall’elenco delle vulnerabilità. Se si seleziona ![Icona Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), la voce verrà rimossa dall&#39;elenco. Le voci ignorate possono essere riattivate dalla scheda **Ignorate** nella parte superiore della pagina dell’opportunità.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
 
 >[!ENDTABS]
 

@@ -2,10 +2,10 @@
 title: Documentazione sull’opportunità Cross-site scripting
 description: Scopri l’opportunità da cogliere in caso di cross-site scripting e come identificare e correggere le vulnerabilità relative alla sicurezza dei siti.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Opportunità cross-site](./assets/cross-site-scripting/hero.png){align="center"}
 
-L’opportunità Cross-site scripting identifica e corregge le vulnerabilità nel codice del sito che potrebbero essere sfruttate da utenti non autorizzati per inserire script dannosi nelle pagine web visualizzate da altri utenti. Questi script possono sottrarre informazioni riservate, ad esempio cookie di sessione, o eseguire azioni per conto dell’utente, ad esempio modificarne la password.
+L’opportunità di scripting tra siti identifica le vulnerabilità nel codice del sito. Vengono quindi risolti i problemi che gli aggressori potrebbero sfruttare per inserire script dannosi nelle pagine web visualizzate da altri utenti. Questi script possono sottrarre informazioni riservate, ad esempio cookie di sessione, o eseguire azioni per conto dell’utente, ad esempio modificarne la password.
 
 ## Identificazione automatica
 

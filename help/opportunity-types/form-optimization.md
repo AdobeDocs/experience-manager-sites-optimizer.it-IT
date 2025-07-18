@@ -1,10 +1,10 @@
 ---
 title: Ottimizzazione del modulo con Sites Optimizer
 description: Scopri l’ottimizzazione del modulo con Sites Optimizer.
-source-git-commit: 84f922b5d0f788c1affe47a9013ed640947d0ec4
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunità Ottimizzazione modulo](./assets/form-optimization/hero.png){align="center"}
 
-L’ottimizzazione del modulo in AEM Sites Optimizer è essenziale per migliorare le interazioni degli utenti e massimizzare le conversioni. Identificando le aree da migliorare, ad esempio visualizzazioni e conversioni basse dei moduli, i team possono perfezionare la progettazione, il posizionamento e il contenuto del modulo per aumentare il coinvolgimento. I moduli ottimizzati garantiscono un’esperienza utente fluida, consentendo ai visitatori di completare più facilmente le azioni e promuovere i risultati aziendali. Sfruttando le informazioni di AEM Sites Optimizer, marketer possono identificare continuamente aree di miglioramento, aumentando in ultima analisi l’efficacia e migliorando le prestazioni del sito complessive.
+L’ottimizzazione del modulo in AEM Sites Optimizer è essenziale per migliorare le interazioni degli utenti e massimizzare le conversioni. Identificando le aree da migliorare, ad esempio visualizzazioni e conversioni basse dei moduli, i team possono perfezionare la progettazione, il posizionamento e il contenuto del modulo per aumentare il coinvolgimento. I moduli ottimizzati garantiscono un’esperienza utente fluida, consentendo ai visitatori di completare più facilmente le azioni e promuovere i risultati aziendali. L’utilizzo delle informazioni di AEM Sites Optimizer consente agli addetti al marketing di identificare continuamente aree di miglioramento, aumentando in ultima analisi l’efficacia e migliorando le prestazioni complessive del sito.
 
 ## Opportunità
 
