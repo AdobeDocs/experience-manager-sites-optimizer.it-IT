@@ -1,7 +1,7 @@
 ---
 title: Nozioni di base su Sites Optimizer
 description: Scopri le nozioni di base di Sites Optimizer e come spostarsi al suo interno.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 85%

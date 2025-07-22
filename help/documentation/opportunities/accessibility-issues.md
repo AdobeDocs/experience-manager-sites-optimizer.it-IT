@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità Problemi di accessibilità
 description: Scopri l’opportunità da cogliere in caso di problemi di accessibilità e come utilizzarla per aumentare la sicurezza di sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 73%
