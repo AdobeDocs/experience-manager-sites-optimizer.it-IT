@@ -1,10 +1,10 @@
 ---
 title: Tipi di opportunità di Sites Optimizer
 description: Scopri i tipi di opportunità chiave in Sites Optimizer e come possono aiutarti a migliorare le prestazioni del tuo sito.
-source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
+source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 62%
+source-wordcount: '300'
+ht-degree: 48%
 
 ---
 
@@ -12,6 +12,7 @@ ht-degree: 62%
 # Tipi di opportunità
 
 ![Tipi di opportunità](./assets/overview/hero.png){align="center"}
+
 
 AEM Sites Optimizer fornisce informazioni e consigli utili per migliorare le prestazioni, l’usabilità e la sicurezza del sito web. Queste informazioni sono raggruppate nelle seguenti aree di opportunità chiave:
 
@@ -36,6 +37,8 @@ L’utilizzo di queste opportunità migliora l’esperienza utente, attira il pu
    { title = Site health }
 * ./traffic-acquisition.md
    { title = Traffic acquisition }
+* ./form-optimization.md
+   { title = Forms Optimizer }
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -132,5 +135,54 @@ L’utilizzo di queste opportunità migliora l’esperienza utente, attira il pu
             </div>
         </div>
     </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Forms Optimization">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./form-optimization.md" title="Ottimizzazione Forms" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Ottimizzazione Forms"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Ottimizzazione Forms">Ottimizzazione Forms</a>
+                    </p>
+                    <p class="is-size-6">Scopri come migliorare la conversione dei moduli con Forms Optimizer.</p>
+                </div>
+                <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Forms Accessibility">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./form-optimization.md" title="Accessibilità di Forms" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Accessibilità di Forms"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Accessibilità di Forms">Accesso facilitato a Forms</a>
+                    </p>
+                    <p class="is-size-6">Scopri come migliorare l’accessibilità dei moduli con Forms Optimizer.</p>
+                </div>
+                <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+<span class="preview"> Le funzionalità Ottimizzazione Forms e Accessibilità Forms sono disponibili nel programma di accesso anticipato. Puoi scrivere a aem-forms-ea@adobe.com dal tuo ID e-mail ufficiale per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità. </span>

@@ -1,32 +1,36 @@
 ---
 title: Documentazione sull’opportunità Visualizzazioni basse
-description: Scopri l’opportunità da cogliere in caso di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.
-badgeFormOptimization: label="Ottimizzazione modulo" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione modulo"
-source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
+description: Scopri l’opportunità di visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.
+badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimizer"
+hide: true
+hidefromtoc: true
+source-git-commit: 1666ab8c7946e4ba68ce6e1af5dda2e7ec1be9dd
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 32%
 
 ---
 
 
-# Opportunità Visualizzazioni basse
+# Opportunità di visualizzazione ridotta di Forms
+
+<span class="preview"> La funzionalità Forms Optimizer è disponibile nel programma di accesso anticipato. Puoi scrivere a aem-forms-ea@adobe.com dal tuo ID e-mail ufficiale per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità. </span>
 
 ![Opportunità Visualizzazioni basse](./assets/low-views/hero.png){align="center"}
 
-L’opportunità Visualizzazioni basse identifica i moduli sul sito web che hanno tassi di visualizzazione bassi. Questa opportunità consente di comprendere quali moduli non funzionano correttamente e fornisce suggerimenti su come migliorarne i tassi di coinvolgimento. Ottimizzando le visualizzazioni, puoi aumentare il numero di invii di moduli e migliorare le prestazioni complessive del sito web.
+L’opportunità Visualizzazioni basse identifica i moduli sul sito web che hanno tassi di visualizzazione bassi. Questo tipo di opportunità consente di comprendere quali moduli non funzionano correttamente e fornisce suggerimenti su come migliorarne i tassi di coinvolgimento.
 
 ## Identificazione automatica
 
 ![Identificazione automatica di visualizzazioni basse](./assets/low-views/auto-identify.png){align="center"}
 
-Ogni pagina web con un modulo di visualizzazioni basse viene elencata come opportunità **Visualizzazioni basse**. Nella parte superiore della pagina dell’opportunità viene visualizzato un breve riepilogo dell’opportunità e della base logica dell’intelligenza artificiale.
+Ogni pagina Web con moduli con visualizzazioni insufficienti è elencata come opportunità **Visualizzazioni insufficienti**. Nella parte superiore della pagina dell’opportunità viene visualizzato un breve riepilogo dell’opportunità e delle motivazioni.
 
 ## Suggerimento automatico
 
 ![Suggerimenti automatici per visualizzazioni basse](./assets/low-views/auto-suggest.png){align="center"}
 
-La funzione di suggerimento automatico fornisce varianti di pagina web generate dall’intelligenza artificiale progettate per aumentare le visualizzazioni dei moduli. Ogni variante mostra l’**incremento previsto del tasso di conversione del progetto** in base al relativo potenziale di miglioramento del coinvolgimento nei moduli, per aiutarti a dare priorità ai suggerimenti più efficaci.
+La funzione di suggerimento automatico fornisce varianti di moduli generati dall’intelligenza artificiale progettate per aumentare le visualizzazioni dei moduli. Ogni variante visualizza l&#39;**aumento del tasso di conversione previsto** in base al suo potenziale di miglioramento del coinvolgimento nei moduli, per aiutarti a dare priorità ai suggerimenti più efficaci.
 
 >[!BEGINTABS]
 
@@ -34,41 +38,46 @@ La funzione di suggerimento automatico fornisce varianti di pagina web generate 
 
 ![Varianti di controllo](./assets/low-views/control-variation.png){align="center"}
 
-La variante di controllo è la forma originale attualmente pubblicata sul sito Web. Questa variante viene utilizzata come base di riferimento per confrontare le prestazioni delle varianti suggerite.
+La variante di controllo è costituita dai moduli originali attualmente disponibili sul sito web. Questa variante viene utilizzata come base di riferimento per confrontare le prestazioni delle varianti suggerite.
 
 >[!TAB Varianti suggerite]
 
 ![Varianti suggerite](./assets/low-views/suggested-variations.png){align="center"}
 
-Le varianti suggerite sono varianti di pagina web generate dall’intelligenza artificiale e progettate per aumentare le visualizzazioni dei moduli. Ogni variante mostra l’**incremento previsto del tasso di conversione** in base al relativo potenziale di miglioramento del coinvolgimento nei moduli, che ti aiuta a dare priorità ai suggerimenti più efficaci.
+Le varianti suggerite sono varianti di moduli generati dall’intelligenza artificiale progettate per aumentare le visualizzazioni dei moduli. Ogni variante visualizza l&#39;**aumento del tasso di conversione previsto** in base al suo potenziale di miglioramento del coinvolgimento nei moduli, per aiutarti a dare priorità ai suggerimenti più efficaci.
 
 Fai clic su ciascuna variante per visualizzarne l’anteprima sul lato destro dello schermo. Nella parte superiore dell’anteprima sono disponibili le azioni e le informazioni seguenti:
 
 * **Modifiche**: breve riepilogo delle modifiche apportate dalla variante **Controllo**.
-* **Aumento previsto del tasso di conversione**: aumento stimato del coinvolgimento nei moduli se questa variante viene implementata.
+* **Aumento previsto del tasso di conversione** - Aumento stimato del coinvolgimento Forms se questa variante è implementata.
 * **Modifica**: fai clic per modificare la variante nell’authoring di AEM.
 
 >[!ENDTABS]
 
-## Ottimizzazione automatica
+<!-- 
+
+## Auto-optimize
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Ottimizzazione automatica di visualizzazioni basse](./assets/low-views/auto-optimize.png){align="center"}
+![Auto-optimize low views](./assets/low-views/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate offre la possibilità di distribuire l’ottimizzazione automatica per i problemi rilevati dall’opportunità Visualizzazioni ridotte.
+Sites Optimizer Ultimate adds the ability to deploy auto-optimization for the issues found by the low views opportunity.
 
 >[!BEGINTABS]
 
->[!TAB Test multiplo]
+>[!TAB Test multiple]
 
 
->[!TAB Pubblica selezionato]
+>[!TAB Publish selected]
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Richiedi approvazione]
+>[!TAB Request approval]
 
 {{auto-optimize-request-approval}}
 
 >[!ENDTABS]
+
+-->
+

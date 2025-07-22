@@ -1,10 +1,10 @@
 ---
 title: Ottimizzare il coinvolgimento con Sites Optimizer
 description: Scopri come migliorare il coinvolgimento con Sites Optimizer.
-source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
+source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 92%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Tasso di mancato recapito elevato">Tasso di mancato recapito elevato</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità di visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
