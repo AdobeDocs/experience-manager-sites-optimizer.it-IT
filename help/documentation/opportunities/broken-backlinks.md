@@ -3,9 +3,9 @@ title: Documentazione sull’opportunità Backlink interrotti
 description: Scopri l’opportunità da cogliere in caso di backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -44,19 +44,19 @@ L’opportunità Backlink interrotti fornisce anche suggerimenti generati dall�
 
 ![Base logica dell’intelligenza artificiale per il suggerimento automatico per collegamenti interrotti](./assets/broken-backlinks/auto-suggest-ai-rationale.png){align="center"}
 
-Seleziona l’icona **informazioni** per visualizzare la base logica usata dall’IA per l’URL suggerito. La base logica spiega perché l’intelligenza artificiale ritiene che l’URL suggerito sia il più adatto al collegamento interrotto. Può aiutarti a comprendere il processo decisionale dell’intelligenza artificiale e a prendere una decisione informata sull’accettazione o sul rifiuto del suggerimento.
+Seleziona l’icona **informazioni** per visualizzare la base logica usata dall’IA per l’URL suggerito. La logica spiega perché l’IA ritiene che l’URL suggerito sia il più adatto al collegamento interrotto. Questo può aiutarti a comprendere il processo decisionale dell’IA e a decidere in modo consapevole se accettare o meno il suggerimento.
 
 >[!TAB Modifica URL di destinazione]
 
 ![Modifica URL suggerito per collegamenti interrotti](./assets/broken-backlinks/edit-target-url.png){align="center"}
 
-Se non sei d’accordo con il suggerimento generato dall’IA, puoi modificare l’URL suggerito selezionando l’**icona di modifica**. La modifica ti consente di inserire manualmente l’URL che ritieni più adatto al collegamento interrotto. Sites Optimizer elenca anche eventuali altri URL sul sito che ritiene possano essere adatti al collegamento interrotto.
+Se non sei d’accordo con il suggerimento generato dall’IA, puoi modificare l’URL suggerito selezionando l’**icona di modifica**. La modifica consente di inserire manualmente l’URL che ritieni più adatto al collegamento interrotto. Sites Optimizer elenca anche eventuali altri URL sul sito che potrebbero essere adatti per il collegamento interrotto.
 
 >[!TAB Ignorare le voci]
 
 ![Ignora backlink interrotti](./assets/broken-backlinks/ignore.png){align="center"}
 
-Puoi scegliere di ignorare alcune voci con l’URL di destinazione interrotto. Se si seleziona ![Icona Elimina o icona Ignora](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), il backlink interrotto verrà rimosso dall&#39;elenco delle opportunità. I backlink interrotti ignorati possono essere riattivati dalla scheda **Ignorate** nella parte superiore della pagina dell’opportunità.
+Puoi scegliere di ignorare alcune voci con l’URL di destinazione interrotto. La selezione dell’![icona Elimina o Ignora](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) rimuove il backlink interrotto dall’elenco delle opportunità. I backlink interrotti ignorati possono essere riattivati dalla scheda **Ignorate** nella parte superiore della pagina dell’opportunità.
 
 >[!ENDTABS]
 
@@ -66,7 +66,7 @@ Puoi scegliere di ignorare alcune voci con l’URL di destinazione interrotto. S
 
 ![Ottimizzazione automatica dei backlink interrotti](./assets/broken-backlinks/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate aggiunge la possibilità di implementare l’ottimizzazione automatica per i backlink interrotti. Se selezioni il pulsante **Ottimizzazione automatica**, le regole di reindirizzamento del sito AEM vengono aggiornate in automatico con la mappatura dell’**URL di destinazione interrotto** sull’**URL suggerito**. Questa funzionalità garantisce che i visitatori del sito Web e i bot di ricerca che seguono i collegamenti interrotti nelle **pagine di riferimento** vengano reindirizzati alla pagina corretta del sito, migliorando l&#39;esperienza di utilizzo e SEO.
+Sites Optimizer Ultimate aggiunge la possibilità di implementare l’ottimizzazione automatica per i backlink interrotti. Se selezioni il pulsante **Ottimizzazione automatica**, le regole di reindirizzamento del sito AEM vengono aggiornate in automatico con la mappatura dell’**URL di destinazione interrotto** sull’**URL suggerito**. Questa funzionalità assicura che i visitatori del sito web e i bot di ricerca che seguono i collegamenti interrotti nelle **pagine di riferimento** vengano reindirizzati alla pagina corretta del sito, migliorando i SEO e l’esperienza utente.
 
 >[!BEGINTABS]
 
@@ -74,7 +74,7 @@ Sites Optimizer Ultimate aggiunge la possibilità di implementare l’ottimizzaz
 
 ![Implementare l’ottimizzazione per i backlink interrotti](./assets/broken-backlinks/deploy-optimization.png){align="center"}
 
-Selezionando **Distribuisci ottimizzazione**, le regole di reindirizzamento del sito AEM vengono aggiornate per mappare l&#39;**URL di destinazione interrotto** all&#39;**URL suggerito**. Questa funzionalità garantisce che i visitatori del sito Web e i bot di ricerca che seguono i collegamenti interrotti nelle **pagine di riferimento** vengano reindirizzati alla pagina corretta del sito, migliorando l&#39;esperienza di utilizzo e SEO.
+La selezione di **Implementa ottimizzazione** consente di aggiornare le regole di reindirizzamento del sito AEM per mappare l’**URL di destinazione interrotto** sull’**URL suggerito**. Questa funzionalità assicura che i visitatori del sito web e i bot di ricerca che seguono i collegamenti interrotti nelle **pagine di riferimento** vengano reindirizzati alla pagina corretta del sito, migliorando i SEO e l’esperienza utente.
 
 >[!TAB Richiedi approvazione]
 

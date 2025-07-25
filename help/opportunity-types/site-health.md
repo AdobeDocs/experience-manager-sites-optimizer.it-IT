@@ -2,9 +2,9 @@
 title: Ottimizzare l’integrità del sito con Sites Optimizer
 description: Scopri come migliorare lo stato del tuo sito con Sites Optimizer.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 72%
 
 ![Opportunità di integrità del sito](./assets/site-health/hero.png){align="center"}
 
-Mantenere lo stato di salute del sito in AEM Sites Optimizer è essenziale per offrire esperienze digitali veloci, affidabili e ad alte prestazioni. Identificando opportunità di miglioramento, ad esempio i Web vitals di base, i team possono ottimizzare la velocità della pagina, l’interattività e la stabilità visiva per migliorare l’esperienza utente e la classificazione dei motori di ricerca. Un sito ben gestito garantisce una navigazione più fluida, un coinvolgimento migliore e prestazioni complessive migliorate. Utilizzando le informazioni di AEM Sites Optimizer puoi monitorare e perfezionare continuamente il sito, per garantirne l’efficienza e l’efficacia nel tempo.
+Mantenere lo stato di salute del sito in AEM Sites Optimizer è essenziale per offrire esperienze digitali veloci, affidabili e ad alte prestazioni. Identificando opportunità di miglioramento, ad esempio i Web vitals di base, i team possono ottimizzare la velocità della pagina, l’interattività e la stabilità visiva per migliorare l’esperienza utente e la classificazione dei motori di ricerca. Un sito ben gestito garantisce una navigazione più fluida, un coinvolgimento migliore e prestazioni complessive migliorate. Sfruttando le informazioni di AEM Sites Optimizer è possibile monitorare e perfezionare continuamente il sito, garantendone l’efficienza e l’efficacia nel tempo.
 
 ## Opportunità
 
@@ -41,7 +41,7 @@ Mantenere lo stato di salute del sito in AEM Sites Optimizer è essenziale per o
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Web vitals di base">Web vitals di base</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità Core Web Vitals e come utilizzarla per migliorare l’acquisizione del traffico.</p>
+                    <p class="is-size-6">Scopri l’opportunità di Web vitals di base e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>

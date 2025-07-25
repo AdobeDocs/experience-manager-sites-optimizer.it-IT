@@ -3,9 +3,9 @@ title: Documentazione su Testo alternativo mancante
 description: Scopri l’opportunità da cogliere in caso di testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ L’opportunità Testo alternativo mancante elenca tutte le immagini del sito we
 
 ![Suggerimento automatico per testo alternativo mancante](./assets/missing-alt-text/auto-suggest.png){align="center"}
 
-La funzione Suggerimento automatico fornisce suggerimenti generati dall’IA per il testo alternativo delle immagini. I suggerimenti generati dall’intelligenza artificiale sono progettati per consentire di aggiungere rapidamente testo alternativo alle immagini senza dover analizzare manualmente ogni immagine.
+La funzione Suggerimento automatico fornisce suggerimenti generati dall’IA per il testo alternativo delle immagini. I suggerimenti generati dall’IA sono progettati per aiutarti ad aggiungere rapidamente testo alternativo alle immagini senza dover analizzare manualmente ogni immagine.
 
 >[!BEGINTABS]
 
@@ -45,15 +45,15 @@ La funzione Suggerimento automatico fornisce suggerimenti generati dall’IA per
 
 ![Modificare il testo alternativo mancante](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
 
-Se non sei d’accordo con il suggerimento generato dall’IA, puoi modificare il testo alternativo suggerito selezionando l’**icona Modifica**. Questa funzione consente di regolare manualmente il testo che ritieni più adatto all’immagine. La finestra di modifica contiene quanto segue:
+Se non sei d’accordo con il suggerimento generato dall’IA, puoi modificare il testo alternativo suggerito selezionando l’**icona Modifica**. Potrai quindi modificare manualmente il testo per renderlo più adatto all’immagine. La finestra di modifica contiene quanto segue:
 
 * **Percorso pagina**: campo di sola lettura che mostra il percorso della pagina in cui si è verificato il problema di testo alternativo mancante. Fai clic sulla freccia accanto al percorso per aprire la pagina corrispondente.
 * **Immagine**: anteprima di sola lettura dell’immagine che richiede testo alternativo.
-* **Testo alternativo di destinazione**: campo modificabile in cui puoi immettere manualmente un testo alternativo descrittivo per l’immagine. Assicurati che il testo alt trasmetta chiaramente il contenuto e lo scopo dell’immagine in modo conciso. Se pertinente, puoi includere alcune parole chiave naturali, ma senza esagerare.
+* **Testo alternativo di destinazione**: campo modificabile in cui puoi immettere manualmente un testo alternativo descrittivo per l’immagine. Assicurati che il testo alternativo trasmetta in modo chiaro e conciso il contenuto e lo scopo dell’immagine. Se pertinente, puoi includere alcune parole chiave naturali, ma senza esagerare.
 
 >[!TAB Ignorare le voci]
 
-Puoi scegliere di ignorare alcune voci nell’elenco dell’opportunità. Se si seleziona ![Icona Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg), la voce verrà rimossa dall&#39;elenco. Le voci ignorate possono essere riattivate dalla scheda **Ignorato** nella parte superiore della pagina dell’opportunità.
+Puoi scegliere di ignorare alcune voci nell’elenco dell’opportunità. La selezione dell’![icona Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) rimuove la voce dall’elenco. Le voci ignorate possono essere riattivate dalla scheda **Ignorate** nella parte superiore della pagina delle opportunità.
 
 >[!ENDTABS]
 

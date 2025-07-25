@@ -3,9 +3,9 @@ title: Documentazione sull’opportunità Web vitals di base
 description: Scopri l’opportunità da cogliere in caso di web vitals di base e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeSiteHealth: label="Integrità del sito" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Integrità del sito"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Ogni problema viene visualizzato in una tabella, con la colonna **Pagina** che i
 
 Il sistema raggruppa questi problemi in base alle metriche delle prestazioni standard nel rapporto Core Web Vitals:
 
-* colore più grande **LCP**
-* interazione con colore successivo **INP**
-* spostamento layout cumulativo **CLS**
+* largest contentful paint **LCP**
+* interaction to next paint **INP**
+* cumulative layout shift **CLS**
 
 ## Suggerimento automatico
 

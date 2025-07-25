@@ -3,9 +3,9 @@ title: Documentazione sull’opportunità Problemi di mappa del sito
 description: Scopri l’opportunità da cogliere in caso di problemi relativi alla mappa del sito e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ I problemi di mappa del sito possono essere filtrati utilizzando i seguenti crit
 
 ![Identificazione automatica di errori client nella mappa del sito](./assets/sitemap-issues/auto-identify-client-errors.png){align="center"}
 
-Se gli URL nella mappa del sito restituiscono questi errori, i motori di ricerca potrebbero presumere che la mappa del sito sia obsoleta o che le pagine siano state rimosse per errore. Il client indica che la richiesta del client (browser o crawler) non è valida. Gli errori più comuni sono:
+Se gli URL nella mappa del sito restituiscono tali errori, i motori di ricerca potrebbero presumere che la mappa del sito sia obsoleta o che le pagine siano state rimosse per errore. Il client indica che la richiesta del client (browser o crawler) non è valida. Gli errori più comuni sono:
 
-* **404 Non trovato** - La pagina richiesta non esiste.
+* **404 Non trovato**: la pagina richiesta non esiste.
 * **403 Non consentito**: il server nega l’accesso alla pagina richiesta.
-* **410 Non più disponibile** - La pagina è stata rimossa intenzionalmente e non è stata restituita.
+* **410 Non più disponibile**: la pagina è stata rimossa intenzionalmente e non verrà restituita.
 * **401 Non autorizzato**: l’autenticazione è obbligatoria ma non è stata fornita.
 
 Questi errori possono avere un effetto negativo sulla SEO, soprattutto se le pagine importanti restituiscono errori **404 o 410**, in quanto i motori di ricerca potrebbero deindicizzarle.

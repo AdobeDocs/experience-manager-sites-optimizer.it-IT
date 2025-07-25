@@ -3,9 +3,9 @@ title: Documentazione sull’opportunità Configurazione CORS
 description: Scopri l’opportunità da cogliere in caso di configurazione CORS e come identificare e correggere le vulnerabilità di sicurezza del sito.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 ![Opportunità configurazione CORS](./assets/cors-configuration/hero.png){align="center"}
 
-La corretta configurazione CORS (Cross-Origin Resource Sharing) è essenziale per proteggere le applicazioni web dall’accesso non autorizzato ai dati. Quando l’intestazione `Access-Control-Allow-Origin` è impostata su `*`, qualsiasi dominio può richiedere e ricevere risposte, esponendo potenzialmente informazioni riservate ad attacchi. Questa funzionalità offre l’opportunità di rafforzare la sicurezza implementando un inserisco nell&#39;elenco Consentiti controllato di domini affidabili o disabilitando CORS laddove non sia richiesto. Garantire una configurazione CORS sicura aiuta a proteggere i contenuti privati mantenendone al contempo l’accesso semplice per gli utenti autorizzati.
+La corretta configurazione CORS (Cross-Origin Resource Sharing) è essenziale per proteggere le applicazioni web dall’accesso non autorizzato ai dati. Quando l’intestazione `Access-Control-Allow-Origin` è impostata su `*`, qualsiasi dominio può richiedere e ricevere risposte, esponendo potenzialmente informazioni riservate ad attacchi. Questa funzionalità offre la possibilità di rafforzare la sicurezza implementando un elenco Consentiti controllato di domini affidabili o disabilitando CORS laddove non sia richiesto. Garantire una configurazione CORS sicura aiuta a proteggere i contenuti privati mantenendone al contempo l’accesso semplice per gli utenti autorizzati.
 
 ## Identificazione automatica
 

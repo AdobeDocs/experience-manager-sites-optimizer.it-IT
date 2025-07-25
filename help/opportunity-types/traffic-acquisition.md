@@ -2,9 +2,9 @@
 title: Ottimizzare l’acquisizione traffico con Sites Optimizer
 description: Scopri come aumentare l’acquisizione del traffico con Sites Optimizer.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 ![Opportunità Acquisizione traffico](./assets/traffic-acquisition/hero.png){align="center"}
 
-L&#39;acquisizione del traffico porta i potenziali clienti al tuo sito Web e crea opportunità di vendita o di lead. Utilizzando strategie come SEO (Search Engine Optimization), le aziende possono migliorare la visibilità delle ricerche e facilitare l’individuazione dei contenuti da parte degli utenti. Un flusso costante di visitatori aumenta la brand awareness e crea fiducia. Fornisce inoltre informazioni preziose sul comportamento degli utenti. Queste informazioni aiutano i team a perfezionare le offerte e a migliorare l’esperienza complessiva. L’utilizzo delle informazioni di AEM Sites Optimizer consente un’ottimizzazione continua, garantendo una crescita sostenuta e tassi di conversione migliorati nel tempo.
+L’acquisizione del traffico porta la potenziale clientela al tuo sito web e crea opportunità di vendita o di lead. Sfruttando strategie quali l’ottimizzazione dei motori di ricerca (SEO), le aziende possono migliorare la visibilità di ricerca e facilitare ulteriormente l’individuazione dei contenuti da parte degli utenti. Un flusso costante di visitatori aumenta la notorietà del brand e crea fiducia. Inoltre, fornisce informazioni preziose sul comportamento degli utenti. Queste informazioni aiutano i team a perfezionare le offerte e a migliorare l’esperienza complessiva. L’utilizzo delle informazioni di AEM Sites Optimizer consente un’ottimizzazione continua, garantendo una crescita sostenuta e tassi di conversione migliorati nel tempo.
 
 ## Opportunità
 
