@@ -1,11 +1,11 @@
 ---
-title: Forms Optimizer con Sites Optimizer
-description: Scopri Forms Optimizer con Sites Optimizer.
+title: Ottimizzazione di Forms con Sites Optimizer
+description: Scopri l’ottimizzazione di Forms con Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 1666ab8c7946e4ba68ce6e1af5dda2e7ec1be9dd
+source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 11%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 11%
 
 # Opportunità di ottimizzazione Forms
 
-<span class="preview"> La funzionalità Forms Optimizer è disponibile nel programma di accesso anticipato. Puoi scrivere a aem-forms-ea@adobe.com dal tuo ID e-mail ufficiale per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità. </span>
+<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile nel programma di accesso anticipato. Puoi scrivere a aem-forms-ea@adobe.com dal tuo ID e-mail ufficiale per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità. </span>
 
->[!VIDEO](https://video.tv.adobe.com/v/3469472/)
+<!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
-<!-- ![Forms Optimization opportunities](./assets/form-optimization/hero.png){align="center"} -->
+![Opportunità di ottimizzazione Forms](./assets/form-optimization/hero.png){align="center"}
 
-Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di migliorare sistematicamente le interazioni degli utenti e aumentare le conversioni dei moduli. Rilevando problemi quali visualizzazioni ridotte, conversioni basse e tassi di navigazione bassi, i team possono apportare modifiche basate sui dati alla progettazione, al posizionamento e al contenuto dei moduli. Queste ottimizzazioni aiutano a semplificare l’esperienza utente, rendendo più facile per i visitatori completare i moduli e raggiungere i risultati desiderati. L&#39;utilizzo delle informazioni provenienti da Forms Optimizer supporta l&#39;identificazione e la risoluzione continue dei divari di prestazioni, con conseguente miglioramento dei moduli e dei risultati aziendali.
+Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di migliorare sistematicamente le interazioni degli utenti e aumentare le conversioni dei moduli. Rilevando problemi quali visualizzazioni ridotte, conversioni basse e tassi di navigazione bassi, i team possono apportare modifiche basate sui dati alla progettazione, al posizionamento e al contenuto dei moduli. Queste ottimizzazioni aiutano a semplificare l’esperienza utente, rendendo più facile per i visitatori completare i moduli e raggiungere i risultati desiderati. L&#39;utilizzo delle informazioni provenienti da Forms Optimization supporta l&#39;identificazione continua e la risoluzione dei divari di prestazioni, con conseguente miglioramento dei moduli e dei risultati aziendali.
 
 ## Opportunità
 
@@ -40,7 +40,7 @@ Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di mig
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-views.md" title="Visualizzazioni basse" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-bag.png" alt="Visualizzazioni basse"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Visualizzazioni basse"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -63,7 +63,7 @@ Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di mig
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-conversions.md" title="Conversioni basse" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-bag.png" alt="Conversioni basse"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Conversioni basse"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -86,7 +86,7 @@ Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di mig
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-navigation.md" title="Navigazione bassa" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Navigazione bassa"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Navigazione bassa"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>

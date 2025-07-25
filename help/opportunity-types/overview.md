@@ -1,7 +1,7 @@
 ---
 title: Tipi di opportunità di Sites Optimizer
 description: Scopri i tipi di opportunità chiave in Sites Optimizer e come possono aiutarti a migliorare le prestazioni del tuo sito.
-source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
+source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 48%
@@ -38,7 +38,7 @@ L’utilizzo di queste opportunità migliora l’esperienza utente, attira il pu
 * ./traffic-acquisition.md
    { title = Traffic acquisition }
 * ./form-optimization.md
-   { title = Forms Optimizer }
+   { title = Forms Optimization }
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -150,7 +150,7 @@ L’utilizzo di queste opportunità migliora l’esperienza utente, attira il pu
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./form-optimization.md" target="_blank" rel="referrer" title="Ottimizzazione Forms">Ottimizzazione Forms</a>
                     </p>
-                    <p class="is-size-6">Scopri come migliorare la conversione dei moduli con Forms Optimizer.</p>
+                    <p class="is-size-6">Scopri come migliorare la conversione dei moduli con Forms Optimization.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -173,7 +173,7 @@ L’utilizzo di queste opportunità migliora l’esperienza utente, attira il pu
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./form-optimization.md" target="_blank" rel="referrer" title="Accessibilità di Forms">Accesso facilitato a Forms</a>
                     </p>
-                    <p class="is-size-6">Scopri come migliorare l’accessibilità dei moduli con Forms Optimizer.</p>
+                    <p class="is-size-6">Scopri come migliorare l’accessibilità dei moduli con Ottimizzazione Forms.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
