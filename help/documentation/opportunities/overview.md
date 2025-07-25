@@ -4,7 +4,7 @@ description: Scopri tutte le opportunità disponibili in Site Optimizer e come u
 source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ Le opportunità sono disponibili tramite l’opzione di menu **Opportunità** ne
 
 ## Stato delle opportunità
 
-Utilizza le schede nella parte superiore per organizzare e filtrare le opportunità per stato.
+Utilizza le schede nella parte superiore per organizzare e filtrare le opportunità in base allo stato.
 
 >[!BEGINTABS]
 
@@ -44,7 +44,7 @@ Elenco cronologico delle opportunità ottimizzate.
 
 ## Opportunità
 
-Per lo [stato di opportunità](#opportunity-status) selezionato, puoi visualizzare un elenco di opportunità. È possibile filtrare l&#39;elenco delle opportunità nei modi seguenti:
+Per lo [stato di opportunità](#opportunity-status) selezionato, puoi visualizzare un elenco di opportunità. Puoi filtrare l’elenco delle opportunità nei modi seguenti:
 
 * **Ricerca**: ricerca di opportunità per **parole chiave, tag o URL**.
 * **Tipo di opportunità**: utilizzare il menu a discesa **Tipo** per filtrare le opportunità in base al [tipo di opportunità](/help/opportunity-types/overview.md).
@@ -56,7 +56,7 @@ Per lo [stato di opportunità](#opportunity-status) selezionato, puoi visualizza
 Ogni opportunità fornisce una breve descrizione del problema, del suo potenziale impatto sul sito e un collegamento ai dettagli completi. Puoi anche visualizzarne lo stato, che indica se è stato ottimizzato o è ancora in sospeso.
 
 * **Titolo dell’opportunità**: breve descrizione del problema e del suo potenziale impatto sulle prestazioni del sito.
-* **Ultimo aggiornamento** - Sites Optimizer ha aggiornato l&#39;opportunità con nuovi dati in questa data.
+* **Ultimo aggiornamento**: Sites Optimizer ha aggiornato l’opportunità con nuovi dati in questa data.
 * **Numero di problemi**: numero di istanze del problema identificate sul sito.
 * **Tipi di opportunità** - I [tipi di opportunità](/help/opportunity-types/overview.md) di cui fa parte l&#39;opportunità, ad esempio l&#39;acquisizione del traffico, il coinvolgimento, la conversione o l&#39;integrità del sito.
 

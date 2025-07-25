@@ -4,7 +4,7 @@ description: Scopri come migliorare il coinvolgimento con Sites Optimizer.
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 84%
 
 ![Opportunità di coinvolgimento](./assets/engagement/hero.png){align="center"}
 
-Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per migliorare le esperienze digitali fornendo informazioni fruibili sul modo in cui gli utenti interagiscono con le pagine web. Identificando le aree da migliorare, ad esempio problemi di accessibilità, collegamenti interni interrotti, tassi di mancato recapito elevati e testo alternativo mancante, i marketer e chi crea i contenuti possono ottimizzare i siti per migliorare le prestazioni e il coinvolgimento utenti. Queste opportunità contribuiscono a garantire che i contenuti siano efficaci, individuabili e coinvolgenti, promuovendo in ultima analisi conversioni più elevate e un percorso cliente più semplice. L’utilizzo dei consigli di AEM Sites Optimizer consente ai team di perfezionare continuamente la loro strategia digitale e fornire esperienze di alto impatto su larga scala.
+Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per migliorare le esperienze digitali fornendo informazioni fruibili sul modo in cui gli utenti interagiscono con le pagine web. Identificando le aree da migliorare, ad esempio problemi di accessibilità, collegamenti interni interrotti, tassi di mancato recapito elevati e testo alternativo mancante, i marketer e chi crea i contenuti possono ottimizzare i siti per migliorare le prestazioni e il coinvolgimento utenti. Queste opportunità contribuiscono a garantire che i contenuti siano efficaci, individuabili e coinvolgenti, promuovendo in ultima analisi conversioni più elevate e un percorso cliente più semplice. Sfruttando i consigli di AEM Sites Optimizer i team possono perfezionare continuamente la propria strategia digitale e fornire esperienze di alto impatto su larga scala.
 
 
 ## Opportunità

@@ -5,7 +5,7 @@ badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-ty
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 71%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 71%
 
 ![Opportunità dei problemi di accessibilità](./assets/accessibility-issues/hero.png){align="center"}
 
-L’opportunità dei problemi di accessibilità identifica la conformità del sito web alle esigenze delle persone affette da disabilità e se queste seguono le [linee guida per l’accessibilità dei contenuti web (WCAG)](https://www.w3.org/TR/WCAG21/). Valutando la conformità del sito alle linee guida WCAG, puoi contribuire a creare un’esperienza online inclusiva. A sua volta, consente alle persone con disabilità visive, uditive, cognitive e motorie di navigare, interagire con i contenuti e trarne vantaggio. Questa funzionalità è essenziale non solo per motivi etici, ma promuove anche la conformità ai requisiti legali, migliora l’ottimizzazione SEO (Search Engine Optimization) e può aumentare la portata del pubblico, migliorando sia l’esperienza utente che le prestazioni aziendali.
+L’opportunità dei problemi di accessibilità identifica la conformità del sito web alle esigenze delle persone affette da disabilità e se queste seguono le [linee guida per l’accessibilità dei contenuti web (WCAG)](https://www.w3.org/TR/WCAG21/). Valutando la conformità del sito alle linee guida WCAG, puoi contribuire a creare un’esperienza online inclusiva. A sua volta, consente alle persone con disabilità visive, uditive, cognitive e motorie di navigare, interagire con i contenuti e trarne vantaggio. Non solo questa funzionalità è essenziale per motivi etici, ma promuove anche la conformità ai requisiti legali, migliora la SEO (Search Engine Optimization) e può aumentare la portata del pubblico, migliorando sia l’esperienza utente che le prestazioni aziendali.
 
 ## Identificazione automatica
 
