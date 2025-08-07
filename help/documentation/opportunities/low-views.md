@@ -4,15 +4,17 @@ description: Scopri l’opportunità di visualizzazioni ridotte e come utilizzar
 badgeFormOptimization: label="Ottimizzazione Forms" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione Forms"
 hide: true
 hidefromtoc: true
-source-git-commit: ccabd2c9d0c08dbbb7872be7bf1232661ca17bd9
+source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 35%
+source-wordcount: '323'
+ht-degree: 32%
 
 ---
 
 
 # Opportunità di visualizzazione ridotta di Forms
+
+<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile nel programma di accesso anticipato. Puoi scrivere a aem-forms-ea@adobe.com dal tuo ID e-mail ufficiale per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità. </span>
 
 ![Opportunità Visualizzazioni basse](./assets/low-views/hero.png){align="center"}
 
