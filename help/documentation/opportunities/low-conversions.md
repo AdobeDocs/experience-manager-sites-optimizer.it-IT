@@ -4,17 +4,15 @@ description: Scopri l’opportunità di basse conversioni e come utilizzarla per
 badgeFormOptimization: label="Ottimizzazione Forms" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione Forms"
 hide: true
 hidefromtoc: true
-source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
+source-git-commit: ccabd2c9d0c08dbbb7872be7bf1232661ca17bd9
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 27%
+source-wordcount: '291'
+ht-degree: 30%
 
 ---
 
 
 # Opportunità di basse conversioni Forms
-
-<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile nel programma di accesso anticipato. Puoi scrivere a aem-forms-ea@adobe.com dal tuo ID e-mail ufficiale per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità. </span>
 
 ![Opportunità di conversioni basse](./assets/low-conversions/hero.png){align="center"}
 

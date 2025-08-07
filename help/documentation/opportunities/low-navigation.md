@@ -4,17 +4,15 @@ description: Scopri le opportunità di navigazione low e come utilizzarle per mi
 badgeFormOptimization: label="Ottimizzazione Forms" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione Forms"
 hide: true
 hidefromtoc: true
-source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
+source-git-commit: ccabd2c9d0c08dbbb7872be7bf1232661ca17bd9
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 23%
+source-wordcount: '298'
+ht-degree: 25%
 
 ---
 
 
 # Opportunità di navigazione bassa Forms
-
-<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile nel programma di accesso anticipato. Puoi scrivere a aem-forms-ea@adobe.com dal tuo ID e-mail ufficiale per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità. </span>
 
 ![Bassa opportunità di navigazione](./assets/low-navigation/hero.png){align="center"}
 
