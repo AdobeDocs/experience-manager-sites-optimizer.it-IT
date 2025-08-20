@@ -1,25 +1,25 @@
 ---
-title: Ottimizzazione di Forms con Sites Optimizer
-description: Scopri l’ottimizzazione di Forms con Sites Optimizer.
+title: Ottimizzazione dei moduli con Sites Optimizer
+description: Scopri l’ottimizzazione dei moduli con Sites Optimizer.
 hide: true
 hidefromtoc: true
 source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
 
-# Opportunità di ottimizzazione Forms
+# Opportunità di ottimizzazione dei moduli
 
-<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile nel programma di accesso anticipato. Puoi scrivere a aem-forms-ea@adobe.com dal tuo ID e-mail ufficiale per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità. </span>
+<span class="preview"> La funzionalità Ottimizzazione dei moduli è disponibile nell’ambito del programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
-![Opportunità di ottimizzazione Forms](./assets/form-optimization/hero.png){align="center"}
+![Opportunità di ottimizzazione dei moduli](./assets/form-optimization/hero.png){align="center"}
 
-Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di migliorare sistematicamente le interazioni degli utenti e aumentare le conversioni dei moduli. Rilevando problemi quali visualizzazioni ridotte, conversioni basse e tassi di navigazione bassi, i team possono apportare modifiche basate sui dati alla progettazione, al posizionamento e al contenuto dei moduli. Queste ottimizzazioni aiutano a semplificare l’esperienza utente, rendendo più facile per i visitatori completare i moduli e raggiungere i risultati desiderati. L&#39;utilizzo delle informazioni provenienti da Forms Optimization supporta l&#39;identificazione continua e la risoluzione dei divari di prestazioni, con conseguente miglioramento dei moduli e dei risultati aziendali.
+Le opportunità di ottimizzazione dei moduli consentono alle organizzazioni di migliorare sistematicamente le interazioni degli utenti e aumentare le conversioni dei moduli. Rilevando problemi quali visualizzazioni basse, conversioni basse e tassi di navigazione bassi, i team possono apportare modifiche basate sui dati alla progettazione, al posizionamento e al contenuto dei moduli. Queste ottimizzazioni aiutano a semplificare l’esperienza utente, rendendo più facile per i visitatori completare i moduli e raggiungere i risultati desiderati. L’utilizzo delle informazioni provenienti dall’ottimizzazione dei moduli supporta l’identificazione continua e la risoluzione dei divari delle prestazioni, portando a moduli più efficaci e a risultati aziendali migliori.
 
 ## Opportunità
 
@@ -50,7 +50,7 @@ Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di mig
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" title="Visualizzazioni basse">Visualizzazioni basse</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -73,7 +73,7 @@ Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di mig
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" title="Conversioni basse">Conversioni basse</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di basse conversioni e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli nel tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -96,7 +96,7 @@ Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di mig
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" title="Problemi di accessibilità">Navigazione bassa</a>
                     </p>
-                    <p class="is-size-6">Scopri le opportunità di navigazione low e come utilizzarle per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità di navigazione bassa e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
