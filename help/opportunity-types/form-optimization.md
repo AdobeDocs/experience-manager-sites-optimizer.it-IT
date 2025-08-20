@@ -4,7 +4,7 @@ description: Scopri l’ottimizzazione dei moduli con Sites Optimizer.
 hide: true
 hidefromtoc: true
 source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 

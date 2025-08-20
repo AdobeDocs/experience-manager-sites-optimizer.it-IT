@@ -5,7 +5,7 @@ badgeFormOptimization: label="Ottimizzazione dei moduli" type="Caution" url="../
 hide: true
 hidefromtoc: true
 source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
 ht-degree: 100%
 
