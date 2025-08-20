@@ -1,11 +1,11 @@
 ---
-title: Documentazione sull’opportunità Tasso di mancato recapito elevato
-description: Scopri l’opportunità di visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.
+title: Documentazione sull’opportunità da cogliere in caso di tasso di mancato recapito elevato
+description: Scopri l’opportunità di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ L’opportunità Tasso di mancato recapito elevato identifica i moduli sul sito 
 
 ![Identificazione automatica Tasso di mancato recapito elevato](./assets/high-bounce-rate/auto-identify.png){align="center"}
 
-Ogni pagina Web con moduli con visualizzazioni ridotte è elencata come la propria opportunità **tasso di mancato recapito elevato**. Nella parte superiore della pagina dell’opportunità viene visualizzato un breve riepilogo dell’opportunità e della base logica dell’intelligenza artificiale.
+Ogni pagina web con moduli con visualizzazioni basse è elencata come opportunità di **tasso di mancato recapito elevato**. Nella parte superiore della pagina dell’opportunità viene visualizzato un breve riepilogo dell’opportunità e della base logica dell’intelligenza artificiale.
 
 ## Suggerimento automatico
 
 ![Suggerimento automatico per Tasso di mancato recapito elevato](./assets/high-bounce-rate/auto-suggest.png){align="center"}
 
-La funzione di suggerimento automatico fornisce varianti di pagina web generate dall’intelligenza artificiale progettate per aumentare le visualizzazioni dei moduli. Ogni variante visualizza l&#39;**aumento del tasso di conversione del progetto** in base al suo potenziale di miglioramento del coinvolgimento nei moduli, per aiutarti a dare priorità ai suggerimenti più efficaci.
+La funzione di suggerimento automatico fornisce varianti di pagina web generate dall’intelligenza artificiale progettate per aumentare le visualizzazioni dei moduli. Ogni variante mostra l’**incremento del tasso di conversione del progetto** in base al relativo potenziale di miglioramento del coinvolgimento nei moduli, consentendo di dare priorità ai suggerimenti più efficaci.
 
 >[!BEGINTABS]
 
@@ -34,13 +34,13 @@ La funzione di suggerimento automatico fornisce varianti di pagina web generate 
 
 ![Varianti originali](./assets/high-bounce-rate/original-variation.png){align="center"}
 
-La variante di controllo è costituita dai moduli originali attualmente disponibili sul sito web. Questa variante viene utilizzata come base di riferimento per confrontare le prestazioni delle varianti suggerite.
+La variante di controllo è il modulo originale attualmente pubblicato sul sito web. Questa variante viene utilizzata come base di riferimento per confrontare le prestazioni delle varianti suggerite.
 
 >[!TAB Varianti suggerite]
 
 ![Varianti suggerite](./assets/high-bounce-rate/suggested-variations.png){align="center"}
 
-Le varianti suggerite sono varianti di pagina web generate da IA progettate per ridurre il tasso di mancato recapito dei moduli. Ogni variante visualizza il **incremento previsto del click rate** in base al suo potenziale di miglioramento del coinvolgimento nei moduli, che ti aiuta a dare priorità ai suggerimenti più efficaci.
+Le varianti suggerite sono varianti di pagine web generate dall’intelligenza artificiale progettate per ridurre il tasso di mancato recapito dei moduli. Ogni variante mostra l’**incremento previsto della frequenza di clic** in base al relativo potenziale di miglioramento del coinvolgimento nei moduli, consentendo di dare priorità ai suggerimenti più efficaci.
 
 Fai clic su ciascuna variante per visualizzarne l’anteprima sul lato destro dello schermo. Nella parte superiore dell’anteprima sono disponibili le azioni e le informazioni seguenti:
 

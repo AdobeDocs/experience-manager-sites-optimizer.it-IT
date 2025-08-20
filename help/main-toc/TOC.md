@@ -3,9 +3,9 @@ user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Questa è una descrizione della guida utente che verrà visualizzata nella pagina di destinazione.
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 83%
    + [Coinvolgimento](/help/opportunity-types/engagement.md)
    + [Integrità del sito](/help/opportunity-types/site-health.md)
    + [Livello di sicurezza](/help/opportunity-types/security-posture.md)
-   + [Ottimizzazione Forms](/help/opportunity-types/form-optimization.md)
-   + [Accessibilità di Forms](/help/opportunity-types/form-accesibility.md)
+   + [Ottimizzazione dei moduli](/help/opportunity-types/form-optimization.md)
+   + [Accessibilità dei moduli](/help/opportunity-types/form-accesibility.md)
 + Documentazione{#documentation}
    + [Panoramica](/help/documentation/overview.md)
    + [Funzioni di base](/help/documentation/basics.md)
@@ -36,10 +36,10 @@ ht-degree: 83%
       + [Metadati non validi o mancanti](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Dati strutturati mancanti o non validi](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Testo alternativo mancante](/help/documentation/opportunities/missing-alt-text.md)
-      + [Conversioni basse Forms](/help/documentation/opportunities/low-conversions.md)
-      + [Visualizzazioni basse di Forms](/help/documentation/opportunities/low-views.md)
-      + [Navigazione bassa Forms](/help/documentation/opportunities/low-navigation.md)
-      + [Problema di accessibilità di Forms](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + [Conversioni basse dei moduli](/help/documentation/opportunities/low-conversions.md)
+      + [Visualizzazioni basse dei moduli](/help/documentation/opportunities/low-views.md)
+      + [Navigazione bassa dei moduli](/help/documentation/opportunities/low-navigation.md)
+      + [Problema relativo all’accessibilità dei moduli](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Problemi relativi alla mappa del sito](/help/documentation/opportunities/sitemap-issues.md)
       + [Autorizzazioni del sito web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnerabilità del sito web](/help/documentation/opportunities/website-vulnerabilities.md)

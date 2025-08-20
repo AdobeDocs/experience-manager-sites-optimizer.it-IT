@@ -3,9 +3,9 @@ title: Documentazione sull’opportunità Problemi di accessibilità
 description: Scopri l’opportunità da cogliere in caso di problemi di accessibilità e come utilizzarla per aumentare la sicurezza di sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,6 +54,6 @@ Sites Optimizer Ultimate aggiunge la possibilità di distribuire l’ottimizzazi
 
 >[!ENDTABS]
 
-## Vedi anche
+## Consulta anche
 
-[Opportunità problemi di accessibilità Forms](/help/documentation/opportunities/forms-accessibility-issues.md)
+[Opportunità dei problemi di accessibilità dei moduli](/help/documentation/opportunities/forms-accessibility-issues.md)

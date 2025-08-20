@@ -2,9 +2,9 @@
 title: Documentazione delle opportunità di Sites Optimizer
 description: Scopri tutte le opportunità disponibili in Site Optimizer e come utilizzarle per migliorare le prestazioni del sito.
 source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Ogni opportunità fornisce una breve descrizione del problema, del suo potenzial
 * **Titolo dell’opportunità**: breve descrizione del problema e del suo potenziale impatto sulle prestazioni del sito.
 * **Ultimo aggiornamento**: Sites Optimizer ha aggiornato l’opportunità con nuovi dati in questa data.
 * **Numero di problemi**: numero di istanze del problema identificate sul sito.
-* **Tipi di opportunità** - I [tipi di opportunità](/help/opportunity-types/overview.md) di cui fa parte l&#39;opportunità, ad esempio l&#39;acquisizione del traffico, il coinvolgimento, la conversione o l&#39;integrità del sito.
+* **Tipi di opportunità**: i [tipi di opportunità](/help/opportunity-types/overview.md) di cui fa parte questa opportunità, ad esempio acquisizione del traffico, coinvolgimento, conversione o integrità del sito.
 
 Le informazioni di riepilogo per ogni opportunità variano in base al tipo e possono includere dettagli sull’impatto sulle entrate, sul traffico, sul coinvolgimento degli utenti o sulle minacce alla sicurezza.
 
@@ -274,7 +274,7 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./high-bounce-rate.md" target="_blank" rel="referrer" title="Tasso di mancato recapito elevato">Tasso di mancato recapito elevato</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di visualizzazioni ridotte e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="./high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -309,8 +309,8 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./low-conversions.md" title="Conversioni basse Forms" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Conversioni basse Forms"
+                    <a href="./low-conversions.md" title="Conversioni basse dei moduli" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Conversioni basse dei moduli"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -318,9 +318,9 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./low-conversions.md" target="_blank" rel="referrer" title="Conversioni basse Forms">Forms - basse conversioni</a>
+                        <a href="./low-conversions.md" target="_blank" rel="referrer" title="Conversioni basse dei moduli">Conversioni basse dei moduli</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di basse conversioni e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli nel tuo sito web.</p>
                 </div>
                 <a href="./low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -332,7 +332,7 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./low-views.md" title="Visualizzazioni basse di Forms" target="_blank" rel="referrer">
+                    <a href="./low-views.md" title="Visualizzazioni basse dei moduli" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Visualizzazioni basse"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -341,9 +341,9 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./low-views.md" target="_blank" rel="referrer" title="Visualizzazioni basse">Visualizzazioni insufficienti Forms</a>
+                        <a href="./low-views.md" target="_blank" rel="referrer" title="Visualizzazioni basse">Visualizzazioni basse dei moduli</a>
                     </p>
-                    <p class="is-size-6">Scopri le opportunità di visualizzazioni ridotte per i moduli e come utilizzarle per migliorare il coinvolgimento dei moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="./low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -355,8 +355,8 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./low-navigation.md" title="Navigazione bassa Forms" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Navigazione bassa Forms"
+                    <a href="./low-navigation.md" title="Navigazione bassa dei moduli" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Navigazione bassa dei moduli"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -364,9 +364,9 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./low-navigation.md" target="_blank" rel="referrer" title="Navigazione bassa Forms">Navigazione bassa Forms</a>
+                        <a href="./low-navigation.md" target="_blank" rel="referrer" title="Navigazione bassa dei moduli">Navigazione bassa dei moduli</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di navigazione ridotta per Forms e come utilizzarla per migliorare il coinvolgimento con i moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità di conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -378,8 +378,8 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./forms-accessibility-issues.md" title="Problemi di accessibilità di Forms" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-arrows.png" alt="Problemi di accessibilità di Forms"
+                    <a href="./forms-accessibility-issues.md" title="Problemi di accessibilità dei moduli" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../../assets/common/card-arrows.png" alt="Problemi di accessibilità dei moduli"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -387,9 +387,9 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problemi di accessibilità di Forms">Problemi di accessibilità di Forms</a>
+                        <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problemi di accessibilità dei moduli">Problemi di accessibilità dei moduli</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di problemi di accessibilità dei moduli e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità dei problemi di accessibilità dei moduli e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
