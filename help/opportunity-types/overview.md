@@ -1,10 +1,10 @@
 ---
 title: Tipi di opportunità di Sites Optimizer
 description: Scopri i tipi di opportunità chiave in Sites Optimizer e come possono aiutarti a migliorare le prestazioni del tuo sito.
-source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
-workflow-type: ht
-source-wordcount: '300'
-ht-degree: 100%
+source-git-commit: 469370cfcb19e25bf8da5f7f9e08b8b0da52dbb9
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 80%
 
 ---
 
@@ -20,10 +20,11 @@ AEM Sites Optimizer fornisce informazioni e consigli utili per migliorare le pre
 * Acquisizione traffico
 * Livello di sicurezza
 * Integrità del sito
+* Verifica preliminare
 
-Ogni categoria evidenzia un modo diverso per migliorare il sito. Una categoria può aumentare l’interazione dei visitatori. Un’altra può migliorare la reperibilità. Altre si concentrano sul rafforzamento della sicurezza o sul mantenimento della stabilità del sito.
+Ogni categoria evidenzia un modo diverso per migliorare il sito. Una categoria può aumentare l’interazione dei visitatori. Un’altra può migliorare la reperibilità. Altri si concentrano sul rafforzamento della sicurezza o sul mantenimento della stabilità del sito. Verifica preliminare consente di analizzare e ottimizzare le pagine prima che vengano pubblicate.
 
-Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare il pubblico giusto e mantenere il tuo sito sicuro e affidabile. Migliorando il coinvolgimento e l’acquisizione del traffico si favoriscono l’interazione e la visibilità, mentre un solido livello di sicurezza e l’integrità del sito contribuiscono a garantire fiducia e stabilità.  Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
+Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare il pubblico giusto e mantenere il tuo sito sicuro e affidabile. Migliorando il coinvolgimento e l&#39;acquisizione del traffico si favoriscono l&#39;interazione e la visibilità, mentre una forte posizione di sicurezza e l&#39;integrità del sito contribuiscono a garantire la fiducia e la stabilità. L’analisi preliminare assicura che il contenuto sia ottimizzato prima della pubblicazione. Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
 
 ## Tipi di opportunità
 
@@ -39,6 +40,8 @@ Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare i
    { title = Traffic acquisition }
 * ./form-optimization.md
    { title = Forms Optimization }
+* ./preflight.md
+   { title = Preflight }
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -181,7 +184,30 @@ Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare i
             </div>
         </div>
     </div>
-
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Preflight">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./preflight.md" title="Verifica preliminare" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/preflight/hero.png" alt="Verifica preliminare"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./preflight.md" target="_blank" rel="referrer" title="Verifica preliminare">Verifica preliminare</a>
+                    </p>
+                    <p class="is-size-6">Scopri l’analisi della verifica preliminare e come impostare le opportunità di verifica preliminare in Sites Optimizer.</p>
+                </div>
+                <a href="./preflight.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                </a>
+            </div>
+        </div>
+    </div>
+ </br>   
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
