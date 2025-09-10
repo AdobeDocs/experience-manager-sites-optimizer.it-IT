@@ -2,18 +2,18 @@
 title: AEM Sites Optimizer - Guida all’onboarding della verifica preliminare
 description: Scopri le opportunità di verifica preliminare e come impostare l’analisi della verifica preliminare in AEM Sites Optimizer.
 source-git-commit: 0a6ddcdfd369253500067b31617facfb7f38b656
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 
 # Opportunità di verifica preliminare
 
-![Verifica preliminare opportunità](./assets/preflight/hero.png){align="center"}
+![Opportunità di verifica preliminare](./assets/preflight/hero.png){align="center"}
 
-<span class="preview">La verifica preliminare di AEM Sites Optimizer analizza i dati tecnici e le prestazioni della pagina e anticipa e rileva le opportunità prima della pubblicazione. Utilizza l&#39;intelligenza artificiale generativa per suggerire le ottimizzazioni.</span>
+<span class="preview">La verifica preliminare di AEM Sites Optimizer analizza i dati tecnici e le prestazioni della pagina e anticipa e rileva le opportunità prima della pubblicazione. Utilizza l’IA generativa per suggerire le ottimizzazioni.</span>
 
 ## Opportunità
 
@@ -122,7 +122,7 @@ ht-degree: 6%
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Conteggio H1">Conteggio H1</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di conteggio H1 e come utilizzarla per garantire la corretta struttura di intestazione e l’ottimizzazione SEO (Search Engine Optimization).</p>
+                    <p class="is-size-6">Scopri l’opportunità del conteggio H1 e come utilizzarla per garantire la corretta struttura di intestazione e l’ottimizzazione SEO (Search Engine Optimization).</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -145,7 +145,7 @@ ht-degree: 6%
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" title="Accessibilità">Accessibilità</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di accessibilità e come utilizzarla per garantire che il tuo sito web sia accessibile a tutti gli utenti.</p>
+                    <p class="is-size-6">Scopri l’opportunità dell’accessibilità e come utilizzarla per fare in modo che il tuo sito web sia accessibile a tutti gli utenti.</p>
                 </div>
                 <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -157,22 +157,22 @@ ht-degree: 6%
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Configurazione
+## Come configurare
 
-### Impostazione editor universale
+### Configurazione dell’editor universale
 
-1. Vai a Extension Manager dall’URL: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
-2. Seleziona l’estensione Verifica preliminare AEM Sites Optimizer e richiedi Abilita
+1. Passa a Extension Manager dall’URL: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
+2. Seleziona l’estensione Verifica preliminare AEM Sites Optimizer e richiedi l’abilitazione
 3. Il team AEM abiliterà l’estensione per la tua organizzazione
 4. Al termine, apri una pagina nell’Editor universale, ad esempio: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
-5. L&#39;estensione Verifica preliminare sarà visibile nella barra laterale
-6. Facendo clic sull’estensione Verifica preliminare dalla barra laterale, viene avviata la verifica della verifica preliminare per la pagina corrente
+5. L’estensione Verifica preliminare sarà visibile nella barra laterale
+6. Facendo clic sull’estensione Verifica preliminare dalla barra laterale, viene avviato l’audit della verifica preliminare per la pagina corrente
 
 ### Impostazione anteprima basata su documento
 
 #### Passaggio 1: abilitare Sidekick con il pulsante Verifica preliminare
 
-Aggiungi la seguente configurazione a `/tools/sidekick/config.json` nell&#39;archivio GitHub:
+Aggiungi la seguente configurazione a `/tools/sidekick/config.json` nell’archivio GitHub personale:
 
 ```json
 {
@@ -238,9 +238,9 @@ Crea `/tools/sidekick/aem-sites-optimizer-preflight.js` con il seguente contenut
 }());
 ```
 
-#### Passaggio 3: Aggiornare il file degli script
+#### Passaggio 3: aggiornare il file degli script
 
-Aggiungere la seguente istruzione di importazione alla funzione `loadLazy()` in `/scripts/scripts.js` per gli URL di anteprima, come illustrato di seguito:
+Aggiungi la seguente istruzione di importazione alla funzione `loadLazy()` in `/scripts/scripts.js` per gli URL di anteprima, come mostrato di seguito:
 
 ```javascript
 if (window.location.href.includes('.aem.page')) {
@@ -250,9 +250,9 @@ if (window.location.href.includes('.aem.page')) {
 
 Ora il pulsante Verifica preliminare dovrebbe essere visibile in Sidekick.
 
-#### Passaggio 4: esecuzione del controllo di audit
+#### Passaggio 4: esecuzione del controllo
 
-Apri l’URL di anteprima (*.aem.page) della pagina sottoposta a controllo. Fare clic sul pulsante Verifica preliminare da Sidekick.
+Apri l’URL di anteprima (*.aem.page) della pagina sottoposta a controllo. Faiclic sul pulsante Verifica preliminare da Sidekick.
 
 ### Configurazione di AEM Cloud Service
 
@@ -260,25 +260,25 @@ Puoi utilizzare l’opzione bookmarklet per testare la verifica preliminare sugl
 
 <!-- Drag the button below to your Bookmarks Bar to get started. -->
 
-Premi **Ctrl+Maiusc+B** (Windows) o **Cmd+Maiusc+B** (Mac) per visualizzare la barra dei segnalibri. Fare clic con il pulsante destro del mouse sulla barra dei segnalibri e selezionare &quot;Nuova pagina&quot; o &quot;Aggiungi segnalibro&quot;. Nel campo dell’indirizzo copia il codice seguente.
+Premi **Ctrl+Maiusc+B** (Windows) o **Comando+Maiusc+B** (Mac) per visualizzare la barra dei segnalibri. Fai clic con il pulsante destro del mouse sulla barra dei segnalibri e seleziona “Nuova pagina” o “Aggiungi segnalibro”. Nel campo dell’indirizzo, copia il codice seguente.
 
 <!-- **Drag this link to your Bookmarks Bar:**
 
 <a href="javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();">Preflight</a> -->
 
-**Copiare il codice e creare un nuovo segnalibro:**
+**Copia questo codice e crea un nuovo segnalibro:**
 
 ```
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
 
-Una volta aggiunto il Bookmarklet, apri l’URL di anteprima (*.aem.page) della pagina sottoposta a controllo. Fare clic sul segnalibro Verifica preliminare per avviare l&#39;audit della verifica preliminare.
+Una volta aggiunto il bookmarklet, apri l’URL di anteprima (*.aem.page) della pagina sottoposta a controllo. Fai clic sul segnalibro Verifica preliminare per avviare il controllo della verifica preliminare.
 
 ## Best practice
 
-Quando si utilizza la verifica preliminare, tenere presente quanto segue:
+Quando utilizzi la verifica preliminare, tieni presente quanto segue:
 
 * Esegui controlli di verifica preliminare su tutte le pagine di staging/anteprima prima della pubblicazione.
 * Risolvi prima i problemi di forte impatto (collegamenti interrotti, tag H1 mancanti, collegamenti non sicuri).
 * Abilita l’autenticazione per gli ambienti di staging protetti.
-* Rivedi e implementa i suggerimenti dei tag meta per migliorare le prestazioni SEO (Search Engine Optimization).
+* Rivedi e implementa i suggerimenti dei meta tag per migliorare le prestazioni SEO (Search Engine Optimization).

@@ -2,9 +2,9 @@
 title: Tipi di opportunità di Sites Optimizer
 description: Scopri i tipi di opportunità chiave in Sites Optimizer e come possono aiutarti a migliorare le prestazioni del tuo sito.
 source-git-commit: 469370cfcb19e25bf8da5f7f9e08b8b0da52dbb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ AEM Sites Optimizer fornisce informazioni e consigli utili per migliorare le pre
 * Integrità del sito
 * Verifica preliminare
 
-Ogni categoria evidenzia un modo diverso per migliorare il sito. Una categoria può aumentare l’interazione dei visitatori. Un’altra può migliorare la reperibilità. Altri si concentrano sul rafforzamento della sicurezza o sul mantenimento della stabilità del sito. Verifica preliminare consente di analizzare e ottimizzare le pagine prima che vengano pubblicate.
+Ogni categoria evidenzia un modo diverso per migliorare il sito. Una categoria può aumentare l’interazione dei visitatori. Un’altra può migliorare la reperibilità. Altre si concentrano sul rafforzamento della sicurezza o sul mantenimento della stabilità del sito. La verifica preliminare consente di analizzare e ottimizzare le pagine prima che vengano pubblicate.
 
-Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare il pubblico giusto e mantenere il tuo sito sicuro e affidabile. Migliorando il coinvolgimento e l&#39;acquisizione del traffico si favoriscono l&#39;interazione e la visibilità, mentre una forte posizione di sicurezza e l&#39;integrità del sito contribuiscono a garantire la fiducia e la stabilità. L’analisi preliminare assicura che il contenuto sia ottimizzato prima della pubblicazione. Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
+Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare il pubblico giusto e mantenere il tuo sito sicuro e affidabile. Migliorando il coinvolgimento e l’acquisizione del traffico si favoriscono l’interazione e la visibilità, mentre la solidità del livello di sicurezza e l’integrità del sito contribuiscono a garantire fiducia e stabilità. L’analisi preliminare assicura che il contenuto sia ottimizzato prima della pubblicazione. Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
 
 ## Tipi di opportunità
 
@@ -199,7 +199,7 @@ Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare i
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./preflight.md" target="_blank" rel="referrer" title="Verifica preliminare">Verifica preliminare</a>
                     </p>
-                    <p class="is-size-6">Scopri l’analisi della verifica preliminare e come impostare le opportunità di verifica preliminare in Sites Optimizer.</p>
+                    <p class="is-size-6">Scopri l’analisi della verifica preliminare e come configurare le opportunità di verifica preliminare in Sites Optimizer.</p>
                 </div>
                 <a href="./preflight.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
