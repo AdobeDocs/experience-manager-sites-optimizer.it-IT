@@ -2,7 +2,7 @@
 title: La pagina Traffico elevato presenta una documentazione di opportunità CTR ridotta
 description: Scopri la pagina con traffico elevato e opportunità CTR ridotte e come utilizzarla per aumentare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
+source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Traffico elevato pagina con opportunità CTR ridotta
+# La pagina con traffico elevato presenta un’opportunità CTR ridotta
 
 ![La pagina con traffico elevato presenta un&#39;opportunità CTR ridotta](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
 
@@ -20,7 +20,7 @@ La pagina con traffico elevato presenta un’opportunità CTR basso che identifi
 
 ![Problemi di CTR insufficiente nella pagina Identificazione automatica traffico elevato](./assets/high-traffic-page-has-low-ctr/auto-identify.png){align="center"}
 
-La **pagina con traffico elevato presenta un&#39;opportunità CTR basso** identifica le pagine con traffico elevato con CTR basso nel sito Web e include quanto segue:
+La **pagina con traffico elevato presenta un&#39;opportunità CTR ridotto** identifica le pagine con traffico elevato con CTR basso nel sito Web e include quanto segue:
 
 * **Consiglio** - Azione suggerita per migliorare il CTR della pagina.
 * **Insight** - Spiegazione del motivo per cui la pagina ha un CTR basso.
