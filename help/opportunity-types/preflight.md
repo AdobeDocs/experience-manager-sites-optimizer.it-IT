@@ -1,10 +1,10 @@
 ---
-title: AEM Sites Optimizer - Guida all’onboarding della verifica preliminare
-description: Scopri le opportunità di verifica preliminare e come impostare l’analisi della verifica preliminare in AEM Sites Optimizer.
-source-git-commit: 0a6ddcdfd369253500067b31617facfb7f38b656
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+title: Ottimizzazioni della verifica preliminare con AEM Sites Optimizer
+description: Scopri le opportunità di verifica preliminare con AEM Sites Optimizer.
+source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 23%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunità di verifica preliminare](./assets/preflight/hero.png){align="center"}
 
-<span class="preview">La verifica preliminare di AEM Sites Optimizer analizza i dati tecnici e le prestazioni della pagina e anticipa e rileva le opportunità prima della pubblicazione. Utilizza l’IA generativa per suggerire le ottimizzazioni.</span>
+Le opportunità di verifica preliminare di AEM Sites Optimizer garantiscono che le pagine web siano ottimizzate in termini di prestazioni, SEO e esperienza utente prima della pubblicazione. Identificando potenziali problemi come collegamenti interrotti, tag meta mancanti e problemi di accessibilità, i controlli preliminari consentono agli autori di contenuti e agli esperti di marketing di affrontare tali problemi nelle prime fasi del processo di pubblicazione. Questo approccio proattivo riduce al minimo il rischio di pubblicazione di contenuti non ottimali, migliora la qualità del sito e migliora la presenza digitale complessiva. L’utilizzo delle opportunità di verifica preliminare supporta un flusso di lavoro più fluido, riduce le correzioni post-pubblicazione e contribuisce a migliorare la classificazione dei motori di ricerca e la soddisfazione degli utenti.
 
 ## Opportunità
 
@@ -157,128 +157,141 @@ ht-degree: 100%
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Come configurare
+## Configurazione
 
-### Configurazione dell’editor universale
+Per identificare l’opportunità di verifica preliminare di AEM Sites Optimizer è necessario configurare l’estensione Verifica preliminare in Universal Editor, Document-Based Preview o AEM Cloud Service per eseguire controlli di verifica preliminare sulle pagine prima che vengano pubblicate.
 
-1. Passa a Extension Manager dall’URL: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
-2. Seleziona l’estensione Verifica preliminare AEM Sites Optimizer e richiedi l’abilitazione
-3. Il team AEM abiliterà l’estensione per la tua organizzazione
-4. Al termine, apri una pagina nell’Editor universale, ad esempio: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
-5. L’estensione Verifica preliminare sarà visibile nella barra laterale
-6. Facendo clic sull’estensione Verifica preliminare dalla barra laterale, viene avviato l’audit della verifica preliminare per la pagina corrente
+## Abilita accesso utente
 
-### Impostazione anteprima basata su documento
+Per utilizzare l&#39;estensione Verifica preliminare, accertati che l&#39;utente sia assegnato ad almeno uno dei seguenti profili di prodotto AEM Sites Optimizer in [Adobe Admin Console](https://adminconsole.adobe.com):
 
-#### Passaggio 1: abilitare Sidekick con il pulsante Verifica preliminare
+* AEM Sites Optimizer - Suggerimento automatico utente
+* AEM Sites Optimizer - Ottimizzazione automatica utente
 
-Aggiungi la seguente configurazione a `/tools/sidekick/config.json` nell’archivio GitHub personale:
+## Abilita l&#39;estensione Verifica preliminare
 
-```json
-{
-  "plugins": [
-    {
-      "id": "preflight",
-      "titleI18n": {
-        "en": "Preflight"
-      },
-      "environments": ["preview"],
-      "event": "preflight"
-    }
-  ]
-}
-```
+>[!BEGINTABS]
 
-#### Passaggio 2: creare lo script di integrazione di Sidekick
+>[!TAB Editor universale]
 
-Crea `/tools/sidekick/aem-sites-optimizer-preflight.js` con il seguente contenuto:
+Per impostare la verifica preliminare in Universal Editor, effettuare le seguenti operazioni:
+
+1. Apri **Extension Manager** in:
+   [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
+1. Individua l&#39;**estensione Verifica preliminare AEM Sites Optimizer** e invia una richiesta per abilitarla.
+1. Il **team AEM di Adobe** esaminerà e abiliterà l&#39;estensione per la tua organizzazione.
+1. Dopo aver abilitato l&#39;estensione, aprire una pagina in **Universal Editor**, ad esempio:
+   `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
+1. L&#39;estensione **Verifica preliminare** verrà visualizzata nella **barra laterale**.
+1. Seleziona l&#39;**Estensione verifica preliminare** dalla barra laterale per avviare un **Audit verifica preliminare** della pagina corrente.
+
+>[!TAB Authoring basato su documenti]
+
+Per impostare la verifica preliminare per l&#39;authoring basato su documenti, eseguire la procedura seguente:
+
+1. Aggiungi la seguente configurazione a `/tools/sidekick/config.json` nell&#39;archivio GitHub del progetto Edge Delivery Services:
+
+   ```json
+   {
+     "plugins": [
+       {
+         "id": "preflight",
+         "titleI18n": {
+           "en": "Preflight"
+         },
+         "environments": ["preview"],
+         "event": "preflight"
+       }
+     ]
+   }
+   ```
+
+1. Creare un nuovo file `/tools/sidekick/aem-sites-optimizer-preflight.js` e aggiungere il contenuto seguente:
+
+   ```javascript
+   (function () {
+     let isAEMSitesOptimizerPreflightAppLoaded = false;
+     function loadAEMSitesOptimizerPreflightApp() {
+       const script = document.createElement('script');
+       script.src = 'https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=plugin';
+       script.onload = function () {
+         isAEMSitesOptimizerPreflightAppLoaded = true;
+       };
+       script.onerror = function () {
+         console.error('Error loading AEMSitesOptimizerPreflightApp.');
+       };
+       document.head.appendChild(script);
+     }
+   
+     function handlePluginButtonClick() {
+       if (!isAEMSitesOptimizerPreflightAppLoaded) {
+         loadAEMSitesOptimizerPreflightApp();
+       }
+     }
+   
+     // Sidekick V1 extension support
+     const sidekick = document.querySelector('helix-sidekick');
+     if (sidekick) {
+       sidekick.addEventListener('custom:preflight', handlePluginButtonClick);
+     } else {
+       document.addEventListener('sidekick-ready', () => {
+         document.querySelector('helix-sidekick')
+           .addEventListener('custom:preflight', handlePluginButtonClick);
+       }, { once: true });
+     }
+   
+     // Sidekick V2 extension support
+     const sidekickV2 = document.querySelector('aem-sidekick');
+     if (sidekickV2) {
+       sidekickV2.addEventListener('custom:preflight', handlePluginButtonClick);
+     } else {
+       document.addEventListener('sidekick-ready', () => {
+         document.querySelector('aem-sidekick')
+           .addEventListener('custom:preflight', handlePluginButtonClick);
+       }, { once: true });
+     }
+   }());
+   ```
+
+1. Aggiornare la funzione `loadLazy()` in `/scripts/scripts.js` per importare lo script di verifica preliminare per gli URL di anteprima:
+
+   ```javascript
+   if (window.location.href.includes('.aem.page')) {
+      import('../tools/sidekick/aem-sites-optimizer-preflight.js');
+   }
+   ```
+
+1. Aprire l&#39;URL di anteprima (`*.aem.page`) della pagina che si desidera controllare.
+1. In **Sidekick**, fai clic sul pulsante **Verifica preliminare** per avviare il controllo di audit per la pagina corrente.
+
+>[!TAB Editor pagina AEM Sites]
+
+Per utilizzare Verifica preliminare nell’Editor pagina di AEM Sites, puoi creare un bookmarklet nel browser web. Segui questi passaggi:
+
+1. Mostra **Barra Segnalibri** nel browser Web:
+
+   * Premere **Ctrl+Maiusc+B** (Windows) o **Cmd+Maiusc+B** (Mac).
+
+! Crea un nuovo segnalibro nel browser:
+
+* Fare clic con il pulsante destro del mouse sulla barra Segnalibri e selezionare **Nuova pagina** o **Aggiungi segnalibro**.
+* Nel campo **Indirizzo (URL)**, incolla il seguente codice:
 
 ```javascript
-(function () {
-  let isAEMSitesOptimizerPreflightAppLoaded = false;
-  function loadAEMSitesOptimizerPreflightApp() {
-    const script = document.createElement('script');
-    script.src = 'https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=plugin';
-    script.onload = function () {
-      isAEMSitesOptimizerPreflightAppLoaded = true;
-    };
-    script.onerror = function () {
-      console.error('Error loading AEMSitesOptimizerPreflightApp.');
-    };
-    document.head.appendChild(script);
-  }
-
-  function handlePluginButtonClick() {
-    if (!isAEMSitesOptimizerPreflightAppLoaded) {
-      loadAEMSitesOptimizerPreflightApp();
-    }
-  }
-
-  // Sidekick V1 extension support
-  const sidekick = document.querySelector('helix-sidekick');
-  if (sidekick) {
-    sidekick.addEventListener('custom:preflight', handlePluginButtonClick);
-  } else {
-    document.addEventListener('sidekick-ready', () => {
-      document.querySelector('helix-sidekick')
-        .addEventListener('custom:preflight', handlePluginButtonClick);
-    }, { once: true });
-  }
-
-  // Sidekick V2 extension support
-  const sidekickV2 = document.querySelector('aem-sidekick');
-  if (sidekickV2) {
-    sidekickV2.addEventListener('custom:preflight', handlePluginButtonClick);
-  } else {
-    document.addEventListener('sidekick-ready', () => {
-      document.querySelector('aem-sidekick')
-        .addEventListener('custom:preflight', handlePluginButtonClick);
-    }, { once: true });
-  }
-}());
-```
-
-#### Passaggio 3: aggiornare il file degli script
-
-Aggiungi la seguente istruzione di importazione alla funzione `loadLazy()` in `/scripts/scripts.js` per gli URL di anteprima, come mostrato di seguito:
-
-```javascript
-if (window.location.href.includes('.aem.page')) {
-   import('../tools/sidekick/aem-sites-optimizer-preflight.js');
-}
-```
-
-Ora il pulsante Verifica preliminare dovrebbe essere visibile in Sidekick.
-
-#### Passaggio 4: esecuzione del controllo
-
-Apri l’URL di anteprima (*.aem.page) della pagina sottoposta a controllo. Faiclic sul pulsante Verifica preliminare da Sidekick.
-
-### Configurazione di AEM Cloud Service
-
-Puoi utilizzare l’opzione bookmarklet per testare la verifica preliminare sugli editor di pagine e sugli ambienti sandbox di AEM Cloud Service.
-
-<!-- Drag the button below to your Bookmarks Bar to get started. -->
-
-Premi **Ctrl+Maiusc+B** (Windows) o **Comando+Maiusc+B** (Mac) per visualizzare la barra dei segnalibri. Fai clic con il pulsante destro del mouse sulla barra dei segnalibri e seleziona “Nuova pagina” o “Aggiungi segnalibro”. Nel campo dell’indirizzo, copia il codice seguente.
-
-<!-- **Drag this link to your Bookmarks Bar:**
-
-<a href="javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();">Preflight</a> -->
-
-**Copia questo codice e crea un nuovo segnalibro:**
-
-```
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
 
-Una volta aggiunto il bookmarklet, apri l’URL di anteprima (*.aem.page) della pagina sottoposta a controllo. Fai clic sul segnalibro Verifica preliminare per avviare il controllo della verifica preliminare.
+1. Assegna al segnalibro **Verifica preliminare** (o un nome qualsiasi).
+1. Aprire l&#39;URL di anteprima (`*.aem.page`) della pagina che si desidera controllare nell&#39;**Editor pagine AEM Sites**.
+1. Fare clic sul segnalibro **Verifica preliminare** nella barra Segnalibri per avviare il controllo di audit per la pagina corrente.
+
+>[!ENDTABS]
 
 ## Best practice
 
-Quando utilizzi la verifica preliminare, tieni presente quanto segue:
+Quando esegui i controlli di verifica preliminare, tieni presenti le seguenti linee guida:
 
-* Esegui controlli di verifica preliminare su tutte le pagine di staging/anteprima prima della pubblicazione.
-* Risolvi prima i problemi di forte impatto (collegamenti interrotti, tag H1 mancanti, collegamenti non sicuri).
-* Abilita l’autenticazione per gli ambienti di staging protetti.
-* Rivedi e implementa i suggerimenti dei meta tag per migliorare le prestazioni SEO (Search Engine Optimization).
+* Esegui sempre i controlli sulle **pagine di staging o anteprima** prima di pubblicarle in produzione.
+* Assegna priorità alla risoluzione di **problemi ad alto impatto** quali collegamenti interrotti, tag H1 mancanti o collegamenti non sicuri.
+* Prima di eseguire i controlli, verificare che l&#39;autenticazione **sia abilitata** per gli ambienti di gestione temporanea protetti.
+* Rivedi e applica **consigli sui tag meta** per migliorare le prestazioni SEO (Search Engine Optimization).
