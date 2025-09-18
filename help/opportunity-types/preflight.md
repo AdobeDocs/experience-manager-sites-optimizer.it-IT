@@ -1,7 +1,7 @@
 ---
 title: Ottimizzazioni della verifica preliminare con AEM Sites Optimizer
 description: Scopri le opportunità di verifica preliminare con AEM Sites Optimizer.
-source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
+source-git-commit: cae186f8a953fd9d4e9d68653dd5eb2a4bd14152
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 23%
@@ -161,14 +161,14 @@ Le opportunità di verifica preliminare di AEM Sites Optimizer garantiscono che 
 
 Per identificare l’opportunità di verifica preliminare di AEM Sites Optimizer è necessario configurare l’estensione Verifica preliminare in Universal Editor, Document-Based Preview o AEM Cloud Service per eseguire controlli di verifica preliminare sulle pagine prima che vengano pubblicate.
 
-## Abilita accesso utente
+### Abilita accesso utente
 
 Per utilizzare l&#39;estensione Verifica preliminare, accertati che l&#39;utente sia assegnato ad almeno uno dei seguenti profili di prodotto AEM Sites Optimizer in [Adobe Admin Console](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer - Suggerimento automatico utente
 * AEM Sites Optimizer - Ottimizzazione automatica utente
 
-## Abilita l&#39;estensione Verifica preliminare
+### Abilita l&#39;estensione Verifica preliminare
 
 >[!BEGINTABS]
 
