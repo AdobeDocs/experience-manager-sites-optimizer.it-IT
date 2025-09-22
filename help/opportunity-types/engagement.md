@@ -2,9 +2,9 @@
 title: Ottimizzare il coinvolgimento con Sites Optimizer
 description: Scopri come migliorare il coinvolgimento con Sites Optimizer.
 source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -111,8 +111,8 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" title="La pagina con traffico elevato presenta un CTR basso" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-browser.png" alt="La pagina con traffico elevato presenta un CTR basso"
+                    <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" title="Pagina a traffico elevato con CTR basso" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-browser.png" alt="Pagina a traffico elevato con CTR basso"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -120,9 +120,9 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" title="La pagina con traffico elevato presenta un CTR basso">Il CTR è basso per la pagina con traffico elevato</a>
+                        <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" title="Pagina a traffico elevato con CTR basso">Pagina a traffico elevato con CTR basso</a>
                     </p>
-                    <p class="is-size-6">Scopri la pagina con traffico elevato e opportunità CTR ridotte e come utilizzarla per aumentare il coinvolgimento sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità in caso di pagina a traffico elevato con CTR basso e come utilizzarla per aumentare il coinvolgimento sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
