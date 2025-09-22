@@ -5,7 +5,7 @@ user-guide-description: Questa è una descrizione della guida utente che verrà 
 source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
       + [Configurazione CORS](/help/documentation/opportunities/cors-configuration.md)
       + [Cross-site scripting](/help/documentation/opportunities/cross-site-scripting.md)
       + [Tasso di mancato recapito elevato](/help/documentation/opportunities/high-bounce-rate.md)
-      + [La pagina con traffico elevato presenta un CTR basso](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
+      + [Pagina a traffico elevato con CTR basso](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Metadati non validi o mancanti](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Dati strutturati mancanti o non validi](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Testo alternativo mancante](/help/documentation/opportunities/missing-alt-text.md)
