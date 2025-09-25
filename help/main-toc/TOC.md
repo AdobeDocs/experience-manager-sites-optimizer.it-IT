@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Questa è una descrizione della guida utente che verrà visualizzata nella pagina di destinazione.
-source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
+source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 99%
 
 ---
 
@@ -45,4 +45,12 @@ ht-degree: 100%
       + [Problemi relativi alla mappa del sito](/help/documentation/opportunities/sitemap-issues.md)
       + [Autorizzazioni del sito web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnerabilità del sito web](/help/documentation/opportunities/website-vulnerabilities.md)
+   + Opportunità di verifica preliminare{#preflight-opportunities}
+      + [Panoramica](/help/documentation/preflight/overview.md)
+      + [Configurazione](/help/documentation/preflight/setup.md)
+      + [Accessibilità](/help/documentation/preflight/accessibility.md)
+      + [Conteggio H1](/help/documentation/preflight/h1-count.md)
+      + [Collegamenti](/help/documentation/preflight/links.md)
+      + [Metadati](/help/documentation/preflight/meta-data.md)
+      + [Leggibilità](/help/documentation/preflight/readability.md)
    + [Impostazioni](/help/documentation/settings.md)
