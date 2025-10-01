@@ -3,16 +3,16 @@ title: Documentazione sull’opportunità Pagina a traffico elevato con CTR bass
 description: Scopri l’opportunità in caso di pagina a traffico elevato con CTR basso e come utilizzarla per aumentare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
 source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# La pagina con traffico elevato presenta un’opportunità CTR ridotta
+# Opportunità di pagina a traffico elevato con CTR basso
 
-![La pagina con traffico elevato presenta un&#39;opportunità CTR ridotta](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
+![Opportunità di pagina a traffico elevato con CTR basso](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
 
 L’opportunità in caso di pagina a traffico elevato che presenta un CTR basso identifica le pagine del sito web che ricevono una quantità significativa di traffico ma che presentano un tasso di click-through basso (CTR). Analizzando queste pagine, puoi individuare potenziali problemi che potrebbero ostacolare il coinvolgimento degli utenti e adottare misure per migliorarne le prestazioni. Questa opportunità è essenziale per ottimizzare il contenuto e il layout del sito web, in ultima analisi per ottenere tassi di conversione più elevati e migliori esperienze utente.
 
@@ -20,7 +20,7 @@ L’opportunità in caso di pagina a traffico elevato che presenta un CTR basso 
 
 ![Problemi di CTR basso nella pagina Identificazione automatica traffico elevato](./assets/high-traffic-page-has-low-ctr/auto-identify.png){align="center"}
 
-La **pagina con traffico elevato presenta un&#39;opportunità CTR ridotto** identifica le pagine con traffico elevato con CTR basso nel sito Web e include quanto segue:
+L’**opportunità Pagina a traffico elevato con CTR basso** individua nel sito web le pagine con traffico elevato e CTR basso, e include quanto segue:
 
 * **Consiglio**: azione suggerita per migliorare il CTR della pagina.
 * **Approfondimenti**: spiegazione del motivo per cui la pagina ha un CTR basso.
