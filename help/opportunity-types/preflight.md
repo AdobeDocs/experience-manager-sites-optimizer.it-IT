@@ -2,9 +2,9 @@
 title: Ottimizzazioni della verifica preliminare con AEM Sites Optimizer
 description: Scopri le opportunità di verifica preliminare con AEM Sites Optimizer.
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 61%
 
 ![Opportunità di verifica preliminare](./assets/preflight/hero.png){align="center"}
 
-Le [opportunità di verifica preliminare](../documentation/preflight/overview.md) di AEM Sites Optimizer consentono di ottimizzare le pagine Web in termini di prestazioni, SEO e esperienza utente prima della pubblicazione. Identificando potenziali problemi come collegamenti interrotti, tag meta mancanti e problemi di accessibilità, i controlli preliminari consentono agli autori di contenuti e ai marketer di affrontare tali problemi nelle prime fasi del processo di pubblicazione. Questo approccio proattivo riduce al minimo il rischio di pubblicazione di contenuti non ottimali, migliora la qualità del sito e la presenza digitale complessiva. L’utilizzo delle opportunità di verifica preliminare supporta un flusso di lavoro più fluido, riduce le correzioni post-pubblicazione e contribuisce a migliorare la classificazione dei motori di ricerca e la soddisfazione degli utenti.
+Le [opportunità di verifica preliminare](../documentation/preflight/overview.md) di AEM Sites Optimizer garantiscono che le pagine web siano ottimizzate in termini di prestazioni, SEO ed esperienza utente prima della pubblicazione. Identificando potenziali problemi come collegamenti interrotti, tag meta mancanti e problemi di accessibilità, i controlli preliminari consentono agli autori di contenuti e ai marketer di affrontare tali problemi nelle prime fasi del processo di pubblicazione. Questo approccio proattivo riduce al minimo il rischio di pubblicazione di contenuti non ottimali, migliora la qualità del sito e la presenza digitale complessiva. L’utilizzo delle opportunità di verifica preliminare supporta un flusso di lavoro più fluido, riduce le correzioni post-pubblicazione e contribuisce a migliorare la classificazione dei motori di ricerca e la soddisfazione degli utenti.
 
 ## Opportunità
 
@@ -53,7 +53,7 @@ Le [opportunità di verifica preliminare](../documentation/preflight/overview.md
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/accessibility.md" target="_blank" rel="referrer" title="Accessibilità">Accessibilità</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di Accesso facilitato verifica preliminare in Sites Optimizer.</p>
+                    <p class="is-size-6">Scopri l’pportunità di verifica preliminare dell’accessibilità in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -76,7 +76,7 @@ Le [opportunità di verifica preliminare](../documentation/preflight/overview.md
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/h1-count.md" target="_blank" rel="referrer" title="Conteggio H1">Conteggio H1</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di Accesso facilitato verifica preliminare in Sites Optimizer.</p>
+                    <p class="is-size-6">Scopri l’pportunità di verifica preliminare dell’accessibilità in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -99,7 +99,7 @@ Le [opportunità di verifica preliminare](../documentation/preflight/overview.md
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/links.md" target="_blank" rel="referrer" title="Collegamenti">Collegamenti</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di collegamenti di verifica preliminare in Sites Optimizer.</p>
+                    <p class="is-size-6">Scopri l’opportunità di verifica preliminare dei collegamenti in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -122,7 +122,7 @@ Le [opportunità di verifica preliminare](../documentation/preflight/overview.md
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/meta-data.md" target="_blank" rel="referrer" title="Metadati">Metadati</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di Verifica preliminare dei metadati in Sites Optimizer.</p>
+                    <p class="is-size-6">Scopri l’opportunità di verifica preliminare dei metadati in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -145,7 +145,7 @@ Le [opportunità di verifica preliminare](../documentation/preflight/overview.md
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/readability.md" target="_blank" rel="referrer" title="Leggibilità">Leggibilità</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di lettura della verifica preliminare in Sites Optimizer.</p>
+                    <p class="is-size-6">Scopri l’opportunità relativa alla leggibilità della verifica preliminare in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
