@@ -1,8 +1,8 @@
 ---
 title: Configurazione della verifica preliminare
 description: Scopri come impostare l’estensione Verifica preliminare per AEM Sites Optimizer.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
+source-git-commit: 210acc5337796707ced10f2b84d473503fc06088
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -124,14 +124,14 @@ Per utilizzare Verifica preliminare nell’editor di pagina di AEM Sites, puoi c
 
    * Premi **Ctrl+Maiusc+B** (Windows) o **Comando+Maiusc+B** (Mac).
 
-!. Crea un nuovo segnalibro nel browser:
+1. Crea un nuovo segnalibro nel browser:
 
-* Fai clic con il pulsante destro del mouse sulla barra dei segnalibri e seleziona **Nuova pagina** o **Aggiungi segnalibro**.
-* Nel campo **Indirizzo (URL)**, incolla il seguente codice:
+   * Fai clic con il pulsante destro del mouse sulla barra dei segnalibri e seleziona **Nuova pagina** o **Aggiungi segnalibro**.
+   * Nel campo **Indirizzo (URL)**, incolla il seguente codice:
 
-```javascript
-javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
-```
+   ```javascript
+   javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
+   ```
 
 1. Assegna al segnalibro il nome **Verifica preliminare** (o un nome qualsiasi).
 1. Apri l’URL di anteprima (`*.aem.page`) della pagina di cui desideri eseguire l’audit nell’**editor pagina AEM Sites**.
