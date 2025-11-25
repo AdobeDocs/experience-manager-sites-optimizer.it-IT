@@ -3,22 +3,22 @@ title: Ottimizzazione dei moduli con Sites Optimizer
 description: Scopri l’ottimizzazione dei moduli con Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 59%
 
 ---
 
 
-# Opportunità di accessibilità dei moduli
+# Opportunità di accessibilità per Forms
 
-<span class="preview"> La funzionalità Ottimizzazione dei moduli è disponibile nell’ambito del programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 ![Opportunità di accessibilità dei moduli](./assets/form-accesibility/hero.png){align="center"}
 
 
-Le opportunità di accessibilità dei moduli sono fondamentali per migliorare le interazioni degli utenti e aumentare le conversioni. La valutazione della conformità dei moduli alle linee guida per l’accessibilità dei contenuti web (WCAG) garantisce un’esperienza inclusiva per gli utenti con disabilità visive, uditive, cognitive e motorie. Questo non solo soddisfa i requisiti etici e legali, ma migliora anche i tassi di completamento dei moduli e amplia il tuo pubblico, offendo un’esperienza utente migliore e risultati aziendali più solidi.
+Le opportunità di accessibilità dei moduli sono fondamentali per migliorare le interazioni degli utenti e aumentare le conversioni. La valutazione della conformità dei moduli alle linee guida per l’accessibilità dei contenuti web (WCAG) garantisce un’esperienza inclusiva per gli utenti con disabilità visive, uditive, cognitive e motorie. Questa funzionalità non solo soddisfa i requisiti etici e legali, ma migliora anche i tassi di completamento dei moduli e amplia il tuo pubblico, con conseguente miglioramento dell’esperienza utente e risultati di business più solidi.
 
 ## Opportunità
 
@@ -49,7 +49,7 @@ Le opportunità di accessibilità dei moduli sono fondamentali per migliorare le
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problemi di accessibilità dei moduli">Problemi di accessibilità dei moduli</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità dei problemi di accessibilità dei moduli e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri i problemi di accessibilità dei moduli e come utilizzarli per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>

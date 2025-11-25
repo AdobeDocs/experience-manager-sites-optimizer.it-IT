@@ -3,23 +3,23 @@ title: Ottimizzazione dei moduli con Sites Optimizer
 description: Scopri l’ottimizzazione dei moduli con Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 66%
 
 ---
 
 
 # Opportunità di ottimizzazione dei moduli
 
-<span class="preview"> La funzionalità Ottimizzazione dei moduli è disponibile nell’ambito del programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Opportunità di ottimizzazione dei moduli](./assets/form-optimization/hero.png){align="center"}
 
-Le opportunità di ottimizzazione dei moduli consentono alle organizzazioni di migliorare sistematicamente le interazioni degli utenti e aumentare le conversioni dei moduli. Rilevando problemi quali visualizzazioni basse, conversioni basse e tassi di navigazione bassi, i team possono apportare modifiche basate sui dati alla progettazione, al posizionamento e al contenuto dei moduli. Queste ottimizzazioni aiutano a semplificare l’esperienza utente, rendendo più facile per i visitatori completare i moduli e raggiungere i risultati desiderati. L’utilizzo delle informazioni provenienti dall’ottimizzazione dei moduli supporta l’identificazione continua e la risoluzione dei divari delle prestazioni, portando a moduli più efficaci e a risultati aziendali migliori.
+Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di migliorare sistematicamente le interazioni degli utenti e aumentare le conversioni dei moduli. Rilevando problemi quali visualizzazioni ridotte, conversioni basse e tassi di navigazione bassi, i team possono apportare modifiche basate sui dati alla progettazione, al posizionamento e al contenuto dei moduli. Queste ottimizzazioni aiutano a semplificare l’esperienza utente, rendendo più facile per i visitatori completare i moduli e raggiungere i risultati desiderati. L&#39;utilizzo delle informazioni provenienti da Ottimizzazione Forms supporta l&#39;identificazione e la risoluzione continue dei divari di prestazioni, con conseguente miglioramento delle forme e dei risultati aziendali.
 
 ## Opportunità
 

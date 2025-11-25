@@ -4,17 +4,17 @@ description: Scopri l’opportunità di visualizzazioni basse e come utilizzarla
 badgeFormOptimization: label="Ottimizzazione dei moduli" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione dei moduli"
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 96%
 
 ---
 
 
 # Opportunità da cogliere in caso di visualizzazioni basse dei moduli
 
-<span class="preview"> La funzionalità Ottimizzazione dei moduli è disponibile nell’ambito del programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 ![Opportunità Visualizzazioni basse](./assets/low-views/hero.png){align="center"}
 

@@ -1,21 +1,21 @@
 ---
 title: Configurazione della verifica preliminare
 description: Scopri come impostare l’estensione Verifica preliminare per AEM Sites Optimizer.
-source-git-commit: 210acc5337796707ced10f2b84d473503fc06088
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 67%
 
 ---
 
 
 # Configurazione della verifica preliminare
 
-Per identificare l’opportunità di verifica preliminare di AEM Sites Optimizer è necessario configurare l’estensione Verifica preliminare nell’editor universale, nell’anteprima basata su documenti o in AEM Cloud Service, al fine di eseguire audit di verifica preliminare sulle pagine prima che vengano pubblicate.
+L&#39;identificazione dell&#39;opportunità di verifica preliminare di AEM Sites Optimizer richiede la configurazione dell&#39;estensione di verifica preliminare. Puoi configurarlo in Universal Editor, Document-Based Preview o AEM Cloud Service, in modo da poter eseguire controlli di verifica preliminare sulle pagine prima che vengano pubblicate.
 
 ## Abilitare l’accesso degli utenti
 
-Per utilizzare l’estensione Verifica preliminare, accertati che l’utente sia assegnato ad almeno uno dei seguenti profili di prodotto AEM Sites Optimizer in [Adobe Admin Console](https://adminconsole.adobe.com):
+Per utilizzare l&#39;estensione Verifica preliminare, accertati che l&#39;utente sia assegnato ad almeno uno dei seguenti profili di prodotto AEM Sites Optimizer in [Adobe Admin Console](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer - Suggerimento automatico utente
 * AEM Sites Optimizer - Ottimizzazione automatica utente
@@ -31,10 +31,10 @@ Per impostare la verifica preliminare nell’editor universale, segui questi pas
 1. Apri **Extension Manager** in:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
 1. Individua l’**estensione Verifica preliminare AEM Sites Optimizer** e invia una richiesta per abilitarla.
-1. Il **team Adobe AEM** rivedrà e abiliterà l’estensione per la tua organizzazione.
+1. **Adobe AEM team** rivede e abilita l&#39;estensione per la tua organizzazione.
 1. Dopo aver abilitato l’estensione, apri una pagina nell’**editor universale**, ad esempio:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
-1. L’**estensione Verifica preliminare** sarà visibile nella **barra laterale**.
+1. L&#39;estensione **Verifica preliminare** viene visualizzata nella **barra laterale**.
 1. Seleziona l’**estensione Verifica preliminare** dalla barra laterale, per avviare l’**audit della verifica preliminare** per la pagina corrente.
 
 >[!TAB Authoring basato su documenti]
@@ -113,14 +113,14 @@ Per impostare la verifica preliminare per l’authoring basato su documenti, seg
    }
    ```
 
-1. Apri l’URL di anteprima (`*.aem.page`) della pagina di cui desideri eseguire l’audit.
+1. Aprire l&#39;URL di anteprima (`*.aem.page`) della pagina che si desidera controllare.
 1. In **Sidekick**, fai clic sul pulsante **Verifica preliminare** per avviare il controllo di audit per la pagina corrente.
 
 >[!TAB Editor pagina per AEM Sites]
 
 Per utilizzare Verifica preliminare nell’editor di pagina di AEM Sites, puoi creare un bookmarklet nel browser web. Segui questi passaggi:
 
-1. Mostra **Barra Segnalibri** nel browser web:
+1. Mostra **Barra Segnalibri** nel browser Web:
 
    * Premi **Ctrl+Maiusc+B** (Windows) o **Comando+Maiusc+B** (Mac).
 
@@ -134,7 +134,7 @@ Per utilizzare Verifica preliminare nell’editor di pagina di AEM Sites, puoi c
    ```
 
 1. Assegna al segnalibro il nome **Verifica preliminare** (o un nome qualsiasi).
-1. Apri l’URL di anteprima (`*.aem.page`) della pagina di cui desideri eseguire l’audit nell’**editor pagina AEM Sites**.
+1. Aprire l&#39;URL di anteprima (`*.aem.page`) della pagina che si desidera controllare nell&#39;**Editor pagina AEM Sites**.
 1. Fai clic sul segnalibro **Verifica preliminare** nella barra Segnalibri per avviare il controllo di audit per la pagina corrente.
 
 >[!ENDTABS]
@@ -145,5 +145,5 @@ Quando esegui gli audit di verifica preliminare, tieni presenti le seguenti line
 
 * Esegui sempre gli audit sulle **pagine di staging o anteprima** prima di pubblicarle in produzione.
 * Assegna priorità alla risoluzione di **problemi ad alto impatto** quali collegamenti interrotti, tag H1 mancanti o collegamenti non sicuri.
-* Prima di eseguire gli audit, assicurati che l’**autenticazione sia abilitata** per gli ambienti di staging protetti.
+* Prima di eseguire i controlli, verificare che l&#39;autenticazione **sia abilitata** per gli ambienti di gestione temporanea protetti.
 * Rivedi e applica **consigli sui tag meta** per migliorare le prestazioni SEO (Search Engine Optimization).

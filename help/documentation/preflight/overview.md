@@ -1,10 +1,10 @@
 ---
 title: Opportunità di verifica preliminare
 description: Documentazione sulle opportunità di verifica preliminare in Sites Optimizer.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunità di verifica preliminare](./assets/overview/hero.png){align="center"}
 
-Le opportunità di verifica preliminare di Sites Optimizer sono costituite da una serie di valutazioni che analizzano diversi aspetti del contenuto e della struttura del sito prima della pubblicazione della pagina web. Queste valutazioni aiutano a identificare potenziali problemi e forniscono consigli utili per migliorare la qualità complessiva e le prestazioni del sito.
+Le opportunità di verifica preliminare di Sites Optimizer sono costituite da una serie di valutazioni che analizzano diversi aspetti del contenuto e della struttura del sito web prima della pubblicazione della pagina web. Queste valutazioni aiutano a identificare potenziali problemi e forniscono consigli utili per migliorare la qualità complessiva e le prestazioni del sito.
 
 ## Configurazione della verifica preliminare
 

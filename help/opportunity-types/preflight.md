@@ -1,10 +1,10 @@
 ---
 title: Ottimizzazioni della verifica preliminare con AEM Sites Optimizer
 description: Scopri le opportunità di verifica preliminare con AEM Sites Optimizer.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
-source-wordcount: '189'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 79%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunità di verifica preliminare](./assets/preflight/hero.png){align="center"}
 
-Le [opportunità di verifica preliminare](../documentation/preflight/overview.md) di AEM Sites Optimizer garantiscono che le pagine web siano ottimizzate in termini di prestazioni, SEO ed esperienza utente prima della pubblicazione. Identificando potenziali problemi come collegamenti interrotti, tag meta mancanti e problemi di accessibilità, i controlli preliminari consentono agli autori di contenuti e ai marketer di affrontare tali problemi nelle prime fasi del processo di pubblicazione. Questo approccio proattivo riduce al minimo il rischio di pubblicazione di contenuti non ottimali, migliora la qualità del sito e la presenza digitale complessiva. L’utilizzo delle opportunità di verifica preliminare supporta un flusso di lavoro più fluido, riduce le correzioni post-pubblicazione e contribuisce a migliorare la classificazione dei motori di ricerca e la soddisfazione degli utenti.
+Le [opportunità di verifica preliminare](../documentation/preflight/overview.md) di AEM Sites Optimizer garantiscono che le pagine web siano ottimizzate in termini di prestazioni, SEO ed esperienza utente prima della pubblicazione. Identificando potenziali problemi come collegamenti interrotti, tag meta mancanti e problemi di accessibilità, i controlli preliminari consentono agli autori di contenuti e ai marketer di affrontare tali problemi nelle prime fasi del processo di pubblicazione. Questo approccio proattivo riduce al minimo il rischio di pubblicazione di contenuti non ottimali, migliora la qualità del sito e migliora la presenza digitale complessiva. L’utilizzo di opportunità di verifica preliminare supporta un flusso di lavoro più fluido, riduce le correzioni post-pubblicazione e contribuisce a migliorare la classificazione dei motori di ricerca e la soddisfazione degli utenti.
 
 ## Opportunità
 

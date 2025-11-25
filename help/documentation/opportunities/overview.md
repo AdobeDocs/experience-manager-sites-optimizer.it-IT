@@ -1,10 +1,10 @@
 ---
 title: Documentazione delle opportunità di Sites Optimizer
 description: Scopri tutte le opportunità disponibili in Site Optimizer e come utilizzarle per migliorare le prestazioni del sito.
-source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '883'
+ht-degree: 96%
 
 ---
 
@@ -366,7 +366,7 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-navigation.md" target="_blank" rel="referrer" title="Navigazione bassa dei moduli">Navigazione bassa dei moduli</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri le opportunità di navigazione low e come utilizzarle per migliorare il coinvolgimento dei moduli sul tuo sito web.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -389,7 +389,7 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problemi di accessibilità dei moduli">Problemi di accessibilità dei moduli</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità dei problemi di accessibilità dei moduli e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri i problemi di accessibilità di Forms e come utilizzarlo per migliorare il coinvolgimento sul tuo sito web.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
