@@ -1,10 +1,10 @@
 ---
 title: Configurazione della verifica preliminare
 description: Scopri come impostare l’estensione Verifica preliminare per AEM Sites Optimizer.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: e39930ebe2213dcca17209934173a7b521b34dbc
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 67%
+source-wordcount: '573'
+ht-degree: 63%
 
 ---
 
@@ -135,6 +135,31 @@ Per utilizzare Verifica preliminare nell’editor di pagina di AEM Sites, puoi c
 
 1. Assegna al segnalibro il nome **Verifica preliminare** (o un nome qualsiasi).
 1. Aprire l&#39;URL di anteprima (`*.aem.page`) della pagina che si desidera controllare nell&#39;**Editor pagina AEM Sites**.
+1. Fai clic sul segnalibro **Verifica preliminare** nella barra Segnalibri per avviare il controllo di audit per la pagina corrente.
+
+>[!TAB Adobe Managed Services]
+
+>[!IMPORTANT]
+>
+>Sono supportati solo gli ambienti Adobe Managed Services (AMS) che utilizzano Adobe Identity Provider (IMS) per l’autenticazione in AEM Author. La verifica preliminare non funziona se l’organizzazione utilizza un altro provider di identità per l’autenticazione AMS.
+
+Per utilizzare la verifica preliminare nell’Editor pagina di AEM Sites in un ambiente AMS, crea un bookmarklet nel browser web, seguendo questi passaggi:
+
+1. Mostra **Barra Segnalibri** nel browser web:
+
+   * Premi **Ctrl+Maiusc+B** (Windows) o **Comando+Maiusc+B** (Mac).
+
+1. Crea un nuovo segnalibro nel browser:
+
+   * Fai clic con il pulsante destro del mouse sulla barra dei segnalibri e seleziona **Nuova pagina** o **Aggiungi segnalibro**.
+   * Nel campo **Indirizzo (URL)**, incolla il seguente codice:
+
+   ```javascript
+   javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=ams';document.head.appendChild(script);})();
+   ```
+
+1. Assegna al segnalibro il nome **Verifica preliminare** (o un nome qualsiasi).
+1. Aprire la pagina che si desidera controllare nell&#39;**Editor pagine AEM Sites**.
 1. Fai clic sul segnalibro **Verifica preliminare** nella barra Segnalibri per avviare il controllo di audit per la pagina corrente.
 
 >[!ENDTABS]
