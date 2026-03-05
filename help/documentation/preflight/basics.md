@@ -1,9 +1,9 @@
 ---
 title: Nozioni di base sulla verifica preliminare
 description: Scopri le nozioni di base di Verifica preliminare e come utilizzarne l’interfaccia.
-source-git-commit: b73458e4d575547ccb9220105a5f72090431221c
+source-git-commit: d669706909eeed61c6d0803e2b37df81ece987e1
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Per eseguire la verifica preliminare:
 ## Risultati dell’audit
 
 Al termine del controllo di audit, Verifica preliminare visualizza le opportunità trovate. Ogni opportunità è organizzata per tipo e include dettagli su come risolvere il problema.
+
+Nella parte superiore della finestra di dialogo Verifica preliminare di AEM è presente una barra di avanzamento utente che riflette i risultati complessivi del controllo di audit. Mostra la percentuale di opportunità passate senza problemi e il numero totale di problemi trovati in tutte le opportunità. La barra Avanzamento utente consente agli autori di valutare lo stato complessivo delle pagine in una panoramica.
 
 ## Informazioni sulle opportunità di verifica preliminare
 
