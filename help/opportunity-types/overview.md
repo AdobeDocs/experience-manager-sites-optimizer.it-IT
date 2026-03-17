@@ -1,9 +1,9 @@
 ---
 title: Tipi di opportunità di Sites Optimizer
 description: Scopri i tipi di opportunità chiave in Sites Optimizer e come possono aiutarti a migliorare le prestazioni del tuo sito.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '348'
 ht-degree: 92%
 
 ---
@@ -28,7 +28,8 @@ Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare i
 
 ## Tipi di opportunità
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./engagement.md
    { title = Engagement }

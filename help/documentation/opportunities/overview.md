@@ -1,9 +1,9 @@
 ---
 title: Documentazione delle opportunità di Sites Optimizer
 description: Scopri tutte le opportunità disponibili in Site Optimizer e come utilizzarle per migliorare le prestazioni del sito.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '891'
 ht-degree: 96%
 
 ---
@@ -70,8 +70,8 @@ Per escludere un’opportunità dalla dashboard di Sites Optimizer, fai clic sul
 
 Esplora tutte le opportunità disponibili in Sites Optimizer:
 
-<!-- CARDS
-
+<!--
+CARDS
 * ./accessibility-issues.md
   {title=Accessibility issues}
   {image=../../assets/common/card-arrows.png} 
@@ -117,8 +117,8 @@ Esplora tutte le opportunità disponibili in Sites Optimizer:
 * ./website-vulnerabilities.md
   {title=Website vulnerabilities}
   {image=../../assets/common/card-puzzle.png}
-  
---->
+-->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">

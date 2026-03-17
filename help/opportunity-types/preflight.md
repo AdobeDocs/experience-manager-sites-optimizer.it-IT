@@ -1,9 +1,9 @@
 ---
 title: Ottimizzazioni della verifica preliminare con AEM Sites Optimizer
 description: Scopri le opportunità di verifica preliminare con AEM Sites Optimizer.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 79%
 
 ---
@@ -17,7 +17,9 @@ Le [opportunità di verifica preliminare](../documentation/preflight/overview.md
 
 ## Opportunità
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/preflight/accessibility.md
   {title=Accessibility}

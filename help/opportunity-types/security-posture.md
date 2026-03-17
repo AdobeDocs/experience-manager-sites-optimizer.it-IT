@@ -1,9 +1,9 @@
 ---
 title: Ottimizzare il livello di sicurezza con Sites Optimizer
 description: Scopri come migliorare la sicurezza del tuo sito con Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,9 @@ Mantenere un elevato livello di sicurezza in AEM Sites Optimizer è fondamentale
 ## Opportunità
 
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/cors-configuration.md
   {title=CORS configuration}

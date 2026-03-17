@@ -1,9 +1,9 @@
 ---
 title: Ottimizzare il coinvolgimento con Sites Optimizer
 description: Scopri come migliorare il coinvolgimento con Sites Optimizer.
-source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
-workflow-type: ht
-source-wordcount: '285'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,9 @@ Le opportunità di coinvolgimento in AEM Sites Optimizer sono fondamentali per m
 
 ## Opportunità
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/accessibility-issues.md
   {title=Accessibility issues}

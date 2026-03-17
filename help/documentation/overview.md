@@ -1,8 +1,8 @@
 ---
 title: Documentazione di Sites Optimizer
 description: Documentazione di Experience Manager Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
 
@@ -19,7 +19,8 @@ Ti diamo il benvenuto nella documentazione di Sites Optimizer. Qui troverai info
 
 Esplora la documentazione di AEM Sites Optimizer per scoprire i componenti chiave dell’interfaccia utente, tra cui la dashboard Home, le configurazioni delle impostazioni e l’elenco Opportunità per informazioni approfondite sull’ottimizzazione.
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./basics.md
   {title = Basics}

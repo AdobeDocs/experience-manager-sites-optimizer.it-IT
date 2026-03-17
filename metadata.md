@@ -1,17 +1,19 @@
 ---
 solution: Experience Manager
 product: adobe experience manager
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
 description: Documentazione di AEM Sites Optimizer.
-index: y
-git-repo: https://github.com/AdobeDocs/experience-manager-sites-optimizer.it-IT
+index: true
+git-repo: https://github.com/AdobeDocs/experience-manager-sites-optimizer.en
 feature-set: Experience Manager Assets,Experience Manager Sites,Experience Manager, Experience Manager Forms, Experience Manager Cloud Manager
 cloud: Experience Cloud
 recommendations: noDisplay
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 29%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +23,7 @@ ht-degree: 29%
 Il sistema di authoring GitHub organizza i metadati gerarchicamente, utilizzando i seguenti livelli crescenti di precedenza.
 
 1. metadata.md
-1. Sommario
+1. ToC
 1. Articolo
 
 I metadati definiti nel file metadata.md si applicano all’intero archivio, ma possono essere ignorati a livello di sommario e di articolo. Eventuali esclusioni dei metadati devono essere eseguite al livello più basso possibile.
@@ -40,7 +42,7 @@ metadata.md
 * `tutorials-title`
 * `tutorials-url`
 
-Sommario
+ToCs
 
 * `sub-product`
 * `user-guide-title`
