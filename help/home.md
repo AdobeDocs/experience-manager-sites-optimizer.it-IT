@@ -1,7 +1,7 @@
 ---
 title: AEM Sites Optimizer
 description: 'Aumenta le prestazioni del sito web con Sites Optimizer: migliora la velocità, riduci i costi e aumenta l’affidabilità per un coinvolgimento migliore.'
-source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
+source-git-commit: 626de60c72579fd6ed96f259fbf524ed0a7103ba
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 84%
@@ -11,13 +11,14 @@ ht-degree: 84%
 
 # AEM Sites Optimizer
 
->[!VIDEO](https://video.tv.adobe.com/v/3455093/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)
 
 Adobe Experience Manager (AEM) Sites Optimizer è un servizio basato su cloud che analizza e migliora le prestazioni dei siti web basati su AEM. Sites Optimizer identifica le aree di miglioramento nel caricamento delle pagine, nell’utilizzo dei componenti e nella distribuzione dei contenuti. Questa funzionalità consente di migliorare le prestazioni del sito web riducendo al contempo i costi di manutenzione e aggiornamento. Utilizzando Sites Optimizer, puoi garantire un’esperienza online fluida e affidabile, importante per mantenere il coinvolgimento e le conversioni.
 
 ## Introduzione a Sites Optimizer
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./opportunity-types/overview.md
     * {title=Opportunity types}
@@ -108,13 +109,13 @@ Adobe Experience Manager (AEM) Sites Optimizer è un servizio basato su cloud ch
 
 <!--
 CARDS 
-* https://helpx.adobe.com/it/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
+* https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
     {title=Packages and licensing}
     {description=Learn about AEM Sites Optimizer packages and licensing.}
     {image=./assets/home/licensing.png}
     {target=_blank}
     {cta=Learn more}
-* https://business.adobe.com/it/products/experience-manager/sites/optimizer.html
+* https://business.adobe.com/products/experience-manager/sites/optimizer.html
     {title=Explore the capabilities of AEM Sites Optimizer}
     {description=Learn what AEM Site Optimizer can do for your company.}
     {image=./assets/home/business-adobe-com.png}
