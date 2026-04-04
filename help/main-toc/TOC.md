@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Questa è una descrizione della guida utente che verrà visualizzata nella pagina di destinazione.
-source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
+source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 94%
    + [Coinvolgimento](/help/opportunity-types/engagement.md)
    + [Integrità del sito](/help/opportunity-types/site-health.md)
    + [Livello di sicurezza](/help/opportunity-types/security-posture.md)
-   + [Ottimizzazione dei moduli](/help/opportunity-types/form-optimization.md)
-   + [Accessibilità dei moduli](/help/opportunity-types/form-accesibility.md)
+   + {hide-from-toc}[Ottimizzazione dei moduli](/help/opportunity-types/form-optimization.md)
+   + {hide-from-toc}[Accessibilità dei moduli](/help/opportunity-types/form-accesibility.md)
 + Documentazione{#documentation}
    + [Panoramica](/help/documentation/overview.md)
    + [Funzioni di base](/help/documentation/basics.md)
@@ -39,10 +39,10 @@ ht-degree: 94%
       + [Metadati non validi o mancanti](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Dati strutturati mancanti o non validi](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Testo alternativo mancante](/help/documentation/opportunities/missing-alt-text.md)
-      + [Conversioni basse dei moduli](/help/documentation/opportunities/low-conversions.md)
-      + [Visualizzazioni basse dei moduli](/help/documentation/opportunities/low-views.md)
-      + [Navigazione bassa dei moduli](/help/documentation/opportunities/low-navigation.md)
-      + [Problema relativo all’accessibilità dei moduli](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + {hide-from-toc}[Conversioni basse dei moduli](/help/documentation/opportunities/low-conversions.md)
+      + {hide-from-toc}[Visualizzazioni basse dei moduli](/help/documentation/opportunities/low-views.md)
+      + {hide-from-toc}[Navigazione bassa dei moduli](/help/documentation/opportunities/low-navigation.md)
+      + {hide-from-toc}[Problema di accessibilità di Forms](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Problemi relativi alla mappa del sito](/help/documentation/opportunities/sitemap-issues.md)
       + [Autorizzazioni del sito web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnerabilità del sito web](/help/documentation/opportunities/website-vulnerabilities.md)
