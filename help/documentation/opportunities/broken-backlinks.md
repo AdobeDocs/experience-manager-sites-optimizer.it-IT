@@ -2,10 +2,10 @@
 title: Documentazione sull’opportunità Backlink interrotti
 description: Scopri l’opportunità da cogliere in caso di backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 33%
 
 ---
 
@@ -14,29 +14,31 @@ ht-degree: 100%
 
 ![Opportunità Backlink interrotti](./assets/broken-backlinks/hero.png){align="center"}
 
-L’opportunità Backlink interrotti individua i collegamenti al tuo sito da altri siti web che portano a un errore 404. Poiché i motori di ricerca utilizzano i backlink per determinare la rilevanza della ricerca, i collegamenti interrotti possono influire negativamente sulla SEO (Search Engine Optimization) e sulla individuabilità del sito. Questi problemi possono sorgere da fattori come le modifiche dell’URL o la rimozione della pagina collegata.
-
-L’opportunità Backlink interrotti presenta un riepilogo nella parte superiore della pagina, che include una sintesi del problema e il suo impatto sul sito e sul business.
-
-* **Perdita traffico prevista**: perdita di traffico stimata a causa di backlink interrotti.
-* **Valore traffico previsto**: valore stimato del traffico perso.
+L’opportunità di collegamenti interrotti identifica collegamenti esterni che indicano pagine inesistenti (404) sul sito. Questi collegamenti comportano una perdita di traffico da referral e un valore SEO ridotto, in quanto i motori di ricerca si basano su collegamenti retroversi per valutare la rilevanza e l’autorità. Questi problemi si verificano quando gli URL vengono modificati, il contenuto viene rimosso o le pagine non sono più disponibili senza reindirizzamenti appropriati. AEM Sites Optimizer identifica tutti i backlink interrotti, fornisce raccomandazioni IA specifiche e consente l’implementazione con un solo clic per correggerli, il tutto in un’unica vista centralizzata.
 
 ## Identificazione automatica
 
 ![Identificazione automatica dei backlink interrotti](./assets/broken-backlinks/auto-identify.png){align="center"}
 
-L’opportunità Backlink interrotti riporta tutti i backlink interrotti sul sito, tra cui:
+AEM Sites Optimizer esegue una scansione continua delle origini dati esterne per rilevare i collegamenti retroversi che indicano pagine 404 inesistenti sul sito. I dati vengono aggregati da più origini, tra cui Google Search Console, [Telemetria operativa](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) e piattaforme SEO di terze parti. L’opportunità di identificazione automatica identifica i domini esterni che si collegano agli URL interrotti e assegna loro una priorità in base all’impatto, inclusa l’autorità di dominio e le perdite previste di traffico e capitale netto di collegamento.
 
-* **Pagina di riferimento**: dominio del sito web che contiene il collegamento interrotto.
-* **Priorità**: alta, media o bassa; indica l’impatto del collegamento interrotto sulla SEO (Search Engine Optimization) basata su TODO.
-* **URL di destinazione interrotto**: URL non esistente nel sito verso il quale viene effettuato il collegamento.
+Questa opportunità elenca tutti i problemi identificati, inclusi i seguenti dettagli:
+
+* **Dominio di riferimento e pagina** - La pagina o il dominio esterno che contiene il collegamento interrotto.
+* **Priorità** - Alta, media o bassa che indica l&#39;impatto del collegamento interrotto sul processo SEO.
+* **URL di destinazione interrotto**: l&#39;URL inesistente nel sito a cui si sta effettuando il collegamento.
 
 ## Suggerimento automatico
 
 ![Suggerimento automatico per backlink interrotti](./assets/broken-backlinks/auto-suggest.png){align="center"}
 
-L’opportunità Backlink interrotti fornisce anche suggerimenti generati dall’intelligenza artificiale in merito alla pagina del sito web a cui deve essere reindirizzato l’URL interrotto. I suggerimenti si basano sul testo che forma l’URL interrotto e il contenuto della pagina suggerita.
+Per ogni backlink danneggiato identificato, AEM Sites Optimizer consiglia la destinazione più appropriata per ripristinare il traffico e il valore SEO (Search Engine Optimization). Determina l’intento del backlink analizzando:
 
+* Struttura URL e token
+* Ancoraggio testo
+* Titolo e contesto della pagina di riferimento
+
+Questo intento viene confrontato con il contenuto del sito esistente per identificare la pagina di destinazione più rilevante. Ogni URL interrotto viene mappato su una pagina di sostituzione esatta o su una pertinente più vicina. Se non è possibile determinare una destinazione adatta, il problema viene evidenziato per la revisione manuale.
 
 >[!BEGINTABS]
 
@@ -56,7 +58,7 @@ Se non sei d’accordo con il suggerimento generato dall’IA, puoi modificare l
 
 ![Ignora backlink interrotti](./assets/broken-backlinks/ignore.png){align="center"}
 
-Puoi scegliere di ignorare alcune voci con l’URL di destinazione interrotto. La selezione dell’![icona Elimina o Ignora](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) rimuove il backlink interrotto dall’elenco delle opportunità. I backlink interrotti ignorati possono essere riattivati dalla scheda **Ignorate** nella parte superiore della pagina dell’opportunità.
+Puoi scegliere di ignorare le voci con gli URL di destinazione interrotti. La selezione dell’![icona Elimina o Ignora](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) rimuove il backlink interrotto dall’elenco delle opportunità. I backlink interrotti ignorati possono essere riattivati dalla scheda **Ignorate** nella parte superiore della pagina dell’opportunità.
 
 >[!ENDTABS]
 
@@ -64,22 +66,12 @@ Puoi scegliere di ignorare alcune voci con l’URL di destinazione interrotto. L
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Ottimizzazione automatica dei backlink interrotti](./assets/broken-backlinks/auto-optimize.png){align="center"}
+Dopo aver esaminato e approvato i suggerimenti, è possibile fare clic su **Distribuisci ottimizzazione**. AEM Sites Optimizer applica quindi le correzioni nell’ambiente di authoring, in base al modo in cui i reindirizzamenti vengono gestiti all’interno dell’implementazione. L’autore di AEM può quindi pubblicare le modifiche da Content Management System (CMS).
 
-Sites Optimizer Ultimate aggiunge la possibilità di implementare l’ottimizzazione automatica per i backlink interrotti. Se selezioni il pulsante **Ottimizzazione automatica**, le regole di reindirizzamento del sito AEM vengono aggiornate in automatico con la mappatura dell’**URL di destinazione interrotto** sull’**URL suggerito**. Questa funzionalità assicura che i visitatori del sito web e i bot di ricerca che seguono i collegamenti interrotti nelle **pagine di riferimento** vengano reindirizzati alla pagina corretta del sito, migliorando i SEO e l’esperienza utente.
+A seconda della configurazione, le correzioni vengono applicate come modifiche al contenuto o al codice all’interno dei flussi di lavoro di distribuzione esistenti. Il processo di ottimizzazione include i seguenti passaggi:
 
->[!BEGINTABS]
+* **Convalida** - Assicura che le modifiche funzionino come previsto e non introducano regressioni prima della distribuzione.
+* **Distribuzione** - Applica le modifiche tramite i processi esistenti, ad esempio gli aggiornamenti del contenuto in AEM o la distribuzione del codice tramite pipeline CI/CD.
+* **Controllo autorizzazioni** - Verifica che l&#39;utente disponga delle autorizzazioni appropriate per distribuire le modifiche. In caso contrario, vengono forniti output alternativi come elenchi di reindirizzamento scaricabili o patch di codice.
 
->[!TAB Implementa ottimizzazione]
-
-![Implementare l’ottimizzazione per i backlink interrotti](./assets/broken-backlinks/deploy-optimization.png){align="center"}
-
-La selezione di **Implementa ottimizzazione** consente di aggiornare le regole di reindirizzamento del sito AEM per mappare l’**URL di destinazione interrotto** sull’**URL suggerito**. Questa funzionalità assicura che i visitatori del sito web e i bot di ricerca che seguono i collegamenti interrotti nelle **pagine di riferimento** vengano reindirizzati alla pagina corretta del sito, migliorando i SEO e l’esperienza utente.
-
->[!TAB Richiedi approvazione]
-
-![Richiedi l’approvazione per i backlink interrotti](./assets/broken-backlinks/request-approval.png){align="center"}
-
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
+Questo processo garantisce che i reindirizzamenti siano implementati in modo accurato, convalidati prima del rilascio e allineati alle configurazioni e ai processi di governance esistenti.
