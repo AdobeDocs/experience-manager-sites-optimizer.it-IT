@@ -2,10 +2,10 @@
 title: Documentazione su Testo alternativo mancante
 description: Scopri l’opportunità da cogliere in caso di testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 36%
 
 ---
 
@@ -14,30 +14,24 @@ ht-degree: 100%
 
 ![Opportunità Testo alternativo mancante](./assets/missing-alt-text/hero.png){align="center"}
 
-L’opportunità Testo alternativo mancante individua sul sito web le immagini prive di testo alternativo descrittivo. I motori di ricerca non sono in grado di indicizzare o comprendere correttamente le immagini senza testo alternativo. Questa funzionalità riduce in modo significativo la reperibilità dei contenuti e la classificazione delle ricerche, limitando in ultima analisi la portata del pubblico. Inoltre, l’assenza di testo alternativo per le immagini esclude le persone con disabilità visive che si servono di assistenti vocali per comprendere i contenuti web, ostacolando l’accesso alle informazioni.
-
-L’opportunità Testo alternativo mancante mostra un riepilogo nella parte superiore della pagina, con una sintesi del problema e il suo impatto sul sito e sul business.
-
-* **Perdita traffico prevista**: perdita di traffico stimata a causa di testo alternativo mancante.
-* **Valore traffico previsto**: valore stimato del traffico perso.
-
-Inoltre, un campo aggiuntivo mostra la logica su cui si basano tali stime, insight e suggerimenti relativi all’opportunità.
+L’opportunità di testo alternativo mancante identifica le immagini sul sito web che non dispongono di testo alternativo descrittivo. Senza testo alternativo, gli utenti che si affidano agli assistenti vocali non possono interpretare il contenuto visivo, creando barriere all’accessibilità. Inoltre, limita la comprensione e l’indicizzazione delle immagini da parte dei motori di ricerca, riducendo la possibilità di individuare i contenuti e le prestazioni di ricerca. AEM Sites Optimizer identifica i problemi di testo alternativo mancanti, fornisce consigli specifici sull’intelligenza artificiale e consente l’implementazione con un solo clic per risolverli in un’unica vista centralizzata.
 
 ## Identificazione automatica
 
 ![Identificazione automatica di testo alternativo mancante](./assets/missing-alt-text/auto-identify.png){align="center"}
 
-L’opportunità Testo alternativo mancante elenca tutte le immagini del sito web a cui manca il testo alternativo. Questa sezione contiene le seguenti categorie:
+AEM Sites Optimizer esegue la scansione del sito web utilizzando un controllo in più passaggi che combina scansiona nel sito, dati sul traffico utente reale e analisi basata su IA per identificare le immagini che richiedono testo alternativo ma non lo dispongono definito. Valuta inoltre le immagini sulla pagina per determinare se è necessario testo alternativo, escludendo le immagini decorative o non informative in conformità alle linee guida per l’accessibilità dei contenuti web (WCAG). Le immagini vengono analizzate in base al loro ruolo e alla loro rilevanza all’interno della pagina, dando priorità a correzioni che hanno il maggiore impatto su accessibilità e SEO.
+
+Questa opportunità fornisce un elenco dei problemi identificati, tra cui:
 
 * **Pagina**: percorso della pagina contenente l’immagine priva di testo alternativo.
 * **Immagine**: immagine prima di testo alternativo descrittivo.
-* **Suggerimento**: testo alternativo suggerito e generato dall’IA.
 
 ## Suggerimento automatico
 
 ![Suggerimento automatico per testo alternativo mancante](./assets/missing-alt-text/auto-suggest.png){align="center"}
 
-La funzione Suggerimento automatico fornisce suggerimenti generati dall’IA per il testo alternativo delle immagini. I suggerimenti generati dall’IA sono progettati per aiutarti ad aggiungere rapidamente testo alternativo alle immagini senza dover analizzare manualmente ogni immagine.
+Per ogni problema identificato, AEM Sites Optimizer suggerisce un testo descrittivo alternativo per l’immagine. Utilizza modelli di visione basati sull’intelligenza artificiale per analizzare l’immagine e generare una descrizione che ne rifletta il contenuto e il ruolo all’interno della pagina. I consigli sono concisi, pertinenti e in linea con le best practice in materia di accessibilità. Ogni suggerimento può essere rivisto e modificato prima di essere applicato.
 
 >[!BEGINTABS]
 
@@ -63,16 +57,18 @@ Puoi scegliere di ignorare alcune voci nell’elenco dell’opportunità. La sel
 
 ![Ottimizzazione automatica per testo alternativo mancante](./assets/missing-alt-text/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate offre la possibilità di implementare l’ottimizzazione automatica per i problemi rilevati dall’opportunità Testo alternativo mancante. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Una volta esaminati e approvati i suggerimenti, puoi fare clic su **Distribuisci ottimizzazione**. AEM Sites Optimizer applica quindi le correzioni nell’ambiente di authoring, in base a come viene gestito il testo alternativo all’interno dell’implementazione. L’autore di AEM può quindi pubblicare le modifiche da Content Management System (CMS).
 
->[!BEGINTABS]
+A seconda della configurazione, gli aggiornamenti possono essere applicati direttamente al contenuto della pagina, ai metadati delle risorse o ai modelli di contenuto di supporto. Il processo di ottimizzazione include i seguenti passaggi:
 
->[!TAB Implementa ottimizzazione]
+* **Convalida** - Assicura che gli aggiornamenti vengano applicati in modo sicuro senza influire sulle funzionalità esistenti.
+* **Distribuzione** - Applica gli aggiornamenti tramite processi esistenti, ad esempio gli aggiornamenti del contenuto in AEM o l&#39;integrazione con le API di contenuto.
+* **Controllo autorizzazioni** - Verifica che l&#39;utente disponga delle autorizzazioni appropriate per applicare le modifiche. In caso contrario, è possibile utilizzare output alternativi come aggiornamenti scaricabili per l’handoff.
 
-{{auto-optimize-deploy-optimization-slack}}
+Se supportati, gli aggiornamenti vengono sottoposti a controllo delle versioni, fornendo visibilità e capacità di rollback. Questo garantisce che gli aggiornamenti di testo alternativo vengano applicati con precisione, allineati con le implementazioni esistenti e coerenti con gli standard di governance e accessibilità.
 
->[!TAB Richiedi approvazione]
+AEM Sites Optimizer applica automaticamente gli aggiornamenti di testo alternativo in base alla configurazione:
 
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
+* **Edge Delivery Services** - Aggiorna il documento di origine, ad esempio Google Docs o SharePoint.
+* **AEM as a Cloud Service** - Scrive gli aggiornamenti direttamente tramite l&#39;API dei contenuti con il supporto del controllo delle versioni e del fallback.
+* **Digital Asset Management (facoltativo)** - Aggiorna il testo alternativo a livello di risorsa, se applicabile.
