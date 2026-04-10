@@ -2,10 +2,10 @@
 title: Documentazione su Testo alternativo mancante
 description: Scopri l’opportunità da cogliere in caso di testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: ba3f15903a3f551bd64351a3bb002b43cf5cb2cd
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 36%
+source-wordcount: '694'
+ht-degree: 37%
 
 ---
 
@@ -67,8 +67,20 @@ A seconda della configurazione, gli aggiornamenti possono essere applicati diret
 
 Se supportati, gli aggiornamenti vengono sottoposti a controllo delle versioni, fornendo visibilità e capacità di rollback. Questo garantisce che gli aggiornamenti di testo alternativo vengano applicati con precisione, allineati con le implementazioni esistenti e coerenti con gli standard di governance e accessibilità.
 
-AEM Sites Optimizer applica automaticamente gli aggiornamenti di testo alternativo in base alla configurazione:
+AEM Sites Optimizer applica automaticamente gli aggiornamenti di testo alternativo in base alla configurazione, come segue:
 
-* **Edge Delivery Services** - Aggiorna il documento di origine, ad esempio Google Docs o SharePoint.
-* **AEM as a Cloud Service** - Scrive gli aggiornamenti direttamente tramite l&#39;API dei contenuti con il supporto del controllo delle versioni e del fallback.
-* **Digital Asset Management (facoltativo)** - Aggiorna il testo alternativo a livello di risorsa, se applicabile.
+>[!BEGINTABS]
+
+>[!TAB Edge Delivery Services]
+
+Aggiorna il documento di origine, ad esempio Google Docs o SharePoint.
+
+>[!TAB AEM as a Cloud Service]
+
+Scrive gli aggiornamenti direttamente tramite l’API dei contenuti con il supporto del controllo delle versioni e del fallback.
+
+>[!TAB Gestione delle risorse digitali (facoltativo)]
+
+Se applicabile, aggiorna il testo alternativo a livello di risorsa.
+
+>[!ENDTABS]
