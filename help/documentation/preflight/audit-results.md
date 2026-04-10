@@ -1,9 +1,9 @@
 ---
 title: Risultati dell’audit in Verifica preliminare
-description: Scopri come interpretare i risultati del controllo di verifica preliminare e la barra di avanzamento utente, individuare i problemi nell’anteprima e applicare i suggerimenti generati dall’intelligenza artificiale.
-source-git-commit: 10534d1fabdd88b11f45895d39bc1afd0d664ff1
+description: Scopri come interpretare i risultati del controllo di verifica preliminare e la barra di avanzamento utente e come individuare i problemi nell’anteprima.
+source-git-commit: f513d2bb8ff8af203333bd0c27bd00092f69d014
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -26,33 +26,13 @@ La barra è codificata da un colore:
 
 Consulta l&#39;[elenco completo dei tipi di opportunità disponibili e come gestirli](./overview.md#preflight-opportunities).
 
-## Individua i problemi e applica i suggerimenti
+## Passa ai problemi
 
-Al termine del controllo di audit, puoi passare rapidamente ai problemi identificati e applicare i suggerimenti generati dall’intelligenza artificiale direttamente nell’anteprima.
+Al termine del controllo di audit, puoi passare rapidamente ai problemi identificati nell’anteprima.
 
-![Evidenziazione anteprima verifica preliminare e pannello suggerimenti IA](./assets/audit-results/highlight-issue.png){align="center"}
+![Anteprima evidenziazione di un problema](./assets/audit-results/highlight-issue.png){align="center"}
 
 ### Passare a un problema
 
 1. Selezionare un problema dall&#39;elenco dei problemi nel pannello Verifica preliminare.
 1. L’anteprima scorre automaticamente fino alla posizione corrispondente sulla pagina ed evidenzia tale posizione, in modo da poter esaminare il problema nel contesto senza effettuare una ricerca manuale.
-
-### Applicare suggerimenti generati dall’intelligenza artificiale
-
-Per i problemi che includono consigli generati dall’intelligenza artificiale, puoi applicare le ottimizzazioni suggerite direttamente dal pannello dei suggerimenti.
-
-#### Applicare un’ottimizzazione
-
-1. Rivedi il suggerimento generato da IA.
-1. Selezionare **Applica ottimizzazione**.
-
-Il contenuto consigliato viene applicato direttamente al contenuto.
-
-#### Modifica prima dell’applicazione
-
-Se sono necessari adeguamenti:
-
-1. Modificate il suggerimento generato dall&#39;intelligenza artificiale nel pannello dei suggerimenti.
-1. Selezionare **Applica ottimizzazione**.
-
-La versione modificata viene applicata all’anteprima.
