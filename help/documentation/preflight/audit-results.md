@@ -1,9 +1,9 @@
 ---
 title: Risultati dell’audit in Verifica preliminare
 description: Scopri come interpretare i risultati del controllo di verifica preliminare e la barra di avanzamento utente e come individuare i problemi nell’anteprima.
-source-git-commit: f513d2bb8ff8af203333bd0c27bd00092f69d014
+source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,14 @@ La barra è codificata da un colore:
 
 Consulta l&#39;[elenco completo dei tipi di opportunità disponibili e come gestirli](./overview.md#preflight-opportunities).
 
-## Passa ai problemi
+## Evidenzia opportunità
 
-Al termine del controllo di audit, puoi passare rapidamente ai problemi identificati nell’anteprima.
+Al termine del controllo di audit, puoi individuare e comprendere rapidamente le opportunità evidenziandole direttamente sulla pagina.
 
-![Anteprima evidenziazione di un problema](./assets/audit-results/highlight-issue.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
 
-### Passare a un problema
+La verifica preliminare evidenzia ogni opportunità nel contesto, collegando i risultati nel pannello alla posizione esatta nel contenuto. In questo modo è più semplice rivedere e risolvere le opportunità senza effettuare ricerche manuali nella pagina.
 
-1. Selezionare un problema dall&#39;elenco dei problemi nel pannello Verifica preliminare.
-1. L’anteprima scorre automaticamente fino alla posizione corrispondente sulla pagina ed evidenzia tale posizione, in modo da poter esaminare il problema nel contesto senza effettuare una ricerca manuale.
+1. Apri il pannello Verifica preliminare nel contesto della pagina da controllare ed esegui i controlli di audit.
+1. Selezionate un&#39;opportunità specifica dall&#39;elenco nel pannello Verifica preliminare.
+1. L’anteprima scorre automaticamente fino all’area rilevante ed evidenzia l’elemento corrispondente, consentendo di identificare facilmente e ottimizzare l’opportunità nel contesto.
