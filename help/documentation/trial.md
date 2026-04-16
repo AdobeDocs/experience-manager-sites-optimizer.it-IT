@@ -1,7 +1,7 @@
 ---
 title: Versione di prova Sites Optimizer
 description: Introduzione alla versione di prova di AEM Sites Optimizer per i clienti AEM Sites esistenti.
-source-git-commit: 0c9acea024f436166c467d55a3d3697f3eaf08b6
+source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 15%
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 Inizia a usare Sites Optimizer utilizzando questa versione di prova per i clienti esistenti di AEM Sites (Edge Delivery Services, Cloud Services e Managed Services). I dati del dominio sono già stati caricati in precedenza, quindi puoi iniziare subito a ottimizzarli. Il video seguente illustra l’esperienza della versione di prova e mostra come iniziare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483295/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -23,7 +23,7 @@ Inizia a usare Sites Optimizer utilizzando questa versione di prova per i client
 
 Per iniziare a utilizzare la versione di prova, segui la procedura riportata di seguito:
 
-1. Accedi con il tuo ID organizzazione AEM Sites IMS a [www.sitesoptimizer.now](https://www.sitesoptimizer.now).
+1. Accedi con il tuo ID organizzazione AEM Sites IMS a [www.sitesoptimizer.live](http://www.sitesoptimizer.live/).
 2. Visualizza metriche chiave quali visualizzazioni di pagina, tempo di caricamento e tasso di coinvolgimento, insieme alle principali opportunità di ottimizzazione prioritarie in base all’impatto.
 3. Esplora i tre tipi di opportunità disponibili: [collegamenti interrotti](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) e [testo alternativo mancante](./opportunities/missing-alt-text.md).
 4. Per ogni opportunità, esaminare fino a tre problemi identificati. Utilizza i suggerimenti generati dall’intelligenza artificiale e, quando è il momento, distribuisci le ottimizzazioni direttamente nell’ambiente AEM.
@@ -56,7 +56,7 @@ Clienti AEM Sites esistenti (Edge Delivery Services, Cloud Services e Managed Se
 +++
 +++Come posso accedere alla versione di prova?
 
-Vai a [www.sitesoptimizer.now](https://www.sitesoptimizer.now) e accedi con il tuo ID organizzazione AEM Sites IMS.
+Vai a [www.sitesoptimizer.live](http://www.sitesoptimizer.live/) e accedi con il tuo ID organizzazione AEM Sites IMS.
 
 +++
 +++Il processo è costato qualcosa?
