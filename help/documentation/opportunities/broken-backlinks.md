@@ -66,7 +66,7 @@ Puoi scegliere di ignorare le voci con gli URL di destinazione interrotti. La se
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483261/?captions=ita&learn=on&enablevpops)
 
 Dopo aver esaminato e approvato i suggerimenti, è possibile fare clic su **Distribuisci ottimizzazione**. AEM Sites Optimizer applica quindi le correzioni nell’ambiente di authoring, in base al modo in cui i reindirizzamenti vengono gestiti all’interno dell’implementazione. L’autore di AEM può quindi pubblicare le modifiche da Content Management System (CMS).
 

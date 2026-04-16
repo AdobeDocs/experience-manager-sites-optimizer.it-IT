@@ -38,7 +38,7 @@ Quando si fa clic sul pulsante del suggerimento, viene visualizzata una nuova fi
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
->[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483379/?captions=ita&learn=on&enablevpops)
 
 Dopo aver esaminato e approvato i consigli, puoi fare clic su **Distribuisci ottimizzazione**. AEM Sites Optimizer genera patch di codice in base ai problemi identificati e le rende disponibili tramite i processi di controllo delle versioni. Il processo di ottimizzazione include i seguenti passaggi:
 

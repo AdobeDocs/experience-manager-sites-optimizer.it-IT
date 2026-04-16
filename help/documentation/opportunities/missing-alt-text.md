@@ -55,7 +55,7 @@ Puoi scegliere di ignorare alcune voci nell’elenco dell’opportunità. La sel
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
->[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483272/?captions=ita&learn=on&enablevpops)
 
 Una volta esaminati e approvati i suggerimenti, puoi fare clic su **Distribuisci ottimizzazione**. AEM Sites Optimizer applica quindi le correzioni nell’ambiente di authoring, in base a come viene gestito il testo alternativo all’interno dell’implementazione. L’autore di AEM può quindi pubblicare le modifiche da Content Management System (CMS).
 
