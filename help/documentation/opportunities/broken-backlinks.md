@@ -2,7 +2,7 @@
 title: Documentazione sull’opportunità Backlink interrotti
 description: Scopri l’opportunità da cogliere in caso di backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: 643a639a233417b3295b7b66c1a6a12ef37abab0
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 33%
@@ -20,7 +20,7 @@ L’opportunità di collegamenti interrotti identifica collegamenti esterni che 
 
 ![Identificazione automatica dei backlink interrotti](./assets/broken-backlinks/auto-identify.png){align="center"}
 
-AEM Sites Optimizer esegue una scansione continua delle origini dati esterne per rilevare i collegamenti retroversi che indicano pagine 404 inesistenti sul sito. I dati vengono aggregati da più origini, tra cui Google Search Console, [Telemetria operativa](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) e piattaforme SEO di terze parti. L’opportunità di identificazione automatica identifica i domini esterni che si collegano agli URL interrotti e assegna loro una priorità in base all’impatto, inclusa l’autorità di dominio e le perdite previste di traffico e capitale netto di collegamento.
+AEM Sites Optimizer esegue una scansione continua delle origini dati esterne per rilevare i collegamenti retroversi che indicano pagine 404 inesistenti sul sito. I dati vengono aggregati da più origini, tra cui Google Search Console, [Telemetria operativa](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) e piattaforme SEO di terze parti. L’opportunità di identificazione automatica identifica i domini esterni che si collegano agli URL interrotti e assegna loro una priorità in base all’impatto, inclusa l’autorità di dominio e le perdite previste di traffico e capitale netto di collegamento.
 
 Questa opportunità elenca tutti i problemi identificati, inclusi i seguenti dettagli:
 
@@ -65,6 +65,8 @@ Puoi scegliere di ignorare le voci con gli URL di destinazione interrotti. La se
 ## Ottimizzazione automatica
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
 
 Dopo aver esaminato e approvato i suggerimenti, è possibile fare clic su **Distribuisci ottimizzazione**. AEM Sites Optimizer applica quindi le correzioni nell’ambiente di authoring, in base al modo in cui i reindirizzamenti vengono gestiti all’interno dell’implementazione. L’autore di AEM può quindi pubblicare le modifiche da Content Management System (CMS).
 

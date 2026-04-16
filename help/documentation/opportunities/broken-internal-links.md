@@ -2,10 +2,10 @@
 title: Documentazione sull’opportunità Collegamenti interni interrotti
 description: Scopri l’opportunità da cogliere in caso di collegamenti interrotti e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+source-git-commit: 71c33f306db7c3aadb4e3884a840f45cf495ff48
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ L’opportunità di collegamenti interni interrotti fornisce suggerimenti genera
 
 >[!BEGINTABS]
 
->[!TAB Base logica dell’IA]
+>[!TAB Base logica dell’intelligenza artificiale]
 
 <!--[AI rationale of broken internal links](./assets/broken-internal-links/auto-suggest-ai-rationale.png) -->
 
@@ -63,7 +63,7 @@ Puoi scegliere di ignorare le voci con gli URL di destinazione interrotti. La se
 
 ## Ottimizzazione automatica
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Versione di prova di Sites Optimizer"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 
