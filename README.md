@@ -1,5 +1,5 @@
 ---
-source-git-commit: 26f63911540206e1704a9989267d9981fa10a22f
+source-git-commit: 5a3b06748915066f567d5aa6672a412d4db66e0f
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 4%
@@ -14,4 +14,3 @@ I tuoi contributi alla documentazione di sono i benvenuti. Consulta le risorse s
 * [contributing.md](contributing.md): panoramica su come contribuire alla documentazione.
 * [guidelines.md](guidelines.md): panoramica su cosa includere nei contributi e come comporre i contributi alla documentazione.
 * [code-of-conduct.md](code-of-conduct.md) Per una panoramica degli standard di comportamento che Adobe si aspetta di seguire quando contribuirai al progetto di documentazione.
-
