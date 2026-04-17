@@ -1,10 +1,10 @@
 ---
 title: Impostazioni di Sites Optimizer
 description: Scopri come configurare le impostazioni di Sites Optimizer e integrarle con altri strumenti.
-source-git-commit: 93f802beee074f4de2f2438c85c2880def5aad69
+source-git-commit: b71d5510162864ee76931cf754164ea637cadd92
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 11%
+source-wordcount: '749'
+ht-degree: 12%
 
 ---
 
@@ -41,8 +41,6 @@ In AEM Sites Optimizer, vai a **Impostazioni → Connetti ad AEM Sites** e immet
 
 - **URL Source contenuto**: l&#39;URL della cartella SharePoint o della cartella Unità Google che supporta il sito EDS, ad esempio:
   `https://drive.google.com/drive/folders/...` oppure `https://myorg.sharepoint.com/...`
-
-Questo URL deve corrispondere a quello configurato nel sito EDS `fstab.yaml`.
 
 Dopo aver inserito l’URL del Source di contenuto, AEM Sites Optimizer rileverà il tipo di origine di contenuto e mostrerà le istruzioni di accesso pertinenti di seguito.
 
