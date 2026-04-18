@@ -30,7 +30,7 @@ Consulta l&#39;[elenco completo dei tipi di opportunità disponibili e come gest
 
 Al termine del controllo di audit, puoi individuare e comprendere rapidamente le opportunità evidenziandole direttamente sulla pagina.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483420/?captions=ita&learn=on&enablevpops)
 
 La verifica preliminare evidenzia ogni opportunità nel contesto, collegando i risultati nel pannello alla posizione esatta nel contenuto. In questo modo è più semplice rivedere e risolvere le opportunità senza effettuare ricerche manuali nella pagina.
 
