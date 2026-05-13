@@ -1,10 +1,10 @@
 ---
 title: Opportunità di verifica preliminare dell’accessibilità
-description: Scopri l’pportunità di verifica preliminare dell’accessibilità in Sites Optimizer.
+description: Scopri l’opportunità di verifica preliminare dell’accessibilità in Sites Optimizer.
 source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -13,4 +13,4 @@ ht-degree: 54%
 
 ![Opportunità di verifica preliminare dell’accessibilità](./assets/accessibility/hero.png){align="center"}
 
-L’opportunità di Verifica preliminare dell’accessibilità in Sites Optimizer consente di identificare e risolvere i problemi di accessibilità sul sito web per garantirne l’utilizzabilità da parte di tutti i singoli utenti, incluse le persone con disabilità. Questa opportunità si concentra sulla valutazione della conformità del sito con gli standard di accessibilità e fornisce consigli utili per il miglioramento.
+L’opportunità di Verifica preliminare dell’accessibilità in Sites Optimizer consente di identificare e risolvere i problemi di accessibilità sul tuo sito web per garantirne che sia utilizzabile da parte di tutti i singoli utenti, comprese le persone con disabilità. Questa opportunità si concentra sulla valutazione della conformità del sito con gli standard di accessibilità e fornisce consigli utili per il miglioramento.
