@@ -30,7 +30,7 @@ Consulta l’[elenco completo dei tipi di opportunità disponibili e come gestir
 
 Al termine dell’audit, puoi individuare e comprendere rapidamente le opportunità evidenziandole direttamente sulla pagina.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483420/?captions=ita&learn=on&enablevpops)
 
 La verifica preliminare evidenzia ogni opportunità nel contesto, collegando i risultati nel pannello alla posizione esatta nel contenuto. In questo modo puoi rivedere e risolvere con semplicità le opportunità senza effettuare ricerche manuali nella pagina.
 
