@@ -3,26 +3,23 @@ title: Documentazione sull’opportunità da cogliere in caso di problemi di acc
 description: Scopri l’opportunità dei problemi di accessibilità dei moduli e come utilizzarla per migliorare l’accessibilità dei moduli e l’esperienza utente sul tuo sito web.
 badgeFormOptimization: label="Ottimizzazione dei moduli" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione dei moduli"
 TQID: https://experienceleague.adobe.com/LsxxwR0UUBZEB1AJDXwE8zHbPRJcrOqwn25xdsesPhg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 311
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Opportunità dei problemi di accessibilità dei moduli
 
-<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> La funzionalità di ottimizzazione dei moduli è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 ![Opportunità dei problemi di accessibilità dei moduli](./assets/forms-accessibility-issues/hero.png){align="center"}
 
-L’opportunità dei problemi di accessibilità dei moduli identifica quanto questi sono conformi alle esigenze delle persone con disabilità e se rispettano le [linee guida per l’accessibilità dei contenuti web (WCAG)](https://www.w3.org/TR/WCAG21/). Valutando la conformità dei moduli alle linee guida WCAG, puoi contribuire a creare un’esperienza di moduli inclusiva. In questo modo gli individui con disabilità visive, uditive, cognitive e motorie possono navigare, interagire con e completare con successo i moduli. Non solo è essenziale per ragioni etiche, ma promuove anche il rispetto dei requisiti legali. Inoltre, migliora i tassi di completamento dei moduli e può aumentare la portata del pubblico, migliorando sia l’esperienza utente che le prestazioni aziendali.
+L’opportunità dei problemi di accessibilità dei moduli identifica quanto questi sono conformi alle esigenze delle persone con disabilità e se rispettano le [linee guida per l’accessibilità dei contenuti web (WCAG)](https://www.w3.org/TR/WCAG21/). Valutando la conformità del sito alle linee guida WCAG, puoi contribuire a creare un’esperienza online inclusiva. In questo modo gli individui con disabilità visive, uditive, cognitive e motorie possono navigare, interagire con e completare correttamente i moduli. Non solo è essenziale per ragioni etiche, ma promuove anche il rispetto dei requisiti legali. Inoltre, migliora i tassi di completamento dei moduli e può aumentare la portata del pubblico, migliorando sia l’esperienza utente che le prestazioni aziendali.
 
 ## Identificazione automatica
 
@@ -40,7 +37,7 @@ L’**opportunità dei problemi di accessibilità dei moduli** identifica i prob
 
 ![Suggerimento automatico per problemi di accessibilità dei moduli](./assets/forms-accessibility-issues/auto-suggest.png){align="center"}
 
-Il suggerimento automatico fornisce consigli generati dall&#39;intelligenza artificiale nel campo **Suggerimenti**, che fornisce indicazioni prescrittive su cosa fare per risolvere il problema di accessibilità dei moduli.
+Il suggerimento automatico fornisce consigli generati dall’intelligenza artificiale nel campo **Suggerimenti**, che fornisce indicazioni prescrittive su come correggere il problema relativo all’accessibilità dei moduli.
 
 <!-- 
 

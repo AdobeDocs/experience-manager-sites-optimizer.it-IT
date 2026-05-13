@@ -2,15 +2,12 @@
 title: Documentazione di Sites Optimizer
 description: Documentazione di Experience Manager Sites Optimizer.
 TQID: https://experienceleague.adobe.com/Thzxo0-DNTCjk9C0MX7OR2yObUKxbUQDQFV3BtD7kmg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 145
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -54,12 +51,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./basics.md" target="_blank" rel="referrer" title="Funzioni di base">Nozioni di base</a>
+                        <a href="./basics.md" target="_blank" rel="referrer" title="Nozioni di base">Nozioni di base</a>
                     </p>
-                    <p class="is-size-6">Scopri le nozioni di base di Sites Optimizer e come spostarsi al suo interno.</p>
+                    <p class="is-size-6">Scopri le nozioni di base di Sites Optimizer e come spostarti al suo interno.</p>
                 </div>
                 <a href="./basics.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -79,10 +76,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/overview.md" target="_blank" rel="referrer" title="Opportunità">Opportunità</a>
                     </p>
-                    <p class="is-size-6">Scopri tutte le opportunità disponibili in Site Optimizer e come utilizzarle per migliorare le prestazioni del sito.</p>
+                    <p class="is-size-6">Scopri tutte le opportunità disponibili in Sites Optimizer e come utilizzarle per migliorare le prestazioni del sito.</p>
                 </div>
                 <a href="./opportunities/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -105,7 +102,7 @@ CARDS
                     <p class="is-size-6">Scopri come configurare le impostazioni di Sites Optimizer e integrarle con altri strumenti.</p>
                 </div>
                 <a href="./settings.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -123,12 +120,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./trial.md" target="_blank" rel="referrer" title="Prova">Versione di valutazione</a>
+                        <a href="./trial.md" target="_blank" rel="referrer" title="Prova">Versione di prova</a>
                     </p>
-                    <p class="is-size-6">Introduzione alla versione di prova di Sites Optimizer, con passaggi, limiti e domande frequenti per i clienti AEM Sites esistenti.</p>
+                    <p class="is-size-6">Introduzione alla versione di prova di Sites Optimizer, con passaggi, limiti e domande frequenti per clienti AEM Sites esistenti.</p>
                 </div>
                 <a href="./trial.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>

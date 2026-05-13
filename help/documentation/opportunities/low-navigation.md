@@ -3,22 +3,19 @@ title: Documentazione sull’opportunità da cogliere in caso di navigazione bas
 description: Scopri l’opportunità di navigazione bassa e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.
 badgeFormOptimization: label="Ottimizzazione dei moduli" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione dei moduli"
 TQID: https://experienceleague.adobe.com/l7dAFUhhqSI8O8YyboY49-4ahofWelfozBU5hejsVlA
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 333
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Opportunità da cogliere in caso di navigazione bassa dei moduli
 
-<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> La funzionalità di ottimizzazione dei moduli è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 ![Opportunità Navigazione bassa](./assets/low-navigation/hero.png){align="center"}
 
