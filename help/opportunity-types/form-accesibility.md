@@ -9,20 +9,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 154
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Opportunità di accessibilità per Forms
+# Opportunità di accessibilità dei moduli
 
-<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> La funzionalità di ottimizzazione dei moduli è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 ![Opportunità di accessibilità dei moduli](./assets/form-accesibility/hero.png){align="center"}
 
 
-Le opportunità di accessibilità dei moduli sono fondamentali per migliorare le interazioni degli utenti e aumentare le conversioni. La valutazione della conformità dei moduli alle linee guida per l’accessibilità dei contenuti web (WCAG) garantisce un’esperienza inclusiva per gli utenti con disabilità visive, uditive, cognitive e motorie. Questa funzionalità non solo soddisfa i requisiti etici e legali, ma migliora anche i tassi di completamento dei moduli e amplia il tuo pubblico, con conseguente miglioramento dell’esperienza utente e risultati di business più solidi.
+Le opportunità di accessibilità dei moduli sono fondamentali per migliorare le interazioni degli utenti e aumentare le conversioni. La valutazione della conformità dei moduli alle linee guida per l’accessibilità dei contenuti web (WCAG) garantisce un’esperienza inclusiva per gli utenti con disabilità visive, uditive, cognitive e motorie. Questa funzionalità non solo soddisfa i requisiti etici e legali, ma aumenta anche i tassi di completamento dei moduli e amplia il tuo pubblico, garantendo una migliore esperienza utente e risultati di business più solidi.
 
 ## Opportunità
 
@@ -58,7 +58,7 @@ CARDS
                     <p class="is-size-6">Scopri i problemi di accessibilità dei moduli e come utilizzarli per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>

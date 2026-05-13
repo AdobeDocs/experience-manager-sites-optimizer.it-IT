@@ -10,9 +10,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 348
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ AEM Sites Optimizer fornisce informazioni e consigli utili per migliorare le pre
 
 Ogni categoria evidenzia un modo diverso per migliorare il sito. Una categoria può aumentare l’interazione dei visitatori. Un’altra può migliorare la reperibilità. Altre si concentrano sul rafforzamento della sicurezza o sul mantenimento della stabilità del sito. La verifica preliminare consente di analizzare e ottimizzare le pagine prima che vengano pubblicate.
 
-Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare il pubblico giusto e mantenere il tuo sito sicuro e affidabile. Migliorando il coinvolgimento e l’acquisizione del traffico si favoriscono l’interazione e la visibilità, mentre la solidità del livello di sicurezza e l’integrità del sito contribuiscono a garantire fiducia e stabilità. L’analisi preliminare assicura che il contenuto sia ottimizzato prima della pubblicazione. Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
+Sfruttando queste opportunità puoi migliorare l’esperienza utente, attirare il pubblico giusto e mantenere il tuo sito sicuro e affidabile. Migliorando il coinvolgimento e l’acquisizione del traffico si favoriscono l’interazione e la visibilità, mentre la solidità del livello di sicurezza e l’integrità del sito contribuiscono a garantire fiducia e stabilità. L’analisi della verifica preliminare garantisce che i contenuti siano ottimizzati prima della pubblicazione. Esplora i collegamenti riportati di seguito per visualizzare le opportunità organizzate per categoria e scoprire come migliorare il tuo sito.
 
 ## Tipi di opportunità
 
@@ -72,7 +72,7 @@ CARDS
                     <p class="is-size-6">Scopri come migliorare il coinvolgimento con Sites Optimizer.</p>
                 </div>
                 <a href="./engagement.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -95,7 +95,7 @@ CARDS
                     <p class="is-size-6">Scopri come migliorare la sicurezza del tuo sito con Sites Optimizer.</p>
                 </div>
                 <a href="./security-posture.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -115,10 +115,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./site-health.md" target="_blank" rel="referrer" title="Integrità del sito">Integrità del sito</a>
                     </p>
-                    <p class="is-size-6">Scopri come migliorare lo stato del tuo sito con Sites Optimizer.</p>
+                    <p class="is-size-6">Scopri come migliorare l’integrità del tuo sito con Sites Optimizer.</p>
                 </div>
                 <a href="./site-health.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -141,7 +141,7 @@ CARDS
                     <p class="is-size-6">Scopri come aumentare l’acquisizione del traffico con Sites Optimizer.</p>
                 </div>
                 <a href="./traffic-acquisition.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -164,7 +164,7 @@ CARDS
                     <p class="is-size-6">Scopri come migliorare la conversione dei moduli con l’ottimizzazione dei moduli.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -187,7 +187,7 @@ CARDS
                     <p class="is-size-6">Scopri come migliorare l’accessibilità dei moduli con l’ottimizzazione.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -207,10 +207,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/overview.md" target="_blank" rel="referrer" title="Verifica preliminare">Verifica preliminare</a>
                     </p>
-                    <p class="is-size-6">Scopri l’analisi della verifica preliminare e come configurare le opportunità di verifica preliminare in Sites Optimizer.</p>
+                    <p class="is-size-6">Scopri l’analisi della verifica preliminare e come configurare le opportunità relative alla verifica preliminare in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -219,4 +219,4 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<span class="preview"> Le funzionalità Ottimizzazione Forms e Accessibilità Forms sono disponibili nel programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> Le funzionalità Ottimizzazione dei moduli e Accessibilità dei moduli sono disponibili nel programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>

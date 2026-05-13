@@ -10,21 +10,21 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 219
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Opportunità di ottimizzazione dei moduli
 
-<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> La funzionalità di ottimizzazione dei moduli è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Opportunità di ottimizzazione dei moduli](./assets/form-optimization/hero.png){align="center"}
 
-Le opportunità di ottimizzazione di Forms consentono alle organizzazioni di migliorare sistematicamente le interazioni degli utenti e aumentare le conversioni dei moduli. Rilevando problemi quali visualizzazioni ridotte, conversioni basse e tassi di navigazione bassi, i team possono apportare modifiche basate sui dati alla progettazione, al posizionamento e al contenuto dei moduli. Queste ottimizzazioni aiutano a semplificare l’esperienza utente, rendendo più facile per i visitatori completare i moduli e raggiungere i risultati desiderati. L&#39;utilizzo delle informazioni provenienti da Ottimizzazione Forms supporta l&#39;identificazione e la risoluzione continue dei divari di prestazioni, con conseguente miglioramento delle forme e dei risultati aziendali.
+Le opportunità di ottimizzazione di moduli consentono alle organizzazioni di migliorare sistematicamente le interazioni utente e aumentare le conversioni dei moduli. Rilevando problemi quali visualizzazioni basse, conversioni basse e tassi di navigazione bassi, i team possono apportare modifiche basate sui dati alla progettazione, al posizionamento e al contenuto dei moduli. Queste ottimizzazioni aiutano a semplificare l’esperienza utente, rendendo più facile per i visitatori completare i moduli e raggiungere i risultati desiderati. L’utilizzo di insight provenienti dall’ottimizzazione dei moduli supporta l’identificazione e la risoluzione continue dei divari di prestazioni, con conseguente miglioramento dei moduli e dei risultati di business.
 
 ## Opportunità
 
@@ -57,10 +57,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" title="Visualizzazioni basse">Visualizzazioni basse</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità relativa alle visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -80,10 +80,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" title="Conversioni basse">Conversioni basse</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli nel tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità relativa alle conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli nel tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -103,10 +103,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" title="Problemi di accessibilità">Navigazione bassa</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di navigazione bassa e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità relativa alla navigazione bassa e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>

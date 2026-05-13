@@ -5,9 +5,9 @@ TQID: https://experienceleague.adobe.com/tep2UnSJ4BsorZ9caKACfbOFyI1qvM2ZCxhjHd3
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 182
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -50,10 +50,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" title="Tipi di opportunità">Tipi di opportunità</a>
                     </p>
-                    <p class="is-size-6">Scopri le opportunità di Site Optimizer disponibili e come utilizzarle per migliorare le prestazioni del sito.</p>
+                    <p class="is-size-6">Scopri le opportunità di Site Optimizer disponibili e come utilizzarle per migliorare le prestazioni del tuo sito.</p>
                 </div>
                 <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -71,12 +71,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Documentazione della verifica preliminare">Verifica preliminare della documentazione</a>
+                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Documentazione della verifica preliminare">Documentazione della verifica preliminare</a>
                     </p>
                     <p class="is-size-6">Scopri la Verifica preliminare in Sites Optimizer e come ottimizzare le pagine web prima che vengano pubblicate.</p>
                 </div>
                 <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -96,10 +96,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Documentazione di Sites Optimizer">Documentazione di Sites Optimizer</a>
                     </p>
-                    <p class="is-size-6">Esplora la documentazione di Sites Optimizer per scoprire tutte le sue funzionalità.</p>
+                    <p class="is-size-6">Esplora la documentazione di Sites Optimizer per scoprire tutte le funzionalità.</p>
                 </div>
                 <a href="./documentation/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>

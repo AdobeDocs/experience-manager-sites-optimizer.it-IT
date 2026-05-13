@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 130
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,12 +45,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Web vitals di base">Web vitals di base</a>
+                        <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Core Web Vitals">Web vitals di base</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità di Web vitals di base e come utilizzarla per migliorare l’acquisizione del traffico.</p>
+                    <p class="is-size-6">Scopri l’opportunità dei Core Web Vitals e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>

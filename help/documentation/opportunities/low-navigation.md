@@ -10,15 +10,15 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 333
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Opportunità da cogliere in caso di navigazione bassa dei moduli
 
-<span class="preview"> La funzionalità di ottimizzazione Forms è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
+<span class="preview"> La funzionalità di ottimizzazione dei moduli è disponibile in un programma di accesso anticipato. Per partecipare al programma di accesso anticipato e richiedere l’accesso alla funzionalità, invia un’e-mail dal tuo ID e-mail ufficiale all’indirizzo aem-forms-ea@adobe.com. </span>
 
 ![Opportunità Navigazione bassa](./assets/low-navigation/hero.png){align="center"}
 
