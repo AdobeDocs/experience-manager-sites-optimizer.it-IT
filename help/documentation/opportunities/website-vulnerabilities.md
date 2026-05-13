@@ -2,13 +2,18 @@
 title: Documentazione sull’opportunità Vulnerabilità del sito web
 description: Scopri l’opportunità da cogliere in caso di vulnerabilità dei siti web e come utilizzarla per aumentare la sicurezza del sito web.
 badgeSecurityPosture: label="Livello di sicurezza" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Livello di sicurezza"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '366'
+TQID: https://experienceleague.adobe.com/vCLnRixzZCCqUVVHR0uBUYExdaPOZI60wsfhdRkF1Nc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 384
 ht-degree: 100%
 
 ---
-
 
 # Opportunità Vulnerabilità del siti web
 
@@ -35,7 +40,7 @@ L’**opportunità Vulnerabilità del siti web** identifica ed elenca automatica
 
 ## Suggerimento automatico
 
-![Suggerimento automatico per vulnerabilità del sito web](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
+![Suggerimento automatico per le vulnerabilità del sito web](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
 
 Il suggerimento automatico fornisce suggerimenti generati dall’IA relativi alla **versione consigliata** di una libreria vulnerabile da aggiornare. Ogni voce ha un **Punteggio** che ne indica la gravità complessiva, utile per dare priorità alle vulnerabilità più critiche.
 
@@ -62,7 +67,7 @@ Sites Optimizer Ultimate aggiunge la possibilità di distribuire l’ottimizzazi
 
 >[!BEGINTABS]
 
->[!TAB Implementa ottimizzazione]
+>[!TAB Distribuisci ottimizzazione]
 
 {{auto-optimize-deploy-optimization-slack}}
 

@@ -1,13 +1,17 @@
 ---
 title: Impostazioni di Sites Optimizer
 description: Scopri come configurare le impostazioni di Sites Optimizer e integrarle con altri strumenti.
-source-git-commit: b71d5510162864ee76931cf754164ea637cadd92
+TQID: https://experienceleague.adobe.com/eznjSHZgAmCh-ek-XE-lLtuoGJxC0yY4UVrmPjc0KYo
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: 749
 ht-degree: 12%
 
 ---
-
 
 # Impostazioni di Sites Optimizer
 
@@ -23,7 +27,7 @@ Il connettore di impostazioni di Google Search Console in AEM Sites Optimizer co
 
 Per configurare questo connettore, è necessario disporre di credenziali con accesso amministrativo a Google Search Console per il dominio.
 
-## Connettersi ad AEM Sites
+## Connessione ad AEM Sites
 
 Questa guida spiega come collegare il sito Edge Delivery Services (EDS) esistente ad AEM Sites Optimizer. Prima di iniziare, verificare che il sito EDS sia già configurato e funzionante. Questa connessione è specifica per AEM Sites Optimizer per l&#39;accesso al contenuto.
 
@@ -138,7 +142,7 @@ Tornando nella finestra di dialogo **Connetti ad AEM Sites**, immetti quanto seg
 
 Fai clic su **Convalida connessione** per confermare l&#39;accesso, quindi fai clic su **Salva**.
 
-#### Unità Google
+#### Google Drive
 
 ![Finestra di dialogo Connetti ad AEM Sites che mostra l&#39;account del servizio Google Drive per l&#39;accesso condiviso](./assets/settings/validate-eds-google.png){align="center"}
 

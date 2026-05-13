@@ -1,13 +1,18 @@
 ---
 title: Nozioni di base su Sites Optimizer
 description: Scopri le nozioni di base di Sites Optimizer e come spostarsi al suo interno.
-source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: ht
-source-wordcount: '511'
+TQID: https://experienceleague.adobe.com/YnwwraMgmwnA7IuSnFdggMovi-PNgfxYN-rEYGh8V7I
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 532
 ht-degree: 100%
 
 ---
-
 
 # Nozioni di base su Sites Optimizer
 
@@ -62,7 +67,7 @@ Ogni opportunità fornisce una breve descrizione del problema, del suo potenzial
 * **Titolo dell’opportunità**: breve descrizione del problema e del suo potenziale impatto sulle prestazioni del sito.
 * **Ultimo aggiornamento**: Sites Optimizer ha aggiornato l’opportunità con nuovi dati in questa data.
 * **Numero di problemi**: numero di istanze del problema identificate sul sito.
-* **Tipi di opportunità**: [tipi di opportunità](../opportunity-types/overview.md) di cui fa parte questa opportunità, ad esempio acquisizione del traffico, coinvolgimento, conversione o integrità del sito.
+* **Tipi di opportunità**: i [tipi di opportunità](../opportunity-types/overview.md) di cui fa parte questa opportunità, ad esempio acquisizione del traffico, coinvolgimento, conversione o integrità del sito.
 
 Le informazioni di riepilogo per ogni opportunità variano in base al tipo e possono includere dettagli sull’impatto sulle entrate, sul traffico, sul coinvolgimento degli utenti o sulle minacce alla sicurezza.
 

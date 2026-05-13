@@ -1,13 +1,15 @@
 ---
 title: AEM Sites Optimizer
 description: 'Aumenta le prestazioni del sito web con Sites Optimizer: migliora la velocità, riduci i costi e aumenta l’affidabilità per un coinvolgimento migliore.'
-source-git-commit: 626de60c72579fd6ed96f259fbf524ed0a7103ba
+TQID: https://experienceleague.adobe.com/tep2UnSJ4BsorZ9caKACfbOFyI1qvM2ZCxhjHd3vcSc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 84%
+source-wordcount: 182
+ht-degree: 81%
 
 ---
-
 
 # AEM Sites Optimizer
 
