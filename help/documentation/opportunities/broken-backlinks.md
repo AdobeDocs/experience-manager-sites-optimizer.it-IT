@@ -18,7 +18,7 @@ ht-degree: 100%
 
 <!--![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483261/?captions=ita&learn=on&enablevpops)
 
 L’opportunità da cogliere in caso di backlink interrotti identifica collegamenti esterni che puntano a pagine inesistenti (404) sul tuo sito. Questi collegamenti comportano una perdita di traffico da referral e una riduzione del valore della SEO, in quanto i motori di ricerca si basano su backlink per valutare la rilevanza e l’autorità di un sito. Questi problemi si verificano quando gli URL vengono modificati, il contenuto viene rimosso o le pagine non sono più disponibili senza reindirizzamenti appropriati. AEM Sites Optimizer identifica tutti i backlink interrotti, fornisce consigli IA specifici e consente l’implementazione con un solo clic per correggerli, il tutto in un’unica vista centralizzata.
 

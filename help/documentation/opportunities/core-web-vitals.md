@@ -18,7 +18,7 @@ ht-degree: 100%
 
 <!--![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483379/?captions=ita&learn=on&enablevpops)
 
 L’opportunità relativa ai Core Web Vitals identifica le pagine del sito web con prestazioni inferiori, che influiscono sull’esperienza utente e sulle prestazioni della ricerca organica. Questi problemi possono derivare da fattori quali font personalizzati, dipendenze JavaScript non ottimizzate e script di terze parti. Core Web Vitals misura la velocità di caricamento dei contenuti, la stabilità del layout della pagina e la reattività della pagina alle interazioni dell’utente.
 

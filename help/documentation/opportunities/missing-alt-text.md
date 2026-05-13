@@ -18,7 +18,7 @@ ht-degree: 100%
 
 <!--![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483272/?captions=ita&learn=on&enablevpops)
 
 L’opportunità relativa al testo alternativo mancante identifica le immagini sul tuo sito web che non dispongono di un testo alternativo descrittivo. Senza testo alternativo, gli utenti che si affidano agli assistenti vocali non possono interpretare i contenuti visivi, creando barriere all’accessibilità. Inoltre, limita la comprensione e l’indicizzazione delle immagini da parte dei motori di ricerca, riducendo la possibilità di individuare i contenuti e le prestazioni di ricerca. AEM Sites Optimizer identifica i problemi relativi al testo alternativo mancante, fornisce consigli IA specifici e consente l’implementazione con un solo clic per risolverli in un’unica vista centralizzata.
 
