@@ -1,10 +1,10 @@
 ---
 title: Opportunità di verifica preliminare della leggibilità
-description: Scopri l’opportunità relativa alla leggibilità della verifica preliminare in Sites Optimizer.
+description: Scopri l’opportunità di verifica preliminare della leggibilità in Sites Optimizer.
 source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
