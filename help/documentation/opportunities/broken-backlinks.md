@@ -3,12 +3,10 @@ title: Documentazione sull’opportunità Backlink interrotti
 description: Scopri l’opportunità da cogliere in caso di backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.
 badgeTrafficAcquisition: label="Acquisizione traffico" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisizione traffico"
 TQID: https://experienceleague.adobe.com/HTgcPKBO-r-NRgdUdqS6ZOklYRaLM8pQbr3KbaYD4nQ
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 655
 ht-degree: 100%
 
@@ -18,7 +16,7 @@ ht-degree: 100%
 
 <!--![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483261/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
 
 L’opportunità da cogliere in caso di backlink interrotti identifica collegamenti esterni che puntano a pagine inesistenti (404) sul tuo sito. Questi collegamenti comportano una perdita di traffico da referral e una riduzione del valore della SEO, in quanto i motori di ricerca si basano su backlink per valutare la rilevanza e l’autorità di un sito. Questi problemi si verificano quando gli URL vengono modificati, il contenuto viene rimosso o le pagine non sono più disponibili senza reindirizzamenti appropriati. AEM Sites Optimizer identifica tutti i backlink interrotti, fornisce consigli IA specifici e consente l’implementazione con un solo clic per correggerli, il tutto in un’unica vista centralizzata.
 

@@ -3,14 +3,11 @@ title: Documentazione sull’opportunità da cogliere in caso di problemi di acc
 description: Scopri l’opportunità dei problemi di accessibilità dei moduli e come utilizzarla per migliorare l’accessibilità dei moduli e l’esperienza utente sul tuo sito web.
 badgeFormOptimization: label="Ottimizzazione dei moduli" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Ottimizzazione dei moduli"
 TQID: https://experienceleague.adobe.com/LsxxwR0UUBZEB1AJDXwE8zHbPRJcrOqwn25xdsesPhg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 311
 ht-degree: 100%
 
