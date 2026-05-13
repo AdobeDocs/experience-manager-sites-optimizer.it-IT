@@ -1,13 +1,14 @@
 ---
 title: Configurazione della verifica preliminare
 description: Scopri come impostare l’estensione Verifica preliminare per AEM Sites Optimizer.
-source-git-commit: e39930ebe2213dcca17209934173a7b521b34dbc
+TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 63%
+source-wordcount: 596
+ht-degree: 64%
 
 ---
-
 
 # Configurazione della verifica preliminare
 

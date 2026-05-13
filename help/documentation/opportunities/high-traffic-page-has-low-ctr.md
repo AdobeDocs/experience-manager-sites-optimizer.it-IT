@@ -2,13 +2,15 @@
 title: Documentazione sull’opportunità Pagina a traffico elevato con CTR basso
 description: Scopri l’opportunità in caso di pagina a traffico elevato con CTR basso e come utilizzarla per aumentare il coinvolgimento sul tuo sito web.
 badgeEngagement: label="Coinvolgimento" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Coinvolgimento"
-source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
-workflow-type: ht
-source-wordcount: '266'
+TQID: https://experienceleague.adobe.com/pnOZaaoYn5nIWwc2Qt3Xs-wyCygoRgMEHsD8P0Rq-6U
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 274
 ht-degree: 100%
 
 ---
-
 
 # Opportunità di pagina a traffico elevato con CTR basso
 
