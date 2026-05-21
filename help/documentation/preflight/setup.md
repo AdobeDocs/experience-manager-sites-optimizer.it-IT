@@ -2,12 +2,11 @@
 title: Configurazione della verifica preliminare
 description: Scopri come impostare l’estensione Verifica preliminare per AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 511e784d7d484b18942ac4b711df1c802debfec9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 587
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +31,7 @@ Per impostare la verifica preliminare nell’editor universale, segui questi pas
 
 1. Apri **Extension Manager** in:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
-1. Individua l&#39;estensione **Verifica preliminare AEM Sites Optimizer**.
+1. Individua l’estensione **Verifica preliminare per AEM Sites Optimizer**.
 1. L’amministratore di sistema dell’organizzazione dovrà abilitare questa estensione.
 1. Dopo aver abilitato l’estensione, apri una pagina nell’**editor universale**, ad esempio:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
