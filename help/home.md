@@ -5,8 +5,8 @@ TQID: https://experienceleague.adobe.com/tep2UnSJ4BsorZ9caKACfbOFyI1qvM2ZCxhjHd3
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
-source-wordcount: 182
+workflow-type: tm+mt
+source-wordcount: 176
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ CARDS
                     <p class="is-size-6">Scopri le opportunità di Site Optimizer disponibili e come utilizzarle per migliorare le prestazioni del tuo sito.</p>
                 </div>
                 <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -76,7 +76,7 @@ CARDS
                     <p class="is-size-6">Scopri la Verifica preliminare in Sites Optimizer e come ottimizzare le pagine web prima che vengano pubblicate.</p>
                 </div>
                 <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -99,7 +99,7 @@ CARDS
                     <p class="is-size-6">Esplora la documentazione di Sites Optimizer per scoprire tutte le funzionalità.</p>
                 </div>
                 <a href="./documentation/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>

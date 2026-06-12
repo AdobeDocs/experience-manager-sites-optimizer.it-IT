@@ -10,7 +10,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 478
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ L’opportunità di collegamenti interni interrotti fornisce suggerimenti genera
 
 >[!BEGINTABS]
 
->[!TAB Base logica dell’intelligenza artificiale]
+>[!TAB Base logica dell’IA]
 
 <!--[AI rationale of broken internal links](./assets/broken-internal-links/auto-suggest-ai-rationale.png) -->
 

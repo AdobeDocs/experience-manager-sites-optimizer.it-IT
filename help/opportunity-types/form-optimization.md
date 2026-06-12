@@ -10,8 +10,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: ht
-source-wordcount: 219
+workflow-type: tm+mt
+source-wordcount: 213
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ CARDS
                     <p class="is-size-6">Scopri l’opportunità relativa alle visualizzazioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -80,10 +80,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" title="Conversioni basse">Conversioni basse</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità relativa alle conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli nel tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di conversioni basse e come utilizzarla per migliorare il coinvolgimento nei moduli nel tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -106,7 +106,7 @@ CARDS
                     <p class="is-size-6">Scopri l’opportunità relativa alla navigazione bassa e come utilizzarla per migliorare il coinvolgimento nei moduli sul tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>

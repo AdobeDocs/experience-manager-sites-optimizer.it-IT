@@ -2,8 +2,8 @@
 title: Versione di prova di Sites Optimizer
 description: Introduzione alla versione di prova di AEM Sites Optimizer per clienti di AEM Sites esistenti.
 source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
-workflow-type: ht
-source-wordcount: '541'
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # Versione di prova di Sites Optimizer
 
-Inizia a usare Sites Optimizer approfittando di questa versione di prova per clienti AEM Sites esistenti (Edge Delivery Services, Cloud Services e Managed Services). L’onboarding dei dati del tuo dominio è già stato effettuato, pertanto puoi iniziare l’ottimizzazione fin da subito.Il video seguente illustra l’esperienza della versione di prova e mostra come iniziare.
+Inizia a usare Sites Optimizer approfittando di questa versione di prova per clienti AEM Sites esistenti (Edge Delivery Services, Cloud Services e Managed Services). L’onboarding dei dati del tuo dominio è già stato effettuato, pertanto puoi iniziare l’ottimizzazione fin da subito. Il video seguente illustra l’esperienza della versione di prova e mostra come iniziare.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483295/?captions=ita&learn=on&enablevpops)
 
@@ -99,7 +99,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./opportunities/core-web-vitals.md" title="Core Web Vitals" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-performance.png" alt="Core Web Vitals"
+                        <img class="is-bordered-r-small" src="../assets/common/card-performance.png" alt="Web vitals di base"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -107,12 +107,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Core Web Vitals">Web vitals di base</a>
+                        <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Web vitals di base">Web vitals di base</a>
                     </p>
                     <p class="is-size-6">Scopri l’opportunità relativa ai Core Web Vitals e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -132,7 +132,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" title="Testo alternativo mancante">Testo alternativo mancante</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità Testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di testo alternativo mancante e come utilizzarla per migliorare il coinvolgimento sul tuo sito web.</p>
                 </div>
                 <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
@@ -155,7 +155,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" title="Backlink interrotti">Backlink interrotti</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità Backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di backlink interrotti e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
