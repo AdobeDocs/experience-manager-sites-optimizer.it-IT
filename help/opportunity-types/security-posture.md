@@ -2,14 +2,11 @@
 title: Ottimizzare il livello di sicurezza con Sites Optimizer
 description: Scopri come migliorare la sicurezza del tuo sito con Sites Optimizer.
 TQID: https://experienceleague.adobe.com/f-WI-WIM2a7-NRuyfLU4Gut5tUqwJS08Ipvqe2Y9F7w
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
-source-wordcount: 220
+workflow-type: tm+mt
+source-wordcount: 212
 ht-degree: 100%
 
 ---
@@ -61,7 +58,7 @@ CARDS
                     <p class="is-size-6">Scopri l’opportunità relativa alla configurazione CORS e come identificare e correggere le vulnerabilità di sicurezza del sito.</p>
                 </div>
                 <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -79,12 +76,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" title="Vulnerabilità cross-site scripting">Cross-site scripting</a>
+                        <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" title="Cross-site scripting">Cross-site scripting</a>
                     </p>
                     <p class="is-size-6">Scopri l’opportunità relativa alla vulnerabilità cross-site scripting e come identificare e correggere le vulnerabilità relative alla sicurezza dei siti.</p>
                 </div>
                 <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -104,10 +101,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Autorizzazioni del sito web">Autorizzazioni del sito web</a>
                     </p>
-                    <p class="is-size-6">Scopri l’opportunità relativa alle autorizzazioni del sito web e come utilizzarla per aumentare la sicurezza del sito web.</p>
+                    <p class="is-size-6">Scopri l’opportunità da cogliere in caso di autorizzazioni del sito web e come utilizzarla per aumentare la sicurezza del sito web.</p>
                 </div>
                 <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -130,7 +127,7 @@ CARDS
                     <p class="is-size-6">Scopri l’opportunità relativa alle vulnerabilità del sito web e come utilizzarla per aumentare la sicurezza del tuo sito web.</p>
                 </div>
                 <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>

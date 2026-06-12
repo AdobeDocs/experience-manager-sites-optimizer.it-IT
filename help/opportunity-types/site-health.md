@@ -2,13 +2,11 @@
 title: Ottimizzare l’integrità del sito con Sites Optimizer
 description: Scopri come migliorare lo stato del tuo sito con Sites Optimizer.
 TQID: https://experienceleague.adobe.com/-zDE6-ycqW-IkPEQA9J024GAHb8SOdfdwR4DCEd0Oyc
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
-source-wordcount: 130
+workflow-type: tm+mt
+source-wordcount: 128
 ht-degree: 100%
 
 ---
@@ -36,7 +34,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/core-web-vitals.md" title="Web vitals di base" target="_blank" rel="referrer">
+                    <a href="../documentation/opportunities/core-web-vitals.md" title="Core Web Vitals" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/common/card-performance.png" alt="Web vitals di base"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -45,12 +43,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Core Web Vitals">Web vitals di base</a>
+                        <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Web vitals di base">Web vitals di base</a>
                     </p>
                     <p class="is-size-6">Scopri l’opportunità dei Core Web Vitals e come utilizzarla per migliorare l’acquisizione del traffico.</p>
                 </div>
                 <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
