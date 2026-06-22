@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Questa è una descrizione della guida utente che verrà visualizzata nella pagina di destinazione.
-source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
-workflow-type: ht
-source-wordcount: '123'
+source-git-commit: d17008c39f231c45a9ba41ca7f0aa96b9878f674
+workflow-type: tm+mt
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 100%
       + [Backlink interrotti](/help/documentation/opportunities/broken-backlinks.md)
       + [Core Web Vitals](/help/documentation/opportunities/core-web-vitals.md)
       + [Configurazione CORS](/help/documentation/opportunities/cors-configuration.md)
-      + [Vulnerabilità cross-site scripting](/help/documentation/opportunities/cross-site-scripting.md)
-      + [Tasso di rimbalzo elevato](/help/documentation/opportunities/high-bounce-rate.md)
+      + [Cross-site scripting](/help/documentation/opportunities/cross-site-scripting.md)
+      + [Tasso di mancato recapito elevato](/help/documentation/opportunities/high-bounce-rate.md)
       + [Pagina a traffico elevato con CTR basso](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Metadati non validi o mancanti](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Dati strutturati mancanti o non validi](/help/documentation/opportunities/missing-invalid-structured-data.md)
@@ -60,3 +60,4 @@ ht-degree: 100%
          + [Metadati](/help/documentation/preflight/opportunities/meta-data.md)
          + [Leggibilità](/help/documentation/preflight/opportunities/readability.md)
    + [Impostazioni](/help/documentation/settings.md)
+   + [Note sulla versione](/help/documentation/release-notes.md)
