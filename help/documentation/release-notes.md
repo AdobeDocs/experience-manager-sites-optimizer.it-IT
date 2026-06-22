@@ -1,8 +1,10 @@
 ---
 title: Note sulla versione
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Experience Manager Sites Optimizer.
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: d5cc34fd40395fc13ce3554a0b80c0216d859157
 workflow-type: tm+mt
 source-wordcount: 1471
