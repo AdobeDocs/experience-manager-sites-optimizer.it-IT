@@ -1,28 +1,27 @@
 ---
 title: Configurazione della verifica preliminare
-description: Scopri come impostare l’estensione Verifica preliminare per AEM Sites Optimizer.
+description: Scopri come impostare la verifica preliminare per AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 511e784d7d484b18942ac4b711df1c802debfec9
-workflow-type: ht
-source-wordcount: 587
-ht-degree: 100%
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+workflow-type: tm+mt
+source-wordcount: 577
+ht-degree: 72%
 
 ---
 
 # Configurazione della verifica preliminare
 
-L’identificazione dell’opportunità di verifica preliminare di AEM Sites Optimizer richiede la configurazione dell’estensione Verifica preliminare. Puoi configurarla nell’editor universale, nell’anteprima basata sul documento o in AEM Cloud Service, in modo da poter eseguire audit di verifica preliminare sulle pagine prima che vengano pubblicate.
+Per eseguire la verifica preliminare è necessario configurarla nell&#39;ambiente di authoring. È possibile impostare la verifica preliminare per l’editor universale, l’authoring basato su documenti, l’editor pagina di AEM Sites o Adobe Managed Services, in modo da poter eseguire i controlli di verifica preliminare sulle pagine prima che vengano pubblicate.
 
 ## Abilitare l’accesso degli utenti
 
-Per utilizzare l’estensione Verifica preliminare, assicurati che l’utente sia assegnato ad almeno uno dei seguenti profili di prodotto AEM Sites Optimizer in [Adobe Admin Console](https://adminconsole.adobe.com):
+Per utilizzare Verifica preliminare, accertati che l&#39;utente sia assegnato ad almeno uno dei seguenti profili di prodotto AEM Sites Optimizer in [Adobe Admin Console](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer - Suggerimento automatico utente
 * AEM Sites Optimizer - Ottimizzazione automatica utente
 
-## Abilitare l’estensione Verifica preliminare
+## Abilita verifica preliminare
 
 >[!BEGINTABS]
 
@@ -37,7 +36,7 @@ Per impostare la verifica preliminare nell’editor universale, segui questi pas
 1. Dopo aver abilitato l’estensione, apri una pagina nell’**editor universale**, ad esempio:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. L’estensione **Verifica preliminare** viene visualizzata nella **barra laterale**.
-1. Seleziona l’**estensione Verifica preliminare** dalla barra laterale, per avviare l’**audit della verifica preliminare** per la pagina corrente.
+1. Selezionare l&#39;estensione **Verifica preliminare** dalla barra laterale per aprire Verifica preliminare per la pagina corrente.
 
 >[!TAB Authoring basato su documenti]
 
@@ -116,7 +115,7 @@ Per impostare la verifica preliminare per l’authoring basato su documenti, seg
    ```
 
 1. Apri l’URL di anteprima (`*.aem.page`) della pagina di cui eseguire l’audit.
-1. In **Sidekick**, fai clic sul pulsante **Verifica preliminare** per avviare il controllo di audit per la pagina corrente.
+1. In **Sidekick**, fare clic sul pulsante **Verifica preliminare** per aprire Verifica preliminare per la pagina corrente.
 
 >[!TAB Editor pagina per AEM Sites]
 
@@ -137,7 +136,7 @@ Per utilizzare Verifica preliminare nell’editor di pagina di AEM Sites, puoi c
 
 1. Assegna al segnalibro il nome **Verifica preliminare** (o un nome qualsiasi).
 1. Apri l’URL di anteprima (`*.aem.page`) della pagina di cui eseguire l’audit nell’**Editor pagina per AEM Sites**.
-1. Fai clic sul segnalibro **Verifica preliminare** nella barra Segnalibri per avviare il controllo di audit per la pagina corrente.
+1. Fare clic sul segnalibro **Verifica preliminare** nella barra Segnalibri per aprire Verifica preliminare per la pagina corrente.
 
 >[!TAB Adobe Managed Services]
 
@@ -145,7 +144,7 @@ Per utilizzare Verifica preliminare nell’editor di pagina di AEM Sites, puoi c
 >
 >Sono supportati solo gli ambienti Adobe Managed Services (AMS) che utilizzano il provider di identità di Adobe (IMS) per l’autenticazione in AEM Author. La verifica preliminare non funziona se l’organizzazione utilizza un altro provider di identità per l’autenticazione AMS.
 
-Per utilizzare la verifica preliminare nell’Editor pagina per AEM Sites in un ambiente AMS, crea un bookmarklet nel browser web, seguendo questi passaggi:
+Per utilizzare la verifica preliminare nell’Editor pagina di AEM Sites in un ambiente AMS, crea un bookmarklet nel browser web, seguendo la procedura riportata di seguito:
 
 1. Mostra **Barra Segnalibri** nel browser web:
 
@@ -162,7 +161,7 @@ Per utilizzare la verifica preliminare nell’Editor pagina per AEM Sites in un 
 
 1. Assegna al segnalibro il nome **Verifica preliminare** (o un nome qualsiasi).
 1. Apri la pagina di cui eseguire l’audit nell’**Editor pagina per AEM Sites**.
-1. Fai clic sul segnalibro **Verifica preliminare** nella barra Segnalibri per avviare il controllo di audit per la pagina corrente.
+1. Fare clic sul segnalibro **Verifica preliminare** nella barra Segnalibri per aprire Verifica preliminare per la pagina corrente.
 
 >[!ENDTABS]
 
