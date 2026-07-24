@@ -17,7 +17,7 @@ Inizia a usare Sites Optimizer utilizzando questa versione di prova per **client
 >
 >La versione di prova di AEM Sites Optimizer al momento non supporta i siti web headless. Per utilizzare la versione di prova, onboarding di un sito web che utilizza la distribuzione front-end di AEM Sites.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483295/?captions=ita&learn=on&enablevpops)
 
 >[!TIP]
 >
