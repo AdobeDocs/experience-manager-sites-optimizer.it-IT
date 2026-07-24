@@ -6,7 +6,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
+source-git-commit: 89291cb72c3cb56fcf43564cb04461750d748219
 workflow-type: tm+mt
 source-wordcount: 749
 ht-degree: 100%
@@ -148,7 +148,7 @@ Fai clic su **Convalida connessione** per confermare l’accesso, quindi fai cli
 
 1. In Google Drive, fai clic con il pulsante destro del mouse sulla cartella che supporta il sito EDS e seleziona **Condividi**.
 2. Nel campo **Aggiungi persone e gruppi**, inserisci l’e-mail dell’account del servizio visualizzata nella finestra di dialogo **Connetti ad AEM Sites**:
-   `experience-success-studio@helix-225321.iam.gserviceaccount.com`
+   `aem-sites-optimizer@adbe-gcp0843.iam.gserviceaccount.com`
 3. Imposta il livello di autorizzazione su **Editor**.
 4. Deseleziona **Notifica alle persone** e fai clic su **Condividi**.
 
