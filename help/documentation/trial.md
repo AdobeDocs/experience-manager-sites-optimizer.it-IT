@@ -1,19 +1,23 @@
 ---
 title: Versione di prova di Sites Optimizer
 description: Introduzione alla versione di prova di AEM Sites Optimizer per clienti di AEM Sites esistenti.
-source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
+source-git-commit: 225f039d88627a88b8c3989f963d5602cbaaab57
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 92%
 
 ---
 
 
 # Versione di prova di Sites Optimizer
 
-Inizia a usare Sites Optimizer approfittando di questa versione di prova per clienti AEM Sites esistenti (Edge Delivery Services, Cloud Services e Managed Services). L’onboarding dei dati del tuo dominio è già stato effettuato, pertanto puoi iniziare l’ottimizzazione fin da subito. Il video seguente illustra l’esperienza della versione di prova e mostra come iniziare.
+Inizia a usare Sites Optimizer utilizzando questa versione di prova per **clienti AEM Sites esistenti (Edge Delivery Services, Cloud Services e Managed Services)**. L’onboarding dei dati del tuo dominio è già stato effettuato, pertanto puoi iniziare l’ottimizzazione fin da subito. Il video seguente illustra l’esperienza della versione di prova e mostra come iniziare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483295/?captions=ita&learn=on&enablevpops)
+>[!NOTE]
+>
+>La versione di prova di AEM Sites Optimizer al momento non supporta i siti web headless. Per utilizzare la versione di prova, onboarding di un sito web che utilizza la distribuzione front-end di AEM Sites.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -36,9 +40,9 @@ La versione di prova include quanto segue:
 * Tre tipi di opportunità: [backlink interrotti](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) e [testo alternativo mancante](./opportunities/missing-alt-text.md).
 * Fino a tre problemi per opportunità ogni mese.
 * Flusso di lavoro completo per problema: identificazione automatica, suggerimento automatico e ottimizzazione automatica.
-   * **Identificazione automatica**: rileva i problemi nel sito utilizzando più origini dati.
-   * **Suggerimento automatico**: fornisce consigli prescrittivi e generati dall’IA per ogni problema.
-   * **Ottimizzazione automatica**: dopo l’approvazione, implementa le correzioni direttamente nell’ambiente di authoring. Gli aggiornamenti seguono i flussi di lavoro esistenti e consentono al team di rivedere e pubblicare tramite AEM.
+  * **Identificazione automatica**: rileva i problemi nel sito utilizzando più origini dati.
+  * **Suggerimento automatico**: fornisce consigli prescrittivi e generati dall’IA per ogni problema.
+  * **Ottimizzazione automatica**: dopo l’approvazione, implementa le correzioni direttamente nell’ambiente di authoring. Gli aggiornamenti seguono i flussi di lavoro esistenti e consentono al team di rivedere e pubblicare tramite AEM.
 
 ## Domande frequenti
 
