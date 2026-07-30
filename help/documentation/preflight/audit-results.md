@@ -1,10 +1,10 @@
 ---
 title: Risultati dell’audit della verifica preliminare
 description: Scopri come interpretare i risultati dell’audit della verifica preliminare, il misuratore di fattibilità e le categorie di audit e come passare alle opportunità nell’anteprima.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 5%
+source-wordcount: '671'
+ht-degree: 4%
 
 ---
 
@@ -13,13 +13,20 @@ ht-degree: 5%
 
 Al termine dei controlli, Verifica preliminare visualizza i risultati nel dashboard di preparazione. Il dashboard mostra un misuratore di fattibilità complessivo e le opportunità trovate, raggruppate per categoria di audit. All’interno di ciascuna categoria, i singoli audit identificano elementi specifici da esaminare o correggere.
 
+## Barra degli strumenti
+
+La barra degli strumenti nella parte superiore del dashboard di preparazione fornisce le azioni per l’esecuzione corrente. Le **altre azioni** (**...**) offerte di menu:
+
+* **Rianalizza** - Avvia una nuova esecuzione di controllo nella pagina corrente. La funzione Rianalizza elimina sempre i risultati visualizzati ed esegue di nuovo ogni controllo di audit, quindi utilizzala ogni volta che desideri ottenere nuovi risultati, ad esempio dopo aver modificato la pagina.
+* **Esporta (CSV)** - Scarica i risultati correnti come file CSV, incluse le opportunità e i metadati dell&#39;esecuzione di controllo corrente.
+
 ## Misuratore di fattibilità
 
 Nella parte superiore del dashboard, il misuratore di prontezza riflette i risultati complessivi del controllo di audit. Mostra un punteggio di preparazione in percentuale, basato sulla percentuale di audit conclusi senza opportunità, insieme al numero totale di opportunità trovate in tutti gli audit. Il misuratore di prontezza consente di misurare lo stato complessivo della pagina in una panoramica.
 
 ![Misuratore di fattibilità e categorie di controllo nel dashboard Verifica preliminare](./assets/overview/hero.png){align="center"}
 
-Mentre i controlli di fattibilità sono ancora in esecuzione, il misuratore di fattibilità mostra una barra di avanzamento con uno stato come **Controlli in esecuzione** o il numero di controlli di fattibilità ancora in esecuzione. Al termine degli audit, il contatore mostra la percentuale finale di preparazione e il conteggio delle opportunità.
+Mentre i controlli sono ancora in corso, il misuratore di prontezza mostra una barra di avanzamento con uno stato breve sotto di esso che mostra il passaggio corrente. Al termine degli audit, il contatore mostra la percentuale finale di preparazione e il conteggio delle opportunità.
 
 ## Categorie di audit
 
