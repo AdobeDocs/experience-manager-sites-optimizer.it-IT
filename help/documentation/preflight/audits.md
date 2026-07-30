@@ -1,10 +1,10 @@
 ---
 title: Eseguire audit nella verifica preliminare
 description: Scopri come avviare un audit di verifica preliminare sulla pagina.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 42%
+source-wordcount: '298'
+ht-degree: 21%
 
 ---
 
@@ -22,3 +22,15 @@ Per eseguire gli audit di verifica preliminare per una pagina:
 1. Selezionare **Analizza pagina**. La verifica preliminare esegue tutti i controlli di audit sulla pagina corrente e apre il dashboard di preparazione, in cui visualizza un punteggio di preparazione e le opportunità trovate, raggruppate per categoria.
 
 Per comprendere i risultati dell&#39;anteprima e identificare le opportunità di ottimizzazione, vedere [Risultati dell&#39;audit in Verifica preliminare](./audit-results.md).
+
+## Continua una sessione precedente
+
+La verifica preliminare ricorda l&#39;esecuzione più recente, quindi non è necessario eseguire nuovamente i controlli se si esce e si torna indietro.
+
+* Se riapri il pannello Verifica preliminare nella **stessa scheda del browser**, anche dopo un aggiornamento, la verifica preliminare carica automaticamente i risultati dell&#39;ultima esecuzione.
+* Se si restituisce **in una nuova scheda o dopo aver chiuso il browser**, nella schermata di destinazione viene visualizzato un pulsante **Continua ultima sessione** accanto a **Analizza pagina**. Seleziona **Continua ultima sessione** per ricaricare i risultati più recenti, oppure seleziona **Analizza pagina** per avviare una nuova esecuzione.
+
+La verifica preliminare tiene traccia separatamente dell&#39;ultima esecuzione per ogni pagina, quindi **Continua ultima sessione** ricarica sempre l&#39;ultima esecuzione per la pagina in cui ti trovi.
+
+Al termine dei controlli e alla visualizzazione dei risultati, selezionare **Rianalizza** dalle **Altre azioni** (**...**) nella barra degli strumenti per eliminare i risultati ed eseguire nuovamente ogni controllo di audit. Vedi [Risultati dell&#39;audit in Verifica preliminare](./audit-results.md#toolbar).
+
