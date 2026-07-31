@@ -20,7 +20,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->A partire da [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083), la verifica preliminare è incorporata nella barra degli strumenti dell&#39;Editor pagina di AEM Sites. Per ulteriori informazioni, vedere [Configurazione verifica preliminare](./setup.md).
+>A partire da [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083), la verifica preliminare è incorporata nella barra degli strumenti dell&#39;Editor pagina di AEM Sites. Per ulteriori informazioni, vedere [Configurazione verifica preliminare](./setup.md).
 
 La verifica preliminare in AEM Sites Optimizer consente di convalidare e ottimizzare le pagine prima che vengano pubblicate analizzando il contenuto, la struttura e le opportunità emerse con consigli fruibili. È progettata per autori, marketer e sviluppatori che desiderano garantire pagine di alta qualità, performanti e pronte per la pubblicazione riducendo al contempo la rielaborazione.
 

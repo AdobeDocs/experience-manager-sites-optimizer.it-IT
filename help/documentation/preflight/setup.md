@@ -120,7 +120,7 @@ Per impostare la verifica preliminare per l’authoring basato su documenti, seg
 
 >[!TAB Editor pagina per AEM Sites]
 
-Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o successiva, la verifica preliminare è incorporata nell&#39;Editor pagina di AEM Sites e non è richiesto alcun bookmarklet. Segui questi passaggi:
+Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o successiva, la verifica preliminare è incorporata nell&#39;Editor pagina di AEM Sites e non è richiesto alcun bookmarklet. Segui questi passaggi:
 
 1. Apri la pagina di cui eseguire l’audit nell’**Editor pagina per AEM Sites**.
 1. Nella barra degli strumenti dell&#39;editor, seleziona l&#39;icona **Verifica preliminare** (il pulsante Riproduci, evidenziato di seguito) per aprire il pannello Verifica preliminare per la pagina corrente.
