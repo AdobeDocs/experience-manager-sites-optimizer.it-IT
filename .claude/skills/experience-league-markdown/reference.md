@@ -156,17 +156,19 @@ In linea: `` `code` `` - Oppure racchiudi in linea tre apici retroversi se hai b
 
 Recintato:
 
-````markdown
+&grave;&grave;&grave;&grave;markdown
+
 ```javascript
 var x = 1;
 ```
-````
+
+&grave;&grave;&grave;&grave;
 
 - Specificare sempre un linguaggio per l&#39;evidenziazione della sintassi + il pulsante Copia.
 - Riga vuota richiesta sopra e sotto il blocco delimitato.
-- Numeri di riga: `` ```html {line-numbers="true"} ``
-- Inizia numerazione altrove: `` ```html {line-numbers="true" start-line="7"} ``
-- Righe evidenziazione: `` ```html {line-numbers="true" start-line="7" highlight="11-13, 16"} ``
+- Numeri di riga: `` ``&#x200B;`html {line-numbers="true"} `&#x200B;&grave;
+- Inizia numerazione altrove: `` ``&#x200B;`html {line-numbers="true" start-line="7"} `&#x200B;&grave;
+- Righe evidenziazione: `` ``&#x200B;`html {line-numbers="true" start-line="7" highlight="11-13, 16"} `&#x200B;&grave;
 - Il contenuto del blocco di codice non è mai localizzato (ad eccezione dei tag `!UICONTROL`/`!DNL`, che vengono rimossi al momento della pubblicazione).
 - Nessuna formattazione Markdown/HTML (come `<i>`) funziona all&#39;interno di blocchi di codice. Utilizzare parentesi angolari o testo normale per i segnaposto.
 

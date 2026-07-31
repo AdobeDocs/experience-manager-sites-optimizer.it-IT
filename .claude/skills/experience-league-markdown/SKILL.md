@@ -37,7 +37,7 @@ Riferimento di sintassi completo con ogni codice breve e regola: [reference.md](
 | Elenco puntato | `* item` (scegli uno di `*`/`-`/`+`, mantieni la coerenza) | Riga vuota prima/dopo l&#39;elenco; indicatori di combinazione = errore di convalida |
 | Elenco numerato | `1. item` (ripeti `1.` ogni riga) | GitHub esegue il rendering dei numeri reali |
 | Codice (in linea) | `` `code` `` | Per nomi di file, comandi, valori, URL di esempio non convalidati |
-| Codice (delimitato) | ` ```language ` ... ` ``` ` | Specifica sempre una lingua; riga vuota prima/dopo; `{line-numbers="true" start-line="n" highlight="n-m"}` facoltativo |
+| Codice (delimitato) | ` `&#x200B;``language ` ... ` ``&#x200B;` ` | Specifica sempre una lingua; riga vuota prima/dopo; `{line-numbers="true" start-line="n" highlight="n-m"}` facoltativo |
 | Badge (in linea) | `[!BADGE Beta]{type=Informative url="..." tooltip="..."}` | `type`: informativo/positivo/negativo/neutro/cautela |
 | Comprimibile | `+++Summary` ... `+++` | Nessun comprimibile nidificato; righe vuote intorno agli elenchi/codici interni |
 | Hack di riga vuota | `<br>&nbsp;` sulla propria riga | Il renderer comprime/ignora le righe vuote in eccesso |
