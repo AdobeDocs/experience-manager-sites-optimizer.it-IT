@@ -2,21 +2,22 @@
 title: Verifica preliminare in AEM Sites Optimizer
 description: Scopri la verifica preliminare e i controlli di audit eseguiti per valutare la pagina prima della pubblicazione.
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 49%
+source-wordcount: 300
+ht-degree: 28%
 
 ---
 
 # Verifica preliminare in AEM Sites Optimizer
 
 ![Dashboard di preparazione alla verifica preliminare](./assets/overview/hero.png){align="center"}
+
+>[!NOTE]
+>
+>A partire da [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083), la verifica preliminare è incorporata nella barra degli strumenti dell&#39;Editor pagina di AEM Sites. Per ulteriori informazioni, vedere [Configurazione verifica preliminare](./setup.md).
 
 La verifica preliminare in AEM Sites Optimizer consente di convalidare e ottimizzare le pagine prima che vengano pubblicate analizzando il contenuto, la struttura e le opportunità emerse con consigli fruibili. È progettata per autori, marketer e sviluppatori che desiderano garantire pagine di alta qualità, performanti e pronte per la pubblicazione riducendo al contempo la rielaborazione.
 
@@ -59,7 +60,7 @@ CARDS
                     <p class="is-size-6">Scopri i controlli dell’accessibilità della verifica preliminare in Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>
@@ -82,7 +83,7 @@ CARDS
                     <p class="is-size-6">Scopri i controlli SEO della verifica preliminare in Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/seo.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
                 </a>
             </div>
         </div>

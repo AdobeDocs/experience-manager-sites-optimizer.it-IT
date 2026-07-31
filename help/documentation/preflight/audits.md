@@ -1,10 +1,10 @@
 ---
 title: Eseguire audit nella verifica preliminare
 description: Scopri come avviare un audit di verifica preliminare sulla pagina.
-source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 21%
+source-wordcount: '366'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,12 @@ Per eseguire gli audit di verifica preliminare per una pagina:
 1. Selezionare **Analizza pagina**. La verifica preliminare esegue tutti i controlli di audit sulla pagina corrente e apre il dashboard di preparazione, in cui visualizza un punteggio di preparazione e le opportunità trovate, raggruppate per categoria.
 
 Per comprendere i risultati dell&#39;anteprima e identificare le opportunità di ottimizzazione, vedere [Risultati dell&#39;audit in Verifica preliminare](./audit-results.md).
+
+## Utilizzare il pulsante Verifica preliminare integrato
+
+Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o successiva, la verifica preliminare è incorporata nella barra degli strumenti dell&#39;Editor pagine di AEM Sites. Seleziona l&#39;icona **Verifica preliminare** (pulsante Riproduci) per aprire il pannello per la pagina corrente, quindi seleziona **Analizza pagina** per eseguire i controlli di audit.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
 
 ## Continua una sessione precedente
 
