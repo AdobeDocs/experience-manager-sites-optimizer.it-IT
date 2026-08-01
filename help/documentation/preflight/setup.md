@@ -4,10 +4,10 @@ description: Scopri come impostare la verifica preliminare per AEM Sites Optimiz
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: 577
-ht-degree: 72%
+source-wordcount: 785
+ht-degree: 52%
 
 ---
 
@@ -120,7 +120,23 @@ Per impostare la verifica preliminare per l’authoring basato su documenti, seg
 
 >[!TAB Editor pagina per AEM Sites]
 
-Per utilizzare Verifica preliminare nell’editor di pagina di AEM Sites, puoi creare un bookmarklet nel browser web. Segui questi passaggi:
+Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o successiva, la verifica preliminare è incorporata nell&#39;Editor pagina di AEM Sites e non è richiesto alcun bookmarklet. Segui questi passaggi:
+
+1. Apri la pagina di cui eseguire l’audit nell’**Editor pagina per AEM Sites**.
+1. Nella barra degli strumenti dell&#39;editor, seleziona l&#39;icona **Verifica preliminare** (il pulsante Riproduci, evidenziato di seguito) per aprire il pannello Verifica preliminare per la pagina corrente.
+
+   ![Icona Verifica preliminare nella barra degli strumenti dell&#39;Editor pagine di AEM Sites](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>L&#39;icona **Verifica preliminare** non è visualizzata nella barra degli strumenti? Verifica quanto segue:
+>
+>* **Versione supportata** — Il pulsante integrato richiede AEM 2026.7.0 (versione 27083) o versione successiva. Nelle versioni precedenti, utilizza il metodo bookmarklet riportato di seguito.
+>* **Rollout**: il pulsante integrato è abilitato per le organizzazioni in più fasi, quindi potrebbe non essere ancora arrivato all&#39;organizzazione, anche in una versione supportata. In caso contrario, utilizza il metodo bookmarklet riportato di seguito oppure rivolgiti ad Adobe o al tuo amministratore.
+>* **Accesso alla pagina**: il pulsante viene visualizzato solo quando si dispone dell&#39;accesso in modifica alla pagina.
+>* **Accesso utente** — Verificare che all&#39;utente sia assegnato il profilo **AEM Sites Optimizer - Suggerimento automatico utente** o **AEM Sites Optimizer - Ottimizzazione automatica utente**. Vedi [Abilita accesso utente](#enable-user-access).
+
+Per utilizzare Verifica preliminare nell’Editor pagina di AEM Sites nelle versioni precedenti di AEM, puoi creare un bookmarklet nel browser web. Segui questi passaggi:
 
 1. Mostra la **Barra Segnalibri** nel browser web:
 
