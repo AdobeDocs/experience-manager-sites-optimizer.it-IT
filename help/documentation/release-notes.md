@@ -1,14 +1,12 @@
 ---
 title: Note sulla versione
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Experience Manager Sites Optimizer.
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d5cc34fd40395fc13ce3554a0b80c0216d859157
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8e4fe6595fc7e872a00387d92892710c61e8632b
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 2%
+source-wordcount: 1775
+ht-degree: 1%
 
 ---
 
@@ -16,6 +14,26 @@ ht-degree: 2%
 # Note sulla versione
 
 In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e i miglioramenti introdotti in Adobe Experience Manager Sites Optimizer.
+
+## 1-19 luglio 2026
+
+### Nuove funzioni
+
+- **Gestione autorizzazioni**: gli utenti con la funzionalità Gestione utenti possono ora controllare l&#39;accesso al sito da una nuova scheda Autorizzazioni: eseguire ricerche nelle persone per nome o per posta elettronica e concedere o revocare funzionalità specifiche. Le azioni che un utente non può eseguire appaiono disabilitate con una descrizione che spiega come richiedere l’accesso.
+- **Distintivi di stato distribuzione** — Le correzioni contrassegnate come distribuite manualmente ora visualizzano un distinto contrassegno &quot;Contrassegnato come distribuito&quot; nella vista Distribuito, semplificando la distinzione tra aggiornamenti manuali e distribuzioni automatiche.
+
+### Miglioramenti
+
+- **Correzione automatica per GitHub (Cloud Manager)** — L&#39;autocorrezione della patch di codice per opportunità quali Core Web Vitals, Sicurezza e Accessibilità dei moduli può ora generare richieste di pull sugli archivi Git personali di Cloud Manager ospitati su GitHub, in linea con il supporto esistente per GitLab, Bitbucket e Azure DevOps. Una nuova funzione Settings consente di controllare la conferma della configurazione una tantum per il sito.
+- **Correzione automatica tramite ramo (Cloud Manager Standard)**: la correzione automatica tramite ramo è ora disponibile per gli archivi standard di Cloud Manager quando è abilitata per il sito.
+- **Visualizzazione distribuita: eseguita da**. Nella visualizzazione distribuita vengono ora visualizzati gli utenti che hanno contrassegnato ogni correzione come distribuita e la data dell&#39;ultimo aggiornamento dello stato tramite le nuove colonne &quot;Eseguito da&quot; e &quot;Ultimo aggiornamento stato&quot;.
+- **Feedback disconnessione di Google Ads** - La disconnessione di un account di Google Ads nelle impostazioni ora viene visualizzata la dicitura &quot;Disconnessione in corso...&quot;, con un messaggio di errore non consentito se la disconnessione non riesce, in modo che sia possibile riprovare.
+
+### Correzioni di bug
+
+- L’opportunità di correzione delle etichette ARIA ora mostra l’URL corretto della pagina nella finestra di dialogo Dettagli quando una correzione si estende su più pagine.
+- Il messaggio informativo della finestra di dialogo Ignora ora viene visualizzato correttamente, con testo correttamente allineato, in coreano, cinese semplificato e cinese tradizionale.
+- Le finestre di dialogo delle pagine correlate per Testo alternativo e Metadati non validi o mancanti ora vengono caricate in modo affidabile e la vista Distribuiti metadati non validi o mancanti e le correzioni di metatag ora funzionano correttamente con il formato di suggerimento più recente.
 
 ## 11-22 maggio 2026
 
