@@ -1,8 +1,8 @@
 ---
 description: Converti le note sulla versione interne di ASO sprint in formato Experience League rivolto al cliente e aggiungi alla pagina delle note sulla versione.
-source-git-commit: d17008c39f231c45a9ba41ca7f0aa96b9878f674
+source-git-commit: 5f400c37283d1a3d8285b4d2ac5246761a7275e6
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Richiama questa abilità, quindi incolla il contenuto delle note sulla versione 
 
 5. **Ambito accurato.** Includi solo le modifiche che un cliente vedrà nell’interfaccia o nell’esperienza del prodotto nei suoi flussi di lavoro. Sono escluse l’infrastruttura, gli strumenti e le modifiche all’esperienza degli sviluppatori.
 
+6. **Segnala le funzionalità di Accesso anticipato.** Se una funzione viene fornita dietro un flag di funzione disattivato per impostazione predefinita (consenso per organizzazione/sito, ad esempio tramite LaunchDarkly `FeatureGate`/`isEnabledByDefault={false}`), aggiungi `(Early Access)` al nome della funzione in grassetto, rispecchiando la convenzione `(General Availability)` esistente utilizzata per le funzioni graduate. In caso di dubbi, verifica se la funzione è attiva per impostazione predefinita per tutti i clienti; in caso contrario, si tratta di Accesso anticipato. Verifica in base al flag di funzione predefinito nel codice — non indovinare.
+
 ### Modello struttura pagina
 
 Ogni voce della versione segue questa struttura:
@@ -54,7 +56,7 @@ Ogni voce della versione segue questa struttura:
 
 ### New Features
 
-- **[Feature Name]** — [One-sentence benefit statement. One sentence of business context if needed.]
+- **[Feature Name]** — [One-sentence benefit statement. One sentence of business context if needed.] (append `(Early Access)` or `(General Availability)` to the feature name when the feature's availability status is notable)
 
 ### Enhancements
 
