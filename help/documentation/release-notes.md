@@ -5,10 +5,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d5cc34fd40395fc13ce3554a0b80c0216d859157
+source-git-commit: c3279d62d56503108a6c28389cfbf14b95cd5a1a
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 2%
+source-wordcount: 1803
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,33 @@ ht-degree: 2%
 
 In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e i miglioramenti introdotti in Adobe Experience Manager Sites Optimizer.
 
+Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su richiesta. Contattare il team del proprio account o il Customer Success Engineer per abilitarle per la propria organizzazione.
+
+## 1-19 luglio 2026
+
+### Nuove funzioni
+
+- **Gestione autorizzazioni**: gli utenti con la funzionalità Gestione utenti possono ora controllare l&#39;accesso al sito da una nuova scheda Autorizzazioni: eseguire ricerche nelle persone per nome o per posta elettronica e concedere o revocare funzionalità specifiche. Le azioni che un utente non può eseguire appaiono disabilitate con una descrizione che spiega come richiedere l’accesso.
+- **Distintivi di stato distribuzione** — Le correzioni contrassegnate come distribuite manualmente ora visualizzano un distinto contrassegno &quot;Contrassegnato come distribuito&quot; nella vista Distribuito, semplificando la distinzione tra aggiornamenti manuali e distribuzioni automatiche.
+
+### Miglioramenti
+
+- **Correzione automatica per GitHub (Cloud Manager)** — L&#39;autocorrezione della patch di codice per opportunità quali Core Web Vitals, Sicurezza e Accessibilità dei moduli può ora generare richieste di pull sugli archivi Git personali di Cloud Manager ospitati su GitHub, in linea con il supporto esistente per GitLab, Bitbucket e Azure DevOps. Una nuova funzione Settings consente di controllare la conferma della configurazione una tantum per il sito.
+- **Correzione automatica tramite ramo (Cloud Manager Standard)**: la correzione automatica tramite ramo è ora disponibile per gli archivi standard di Cloud Manager quando è abilitata per il sito.
+- **Visualizzazione distribuita: eseguita da**. Nella visualizzazione distribuita vengono ora visualizzati gli utenti che hanno contrassegnato ogni correzione come distribuita e la data dell&#39;ultimo aggiornamento dello stato tramite le nuove colonne &quot;Eseguito da&quot; e &quot;Ultimo aggiornamento stato&quot;.
+- **Feedback disconnessione di Google Ads** - La disconnessione di un account di Google Ads nelle impostazioni ora viene visualizzata la dicitura &quot;Disconnessione in corso...&quot;, con un messaggio di errore non consentito se la disconnessione non riesce, in modo che sia possibile riprovare.
+
+### Correzioni di bug
+
+- L’opportunità di correzione delle etichette ARIA ora mostra l’URL corretto della pagina nella finestra di dialogo Dettagli quando una correzione si estende su più pagine.
+- Il messaggio informativo della finestra di dialogo Ignora ora viene visualizzato correttamente, con testo correttamente allineato, in coreano, cinese semplificato e cinese tradizionale.
+- Le finestre di dialogo delle pagine correlate per Testo alternativo e Metadati non validi o mancanti ora vengono caricate in modo affidabile e la vista Distribuiti metadati non validi o mancanti e le correzioni di metatag ora funzionano correttamente con il formato di suggerimento più recente.
+
 ## 11-22 maggio 2026
 
 ### Nuove funzioni
 
-- **Rapporto avvisi sito**: un nuovo rapporto di 90 giorni sugli avvisi sito fornisce una visualizzazione trimestrale dello stato del sito, utilizzando blocchi giornalieri codificati a colori per evidenziare periodi di avvisi elevati in modo da poter identificare e analizzare rapidamente le tendenze nel tempo.
+- **Rapporto Avvisi sito (accesso anticipato)**: un nuovo rapporto di 90 giorni sugli avvisi sito fornisce una visualizzazione trimestrale dello stato del sito, utilizzando blocchi giornalieri codificati a colori per evidenziare periodi di avvisi elevati in modo da poter identificare e analizzare rapidamente le tendenze nel tempo.
 - **Onboarding della telemetria operativa**: i siti che non hanno ancora connesso i dati di telemetria operativa ora ricevono un banner permanente nella home page e una finestra di dialogo di onboarding guidata per completare la configurazione, garantendo la piena visibilità delle prestazioni dell&#39;utente reale.
 - **Testo alt.: Consapevolezza di Multi-Site Manager**: durante la generazione di correzioni di testo alt per i siti che utilizzano AEM Multi-Site Manager o Copia per lingua, Sites Optimizer ora controlla se le correzioni possono essere applicate in modo sicuro a ogni variante di lingua prima di suggerirle.
 
@@ -58,7 +80,7 @@ In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e 
 - **Onboarding delle versioni di prova**: i nuovi utenti delle versioni di prova hanno ora un flusso di configurazione guidato: immetti il dominio, attendi l&#39;analisi, quindi esplora le prime opportunità, nessuna configurazione necessaria per iniziare.
 - **Pagina Opportunità di prova** - Gli utenti di prova possono cercare, ordinare e filtrare le opportunità, con tre suggerimenti sbloccati e rimanenti visualizzati in un&#39;anteprima bloccata con un prompt di aggiornamento.
 - **Avanzamento ottimizzazione mensile**: una barra di avanzamento nella home page tiene traccia di quante azioni di ottimizzazione sono state eseguite in questo mese, consentendoti di mantenere gli obiettivi di integrità del sito.
-- **Controlla URL di destinazione**: in Impostazioni è ora possibile specificare fino a 100 URL personalizzati per garantire che tali pagine siano sempre incluse nei controlli di audit.
+- **Controlla URL di destinazione (accesso anticipato)** — In Impostazioni è ora possibile specificare fino a 100 URL personalizzati per garantire che tali pagine siano sempre incluse nei controlli.
 - **Configurazione tipo di consegna**: le impostazioni ora consentono di specificare il tipo di consegna del sito (Edge Delivery Services, AEM Cloud Service o AEM Managed Services) e di connettere il provider di contenuti.
 - **Core Web Vitals Redesign**: l&#39;opportunità Core Web Vitals è stata riprogettata con il collegamento Jira, il download CSV e il supporto a selezione multipla per le azioni batch.
 - **Tabella unificata backlink interrotti**: i backlink interrotti da tutte le origini ora vengono visualizzati in un&#39;unica tabella unificata, con la possibilità di esportare direttamente le regole di reindirizzamento CDN.
@@ -104,7 +126,7 @@ In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e 
 - **Modalità manutenzione**: Sites Optimizer gestisce le finestre di manutenzione pianificate in modo corretto, visualizzando un messaggio di stato chiaro anziché dati incompleti o fuorvianti durante i periodi di inattività.
 - **Visualizzazione distribuita per i collegamenti interrotti** — I collegamenti fissi vengono ora tracciati in una scheda Distribuito, raggruppati per data in modo da poter visualizzare immediatamente la cronologia degli aggiornamenti.
 - **Nessun CTA al di sopra dell&#39;opportunità di piegatura**: un nuovo tipo di opportunità espone le pagine in cui non è visibile un call-to-action chiaro al di sopra della piega, consentendo di identificare e migliorare le pagine con un basso potenziale di conversione.
-- **Integrazione Jira per l&#39;accessibilità e il contrasto dei colori**: le opportunità di accessibilità per Forms e il contrasto dei colori possono ora essere collegate direttamente ai ticket Jira per il tracciamento semplificato dei problemi all&#39;interno del flusso di lavoro esistente.
+- **Integrazione Jira per l&#39;accessibilità e il contrasto dei colori (accesso anticipato)**: le opportunità di accessibilità Forms e Contrasto colore possono ora essere collegate direttamente ai ticket Jira per il tracciamento semplificato dei problemi all&#39;interno del flusso di lavoro esistente.
 
 ### Miglioramenti
 
