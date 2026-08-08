@@ -5,9 +5,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c3279d62d56503108a6c28389cfbf14b95cd5a1a
+source-git-commit: 9af59e18de7ce016778f25d4add450b50e0b1fde
 workflow-type: tm+mt
-source-wordcount: 1803
+source-wordcount: 1805
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su ric
 
 ### Nuove funzioni
 
-- **Gestione autorizzazioni**: gli utenti con la funzionalità Gestione utenti possono ora controllare l&#39;accesso al sito da una nuova scheda Autorizzazioni: eseguire ricerche nelle persone per nome o per posta elettronica e concedere o revocare funzionalità specifiche. Le azioni che un utente non può eseguire appaiono disabilitate con una descrizione che spiega come richiedere l’accesso.
+- **Gestione delle autorizzazioni (accesso anticipato)** — Gli utenti con la funzionalità Gestione utenti possono ora controllare l&#39;accesso al sito da una nuova scheda Autorizzazioni: cercare le persone per nome o per e-mail e concedere o revocare funzionalità specifiche. Le azioni che un utente non può eseguire appaiono disabilitate con una descrizione che spiega come richiedere l’accesso.
 - **Distintivi di stato distribuzione** — Le correzioni contrassegnate come distribuite manualmente ora visualizzano un distinto contrassegno &quot;Contrassegnato come distribuito&quot; nella vista Distribuito, semplificando la distinzione tra aggiornamenti manuali e distribuzioni automatiche.
 
 ### Miglioramenti
