@@ -2,12 +2,11 @@
 title: Configurazione della verifica preliminare
 description: Scopri come impostare la verifica preliminare per AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
 workflow-type: tm+mt
-source-wordcount: 785
-ht-degree: 52%
+source-wordcount: 896
+ht-degree: 47%
 
 ---
 
@@ -120,7 +119,7 @@ Per impostare la verifica preliminare per l’authoring basato su documenti, seg
 
 >[!TAB Editor pagina per AEM Sites]
 
-Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o successiva, la verifica preliminare è incorporata nell&#39;Editor pagina di AEM Sites e non è richiesto alcun bookmarklet. Segui questi passaggi:
+Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o successiva, la verifica preliminare è incorporata nell&#39;Editor pagina di AEM Sites e non è richiesto alcun bookmarklet. Segui questi passaggi:
 
 1. Apri la pagina di cui eseguire l’audit nell’**Editor pagina per AEM Sites**.
 1. Nella barra degli strumenti dell&#39;editor, seleziona l&#39;icona **Verifica preliminare** (il pulsante Riproduci, evidenziato di seguito) per aprire il pannello Verifica preliminare per la pagina corrente.
@@ -138,7 +137,7 @@ Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083
 
 Per utilizzare Verifica preliminare nell’Editor pagina di AEM Sites nelle versioni precedenti di AEM, puoi creare un bookmarklet nel browser web. Segui questi passaggi:
 
-1. Mostra la **Barra Segnalibri** nel browser web:
+1. Mostra **Barra Segnalibri** nel browser web:
 
    * Premi **Ctrl+Maiusc+B** (Windows) o **Comando+Maiusc+B** (Mac).
 
@@ -161,7 +160,18 @@ Per utilizzare Verifica preliminare nell’Editor pagina di AEM Sites nelle vers
 >
 >Sono supportati solo gli ambienti Adobe Managed Services (AMS) che utilizzano il provider di identità di Adobe (IMS) per l’autenticazione in AEM Author. La verifica preliminare non funziona se l’organizzazione utilizza un altro provider di identità per l’autenticazione AMS.
 
-Per utilizzare la verifica preliminare nell’Editor pagina di AEM Sites in un ambiente AMS, crea un bookmarklet nel browser web, seguendo la procedura riportata di seguito:
+Quando la verifica preliminare è incorporata nella barra degli strumenti dell’Editor pagina di AEM Sites, non è richiesto alcun bookmarklet. Contatta Adobe per installarlo nella tua organizzazione. Dopo l&#39;installazione, eseguire la procedura seguente:
+
+1. Apri la pagina di cui eseguire l’audit nell’**Editor pagina per AEM Sites**.
+1. Nella barra degli strumenti dell&#39;editor, seleziona l&#39;icona **Verifica preliminare** (il pulsante Riproduci, evidenziato di seguito) per aprire il pannello Verifica preliminare per la pagina corrente.
+
+   ![Icona Verifica preliminare nella barra degli strumenti dell&#39;Editor pagine di AEM Sites](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>L&#39;icona **Verifica preliminare** non è visualizzata nella barra degli strumenti? Il pulsante integrato potrebbe non essere ancora installato per la tua organizzazione. Contatta Adobe per installarlo, oppure utilizza il metodo bookmarklet riportato di seguito.
+
+Per utilizzare la verifica preliminare nell’Editor pagina di AEM Sites in un ambiente AMS senza l’icona della barra degli strumenti, crea un bookmarklet nel browser web, seguendo la procedura riportata di seguito:
 
 1. Mostra **Barra Segnalibri** nel browser web:
 

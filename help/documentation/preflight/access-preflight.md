@@ -1,10 +1,10 @@
 ---
 title: Accedere alla verifica preliminare
 description: Scopri dove viene visualizzata la verifica preliminare nell’ambiente di authoring.
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 17%
+source-wordcount: '152'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,7 @@ La verifica preliminare è disponibile negli ambienti di authoring di AEM Sites,
 
 * **Editor universale**: l’estensione Verifica preliminare viene visualizzata nella **barra laterale**. Selezionala per aprire il pannello Verifica preliminare.
 * **Authoring basato su documenti** - Aprire il pannello Verifica preliminare da Sidekick o da un bookmarklet nel contenuto della pagina visualizzata in anteprima.
-* **Editor pagina AEM Sites** - In AEM 2026.7.0 (versione 27083) o successiva, seleziona l&#39;icona **Verifica preliminare** nella barra degli strumenti dell&#39;editor per aprire il pannello Verifica preliminare. Nelle versioni precedenti, utilizza invece il bookmarklet Verifica preliminare nel browser.
+* **Editor pagina AEM Sites** - Seleziona l&#39;icona **Verifica preliminare** nella barra degli strumenti dell&#39;editor per aprire il pannello Verifica preliminare. Se l’icona non è disponibile, utilizza il bookmarklet Verifica preliminare nel browser.
 
 Dopo l&#39;apertura del pannello, seleziona **Analizza pagina** per avviare un controllo di audit della pagina corrente.
 
