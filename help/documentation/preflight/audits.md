@@ -1,10 +1,10 @@
 ---
 title: Eseguire audit nella verifica preliminare
 description: Scopri come avviare un audit di verifica preliminare sulla pagina.
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 17%
+source-wordcount: '422'
+ht-degree: 14%
 
 ---
 
@@ -37,6 +37,8 @@ La verifica preliminare ricorda l&#39;esecuzione più recente, quindi non è nec
 * Se si restituisce **in una nuova scheda o dopo aver chiuso il browser**, nella schermata di destinazione viene visualizzato un pulsante **Continua ultima sessione** accanto a **Analizza pagina**. Seleziona **Continua ultima sessione** per ricaricare i risultati più recenti, oppure seleziona **Analizza pagina** per avviare una nuova esecuzione.
 
 La verifica preliminare tiene traccia separatamente dell&#39;ultima esecuzione per ogni pagina, quindi **Continua ultima sessione** ricarica sempre l&#39;ultima esecuzione per la pagina in cui ti trovi.
+
+Quando ricarichi un&#39;esecuzione precedente, l&#39;intestazione mostra quanto tempo è trascorso dall&#39;esecuzione, ad esempio *2 minuti fa* o *ieri*, in modo da poter verificare immediatamente l&#39;attualità dei risultati. L’etichetta viene aggiornata con il passare del tempo e rimane visibile mentre ci si sposta tra la dashboard di preparazione e le pagine di dettaglio del controllo di audit.
 
 Al termine dei controlli e alla visualizzazione dei risultati, selezionare **Rianalizza** dalle **Altre azioni** (**...**) nella barra degli strumenti per eliminare i risultati ed eseguire nuovamente ogni controllo di audit. Vedi [Risultati dell&#39;audit in Verifica preliminare](./audit-results.md#toolbar).
 
