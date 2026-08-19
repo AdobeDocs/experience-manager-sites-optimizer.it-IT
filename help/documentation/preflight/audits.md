@@ -25,7 +25,7 @@ Per comprendere i risultati dell&#39;anteprima e identificare le opportunità di
 
 ## Utilizzare il pulsante Verifica preliminare integrato
 
-Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o successiva, la verifica preliminare è incorporata nella barra degli strumenti dell&#39;Editor pagine di AEM Sites. Seleziona l&#39;icona **Verifica preliminare** (pulsante Riproduci) per aprire il pannello per la pagina corrente, quindi seleziona **Analizza pagina** per eseguire i controlli di audit.
+Se nell&#39;ambiente di authoring è in esecuzione [AEM 2026.7.0 (versione 27083)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) o successiva, la verifica preliminare è incorporata nella barra degli strumenti dell&#39;Editor pagine di AEM Sites. Seleziona l&#39;icona **Verifica preliminare** (pulsante Riproduci) per aprire il pannello per la pagina corrente, quindi seleziona **Analizza pagina** per eseguire i controlli di audit.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
 
