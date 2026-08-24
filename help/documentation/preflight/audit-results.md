@@ -1,9 +1,9 @@
 ---
 title: Risultati dell’audit della verifica preliminare
 description: Scopri come interpretare i risultati dell’audit della verifica preliminare, il misuratore di fattibilità e le categorie di audit e come passare alle opportunità nell’anteprima.
-source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
+source-git-commit: 56a56991a262d9f19a228dc9ca6ec440acdc2999
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ Ogni opportunità include:
 
 * Un badge di gravità o di impatto che indica l’importanza dell’opportunità.
 * Dettagli sull’opportunità, ad esempio una descrizione del problema, un consiglio e, per l’accessibilità, la regola WCAG correlata e il livello di conformità.
-* Sezione **Element** che identifica l&#39;elemento interessato nella pagina, con un pulsante **Evidenzia a pagina**. Quando l&#39;elemento contiene testo leggibile, la sezione è intitolata **Elemento: testo** e mostra tale testo, facilitandone il riconoscimento; selezionare **Ulteriori informazioni** per espandere il testo lungo. Quando l&#39;elemento non ha testo leggibile (ad esempio, un collegamento di sola icona), la sezione si chiama **Elemento: Selettore** e visualizza il selettore CSS dell&#39;elemento. Per copiare il valore, selezionare l&#39;icona Copia in modalità selettore oppure aprire **Altre azioni** (**...**) in modalità testo e scegliere **Copia testo** o **Copia selettore**.
+* Sezione **Element** che identifica l&#39;elemento interessato nella pagina, con un pulsante **Evidenzia a pagina**. Quando l&#39;elemento contiene testo leggibile, la sezione ha titolo **Elemento: Testo** e mostra tale testo; in caso contrario, ha titolo **Elemento: Selettore** e mostra il selettore CSS dell&#39;elemento. Per le opportunità **Links** e **Canonical**, una sezione **Current URL** mostra anche l&#39;URL interessato, che puoi aprire in una nuova scheda, se possibile.
 * Una sezione **Suggestion** con una correzione consigliata. Quando il suggerimento è generato dall’intelligenza artificiale, viene contrassegnato come suggerimento generato dall’intelligenza artificiale e può includere una breve motivazione che spiega la correzione suggerita.
 
 ## Evidenziazione sulla pagina
@@ -69,6 +69,12 @@ La verifica preliminare evidenzia l’elemento interessato nel contesto, collega
 1. Aprire il pannello Verifica preliminare nel contesto della pagina da controllare e selezionare **Analizza pagina** per eseguire i controlli di audit.
 1. Seleziona un controllo di audit dal dashboard di preparazione, quindi seleziona un’opportunità da rivedere.
 1. Seleziona **Evidenzia a pagina**. L’anteprima scorre automaticamente fino all’area rilevante ed evidenzia l’elemento corrispondente, in modo da poter identificare e ottimizzare facilmente l’opportunità nel contesto.
+
+L’evidenziazione non è possibile per ogni opportunità: ad esempio, quando un’opportunità non è associata a un elemento specifico, l’elemento è nascosto o non è più presente nella pagina. In questi casi il pulsante **Evidenzia a pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo.
+
+Nell&#39;editor universale, l&#39;evidenziazione non è ancora supportata per le opportunità di **Accesso facilitato**. Il pulsante **Evidenzia a pagina** è inattivo ed è possibile passare il puntatore del mouse su di esso per verificarne il motivo.
+
+Nell&#39;Editor pagina di AEM Sites e in Adobe Managed Services (AMS), l&#39;evidenziazione richiede anche la **modalità di modifica**. In modalità **Anteprima**, la verifica preliminare mostra un avviso di **Evidenziazione di problemi non disponibile**; passa alla modalità **Modifica** per evidenziare gli elementi nella pagina.
 
 ## ID processo
 
