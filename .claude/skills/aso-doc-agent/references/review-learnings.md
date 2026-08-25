@@ -42,7 +42,7 @@ non generalizzare alle bozze future, quindi una voce durevole sarebbe solo rumor
 Le voci più recenti in alto. Se una lezione successiva sostituisce o restringe una precedente, modificare
 la voce precedente per notare che invece di lasciare due regole in conflitto nel file.
 
----
+&#x200B;---
 
 Ancora nessuna voce: questo file ottiene la prima voce la prima volta che una richiesta umana cambia
 su uno dei PR di questo agente.
