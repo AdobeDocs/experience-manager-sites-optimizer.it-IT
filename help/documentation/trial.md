@@ -22,7 +22,7 @@ Inizia a usare Sites Optimizer utilizzando questa versione di prova per **client
 >* È accessibile al pubblico e non dietro un accesso.
 >* Utilizza la distribuzione front-end in AEM Sites. La distribuzione headless non è attualmente supportata.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483295/?captions=ita&learn=on&enablevpops)
 
 >[!TIP]
 >
