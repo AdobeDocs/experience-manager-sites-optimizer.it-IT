@@ -1,13 +1,11 @@
 ---
 title: Risultati dell’audit della verifica preliminare
 description: Scopri come interpretare i risultati dell’audit della verifica preliminare, il misuratore di fattibilità e le categorie di audit e come passare alle opportunità nell’anteprima.
-source-git-commit: 56a56991a262d9f19a228dc9ca6ec440acdc2999
+source-git-commit: dd2637e61e15a6b8364456ae7d11717a0b81ad09
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 3%
-
+source-wordcount: '1066'
+ht-degree: 2%
 ---
-
 
 # Risultati dell’audit della verifica preliminare
 
@@ -73,6 +71,8 @@ La verifica preliminare evidenzia l’elemento interessato nel contesto, collega
 L’evidenziazione non è possibile per ogni opportunità: ad esempio, quando un’opportunità non è associata a un elemento specifico, l’elemento è nascosto o non è più presente nella pagina. In questi casi il pulsante **Evidenzia a pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo.
 
 Nell&#39;editor universale, l&#39;evidenziazione non è ancora supportata per le opportunità di **Accesso facilitato**. Il pulsante **Evidenzia a pagina** è inattivo ed è possibile passare il puntatore del mouse su di esso per verificarne il motivo.
+
+Nell’editor universale, la verifica preliminare può evidenziare solo il contenuto modificabile. Se l&#39;elemento interessato non fa parte del contenuto modificabile, il pulsante **Evidenzia nella pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo. Se l’elemento stesso non è modificabile direttamente ma il blocco modificabile più vicino è, la verifica preliminare evidenzia tale blocco e aggiunge una nota che ne spiega il motivo.
 
 Nell&#39;Editor pagina di AEM Sites e in Adobe Managed Services (AMS), l&#39;evidenziazione richiede anche la **modalità di modifica**. In modalità **Anteprima**, la verifica preliminare mostra un avviso di **Evidenziazione di problemi non disponibile**; passa alla modalità **Modifica** per evidenziare gli elementi nella pagina.
 
