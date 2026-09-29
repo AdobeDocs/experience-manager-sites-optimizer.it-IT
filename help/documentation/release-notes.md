@@ -3,21 +3,48 @@ title: Note sulla versione
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Experience Manager Sites Optimizer.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9af59e18de7ce016778f25d4add450b50e0b1fde
+    internal-label: Optimization
+source-git-commit: 42f44053eae27ad9068c1a34fc19288f59e77b7e
 workflow-type: tm+mt
-source-wordcount: 1805
+source-wordcount: '2120'
 ht-degree: 1%
-
 ---
-
 
 # Note sulla versione
 
 In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e i miglioramenti introdotti in Adobe Experience Manager Sites Optimizer.
 
 Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su richiesta. Contattare il team del proprio account o il Customer Success Engineer per abilitarle per la propria organizzazione.
+
+## 20-27 agosto 2026
+
+### Nuove funzioni
+
+- **Visualizzazione avvisi**: esaminare una sequenza temporale di 90 giorni relativa a problemi di integrità del sito rilevati automaticamente, correlare le modifiche con le distribuzioni e gli aggiornamenti dei contenuti e controllare le pagine interessate e le metriche delle prestazioni in un&#39;unica posizione.
+- **Rapporti e risultati positivi**: utilizza la sezione Rapporti per esaminare la cronologia di ottimizzazione, le tendenze delle prestazioni e le vincite prima e dopo che ti aiutano a comunicare l&#39;impatto del lavoro di ottimizzazione.
+- **Novità e Centro assistenza**: scopri le funzionalità rilasciate di recente, apri la documentazione del prodotto e accedi alle note sulla versione direttamente dal Centro assistenza in-app.
+- **Connessione Google Ads (accesso anticipato)**: collega un account Google Ads per inserire dati sulle prestazioni del traffico a pagamento nelle opportunità e nelle raccomandazioni di Sites Optimizer.
+
+### Miglioramenti
+
+- **Controlli elenco opportunità**: consente di filtrare e ordinare le opportunità in base all&#39;URL, allo stato di visualizzazione principale, alla priorità o all&#39;ultima versione, di salvare le visualizzazioni nell&#39;URL per la condivisione e di esportare i dati dei suggerimenti in formato CSV.
+- **Controlli flusso di lavoro suggerimenti**: modifica i suggerimenti generati dall&#39;intelligenza artificiale prima della distribuzione, ignora i singoli suggerimenti, ignora le opportunità complete e ripristina quelle ignorate quando diventano di nuovo rilevanti.
+- **Cronologia distribuzione**: esaminare la cronologia della distribuzione in base alla data, distinguere le distribuzioni automatiche dalle modifiche contrassegnate come distribuite manualmente e seguire i collegamenti di richiesta pull per le correzioni basate sul codice.
+- **Integrazioni marchio e Slack**: seleziona un marchio Adobe GenStudio per la generazione di contenuti on-brand e condividi gli aggiornamenti di ottimizzazione pertinenti con un canale Slack configurato.
+
+## 6-19 agosto 2026
+
+### Nuove funzioni
+
+- **Verifica preliminare nell&#39;Editor pagine di AEM Sites** — Se l&#39;ambiente di authoring esegue AEM 2026.7.0 o versione successiva, è possibile aprire Verifica preliminare direttamente dalla barra degli strumenti Editor pagine per analizzare la pagina corrente senza uscire dal flusso di lavoro di authoring.
+- **Opzioni di esportazione verifica preliminare** — Esporta i risultati della verifica preliminare come CSV o PDF, con opzioni che includono l&#39;esecuzione dei metadati e dei controlli passati, facilitando la condivisione dei risultati e la verifica della fattibilità.
+
+### Miglioramenti
+
+- **Dettagli della sessione di verifica preliminare** - Quando si continua una sessione di controllo precedente, la verifica preliminare mostra quando è stata eseguita l&#39;esecuzione e semplifica l&#39;identificazione degli elementi interessati tramite la visualizzazione di testo leggibile o di un selettore CSS.
 
 ## 1-19 luglio 2026
 
