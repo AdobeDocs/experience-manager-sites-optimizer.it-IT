@@ -1,13 +1,11 @@
 ---
 title: Verifica preliminare dei controlli SEO
 description: Scopri i controlli SEO (Search Engine Optimization) che la verifica preliminare esegue sulla tua pagina in AEM Sites Optimizer.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: d87b607248efdeecf1ba29ede03bf1628d1dff30
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '208'
 ht-degree: 0%
-
 ---
-
 # Audit SEO
 
 ![Audit SEO nel dashboard di preparazione alla verifica preliminare](./assets/seo/hero.png){align="center"}
@@ -21,7 +19,7 @@ La categoria SEO include i seguenti audit:
 * [Metatag](./seo/metatags.md) - Esamina i tag titolo pagina e meta description.
 * [Intestazioni](./seo/headings.md) - Esamina la struttura e l&#39;ordine delle intestazioni della pagina.
 * [Conteggio H1](./seo/h1-count.md) - Esamina il numero di intestazioni H1 nella pagina.
-* [Collegamenti](./seo/links.md) - Esamina i collegamenti nella pagina.
+* [Collegamenti interni](./seo/internal-links.md) - Esamina i collegamenti nella pagina che puntano al tuo sito.
 * [Leggibilità](./seo/readability.md) - Esamina la facilità di lettura del contenuto della pagina.
 * [Canonico](./seo/canonical.md) - Esamina il collegamento canonico della pagina.
 * [Dimensione corpo](./seo/body-size.md) - Esamina la quantità di contenuto del corpo nella pagina.

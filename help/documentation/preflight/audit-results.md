@@ -1,9 +1,9 @@
 ---
 title: Risultati dell’audit della verifica preliminare
 description: Scopri come interpretare i risultati dell’audit della verifica preliminare, il misuratore di fattibilità e le categorie di audit e come passare alle opportunità nell’anteprima.
-source-git-commit: dd2637e61e15a6b8364456ae7d11717a0b81ad09
+source-git-commit: d87b607248efdeecf1ba29ede03bf1628d1dff30
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 2%
 ---
 
@@ -49,13 +49,17 @@ Per l&#39;elenco completo delle categorie di controllo e dei controlli di audit 
 
 La pagina dei dettagli mostra le opportunità trovate dal controllo di audit selezionato. Quando lo stesso problema si verifica in più posizioni, ogni occorrenza viene definita istanza. Utilizza il Navigator (**Istanza precedente** e **Istanza successiva**) per esaminarle; mostra la tua posizione, ad esempio *1 di 5 istanze trovate*. Per tornare al dashboard di preparazione, seleziona la freccia indietro accanto al titolo del controllo di audit; il dashboard viene riaperto con la categoria del controllo di audit espansa.
 
+Per i controlli che identificano un URL specifico nella pagina, la sezione **Element** viene visualizzata nella parte superiore della scheda per introdurre l&#39;elemento e il resto dell&#39;opportunità viene visualizzato sotto di essa nella sezione corrispondente.
+
+Se più di un&#39;opportunità influisce sullo stesso elemento, ad esempio diversi problemi con lo stesso collegamento, la verifica preliminare le mostra su una scheda, ciascuna nella propria sezione con il relativo numero di istanza, ad esempio **Istanza 3**. Il navigatore visualizza quindi un intervallo invece di una singola posizione, ad esempio *3-5 di 12 istanze trovate*.
+
 ![Pagina dei dettagli per un controllo di audit, che mostra un&#39;opportunità e il relativo suggerimento](./assets/audit-results/audit-detail.png){align="center"}
 
 Ogni opportunità include:
 
 * Un badge di gravità o di impatto che indica l’importanza dell’opportunità.
 * Dettagli sull’opportunità, ad esempio una descrizione del problema, un consiglio e, per l’accessibilità, la regola WCAG correlata e il livello di conformità.
-* Sezione **Element** che identifica l&#39;elemento interessato nella pagina, con un pulsante **Evidenzia a pagina**. Quando l&#39;elemento contiene testo leggibile, la sezione ha titolo **Elemento: Testo** e mostra tale testo; in caso contrario, ha titolo **Elemento: Selettore** e mostra il selettore CSS dell&#39;elemento. Per le opportunità **Links** e **Canonical**, una sezione **Current URL** mostra anche l&#39;URL interessato, che puoi aprire in una nuova scheda, se possibile.
+* Sezione **Element** che identifica l&#39;elemento interessato nella pagina, con un pulsante **Evidenzia a pagina**. Quando l&#39;elemento contiene testo leggibile, la sezione ha titolo **Elemento: Testo** e mostra tale testo; in caso contrario, ha titolo **Elemento: Selettore** e mostra il selettore CSS dell&#39;elemento. Per le opportunità **Collegamenti interni** e **Canonical**, una sezione **URL corrente** mostra anche l&#39;URL interessato. Seleziona **Copia URL** per copiarlo negli Appunti, oppure **Apri in una nuova scheda** per aprirlo.
 * Una sezione **Suggestion** con una correzione consigliata. Quando il suggerimento è generato dall’intelligenza artificiale, viene contrassegnato come suggerimento generato dall’intelligenza artificiale e può includere una breve motivazione che spiega la correzione suggerita.
 
 ## Evidenziazione sulla pagina
