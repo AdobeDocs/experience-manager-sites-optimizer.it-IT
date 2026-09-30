@@ -7,10 +7,10 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 42f44053eae27ad9068c1a34fc19288f59e77b7e
+source-git-commit: 5399b579133dc11cd8a8154b55467b8bc5291b4d
 workflow-type: tm+mt
-source-wordcount: '2120'
-ht-degree: 1%
+source-wordcount: '2510'
+ht-degree: 2%
 ---
 
 # Note sulla versione
@@ -18,6 +18,72 @@ ht-degree: 1%
 In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e i miglioramenti introdotti in Adobe Experience Manager Sites Optimizer.
 
 Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su richiesta. Contattare il team del proprio account o il Customer Success Engineer per abilitarle per la propria organizzazione.
+
+## 28-29 settembre 2026
+
+### Miglioramenti
+
+- **Distribuzione di collegamenti interni interrotti (accesso anticipato)**: fornire un URL sostitutivo per un collegamento che non può essere corretto automaticamente e distribuire l&#39;aggiornamento convalidato.
+- **Stato distribuzione pubblicato**: verifica quando una modifica implementata viene confermata in tempo reale nella pagina pubblicata, mantenendo gli stati di cancellazione degli errori e di rilevamento.
+
+### Correzioni di bug
+
+- Le opportunità di accessibilità di Forms ora supportano la creazione di problemi Jira.
+- I collegamenti di follow-up per la distribuzione ora consentono di aprire l’archivio del codice configurato.
+
+## 21-27 settembre 2026
+
+### Miglioramenti
+
+- **Domande frequenti sulla distribuzione strutturata dei dati (accesso anticipato)**: per le pagine gestite con AEM Multi-Site Manager, scegliere se applicare gli aggiornamenti dei dati strutturati alla pagina di origine o solo alla pagina locale.
+- **Distribuzione modulo**: distribuire in modo affidabile la correzione associata alla variante di modulo selezionata.
+- **Esperienze localizzate**: le etichette di autorizzazione e il contenuto della tabella troncata sono più chiari nelle lingue supportate.
+
+### Correzioni di bug
+
+- I download delle patch di Core Web Vitals sono disponibili ogni volta che esiste una patch.
+- Le esportazioni CSV ora mantengono i caratteri localizzati in Excel.
+- Le metriche delle prestazioni non rimangono più bloccate nel caricamento quando i dati di origine sono incompleti.
+
+## 14-20 settembre 2026
+
+### Miglioramenti
+
+- **Autorizzazioni granulari**: gli amministratori possono concedere ai membri l&#39;accesso ai tipi di opportunità selezionati gestendo separatamente le autorizzazioni a livello di sito.
+
+### Correzioni di bug
+
+- La distribuzione dei metadati ora ripristina l’avviso visualizzato quando si corregge una pagina locale che interrompe l’ereditarietà.
+
+## 7-13 settembre 2026
+
+### Nuove funzioni
+
+- **Esclusioni di posizionamento di Google Ads**: controlla i rischi di posizionamento per gli account Google Ads connessi e scarica elenchi di esclusione specifici del sito per le campagne automatizzate e Performance Max.
+
+### Miglioramenti
+
+- **Guida all&#39;errore di distribuzione**: i messaggi di errore ora spiegano se un aggiornamento del contenuto richiede l&#39;accesso alla connessione, una nuova analisi o il supporto.
+
+### Correzioni di bug
+
+- I valori e i layout dei rapporti sull’accessibilità ora vengono visualizzati più chiaramente nelle lingue supportate.
+- I totali del canale di traffico a pagamento e della piattaforma ora includono il traffico non classificato in precedenza.
+- I conteggi distribuiti dei collegamenti interrotti ora corrispondono alle righe visualizzate, inclusi gli stati di rollback e di distribuzione precedente.
+- I siti Edge Delivery Services idonei non vengono più bloccati in modo errato dalla distribuzione di collegamenti interrotti.
+
+## 31 agosto - 6 settembre 2026
+
+### Miglioramenti
+
+- **Connessioni al contenuto di AEM**: le impostazioni ora riconoscono le configurazioni Edge Delivery Services create da AEM, ne mantengono i dettagli di origine e bloccano gli URL di origine non supportati prima del salvataggio.
+- **Onboarding di prova**: la voce di dominio ora spiega i requisiti del sito di produzione supportato prima dell&#39;aggiunta di un sito di prova.
+
+### Correzioni di bug
+
+- Le etichette e i selettori del mese Traffico a pagamento ora vengono visualizzati correttamente nelle lingue supportate.
+- Le esportazioni CSV ora utilizzano l’URL di pagina corretto per ogni problema di accessibilità.
+- I siti Edge Delivery Services idonei non vengono più bloccati in modo errato dalla distribuzione di testo alternativo.
 
 ## 20-27 agosto 2026
 
