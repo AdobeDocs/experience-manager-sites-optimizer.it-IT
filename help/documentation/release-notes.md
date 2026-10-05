@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 5399b579133dc11cd8a8154b55467b8bc5291b4d
+source-git-commit: 8d6936c2c577d7a98937cb8ddf90d18a6e82a9bb
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2628'
 ht-degree: 2%
 ---
 
@@ -19,17 +19,26 @@ In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e 
 
 Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su richiesta. Contattare il team del proprio account o il Customer Success Engineer per abilitarle per la propria organizzazione.
 
-## 28-29 settembre 2026
+## 28 settembre - 4 ottobre 2026 {#september-28-october-4-2026}
+
+### Nuove funzioni
+
+- **Opportunità dell&#39;agente di intelligenza artificiale personale (accesso anticipato)**: filtra le opportunità che consentono agli agenti di intelligenza artificiale personali di leggere e interagire con il tuo sito, con distintivi e indicazioni che spiegano i vantaggi.
 
 ### Miglioramenti
 
 - **Distribuzione di collegamenti interni interrotti (accesso anticipato)**: fornire un URL sostitutivo per un collegamento che non può essere corretto automaticamente e distribuire l&#39;aggiornamento convalidato.
-- **Stato distribuzione pubblicato**: verifica quando una modifica implementata viene confermata in tempo reale nella pagina pubblicata, mantenendo gli stati di cancellazione degli errori e di rilevamento.
+- **Stato pubblicazione testo alternativo**: verifica quando una modifica del testo alternativo viene confermata in tempo reale nella pagina pubblicata, mantenendo gli stati di cancellazione degli errori e di rilevamento.
+- **Patch codice Core Web Vitals** - Esamina il file delle patch in base al file con i numeri di riga ed evidenzia aggiunte ed eliminazioni.
+- **Distribuzione del codice Core Web Vitals (accesso anticipato)** — Invia patch di codice idonee come richiesta di pull nell&#39;archivio del codice configurato.
 
 ### Correzioni di bug
 
 - Le opportunità di accessibilità di Forms ora supportano la creazione di problemi Jira.
 - I collegamenti di follow-up per la distribuzione ora consentono di aprire l’archivio del codice configurato.
+- I rapporti dettagliati sull’accessibilità ora si aprono e visualizzano il contenuto anziché essere reindirizzati alla home page o visualizzati vuoti.
+- I conteggi e i gruppi di date distribuiti con Testo alternativo ora corrispondono alle correzioni visualizzate, senza gruppi di distribuzione non riusciti vuoti.
+- Il ripristino dei suggerimenti Sitemap e Core Web Vitals ignorati ora ne aggiorna lo stato in modo affidabile.
 
 ## 21-27 settembre 2026
 
