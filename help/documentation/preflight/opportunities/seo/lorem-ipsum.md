@@ -1,13 +1,14 @@
 ---
 title: Verifica preliminare Lorem Ipsum
 description: Scopri l’audit Lorem ipsum in Verifica preliminare per AEM Sites Optimizer.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
-
 ---
-
 # Audit Lorem ipsum
 
 Il controllo di controllo **Lorem ipsum** rileva il testo segnaposto lasciato nel contenuto della pagina. La pubblicazione di una pagina con testo segnaposto non ha esito positivo per i lettori e può essere indicizzata dai motori di ricerca. Il controllo di audit contrassegna qualsiasi testo segnaposto in modo da poterlo sostituire con contenuto reale prima della pubblicazione.

@@ -1,13 +1,14 @@
 ---
 title: Eseguire audit nella verifica preliminare
 description: Scopri come avviare un audit di verifica preliminare sulla pagina.
-source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 14%
-
+ht-degree: 19%
 ---
-
 
 # Audit nella verifica preliminare
 

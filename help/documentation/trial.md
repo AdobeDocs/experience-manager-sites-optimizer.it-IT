@@ -1,7 +1,10 @@
 ---
 title: Versione di prova di Sites Optimizer
 description: Introduzione alla versione di prova di AEM Sites Optimizer per clienti di AEM Sites esistenti.
-source-git-commit: 052faac621530a5b9e74bd8e4790a604887515f7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 45%
@@ -20,7 +23,7 @@ Inizia a usare Sites Optimizer utilizzando questa versione di prova per **client
 >* È accessibile al pubblico e non dietro un accesso.
 >* Utilizza la distribuzione front-end in AEM Sites. La distribuzione headless non è attualmente supportata.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483295/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -53,7 +56,7 @@ Sites Optimizer analizza il sito per identificare le opportunità di ottimizzazi
 
 ![Finestra di dialogo per l&#39;onboarding in cui viene indicato che Sites Optimizer non è in grado di accedere al sito Web. Sono elencati gli indirizzi IP dell&#39;agente utente e dello scanner da inserire nell&#39;elenco Consentiti, ciascuno con un pulsante Copia e un pulsante Aggiorna per controllare nuovamente l&#39;accesso](./assets/trial/ip-allowlist-action-required.png){align="center"}
 
-Per lasciare passare lo scanner, è necessario inserire nell&#39;elenco Consentiti entrambi i seguenti elementi nel firewall, nel provider di hosting o nella configurazione di protezione. Per i siti AEM Cloud Service, aggiungi una regola di autorizzazione per lo scanner alle [regole del filtro del traffico CDN](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) in Cloud Manager, che possono corrispondere sia sull&#39;agente utente che sull&#39;indirizzo IP. Se si limita l&#39;accesso utilizzando [elenchi consentiti IP di Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), aggiungere anche gli indirizzi IP dello scanner all&#39;elenco consentiti applicato.
+Per lasciare passare lo scanner, è necessario inserire nell&#39;elenco Consentiti entrambi i seguenti elementi nel firewall, nel provider di hosting o nella configurazione di protezione. Per i siti AEM Cloud Service, aggiungi una regola di autorizzazione per lo scanner alle [regole del filtro del traffico CDN](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) in Cloud Manager, che possono corrispondere sia sull&#39;agente utente che sull&#39;indirizzo IP. Se si limita l&#39;accesso utilizzando [elenchi consentiti IP di Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), aggiungere anche gli indirizzi IP dello scanner all&#39;elenco consentiti applicato.
 
 * **Agente utente** - Lo scanner si identifica con un agente utente contenente il token `Spacecat/1.0`. Inserire nell&#39;elenco Consentiti questo token, idealmente come una corrispondenza &quot;contiene&quot;, in modo che continui a funzionare anche se cambia la stringa completa dell’agente utente.
 * **Indirizzi IP dello scanner** — Inserire nell&#39;elenco Consentiti gli indirizzi IP in uscita dello scanner.
