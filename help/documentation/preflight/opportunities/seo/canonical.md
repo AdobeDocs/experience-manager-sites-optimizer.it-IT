@@ -1,13 +1,14 @@
 ---
 title: Verifica preliminare dell'audit canonico
 description: Scopri il controllo Canonical in Verifica preliminare per AEM Sites Optimizer.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
-
 ---
-
 # Audit canonico
 
 L&#39;audit di **Canonical** esamina il collegamento canonico nella pagina. Un collegamento canonico corretto comunica ai motori di ricerca quale URL è la versione autorevole di una pagina, il che consente di evitare problemi di contenuti duplicati. Il controllo di audit contrassegna i collegamenti canonici mancanti o errati.
