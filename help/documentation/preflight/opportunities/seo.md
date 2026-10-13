@@ -4,9 +4,9 @@ description: Scopri i controlli SEO (Search Engine Optimization) che la verifica
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '211'
 ht-degree: 0%
 ---
 # Audit SEO
@@ -19,7 +19,7 @@ Nel dashboard di preparazione, espandi la categoria **SEO** per visualizzare ogn
 
 La categoria SEO include i seguenti audit:
 
-* [Metatag](./seo/metatags.md) - Esamina i tag titolo pagina e meta description.
+* [Metatag](./seo/metatags.md) - Esamina il titolo della pagina, la metadescrizione e l&#39;intestazione H1.
 * [Intestazioni](./seo/headings.md) - Esamina la struttura e l&#39;ordine delle intestazioni della pagina.
 * [Collegamenti interni](./seo/internal-links.md) - Esamina i collegamenti nella pagina che puntano al tuo sito.
 * [Collegamenti esterni](./seo/external-links.md) - Esamina i collegamenti nella pagina che puntano ad altri siti.
