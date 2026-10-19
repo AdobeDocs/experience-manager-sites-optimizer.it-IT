@@ -1,20 +1,20 @@
 ---
 title: Gestione autorizzazioni utente
-description: Scopri come gestire l’accesso degli utenti e le funzionalità in AEM Sites Optimizer.
+description: Scopri come gestire l’accesso e le funzionalità per utenti e gruppi di utenti in AEM Sites Optimizer.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: c372679073253df686a77daccb6cb548622181f5
+source-git-commit: 99cab67b45300bb89cec79e714761e67e19bc2dc
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1708'
 ht-degree: 1%
 ---
 # Gestire le autorizzazioni utente
 
-Controlla chi può accedere a un sito in Sites Optimizer e cosa può farci. L&#39;accesso è basato su un piccolo insieme di *funzionalità indipendenti*, ovvero visualizzazione, modifica, distribuzione, configurazione e gestione degli utenti, concesse a ogni utente.
+Controlla chi può accedere a un sito in Sites Optimizer e cosa può farci. L&#39;accesso è basato su un piccolo insieme di *funzionalità indipendenti*, ovvero visualizzazione, modifica, distribuzione, configurazione e gestione degli utenti, concesse a singoli utenti o a gruppi di utenti.
 
 L&#39;accesso è **additivo**: le autorizzazioni di una persona sono la somma di tutto ciò che le è stato concesso. Non c&#39;è &quot;negazione&quot;, quindi le sovvenzioni non entrano mai in conflitto o si annullano a vicenda. Per concedere a un utente un accesso inferiore, rimuovi una sovvenzione anziché tentare di sovrascriverla.
 
@@ -91,11 +91,26 @@ Ogni concessione con ambito viene visualizzata come riga del membro, con una col
 >
 >L&#39;ambito limita solo ciò che la concessione *che* concede, non rimuove mai l&#39;accesso fornito da un&#39;altra concessione. Se una persona dispone anche di un accesso a livello di organizzazione o di una concessione di **Tutti** i tipi sono ancora validi. Quindi, per limitare realmente qualcuno a specifici tipi di opportunità, assicurati che non abbiano anche un ruolo più ampio o una sovvenzione di **Tutti** i tipi.
 
+## Concedere l’accesso ai gruppi di utenti
+
+Oltre alle singole persone, puoi concedere l&#39;accesso a livello di sito a un **gruppo di utenti** dal [Adobe Admin Console](https://adminconsole.adobe.com/) della tua organizzazione. Tutti i membri del gruppo ottengono le funzionalità concesse al gruppo su quel sito, in modo da poter gestire l’accesso per un intero team con una singola concessione.
+
+- I gruppi di utenti vengono creati e mantenuti in Admin Console, in **Utenti** > **Gruppi di utenti**. Sites Optimizer elenca i gruppi già esistenti nell&#39;organizzazione. Non è possibile creare un gruppo dalla scheda **Autorizzazioni**.
+- Quando le persone si uniscono o lasciano il gruppo in Admin Console, il loro accesso al sito cambia con esso. Non è necessario aggiornare nulla in Sites Optimizer.
+- A un gruppo vengono assegnate funzionalità e tipi di opportunità esattamente come a una persona e viene visualizzato nella tabella **Membri** con un&#39;etichetta **Gruppo**. Puoi modificarlo o rimuoverlo nello stesso modo.
+- L&#39;accesso al gruppo si aggiunge a tutti gli altri contenuti di una persona. Una persona che appartiene a un gruppo e che ha anche la propria sovvenzione ottiene la combinazione di entrambi.
+
+>[!NOTE]
+>
+>Se non è possibile caricare il nome di un gruppo, nella riga corrispondente della tabella **Membri** verrà visualizzato un ID gruppo abbreviato. Passa il cursore del mouse sull’ID o concentrati sull’ID per visualizzarlo completamente. La sovvenzione è ancora valida.
+
 ## Aggiungi un membro
+
+Un membro è una persona o un gruppo di utenti.
 
 1. Apri la scheda **Autorizzazioni** (l&#39;icona del lucchetto nella navigazione a sinistra) e seleziona il sito.
 1. Fare clic su **Aggiungi membri**.
-1. Cerca per nome o e-mail e seleziona una o più persone.
+1. In **Persone e gruppi**, cercare le persone per nome o e-mail oppure i gruppi di utenti per nome. Seleziona una o più persone o gruppi. I gruppi sono contrassegnati con l&#39;etichetta **Gruppo**.
 1. Scegli i **tipi di opportunità** a cui si applica l&#39;accesso (o **Tutti**), quindi seleziona le funzionalità da concedere.
 1. Fai clic su **Aggiungi**.
 
@@ -105,6 +120,8 @@ Nella tabella **Membri**:
 
 - Fai clic su **Modifica funzionalità** nella riga di un membro per modificare le operazioni che è in grado di eseguire. Quando si modifica una sovvenzione esistente, il relativo tipo di opportunità rimane fisso: vengono modificate solo le funzionalità e almeno una funzionalità deve rimanere selezionata.
 - Fare clic su **Rimuovi** per revocare completamente l&#39;accesso del membro al sito.
+
+Una persona che non fa più parte dell&#39;organizzazione, ad esempio un utente che ha lasciato, viene visualizzata nella tabella **Membri** con l&#39;etichetta **Utente inattivo** e l&#39;ID al posto del nome. Non è possibile modificarne l&#39;accesso, ma è possibile rimuovere il membro per ripulire la voce.
 
 >[!NOTE]
 >
@@ -156,6 +173,10 @@ La creazione di un ruolo a livello di organizzazione è un’azione di Admin Con
 **Come posso revocare l&#39;accesso di un utente a un sito?**
 
 Rimuovi la relativa concessione nella scheda **Autorizzazioni**. Questa funzione è diversa dalle funzionalità di editing, che devono sempre lasciare almeno una funzionalità.
+
+**Posso concedere l&#39;accesso a un intero team contemporaneamente?**
+
+Sì. Aggiungi un gruppo di utenti Admin Console come membro nella scheda **Autorizzazioni**. Tutti gli utenti del gruppo ottengono le funzionalità del gruppo su quel sito e l&#39;accesso segue l&#39;iscrizione del gruppo in Admin Console. Vedere [Concedere l&#39;accesso ai gruppi di utenti](#grant-access-to-user-groups).
 
 **È possibile limitare una persona a tipi di opportunità specifici?**
 
