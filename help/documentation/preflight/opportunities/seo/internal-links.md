@@ -4,9 +4,9 @@ description: Scopri l’audit dei collegamenti interni in Verifica preliminare p
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '889'
 ht-degree: 0%
 ---
 # Audit dei collegamenti interni
@@ -36,6 +36,28 @@ Il controllo di audit controlla i collegamenti dalla sessione di authoring, in m
 I collegamenti che AEM Link Checker ha già contrassegnato come non validi vengono inclusi nel controllo di audit, anche se l’editor rimuove il collegamento cliccabile dalla pagina. Vengono quindi ricontrollate anziché considerate attendibili, pertanto non viene segnalato un collegamento che da allora ha iniziato a funzionare.
 
 Viene segnalata un’opportunità per ogni posizione in cui appare un collegamento, quindi un collegamento errato utilizzato in tre punti offre tre istanze da correggere, ciascuna delle quali evidenzia il proprio punto sulla pagina. Quando uno di questi punti presenta più di un problema, la verifica preliminare li mostra insieme su un&#39;unica scheda.
+
+## Includi collegamenti di spostamento del sito
+
+Per impostazione predefinita, il controllo dei collegamenti interni ignora i collegamenti di navigazione del sito. Questi collegamenti non vengono né controllati né segnalati. Un collegamento nel corpo della pagina viene comunque selezionato anche se lo stesso URL viene visualizzato anche in un menu.
+
+Un collegamento conta come navigazione se il collegamento stesso o qualsiasi elemento precedente è un elemento `<nav>` o ha un attributo `role="navigation"`.
+
+Per includere i collegamenti di navigazione nella successiva esecuzione del controllo:
+
+1. Prima di avviare un controllo di audit o al termine di un&#39;esecuzione, apri **Impostazioni** (icona a forma di ingranaggio) nell&#39;intestazione Verifica preliminare. Se l&#39;icona ingranaggio non è visibile, apri **Altre azioni** (**...**) e selezionare **Impostazioni**.
+1. Selezionare **Mostra collegamenti di spostamento del sito**.
+1. Selezionare **Analizza pagina** per avviare un&#39;esecuzione oppure **Rianalizza** se i risultati sono già visualizzati.
+
+![Il menu Impostazioni verifica preliminare con l&#39;opzione Mostra collegamenti di navigazione del sito](./assets/internal-links/settings-menu.png){align="center"}
+
+**Mostra collegamenti di spostamento del sito** controlla quali collegamenti collegano i controlli di controllo e non solo quali risultati vengono visualizzati (attualmente solo collegamenti interni).
+
+La modifica dell’impostazione non avvia un controllo di audit né modifica i risultati già visualizzati sullo schermo. Quando tali risultati hanno utilizzato un&#39;impostazione diversa, viene visualizzato un punto in **Rianalizza**, con l&#39;etichetta **Rianalizza per applicare le nuove impostazioni**. Esegui nuovamente i controlli di audit per applicare la modifica o ripristina l’impostazione precedente per cancellare il punto.
+
+Verifica preliminare salva l&#39;impostazione nel browser e la mantiene dopo la disconnessione. Le schede sullo stesso sito condividono l’impostazione. Per ignorare nuovamente i collegamenti di spostamento, deselezionare **Mostra collegamenti di spostamento del sito** prima della successiva esecuzione.
+
+L’impostazione non è disponibile mentre i controlli di audit sono in esecuzione o nell’Editor universale.
 
 ## Limitazioni note
 

@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 8d6936c2c577d7a98937cb8ddf90d18a6e82a9bb
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2920'
 ht-degree: 2%
 ---
 
@@ -18,6 +18,23 @@ ht-degree: 2%
 In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e i miglioramenti introdotti in Adobe Experience Manager Sites Optimizer.
 
 Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su richiesta. Contattare il team del proprio account o il Customer Success Engineer per abilitarle per la propria organizzazione.
+
+## 5-20 ottobre 2026 {#october-5-20-2026}
+
+### Nuove funzioni
+
+- **Impostazione collegamenti di navigazione preliminare del sito** — Scegliere se il controllo di audit dei collegamenti interni controlla i collegamenti all&#39;interno dei menu di navigazione del sito. L&#39;impostazione è disattivata per impostazione predefinita, pertanto i controlli di audit vengono completati più rapidamente e **Rianalizza** mostra quando un&#39;impostazione modificata non è ancora stata applicata.
+
+### Miglioramenti
+
+- **Avanzamento verifica preliminare dell&#39;audit** — Il misuratore di fattibilità mostra ora la percentuale di audit superati e ogni categoria mostra quando i controlli sono ancora in esecuzione, con un conteggio &quot;superato finora&quot; fino a quando i risultati non sono definitivi.
+- **Verifica preliminare della copertura dei collegamenti interni**: l&#39;audit dei collegamenti interni ora controlla ogni collegamento idoneo dello stesso host sulla pagina, inclusi i collegamenti nei componenti ripetuti come gli elenchi di schede. I collegamenti di spostamento del sito sono inclusi solo quando è selezionato **Mostra collegamenti di spostamento del sito**. I collegamenti esterni alla navigazione del sito vengono elencati per primi e la verifica preliminare segnala chiaramente quando una pagina contiene troppi collegamenti per il check-in.
+- **Dettagli collegamento di verifica preliminare** - I collegamenti interrotti contrassegnati dal Link Checker di AEM ora mostrano il testo visibile del collegamento invece di un selettore CSS.
+- **Azioni intestazione verifica preliminare** — **Rianalizza** e **Chiudi** rimangono sempre visibili nell&#39;intestazione Verifica preliminare e **Esporta** e **Impostazioni** vengono spostati nel menu **Altre azioni** quando lo spazio è limitato.
+- **Verifica preliminare corrispondenza sito**: quando una pagina corrisponde a più siti onboarded, la verifica preliminare spiega il problema e consente di continuare con uno dei siti corrispondenti.
+- **Suggerimenti per la verifica preliminare del testo alternativo** — Le opportunità di testo alternativo suggerite mostrano il testo alternativo consigliato come suggerimento pronto all&#39;uso, seguito dal motivo del suggerimento quando ne è disponibile uno.
+- **Verifica preliminare Lorem Ipsum Details** - Quando viene trovato testo segnaposto in un attributo, ad esempio il testo alt di un&#39;immagine, l&#39;opportunità mostra quale attributo corrisponde.
+- **Verifica preliminare nell&#39;editor universale**: i controlli di audit nell&#39;editor universale ora utilizzano il contenuto di cui è stato eseguito il rendering della pagina, rendendoli più veloci e affidabili.
 
 ## 28 settembre - 4 ottobre 2026 {#september-28-october-4-2026}
 

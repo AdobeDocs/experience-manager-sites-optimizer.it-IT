@@ -4,9 +4,9 @@ description: Scopri come interpretare i risultati dell’audit della verifica pr
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1362'
 ht-degree: 2%
 ---
 
@@ -18,8 +18,11 @@ Al termine dei controlli, Verifica preliminare visualizza i risultati nel dashbo
 
 La barra degli strumenti nella parte superiore del dashboard di preparazione fornisce le azioni per l’esecuzione corrente:
 
-* **Rianalizza** - Avvia una nuova esecuzione di controllo nella pagina corrente. La funzione Rianalizza elimina sempre i risultati visualizzati ed esegue di nuovo ogni controllo di audit, quindi utilizzala ogni volta che desideri ottenere nuovi risultati, ad esempio dopo aver modificato la pagina. La rianalisi si trova in **Altre azioni** (**...**) menu.
+* **Rianalizza** - Avvia una nuova esecuzione di controllo nella pagina corrente. La funzione Rianalizza elimina sempre i risultati visualizzati ed esegue di nuovo ogni controllo di audit, quindi utilizzala ogni volta che desideri ottenere nuovi risultati, ad esempio dopo aver modificato la pagina. Seleziona **Rianalizza** nella barra degli strumenti.
 * **Esporta** - Scarica l&#39;esecuzione corrente come file **CSV** (compatibile con fogli di calcolo) o **PDF** (formato documento). A seconda dell&#39;ambiente, seleziona **Esporta** dalla barra degli strumenti o da **Altre azioni** (**...**) menu.
+* **Impostazioni** - Utilizzare **Mostra collegamenti di spostamento al sito** per includere i collegamenti di spostamento al sito (attualmente solo collegamenti interni). Seleziona l&#39;icona ingranaggio o apri **Altre azioni** (**...**) e selezionare **Impostazioni**. Le impostazioni sono disponibili prima o dopo il completamento di un’esecuzione, ma non durante l’esecuzione dei controlli di audit o nell’editor universale. Vedi [Includi collegamenti di navigazione del sito](./opportunities/seo/internal-links.md#include-site-navigation-links).
+
+Se modifichi un&#39;impostazione dopo un&#39;esecuzione, un punto su **Rianalizza** e l&#39;etichetta **Rianalizza per applicare nuove impostazioni** indicano che i risultati visualizzati hanno utilizzato un&#39;impostazione diversa. Selezionare **Rianalizza** per applicare l&#39;impostazione salvata a una nuova esecuzione.
 
 Quando esegui l’esportazione, puoi anche scegliere cosa includere:
 
@@ -32,19 +35,21 @@ Quando esegui l’esportazione, puoi anche scegliere cosa includere:
 
 ## Misuratore di fattibilità
 
-Nella parte superiore del dashboard, il misuratore di prontezza riflette i risultati complessivi del controllo di audit. Mostra un punteggio di preparazione in percentuale, basato sulla percentuale di audit conclusi senza opportunità, insieme al numero totale di opportunità trovate in tutti gli audit. Il misuratore di prontezza consente di misurare lo stato complessivo della pagina in una panoramica.
+Nella parte superiore del dashboard, il misuratore di prontezza riflette i risultati complessivi del controllo di audit. Mostra la percentuale di controlli di audit completati senza opportunità, etichettati **% superati**, insieme al numero totale di opportunità trovate in tutti i controlli di audit. Ad esempio, **85% ha superato** significa che l&#39;85% dei controlli di audit completati non ha trovato opportunità. Questa percentuale descrive i risultati del controllo di audit, non l’avanzamento durante l’esecuzione.
 
 ![Misuratore di fattibilità e categorie di controllo nel dashboard Verifica preliminare](./assets/overview/hero.png){align="center"}
 
 Quando visualizzi un&#39;esecuzione ricaricata da una sessione precedente, l&#39;intestazione mostra quanto tempo è trascorso dall&#39;esecuzione, ad esempio *ieri*. Per ulteriori informazioni, vedere [Continuare una sessione precedente](./audits.md#continue-a-previous-session).
 
-Mentre i controlli sono ancora in corso, il misuratore di prontezza mostra una barra di avanzamento con uno stato breve sotto di esso che mostra il passaggio corrente. Al termine degli audit, il contatore mostra la percentuale finale di preparazione e il conteggio delle opportunità.
+Mentre i controlli di audit sono ancora in esecuzione, il dashboard mostra **Analisi della pagina** con uno stato breve al di sotto. Prima dell’arrivo delle categorie di controllo denominate, viene visualizzata inizialmente una barra di avanzamento. Una volta visualizzate le categorie, i singoli indicatori di elaborazione mostrano quali categorie hanno ancora lavoro in corso. Al termine di tutti gli audit, il contatore mostra la percentuale finale passata e il conteggio delle opportunità.
 
 ## Categorie di audit
 
 Verifica preliminare raggruppa i controlli di audit correlati in categorie, ad esempio **SEO** e **Accessibilità**. Ogni categoria viene visualizzata come una scheda che mostra il numero di opportunità trovate o indica che tutti i controlli di audit sono stati superati senza opportunità.
 
 Espandi una categoria per visualizzare i singoli controlli di audit. Ogni audit mostra se ha superato o trovato le opportunità, una breve descrizione e un conteggio delle opportunità trovate. Seleziona un controllo di audit che ha trovato opportunità per aprire la relativa pagina di dettagli.
+
+Una categoria può mostrare i risultati mentre alcuni dei suoi controlli di audit sono ancora in esecuzione. La relativa icona mostra un indicatore di elaborazione e il suo stato indica, ad esempio, **3/3 controlli di audit passati finora**. Questo conteggio include solo i controlli di audit che hanno restituito risultati, quindi può cambiare all’arrivo di più risultati. Espandi la categoria per visualizzare i singoli controlli di audit ancora in elaborazione. Una categoria senza opportunità mostra il relativo segno di spunta solo al termine del lavoro in sospeso.
 
 Per l&#39;elenco completo delle categorie di controllo e dei controlli di audit in ognuna, vedere [Categorie di controllo verifica preliminare](./overview.md#preflight-audit-categories).
 
@@ -56,7 +61,7 @@ Per i controlli che identificano un URL specifico nella pagina, la sezione **Ele
 
 Se più di un&#39;opportunità influisce sullo stesso elemento, ad esempio diversi problemi con lo stesso collegamento, la verifica preliminare le mostra su una scheda, ciascuna nella propria sezione con il relativo numero di istanza, ad esempio **Istanza 3**. Il navigatore visualizza quindi un intervallo invece di una singola posizione, ad esempio *3-5 di 12 istanze trovate*.
 
-![Pagina dei dettagli per un controllo di audit, che mostra un&#39;opportunità e il relativo suggerimento](./assets/audit-results/audit-detail.png){align="center"}
+![Pagina dei dettagli per il controllo dei collegamenti interni, che mostra un&#39;opportunità e la sezione URL corrente](./assets/audit-results/audit-detail.png){align="center"}
 
 Ogni opportunità include:
 
@@ -65,7 +70,7 @@ Ogni opportunità include:
 * Sezione **Element** che identifica l&#39;elemento interessato nella pagina, con un pulsante **Evidenzia a pagina**. Quando l&#39;elemento contiene testo leggibile, la sezione ha titolo **Elemento: Testo** e mostra tale testo; in caso contrario, ha titolo **Elemento: Selettore** e mostra il selettore CSS dell&#39;elemento. Per le opportunità **Collegamenti interni** e **Canonical**, una sezione **URL corrente** mostra anche l&#39;URL interessato. Seleziona **Copia URL** per copiarlo negli Appunti, oppure **Apri in una nuova scheda** per aprirlo.
 * Una sezione **Suggestion** con una correzione consigliata. Quando il suggerimento è generato dall’intelligenza artificiale, viene contrassegnato come suggerimento generato dall’intelligenza artificiale e può includere una breve motivazione che spiega la correzione suggerita.
 
-## Evidenziazione sulla pagina
+## Evidenzia sulla pagina
 
 Al termine dei controlli di audit, puoi individuare e comprendere rapidamente un’opportunità evidenziandola direttamente sulla pagina.
 
