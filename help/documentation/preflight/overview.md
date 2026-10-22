@@ -4,16 +4,17 @@ description: Scopri la verifica preliminare e i controlli di audit eseguiti per 
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+    internal-label: Accessibility
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 28%
-
+source-wordcount: '389'
+ht-degree: 48%
 ---
-
 # Verifica preliminare in AEM Sites Optimizer
 
 ![Dashboard di preparazione alla verifica preliminare](./assets/overview/hero.png){align="center"}
@@ -24,7 +25,7 @@ ht-degree: 28%
 
 La verifica preliminare in AEM Sites Optimizer consente di convalidare e ottimizzare le pagine prima che vengano pubblicate analizzando il contenuto, la struttura e le opportunità emerse con consigli fruibili. È progettata per autori, marketer e sviluppatori che desiderano garantire pagine di alta qualità, performanti e pronte per la pubblicazione riducendo al contempo la rielaborazione.
 
-Avvia Verifica preliminare dall&#39;ambiente di authoring e seleziona **Analizza pagina** per eseguire i controlli di audit. Un controllo di audit valuta un aspetto della pagina, ad esempio la struttura dei metadati o delle intestazioni, e raggruppa i controlli di audit correlati in categorie, ad esempio **SEO** e **Accessibilità**. Verifica preliminare segnala quindi un punteggio di fattibilità per la pagina, insieme alle opportunità che trova, ovvero gli aspetti specifici che è possibile migliorare, ciascuno con un consiglio actionable.
+Avvia Verifica preliminare dall&#39;ambiente di authoring e seleziona **Analizza pagina** per eseguire i controlli di audit. Un controllo di audit valuta un aspetto della pagina, ad esempio la struttura dei metadati o delle intestazioni, e raggruppa i controlli di audit correlati in categorie, ad esempio **SEO** e **Accessibilità**. Verifica preliminare segnala quindi la percentuale di controlli di audit passati per la pagina, insieme alle opportunità trovate, ovvero gli aspetti specifici che è possibile migliorare, ciascuno con un consiglio actionable.
 
 ## Introduzione alla verifica preliminare
 
@@ -63,7 +64,7 @@ CARDS
                     <p class="is-size-6">Scopri i controlli dell’accessibilità della verifica preliminare in Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
@@ -86,7 +87,7 @@ CARDS
                     <p class="is-size-6">Scopri i controlli SEO della verifica preliminare in Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/seo.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ulteriori informazioni</span>
+                    Ulteriori informazioni<span class="spectrum-Button-label has-no-wrap has-text-weight-bold"></span>
                 </a>
             </div>
         </div>
