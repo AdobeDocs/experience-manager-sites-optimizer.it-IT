@@ -4,18 +4,18 @@ description: Scopri i controlli SEO (Search Engine Optimization) che la verifica
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 ---
 # Audit SEO
 
-![Audit SEO nel dashboard di preparazione alla verifica preliminare](./assets/seo/hero.png){align="center"}
+![Audit SEO nel dashboard dei risultati della verifica preliminare](./assets/seo/hero.png){align="center"}
 
 La categoria **SEO** nella verifica preliminare raggruppa i controlli di audit che valutano il livello di ottimizzazione di una pagina per i motori di ricerca. Quando esegui un controllo di verifica preliminare, questi controlli valutano i metadati della pagina, la struttura dell’intestazione, i collegamenti e il contenuto, nonché le opportunità di superficie che puoi esaminare e risolvere prima della pubblicazione.
 
-Nel dashboard di preparazione, espandi la categoria **SEO** per visualizzare ogni controllo di audit, se è stato superato, e il numero di opportunità trovate. Seleziona un controllo di audit per aprire la pagina dei dettagli e lavorare attraverso le opportunità. Per informazioni su come interpretare i risultati e risolvere le opportunità, vedere [Risultati dell&#39;audit in Verifica preliminare](../audit-results.md).
+Nel dashboard dei risultati, espandi la categoria **SEO** per visualizzare ogni controllo di audit, se è stato superato e il numero di opportunità trovate. Seleziona un controllo di audit per aprire la pagina dei dettagli e lavorare attraverso le opportunità. Per informazioni su come interpretare i risultati e risolvere le opportunità, vedere [Risultati dell&#39;audit in Verifica preliminare](../audit-results.md).
 
 La categoria SEO include i seguenti audit:
 

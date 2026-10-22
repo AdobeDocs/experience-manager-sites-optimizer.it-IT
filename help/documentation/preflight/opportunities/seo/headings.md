@@ -4,9 +4,9 @@ description: Scopri l’audit Intestazioni in Verifica preliminare per AEM Sites
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '649'
 ht-degree: 0%
 ---
 # Titoli e audit
@@ -23,8 +23,6 @@ L’audit segnala un’opportunità per ciascuno dei seguenti problemi:
 
 * **Intestazione vuota:** un H2, H3, H4, H5 o H6 senza testo. Un&#39;intestazione che contiene solo spazi o solo un&#39;immagine conta come vuota.
 * **Livello di intestazione ignorato:** un&#39;intestazione che è più di un livello più profonda del titolo immediatamente precedente, ad esempio un H2 seguito da un H4 o un H1 seguito da un H3. L’opportunità viene riportata nell’intestazione più profonda.
-
-Entrambi sono stati segnalati con un impatto moderato.
 
 Le intestazioni H1 vengono esaminate dall&#39;audit [Metatags](./metatags.md), che verifica la presenza di un H1 mancante, vuoto o eccessivamente lungo e la presenza di più H1 in una pagina.
 

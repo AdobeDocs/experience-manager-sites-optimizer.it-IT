@@ -4,7 +4,7 @@ description: Scopri come avviare un audit di verifica preliminare sulla pagina.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 17%
@@ -21,7 +21,7 @@ Per eseguire gli audit di verifica preliminare per una pagina:
 1. Apri la pagina di cui eseguire l’audit nell’[ambiente di authoring](./access-preflight.md) (editor universale, authoring basato su documenti o Editor pagina per AEM Sites).
 1. Apri il [pannello Verifica preliminare](./access-preflight.md). Verrà visualizzata la schermata di destinazione **Esegui verifica di preparazione alle prestazioni**.
 1. Se necessario, apri **Impostazioni** (icona a forma di ingranaggio) per includere i collegamenti di navigazione del sito nel controllo dei collegamenti interni. Questa impostazione è disattivata per impostazione predefinita e non è disponibile nell’Editor universale. A seconda dell&#39;ambiente, **Impostazioni** viene visualizzato nell&#39;intestazione o in **Altre azioni** (**...**). Vedi [Includi collegamenti di navigazione del sito](./opportunities/seo/internal-links.md#include-site-navigation-links).
-1. Selezionare **Analizza pagina**. Verifica preliminare esegue tutti i controlli di audit nella pagina corrente e apre il dashboard di preparazione, in cui viene visualizzata la percentuale di controlli superati e le opportunità trovate, raggruppate per categoria.
+1. Selezionare **Analizza pagina**. Verifica preliminare esegue tutti i controlli di audit sulla pagina corrente e apre il dashboard dei risultati, in cui viene visualizzata la percentuale di controlli superati e le opportunità trovate, raggruppate per categoria.
 
 Per comprendere i risultati dell&#39;anteprima e identificare le opportunità di ottimizzazione, vedere [Risultati dell&#39;audit in Verifica preliminare](./audit-results.md).
 
@@ -40,6 +40,6 @@ La verifica preliminare ricorda l&#39;esecuzione più recente, quindi non è nec
 
 La verifica preliminare tiene traccia separatamente dell&#39;ultima esecuzione per ogni pagina, quindi **Continua ultima sessione** ricarica sempre l&#39;ultima esecuzione per la pagina in cui ti trovi.
 
-Quando ricarichi un&#39;esecuzione precedente, l&#39;intestazione mostra quanto tempo è trascorso dall&#39;esecuzione, ad esempio *2 minuti fa* o *ieri*, in modo da poter verificare immediatamente l&#39;attualità dei risultati. L’etichetta viene aggiornata con il passare del tempo e rimane visibile mentre ci si sposta tra la dashboard di preparazione e le pagine di dettaglio del controllo di audit.
+Quando ricarichi un&#39;esecuzione precedente, l&#39;intestazione mostra quanto tempo è trascorso dall&#39;esecuzione, ad esempio *2 minuti fa* o *ieri*, in modo da poter verificare immediatamente l&#39;attualità dei risultati. L’etichetta viene aggiornata col passare del tempo e rimane visibile mentre ci si sposta tra la dashboard dei risultati e le pagine dei dettagli del controllo di audit.
 
 Al termine della visualizzazione dei controlli e dei risultati, selezionare **Rianalizza** nella barra degli strumenti per ignorare i risultati ed eseguire di nuovo ogni controllo di audit. Vedi [Risultati dell&#39;audit in Verifica preliminare](./audit-results.md#toolbar).
