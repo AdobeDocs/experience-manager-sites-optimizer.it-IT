@@ -4,9 +4,9 @@ description: Scopri il controllo dei collegamenti esterni in Verifica preliminar
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 13bc34bf4c3d31e730dbe597b84fd6d594df6fea
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '753'
 ht-degree: 0%
 ---
 # Audit dei collegamenti esterni
@@ -23,7 +23,7 @@ L’audit segnala un’opportunità per ogni collegamento esterno che presenta u
 
 * **Collegamento interrotto:** il collegamento restituisce `Status 404` o `Status 410` oppure non è possibile raggiungere il relativo sito, ad esempio perché il dominio non esiste più. Un collegamento che raggiunge l’errore dopo un reindirizzamento viene segnalato nello stesso modo.
 * **Collegamento non sicuro:** il collegamento utilizza `http://` e il sito non lo reindirizza a `https://`. Un collegamento che inizia come `http://` ma viene reindirizzato a una pagina `https://` protetta non è contrassegnato. Aggiornare il collegamento per utilizzare `https://`.
-* **Collegamento non verificato:** Impossibile confermare il funzionamento del collegamento, ad esempio perché il sito richiede l&#39;accesso, blocca i controlli automatici, continua a restituire un errore del server, non risponde in tempo o reindirizza un numero eccessivo di volte. Alcuni social network, come LinkedIn e Instagram, segnalano le pagine mancanti ai controlli automatizzati, quindi anche gli errori di pagina mancanti da tali siti vengono segnalati come non verificati. Questi collegamenti molto probabilmente funzionano in un browser, quindi la verifica preliminare non li segnala come interrotti. Ti chiede invece di aprire il collegamento, confermarlo autonomamente e segnalarlo con un impatto ridotto.
+* **Collegamento non verificato:** Impossibile confermare il funzionamento del collegamento, ad esempio perché il sito richiede l&#39;accesso, blocca i controlli automatici, continua a restituire un errore del server, non risponde in tempo o reindirizza un numero eccessivo di volte. Alcuni social network, come LinkedIn e Instagram, segnalano le pagine mancanti ai controlli automatizzati, quindi anche gli errori di pagina mancanti da tali siti vengono segnalati come non verificati. Questi collegamenti molto probabilmente funzionano in un browser, quindi la verifica preliminare non li segnala come interrotti. Ti chiede invece di aprire il collegamento e di confermarlo tu stesso.
 
 Un collegamento può essere sia non sicuro che interrotto, oppure non sicuro e non verificato, nel qual caso vengono segnalate entrambe le opportunità. Un collegamento che si risolve correttamente non viene contrassegnato, anche quando ci sono reindirizzamenti in arrivo.
 
@@ -34,6 +34,18 @@ Ogni collegamento esterno sulla pagina viene controllato. Un collegamento estern
 Ogni collegamento viene segnalato una volta, anche se appare più volte sulla pagina o con ancoraggi diversi, ad esempio `#pricing` e `#features`. L’opportunità evidenzia la prima posizione in cui viene visualizzato il collegamento.
 
 I collegamenti che AEM Link Checker ha già contrassegnato come non validi vengono inclusi nel controllo di audit, anche se l’editor rimuove il collegamento cliccabile dalla pagina. Vengono ricontrollate anziché considerate attendibili, pertanto non viene segnalato un collegamento che da allora ha iniziato a funzionare.
+
+## Filtrare i risultati
+
+Nella pagina dei dettagli, utilizza il filtro accanto all&#39;intestazione **Istanze** per mostrare solo alcune delle opportunità:
+
+| Filtro | Opportunità visualizzate |
+|---|---|
+| **Tutti** (impostazione predefinita) | Ogni opportunità |
+| **Interrotto** | Collegamenti interrotti |
+| **Verifica necessaria** | Collegamenti non verificati e non sicuri |
+
+Se un collegamento include più di un’opportunità, ad esempio un collegamento non sicuro anch’esso interrotto, ogni opportunità viene visualizzata sotto il proprio filtro. Per ulteriori informazioni, vedere [Istanze filtro](../../audit-results.md#filter-instances).
 
 ## Limitazioni note
 

@@ -4,9 +4,9 @@ description: Scopri l’audit dei metatag in Verifica preliminare per AEM Sites 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '801'
 ht-degree: 1%
 ---
 # Audit dei metatag
@@ -34,12 +34,6 @@ Un valore di alcuni caratteri oltre la lunghezza ideale viene segnalato come **s
 | Intestazione H1 | Fino a 70 caratteri | Da 71 a 75 caratteri | Più di 75 caratteri |
 
 Questi intervalli sono linee guida consigliate, non requisiti dei motori di ricerca. La verifica preliminare li utilizza per decidere quando segnalare un’opportunità.
-
-Ogni opportunità viene segnalata a uno dei tre livelli di impatto seguenti:
-
-* **Alta:** un tag mancante o vuoto.
-* **Modera:** un titolo pagina o una meta descrizione troppo corta, una meta descrizione o H1 troppo lunga oppure una pagina con più di una H1.
-* **Basso:** un valore superiore alla lunghezza ideale ma non troppo lungo, incluso qualsiasi titolo di pagina più lungo di 60 caratteri.
 
 ## Modalità di lettura dei valori
 
