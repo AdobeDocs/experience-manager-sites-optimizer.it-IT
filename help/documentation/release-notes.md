@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 733056458d3e34a9ef2e285adfc810a98159002b
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3666'
 ht-degree: 2%
 ---
 
@@ -19,38 +19,77 @@ In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e 
 
 Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su richiesta. Contattare il team del proprio account o il Customer Success Engineer per abilitarle per la propria organizzazione.
 
-## 21-22 ottobre 2026 {#october-21-22-2026}
+## 26-28 ottobre 2026 {#october-26-28-2026}
 
 ### Nuove funzioni
 
+- **Copertura dei controlli in Impostazioni** — Le impostazioni ora includono una sezione **Copertura dei controlli** che elenca i controlli in esecuzione per il sito, raggruppati per categoria come SEO (Search Engine Optimization), Accessibilità, Sicurezza e Conversione e coinvolgimento.
+- **Valore stimato (accesso anticipato)**: Core Web Vitals, Testo alternativo, accessibilità, Contrasto colore, Accessibilità modulo e opportunità di sicurezza ora mostrano un valore stimato, ad esempio manodopera risparmiata o rischio evitato, per aiutare a dare priorità alle correzioni. La manodopera salvata per le correzioni di accessibilità e sicurezza viene visualizzata come valore una tantum e le opportunità Sitemap e Hreflang mostrano quanti problemi sono stati segnalati.
+
+### Miglioramenti
+
+- **Ticket Jira per Alt Text (Accesso anticipato)** — Crea ticket Jira per uno o più problemi Alt Text, con l&#39;URL della pagina, l&#39;URL dell&#39;immagine e il testo alternativo suggerito incluso in ogni ticket.
+
+## 19-25 ottobre 2026 {#october-19-25-2026}
+
+### Nuove funzioni
+
+- **Rapporto unificato sull&#39;accessibilità (accesso anticipato)**: il rapporto sull&#39;accessibilità riunisce ora tutti i risultati in un unico rapporto, con una panoramica dei problemi e un&#39;espansione per tipo di problema, gruppo di pagine e pagina. Apri un pannello laterale per le indicazioni sulla correzione a livello di elemento ed esporta il rapporto come file CSV.
+- **Impostazione collegamenti di navigazione preliminare del sito** — Scegliere se il controllo di audit dei collegamenti interni controlla i collegamenti all&#39;interno dei menu di navigazione del sito. L&#39;impostazione è disattivata per impostazione predefinita, pertanto i controlli di audit vengono completati più rapidamente e **Rianalizza** mostra quando un&#39;impostazione modificata non è ancora stata applicata.
 - **Filtri istanza verifica preliminare**. Nelle pagine dei dettagli Collegamenti interni e Collegamenti esterni, filtrare le istanze per **Interrotte** o **Da verificare**.
 
 ### Miglioramenti
 
+- **Reindirizzamenti Dispatcher con collegamenti interrotti (accesso anticipato)**: nei siti AEM as a Cloud Service in cui Sites Optimizer distribuisce i reindirizzamenti tramite Dispatcher, le correzioni dei collegamenti interrotti ora sono etichettate come distribuite in Dispatcher invece che in AEM Author ed è possibile eseguire il rollback di un reindirizzamento distribuito.
+- **Stato di controllo di Monitoraggio integrità sito**. I punteggi di integrità ora riflettono i controlli abilitati per il sito. I controlli disattivati sono nascosti, quelli che devono essere configurati vengono mostrati con una spiegazione e non vengono conteggiati per i punteggi delle categorie.
+- **Nessun CTA sopra le proposte pieghevoli** — Nessun CTA sopra i suggerimenti pieghevoli ora mostra una proposta call-to-action strutturata con **Controllo** e **Proposte** affiancati, schermate e opportunità vengono visualizzate solo quando entrambe le schermate sono disponibili.
+- **Autorizzazioni di gruppo (accesso anticipato)** — Concedi l&#39;accesso al sito ai gruppi di utenti della tua organizzazione, non solo alle singole persone, e visualizza un distintivo **Utente inattivo** per i membri che non si trovano più nella directory della tua organizzazione.
+- **Dati strutturati ripristinabili ignorati** — I problemi relativi ai dati strutturati ignorati vengono ora visualizzati in una scheda **Ignorati**, in cui è possibile ripristinarli.
+- **Domande frequenti su suggerimenti dati strutturati**: i suggerimenti sulle domande frequenti ora mostrano esattamente le coppie domanda-risposta che verranno distribuite. Non è più possibile eliminare singole coppie dalla tabella.
+- **Avanzamento verifica preliminare dell&#39;audit** — Il misuratore di fattibilità mostra ora la percentuale di audit superati e ogni categoria mostra quando i controlli sono ancora in esecuzione, con un conteggio &quot;superato finora&quot; fino a quando i risultati non sono definitivi.
+- **Verifica preliminare della copertura dei collegamenti interni**: l&#39;audit dei collegamenti interni ora controlla ogni collegamento idoneo dello stesso host sulla pagina, inclusi i collegamenti nei componenti ripetuti come gli elenchi di schede. I collegamenti di spostamento del sito sono inclusi solo quando è selezionato **Mostra collegamenti di spostamento del sito**. I collegamenti esterni alla navigazione del sito vengono elencati per primi e la verifica preliminare segnala chiaramente quando una pagina contiene troppi collegamenti per il check-in.
+- **Azioni intestazione verifica preliminare** — **Rianalizza** e **Chiudi** rimangono sempre visibili nell&#39;intestazione Verifica preliminare e **Esporta** e **Impostazioni** vengono spostati nel menu **Altre azioni** quando lo spazio è limitato.
 - **Tentativi di verifica preliminare dei collegamenti interni**: il controllo dei collegamenti interni ora ritenta i collegamenti che non riescono temporaneamente, pertanto è meno probabile che un&#39;interruzione breve venga segnalata come collegamento interrotto.
 - **Indicatori di avanzamento verifica preliminare** — Gli indicatori di elaborazione ora vengono visualizzati solo sugli audit ancora in esecuzione, non sulle relative categorie.
 - **Dettagli opportunità verifica preliminare** — Le opportunità non mostrano più i badge di gravità e le esportazioni CSV e PDF non includono più la gravità.
 
 ### Correzioni di bug
 
+- La ricerca dell’opportunità ora restituisce risultati coerenti indipendentemente dalla maiuscola a lettere maiuscole, accenti, trattini o spazi aggiuntivi, anche quando si incolla il nome di un’opportunità.
+- Monitoraggio integrità sito non elenca più i documenti PDF come pagine.
+- **Ulteriori informazioni** i collegamenti nella finestra di dialogo Connetti ad AEM Sites, le etichette di gravità composte e le schede della metrica iniziale di prova ora vengono visualizzati correttamente in tutte le lingue supportate.
 - Ora gli URL lunghi nei dettagli dell’opportunità di verifica preliminare vanno a capo invece di allargare la scheda.
 
-## 5-20 ottobre 2026 {#october-5-20-2026}
-
-### Nuove funzioni
-
-- **Impostazione collegamenti di navigazione preliminare del sito** — Scegliere se il controllo di audit dei collegamenti interni controlla i collegamenti all&#39;interno dei menu di navigazione del sito. L&#39;impostazione è disattivata per impostazione predefinita, pertanto i controlli di audit vengono completati più rapidamente e **Rianalizza** mostra quando un&#39;impostazione modificata non è ancora stata applicata.
+## 12-18 ottobre 2026 {#october-12-18-2026}
 
 ### Miglioramenti
 
-- **Avanzamento verifica preliminare dell&#39;audit** — Il misuratore di fattibilità mostra ora la percentuale di audit superati e ogni categoria mostra quando i controlli sono ancora in esecuzione, con un conteggio &quot;superato finora&quot; fino a quando i risultati non sono definitivi.
-- **Verifica preliminare della copertura dei collegamenti interni**: l&#39;audit dei collegamenti interni ora controlla ogni collegamento idoneo dello stesso host sulla pagina, inclusi i collegamenti nei componenti ripetuti come gli elenchi di schede. I collegamenti di spostamento del sito sono inclusi solo quando è selezionato **Mostra collegamenti di spostamento del sito**. I collegamenti esterni alla navigazione del sito vengono elencati per primi e la verifica preliminare segnala chiaramente quando una pagina contiene troppi collegamenti per il check-in.
-- **Dettagli collegamento di verifica preliminare** - I collegamenti interrotti contrassegnati dal Link Checker di AEM ora mostrano il testo visibile del collegamento invece di un selettore CSS.
-- **Azioni intestazione verifica preliminare** — **Rianalizza** e **Chiudi** rimangono sempre visibili nell&#39;intestazione Verifica preliminare e **Esporta** e **Impostazioni** vengono spostati nel menu **Altre azioni** quando lo spazio è limitato.
+- **Ticket Jira in blocco per l&#39;accessibilità (accesso anticipato)** — Selezionare più problemi di accessibilità, contrasto colore e accessibilità modulo e creare un ticket Jira con un titolo raggruppato e un singolo allegato di correzione del codice combinato.
+- **Metriche di Monitoraggio integrità sito** - Monitoraggio integrità sito non utilizza più la metrica CTR (tasso di click-through) ritirata nella logica di integrità o nel dashboard.
 - **Verifica preliminare corrispondenza sito**: quando una pagina corrisponde a più siti onboarded, la verifica preliminare spiega il problema e consente di continuare con uno dei siti corrispondenti.
 - **Suggerimenti per la verifica preliminare del testo alternativo** — Le opportunità di testo alternativo suggerite mostrano il testo alternativo consigliato come suggerimento pronto all&#39;uso, seguito dal motivo del suggerimento quando ne è disponibile uno.
 - **Verifica preliminare Lorem Ipsum Details** - Quando viene trovato testo segnaposto in un attributo, ad esempio il testo alt di un&#39;immagine, l&#39;opportunità mostra quale attributo corrisponde.
+
+### Correzioni di bug
+
+- Le opportunità con suggerimenti obsoleti ora mostrano uno stato coerente nell’elenco delle opportunità e nelle pagine dei dettagli.
+
+## 5-11 ottobre 2026 {#october-5-11-2026}
+
+### Nuove funzioni
+
+- **Domande frequenti: dati strutturati Visualizzazione distribuita (accesso anticipato)** — Una visualizzazione **Distribuita** elenca le correzioni di dati strutturati delle Domande frequenti, mostrando la pagina in cui ogni correzione è stata applicata con un collegamento per aprirla in AEM.
+
+### Miglioramenti
+
+- **Avvisi sito e Core Web Vitals (Accesso anticipato)**: consente di spostarsi tra gli avvisi sito e i suggerimenti Core Web Vitals con un solo clic. Gli incidenti degli avvisi sono collegati alle correzioni disponibili e le righe di Core Web Vitals mostrano un badge **Avviso** quando la pagina presenta un avviso per il sito.
 - **Verifica preliminare nell&#39;editor universale**: i controlli di audit nell&#39;editor universale ora utilizzano il contenuto di cui è stato eseguito il rendering della pagina, rendendoli più veloci e affidabili.
+- **Dettagli collegamento di verifica preliminare** - I collegamenti interrotti contrassegnati dal Link Checker di AEM ora mostrano il testo visibile del collegamento invece di un selettore CSS.
+
+### Correzioni di bug
+
+- La connessione di un account Google Ads da Experience Cloud ora viene eseguita in modo affidabile, il selettore dell’account non viene più riaperto dopo il salvataggio della selezione e la scheda di connessione viene aggiornata dopo la disconnessione.
+- **Distribuisci** in una singola riga di dati strutturati delle domande frequenti ora apre la finestra di dialogo Gestione multisito in modo da poter scegliere se aggiornare la pagina di origine o solo la pagina locale.
 
 ## 28 settembre - 4 ottobre 2026 {#september-28-october-4-2026}
 
