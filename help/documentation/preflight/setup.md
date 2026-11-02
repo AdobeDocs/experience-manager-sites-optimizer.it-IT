@@ -5,23 +5,18 @@ TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 47%
-
+source-wordcount: '877'
+ht-degree: 49%
 ---
-
 # Configurazione della verifica preliminare
 
 Per eseguire la verifica preliminare è necessario configurarla nell&#39;ambiente di authoring. È possibile impostare la verifica preliminare per l’editor universale, l’authoring basato su documenti, l’editor pagina di AEM Sites o Adobe Managed Services, in modo da poter eseguire i controlli di verifica preliminare sulle pagine prima che vengano pubblicate.
 
 ## Abilitare l’accesso degli utenti
 
-Per utilizzare Verifica preliminare, accertati che l&#39;utente sia assegnato ad almeno uno dei seguenti profili di prodotto AEM Sites Optimizer in [Adobe Admin Console](https://adminconsole.adobe.com):
-
-* AEM Sites Optimizer - Suggerimento automatico utente
-* AEM Sites Optimizer - Ottimizzazione automatica utente
+Per utilizzare la verifica preliminare, agli utenti deve essere assegnato il prodotto **Adobe Experience Manager Sites Optimizer** in [Adobe Admin Console](https://adminconsole.adobe.com).
 
 ## Abilita verifica preliminare
 

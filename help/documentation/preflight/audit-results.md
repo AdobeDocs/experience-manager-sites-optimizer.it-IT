@@ -4,10 +4,10 @@ description: Scopri come interpretare i risultati dell’audit della verifica pr
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 1%
+source-wordcount: '1653'
+ht-degree: 0%
 ---
 
 # Risultati dell’audit della verifica preliminare
@@ -92,15 +92,15 @@ Il filtro non modifica i conteggi delle opportunità nel dashboard dei risultati
 
 Al termine dei controlli di audit, puoi individuare e comprendere rapidamente un’opportunità evidenziandola direttamente sulla pagina.
 
-La verifica preliminare evidenzia l’elemento interessato nel contesto, collegando il risultato nel pannello alla posizione esatta nel contenuto. In questo modo puoi rivedere e risolvere con semplicità le opportunità senza effettuare ricerche manuali nella pagina.
+La verifica preliminare evidenzia l’elemento interessato nel contesto, collegando il risultato nel pannello alla sua posizione nel contenuto. Nell&#39;editor universale, Verifica preliminare utilizza il profilo di selezione dell&#39;editor. In altri ambienti di authoring, l’evidenziazione utilizza anelli di struttura a contrasto per rimanere visibile sullo sfondo della pagina.
 
 1. Aprire il pannello Verifica preliminare nel contesto della pagina da controllare e selezionare **Analizza pagina** per eseguire i controlli di audit.
 1. Seleziona un controllo di audit dal dashboard dei risultati, quindi seleziona un’opportunità da rivedere.
-1. Seleziona **Evidenzia a pagina**. L’anteprima scorre automaticamente fino all’area rilevante ed evidenzia l’elemento corrispondente, in modo da poter identificare e ottimizzare facilmente l’opportunità nel contesto.
+1. Seleziona **Evidenzia a pagina**. L’anteprima scorre automaticamente fino all’area rilevante ed evidenzia l’elemento corrispondente, in modo da poter identificare e ottimizzare facilmente l’opportunità nel contesto. Seleziona di nuovo **Evidenzia a pagina** per rimuovere l&#39;evidenziazione senza uscire dall&#39;opportunità.
 
 L’evidenziazione non è possibile per ogni opportunità: ad esempio, quando un’opportunità non è associata a un elemento specifico, l’elemento è nascosto o non è più presente nella pagina. In questi casi il pulsante **Evidenzia a pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo.
 
-Nell&#39;editor universale, l&#39;evidenziazione non è ancora supportata per le opportunità di **Accesso facilitato**. Il pulsante **Evidenzia a pagina** è inattivo ed è possibile passare il puntatore del mouse su di esso per verificarne il motivo.
+Nell&#39;editor universale l&#39;evidenziazione è supportata per le opportunità **SEO** e **Alt text** nella categoria **Accessibilità**. Altre opportunità di **Accesso facilitato** non sono ancora supportate. In questi casi, il pulsante **Evidenzia a pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo.
 
 Nell’editor universale, la verifica preliminare può evidenziare solo il contenuto modificabile. Se l&#39;elemento interessato non fa parte del contenuto modificabile, il pulsante **Evidenzia nella pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo. Se l’elemento stesso non è modificabile direttamente ma il blocco modificabile più vicino è, la verifica preliminare evidenzia tale blocco e aggiunge una nota che ne spiega il motivo.
 
