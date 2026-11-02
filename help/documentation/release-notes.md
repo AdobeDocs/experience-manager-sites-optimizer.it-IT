@@ -7,10 +7,10 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 733056458d3e34a9ef2e285adfc810a98159002b
+source-git-commit: 7a1c63e47cd778635fd18113bc2b08c83447fe35
 workflow-type: tm+mt
-source-wordcount: '3666'
-ht-degree: 2%
+source-wordcount: '3973'
+ht-degree: 1%
 ---
 
 # Note sulla versione
@@ -19,16 +19,28 @@ In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e 
 
 Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su richiesta. Contattare il team del proprio account o il Customer Success Engineer per abilitarle per la propria organizzazione.
 
-## 26-28 ottobre 2026 {#october-26-28-2026}
+## 26 ottobre - 1 novembre 2026 {#october-26-november-1-2026}
 
 ### Nuove funzioni
 
-- **Copertura dei controlli in Impostazioni** — Le impostazioni ora includono una sezione **Copertura dei controlli** che elenca i controlli in esecuzione per il sito, raggruppati per categoria come SEO (Search Engine Optimization), Accessibilità, Sicurezza e Conversione e coinvolgimento.
+- **Copertura dei controlli in Impostazioni** — Le impostazioni ora includono una sezione **Copertura dei controlli** che elenca i controlli in esecuzione per il sito, raggruppati per categoria come SEO (Search Engine Optimization), Accessibilità, Sicurezza e Conversion &amp; Engagement, inclusi i controlli abilitati per le pagine di errore 404, gli script tra siti e il consenso dei cookie.
 - **Valore stimato (accesso anticipato)**: Core Web Vitals, Testo alternativo, accessibilità, Contrasto colore, Accessibilità modulo e opportunità di sicurezza ora mostrano un valore stimato, ad esempio manodopera risparmiata o rischio evitato, per aiutare a dare priorità alle correzioni. La manodopera salvata per le correzioni di accessibilità e sicurezza viene visualizzata come valore una tantum e le opportunità Sitemap e Hreflang mostrano quanti problemi sono stati segnalati.
 
 ### Miglioramenti
 
 - **Ticket Jira per Alt Text (Accesso anticipato)** — Crea ticket Jira per uno o più problemi Alt Text, con l&#39;URL della pagina, l&#39;URL dell&#39;immagine e il testo alternativo suggerito incluso in ogni ticket.
+- **Dettagli correzione contrasto colore**: nei siti supportati, esaminare una riga separata per ogni pagina e causa principale, con una correzione condivisa per gli elementi interessati e una spiegazione dell&#39;impatto di ogni elemento sull&#39;utente.
+- **Contesto di distribuzione Cloud Manager**: la timeline degli avvisi del sito ora identifica **Distribuzioni Cloud Manager** e spiega quali distribuzioni di produzione vengono visualizzate.
+- **Distribuzione dei tag di Meta**: quando sono disponibili informazioni sulle relazioni tra pagine, la finestra di dialogo della distribuzione si apre senza una connessione aggiuntiva ad AEM Author, rendendo più affidabile la scelta di correggere la pagina di origine o una copia locale in AEM Multi-Site Manager.
+- **Verifica preliminare degli audit che non è stato possibile completare** — Un controllo di audit che non è stato completato ora mostra il motivo, invece di apparire come superato. Conta come non passato nella cifra **% passata** e le esportazioni CSV e PDF lo elencano sempre.
+- **Verifica preliminare stato testo alternativo**: mentre il controllo di IA per un&#39;immagine è ancora in esecuzione, viene visualizzata l&#39;opportunità di testo alternativo con un indicatore **Suggerimento generatore**. La visualizzazione dei dettagli dell’opportunità si mantiene anche sull’opportunità che stai visualizzando quando cambiano i risultati.
+- **Motivi della verifica preliminare dei collegamenti esterni**: il controllo dei collegamenti esterni spiega altri tipi di errore, inclusi errori del server, loop di reindirizzamento, collegamenti che richiedono l&#39;accesso e collegamenti non disponibili per motivi legali. I collegamenti che scadono o bloccano i controlli automatici ora richiedono di confermarli manualmente.
+- **Verifica preliminare acquisizione pagina**. La verifica preliminare attende ora fino a 30 secondi per il caricamento di una pagina lenta prima di analizzare la pagina, all&#39;esterno dell&#39;editor universale.
+
+### Correzioni di bug
+
+- La cronologia degli eventi degli avvisi del sito ora visualizza la metrica e il valore Core Web Vitals corretti per ogni evento imprevisto, le riduzioni delle prestazioni sono etichettate **Degradazione** in modo coerente negli avvisi del sito e i collegamenti di suggerimento aprono un suggerimento disponibile invece di uno obsoleto.
+- È stato risolto un problema che poteva impedire il rollback delle correzioni di opportunità distribuite.
 
 ## 19-25 ottobre 2026 {#october-19-25-2026}
 

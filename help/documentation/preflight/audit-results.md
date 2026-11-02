@@ -4,10 +4,10 @@ description: Scopri come interpretare i risultati dell’audit della verifica pr
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 2%
+source-wordcount: '1653'
+ht-degree: 0%
 ---
 
 # Risultati dell’audit della verifica preliminare
@@ -28,6 +28,8 @@ Quando esegui l’esportazione, puoi anche scegliere cosa includere:
 
 * **Includi tabella metadati** - Aggiungere una tabella di dettagli di esecuzione, ad esempio l&#39;host, il percorso del contenuto e i dettagli di generazione.
 * **Includi gli audit superati** - Includi gli audit superati senza opportunità, non solo le opportunità trovate.
+
+Gli audit che non hanno potuto essere completati sono sempre inclusi, qualunque sia la tua scelta. Per ulteriori informazioni, vedere [Audit non completati](#audits-that-could-not-be-completed).
 
 >[!NOTE]
 >
@@ -50,6 +52,15 @@ Verifica preliminare raggruppa i controlli di audit correlati in categorie, ad e
 Espandi una categoria per visualizzare i singoli controlli di audit. Ogni audit mostra se ha superato o trovato le opportunità, una breve descrizione e un conteggio delle opportunità trovate. Seleziona un controllo di audit che ha trovato opportunità per aprire la relativa pagina di dettagli.
 
 Una categoria può mostrare i risultati mentre alcuni dei suoi controlli di audit sono ancora in esecuzione. Il relativo stato indica, ad esempio, **3/3 controlli di audit sono stati superati finora**. Questo conteggio include solo i controlli di audit che hanno restituito risultati, quindi può cambiare all’arrivo di più risultati. Espandi la categoria per vedere quali controlli di audit sono ancora in esecuzione. Una categoria senza opportunità mostra il relativo segno di spunta solo al termine del lavoro in sospeso.
+
+### Audit non completati
+
+A volte non è possibile completare un controllo di audit per una pagina, ad esempio perché il controllo non è riuscito a valutare la pagina o ha riscontrato un errore. La verifica preliminare non mostra un controllo di audit passato. Invece:
+
+* La riga del controllo di audit mostra un’icona neutra e il motivo per cui non è stato possibile completare il controllo di audit, al posto della descrizione usuale. Quando il motivo lo suggerisce, esegui nuovamente Verifica preliminare per riprovare.
+* Il controllo di audit conta come non passato nel **% passato** e nel numero di controlli di categoria superato.
+* La categoria non mostra il segno di spunta tutto chiaro.
+* Il report esportato elenca sempre il controllo di audit e il relativo motivo, anche quando **Includi controlli di audit passati** non è selezionato. Il riassunto del rapporto non dice mai che tutti gli assegni sono passati.
 
 Per l&#39;elenco completo delle categorie di controllo e dei controlli di audit in ognuna, vedere [Categorie di controllo verifica preliminare](./overview.md#preflight-audit-categories).
 
@@ -81,15 +92,15 @@ Il filtro non modifica i conteggi delle opportunità nel dashboard dei risultati
 
 Al termine dei controlli di audit, puoi individuare e comprendere rapidamente un’opportunità evidenziandola direttamente sulla pagina.
 
-La verifica preliminare evidenzia l’elemento interessato nel contesto, collegando il risultato nel pannello alla posizione esatta nel contenuto. In questo modo puoi rivedere e risolvere con semplicità le opportunità senza effettuare ricerche manuali nella pagina.
+La verifica preliminare evidenzia l’elemento interessato nel contesto, collegando il risultato nel pannello alla sua posizione nel contenuto. Nell&#39;editor universale, Verifica preliminare utilizza il profilo di selezione dell&#39;editor. In altri ambienti di authoring, l’evidenziazione utilizza anelli di struttura a contrasto per rimanere visibile sullo sfondo della pagina.
 
 1. Aprire il pannello Verifica preliminare nel contesto della pagina da controllare e selezionare **Analizza pagina** per eseguire i controlli di audit.
 1. Seleziona un controllo di audit dal dashboard dei risultati, quindi seleziona un’opportunità da rivedere.
-1. Seleziona **Evidenzia a pagina**. L’anteprima scorre automaticamente fino all’area rilevante ed evidenzia l’elemento corrispondente, in modo da poter identificare e ottimizzare facilmente l’opportunità nel contesto.
+1. Seleziona **Evidenzia a pagina**. L’anteprima scorre automaticamente fino all’area rilevante ed evidenzia l’elemento corrispondente, in modo da poter identificare e ottimizzare facilmente l’opportunità nel contesto. Seleziona di nuovo **Evidenzia a pagina** per rimuovere l&#39;evidenziazione senza uscire dall&#39;opportunità.
 
 L’evidenziazione non è possibile per ogni opportunità: ad esempio, quando un’opportunità non è associata a un elemento specifico, l’elemento è nascosto o non è più presente nella pagina. In questi casi il pulsante **Evidenzia a pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo.
 
-Nell&#39;editor universale, l&#39;evidenziazione non è ancora supportata per le opportunità di **Accesso facilitato**. Il pulsante **Evidenzia a pagina** è inattivo ed è possibile passare il puntatore del mouse su di esso per verificarne il motivo.
+Nell&#39;editor universale l&#39;evidenziazione è supportata per le opportunità **SEO** e **Alt text** nella categoria **Accessibilità**. Altre opportunità di **Accesso facilitato** non sono ancora supportate. In questi casi, il pulsante **Evidenzia a pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo.
 
 Nell’editor universale, la verifica preliminare può evidenziare solo il contenuto modificabile. Se l&#39;elemento interessato non fa parte del contenuto modificabile, il pulsante **Evidenzia nella pagina** è inattivo. Passare il puntatore del mouse su di esso per vedere il motivo. Se l’elemento stesso non è modificabile direttamente ma il blocco modificabile più vicino è, la verifica preliminare evidenzia tale blocco e aggiunge una nota che ne spiega il motivo.
 
