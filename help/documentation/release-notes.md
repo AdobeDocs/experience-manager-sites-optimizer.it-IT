@@ -7,10 +7,10 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 733056458d3e34a9ef2e285adfc810a98159002b
+source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
 workflow-type: tm+mt
-source-wordcount: '3666'
-ht-degree: 2%
+source-wordcount: '3815'
+ht-degree: 1%
 ---
 
 # Note sulla versione
@@ -29,6 +29,10 @@ Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su ric
 ### Miglioramenti
 
 - **Ticket Jira per Alt Text (Accesso anticipato)** — Crea ticket Jira per uno o più problemi Alt Text, con l&#39;URL della pagina, l&#39;URL dell&#39;immagine e il testo alternativo suggerito incluso in ogni ticket.
+- **Verifica preliminare degli audit che non è stato possibile completare** — Un controllo di audit che non è stato completato ora mostra il motivo, invece di apparire come superato. Conta come non passato nella cifra **% passata** e le esportazioni CSV e PDF lo elencano sempre.
+- **Verifica preliminare stato testo alternativo**: mentre il controllo di IA per un&#39;immagine è ancora in esecuzione, viene visualizzata l&#39;opportunità di testo alternativo con un indicatore **Suggerimento generatore**. La visualizzazione dei dettagli dell’opportunità si mantiene anche sull’opportunità che stai visualizzando quando cambiano i risultati.
+- **Motivi della verifica preliminare dei collegamenti esterni**: il controllo dei collegamenti esterni spiega altri tipi di errore, inclusi errori del server, loop di reindirizzamento, collegamenti che richiedono l&#39;accesso e collegamenti non disponibili per motivi legali. I collegamenti che scadono o bloccano i controlli automatici ora richiedono di confermarli manualmente.
+- **Verifica preliminare acquisizione pagina**. La verifica preliminare attende ora fino a 30 secondi per il caricamento di una pagina lenta prima di analizzare la pagina, all&#39;esterno dell&#39;editor universale.
 
 ## 19-25 ottobre 2026 {#october-19-25-2026}
 

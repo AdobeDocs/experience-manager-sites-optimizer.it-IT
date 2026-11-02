@@ -4,10 +4,10 @@ description: Scopri come interpretare i risultati dell’audit della verifica pr
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 2%
+source-wordcount: '1616'
+ht-degree: 1%
 ---
 
 # Risultati dell’audit della verifica preliminare
@@ -28,6 +28,8 @@ Quando esegui l’esportazione, puoi anche scegliere cosa includere:
 
 * **Includi tabella metadati** - Aggiungere una tabella di dettagli di esecuzione, ad esempio l&#39;host, il percorso del contenuto e i dettagli di generazione.
 * **Includi gli audit superati** - Includi gli audit superati senza opportunità, non solo le opportunità trovate.
+
+Gli audit che non hanno potuto essere completati sono sempre inclusi, qualunque sia la tua scelta. Per ulteriori informazioni, vedere [Audit non completati](#audits-that-could-not-be-completed).
 
 >[!NOTE]
 >
@@ -50,6 +52,15 @@ Verifica preliminare raggruppa i controlli di audit correlati in categorie, ad e
 Espandi una categoria per visualizzare i singoli controlli di audit. Ogni audit mostra se ha superato o trovato le opportunità, una breve descrizione e un conteggio delle opportunità trovate. Seleziona un controllo di audit che ha trovato opportunità per aprire la relativa pagina di dettagli.
 
 Una categoria può mostrare i risultati mentre alcuni dei suoi controlli di audit sono ancora in esecuzione. Il relativo stato indica, ad esempio, **3/3 controlli di audit sono stati superati finora**. Questo conteggio include solo i controlli di audit che hanno restituito risultati, quindi può cambiare all’arrivo di più risultati. Espandi la categoria per vedere quali controlli di audit sono ancora in esecuzione. Una categoria senza opportunità mostra il relativo segno di spunta solo al termine del lavoro in sospeso.
+
+### Audit non completati
+
+A volte non è possibile completare un controllo di audit per una pagina, ad esempio perché il controllo non è riuscito a valutare la pagina o ha riscontrato un errore. La verifica preliminare non mostra un controllo di audit passato. Invece:
+
+* La riga del controllo di audit mostra un’icona neutra e il motivo per cui non è stato possibile completare il controllo di audit, al posto della descrizione usuale. Quando il motivo lo suggerisce, esegui nuovamente Verifica preliminare per riprovare.
+* Il controllo di audit conta come non passato nel **% passato** e nel numero di controlli di categoria superato.
+* La categoria non mostra il segno di spunta tutto chiaro.
+* Il report esportato elenca sempre il controllo di audit e il relativo motivo, anche quando **Includi controlli di audit passati** non è selezionato. Il riassunto del rapporto non dice mai che tutti gli assegni sono passati.
 
 Per l&#39;elenco completo delle categorie di controllo e dei controlli di audit in ognuna, vedere [Categorie di controllo verifica preliminare](./overview.md#preflight-audit-categories).
 
