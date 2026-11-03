@@ -4,9 +4,9 @@ description: Scopri i controlli SEO (Search Engine Optimization) che la verifica
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 7c362d99632758d1aba0af2bdccaa75c48abd2ec
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '201'
 ht-degree: 0%
 ---
 # Audit SEO
@@ -23,7 +23,6 @@ La categoria SEO include i seguenti audit:
 * [Intestazioni](./seo/headings.md) - Esamina la struttura e l&#39;ordine delle intestazioni della pagina.
 * [Collegamenti interni](./seo/internal-links.md) - Esamina i collegamenti nella pagina che puntano al tuo sito.
 * [Collegamenti esterni](./seo/external-links.md) - Esamina i collegamenti nella pagina che puntano ad altri siti.
-* [Leggibilità](./seo/readability.md) - Esamina la facilità di lettura del contenuto della pagina.
 * [Canonico](./seo/canonical.md) - Esamina il collegamento canonico della pagina.
 * [Dimensione corpo](./seo/body-size.md) - Esamina la quantità di contenuto del corpo nella pagina.
 * [Lorem ipsum](./seo/lorem-ipsum.md) - Rileva il testo segnaposto rimasto nel contenuto.
