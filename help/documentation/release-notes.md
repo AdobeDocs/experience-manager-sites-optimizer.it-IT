@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7a1c63e47cd778635fd18113bc2b08c83447fe35
+source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
 workflow-type: tm+mt
-source-wordcount: '3973'
+source-wordcount: '3999'
 ht-degree: 1%
 ---
 
@@ -35,6 +35,7 @@ Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su ric
 - **Verifica preliminare degli audit che non è stato possibile completare** — Un controllo di audit che non è stato completato ora mostra il motivo, invece di apparire come superato. Conta come non passato nella cifra **% passata** e le esportazioni CSV e PDF lo elencano sempre.
 - **Verifica preliminare stato testo alternativo**: mentre il controllo di IA per un&#39;immagine è ancora in esecuzione, viene visualizzata l&#39;opportunità di testo alternativo con un indicatore **Suggerimento generatore**. La visualizzazione dei dettagli dell’opportunità si mantiene anche sull’opportunità che stai visualizzando quando cambiano i risultati.
 - **Motivi della verifica preliminare dei collegamenti esterni**: il controllo dei collegamenti esterni spiega altri tipi di errore, inclusi errori del server, loop di reindirizzamento, collegamenti che richiedono l&#39;accesso e collegamenti non disponibili per motivi legali. I collegamenti che scadono o bloccano i controlli automatici ora richiedono di confermarli manualmente.
+- **Verifica preliminare dei dettagli di Lorem Ipsum**. I risultati di Lorem Ipsum identificano ora la posizione del testo segnaposto, spiegano come correggerlo e mostrano il testo all&#39;interno del tag HTML.
 - **Verifica preliminare acquisizione pagina**. La verifica preliminare attende ora fino a 30 secondi per il caricamento di una pagina lenta prima di analizzare la pagina, all&#39;esterno dell&#39;editor universale.
 
 ### Correzioni di bug

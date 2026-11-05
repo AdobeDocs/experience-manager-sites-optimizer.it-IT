@@ -4,9 +4,9 @@ description: Scopri l’audit Lorem ipsum in Verifica preliminare per AEM Sites 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 587aec4eb905a2b1ced746590ca25b8ed97b16c1
+source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '370'
 ht-degree: 1%
 ---
 # Audit Lorem ipsum
@@ -37,8 +37,12 @@ Il controllo di audit cerca la frase &quot;lorem ipsum&quot; in qualsiasi combin
 ## Limitazioni note
 
 * **Non viene rilevato solo &quot;lorem ipsum&quot;:** altro testo segnaposto, ad esempio &quot;TBD&quot; o altre parole di riempimento latine senza &quot;lorem ipsum&quot;.
-* **Evidenzia nella pagina:** non è disponibile per il titolo o i metadati della pagina perché non sono visualizzati nella pagina. Utilizza il testo mostrato nell’opportunità per trovarli.
+* **Evidenzia nella pagina:** non è disponibile per il titolo o i metadati della pagina perché non sono visualizzati nella pagina. Utilizza **Dettagli** e la casella **Elemento** per trovare il testo.
 
 ## Come risolvere
 
-Quando il controllo di audit trova opportunità, ciascuna di esse identifica la posizione in cui viene visualizzato il testo segnaposto. Dove è disponibile, usa **Evidenzia a pagina** per passare al testo nel contenuto. Sostituire il segnaposto con contenuto reale o rimuoverlo. Per il testo alternativo e le etichette di accessibilità, scrivere una descrizione dell&#39;immagine o del controllo. Per informazioni su come esaminare e risolvere le opportunità, vedere [Risultati dell&#39;audit in Verifica preliminare](../../audit-results.md).
+Controllare **Dettagli** per la posizione del testo, ad esempio il titolo di una pagina, il testo alternativo o l&#39;intestazione. **Recommendation** spiega come correggerlo e la casella **Element** mostra il testo all&#39;interno del tag.
+
+Utilizza **Evidenzia a pagina**, se disponibile. Un elemento nascosto può essere visualizzato in altre dimensioni dello schermo o in un menu o in una finestra di dialogo.
+
+Sostituire o rimuovere il testo segnaposto. Per il testo alternativo e le etichette di accessibilità, descrivere l&#39;immagine o il controllo. Per ulteriori informazioni, vedere [Risultati dell&#39;audit in Verifica preliminare](../../audit-results.md).
