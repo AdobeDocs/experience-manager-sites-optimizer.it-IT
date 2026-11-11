@@ -4,9 +4,9 @@ description: Scopri come interpretare i risultati dell’audit della verifica pr
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
+source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1703'
 ht-degree: 0%
 ---
 
@@ -77,7 +77,13 @@ Se più di un&#39;opportunità influisce sullo stesso elemento, ad esempio diver
 Ogni opportunità include:
 
 * Dettagli sull’opportunità, ad esempio una descrizione del problema, un consiglio e, per l’accessibilità, la regola WCAG correlata e il livello di conformità.
-* Sezione **Element** che identifica l&#39;elemento interessato nella pagina, con un pulsante **Evidenzia a pagina**. Quando l&#39;elemento contiene testo leggibile, la sezione ha titolo **Elemento: Testo** e mostra tale testo; in caso contrario, ha titolo **Elemento: Selettore** e mostra il selettore CSS dell&#39;elemento. Per le opportunità **Collegamenti interni** e **Canonical**, una sezione **URL corrente** mostra anche l&#39;URL interessato. Seleziona **Copia URL** per copiarlo negli Appunti, oppure **Apri in una nuova scheda** per aprirlo.
+* Sezione **Element** che identifica l&#39;elemento interessato. Il titolo mostra ciò che viene visualizzato:
+  * **Elemento: testo**: il testo dell&#39;elemento o l&#39;indirizzo a cui è collegato.
+  * **Elemento: immagine** - miniatura dell&#39;immagine, ad esempio in **Testo alternativo** e altre opportunità di **Accessibilità**.
+  * **Elemento: Selettore** - Selettore CSS dell&#39;elemento, quando non è disponibile testo o immagine.
+
+  Per copiare, passa il cursore del mouse sulla sezione o attivala. **Elemento: il testo** mostra **altre azioni** (**...**) menu con **Copia testo** e **Copia selettore**. **Elemento: Immagine** e **Elemento: Selettore** mostrano un&#39;icona di copia che copia il selettore CSS. Quando la copia viene eseguita correttamente, viene visualizzato un messaggio di conferma.
+* Per **Collegamenti interni** e **Canonical** opportunità, una sezione **URL corrente** che mostra l&#39;URL interessato. Seleziona **Copia URL** per copiarlo, oppure **Apri in una nuova scheda** per aprirlo.
 * Una sezione **Suggestion** con una correzione consigliata. Quando il suggerimento è generato dall’intelligenza artificiale, viene contrassegnato come suggerimento generato dall’intelligenza artificiale e può includere una breve motivazione che spiega la correzione suggerita.
 
 ### Filtra istanze
