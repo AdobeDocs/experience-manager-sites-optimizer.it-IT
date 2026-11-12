@@ -1,15 +1,16 @@
 ---
 title: Verifica preliminare dimensioni corpo
 description: Scopri il controllo dimensioni corpo in Verifica preliminare per AEM Sites Optimizer.
+badgePreflightSEO: label="Verifica preliminare - SEO" type="Caution" url="../seo.md" tooltip="Verifica preliminare - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '697'
 ht-degree: 0%
 ---
-# Controllo dimensioni corpo
+# Verifica preliminare - Audit dimensioni corpo
 
 L&#39;audit **Body size** esamina la quantità di contenuto del corpo nella pagina. Le pagine con pochissimo contenuto possono essere meno utili per i lettori e possono non essere classificate correttamente nei risultati di ricerca. Il controllo di audit contrassegna le pagine che sembrano avere troppo poco testo.
 

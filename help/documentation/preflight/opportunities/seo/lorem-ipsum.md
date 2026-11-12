@@ -1,15 +1,16 @@
 ---
 title: Verifica preliminare Lorem Ipsum
 description: Scopri l’audit Lorem ipsum in Verifica preliminare per AEM Sites Optimizer.
+badgePreflightSEO: label="Verifica preliminare - SEO" type="Caution" url="../seo.md" tooltip="Verifica preliminare - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 ---
-# Audit Lorem ipsum
+# Verifica preliminare - Audit Lorem ipsum
 
 Il controllo di controllo **Lorem ipsum** rileva il testo segnaposto lasciato nel contenuto della pagina.
 

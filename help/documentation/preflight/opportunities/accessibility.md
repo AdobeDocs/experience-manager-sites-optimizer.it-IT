@@ -1,15 +1,16 @@
 ---
 title: Verifica preliminare dei controlli di accessibilità
 description: Scopri i controlli di accessibilità eseguiti dalla verifica preliminare sulla pagina in AEM Sites Optimizer.
+badgePreflightAccessibility: label="Verifica preliminare - Accessibilità" type="Caution" url="./accessibility.md" tooltip="Verifica preliminare - Accessibilità"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '198'
 ht-degree: 0%
 ---
-# Controlli di accessibilità
+# Verifica preliminare: controlli di accessibilità
 
 ![Controlli di accessibilità nel dashboard dei risultati della verifica preliminare](./assets/accessibility/hero.png){align="center"}
 
