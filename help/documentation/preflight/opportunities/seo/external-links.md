@@ -1,15 +1,16 @@
 ---
 title: Verifica preliminare dei collegamenti esterni
 description: Scopri il controllo dei collegamenti esterni in Verifica preliminare per AEM Sites Optimizer.
+badgePreflightSEO: label="Verifica preliminare - SEO" type="Caution" url="../seo.md" tooltip="Verifica preliminare - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
-# Audit dei collegamenti esterni
+# Verifica preliminare - Audit dei collegamenti esterni
 
 Il controllo di **Collegamenti esterni** esamina i collegamenti presenti nella pagina che puntano ad altri siti. Il controllo di audit controlla ogni collegamento esterno dalla pagina che stai modificando e contrassegna quelli interrotti, non sicuri o che non possono essere verificati automaticamente.
 

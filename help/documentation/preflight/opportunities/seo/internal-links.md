@@ -1,15 +1,16 @@
 ---
 title: Verifica collegamenti interni verifica preliminare
 description: Scopri l’audit dei collegamenti interni in Verifica preliminare per AEM Sites Optimizer.
+badgePreflightSEO: label="Verifica preliminare - SEO" type="Caution" url="../seo.md" tooltip="Verifica preliminare - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1043'
 ht-degree: 0%
 ---
-# Audit dei collegamenti interni
+# Verifica preliminare - Audit dei collegamenti interni
 
 L&#39;audit di **Collegamenti interni** esamina i collegamenti presenti nella pagina che puntano al tuo sito. Il controllo di audit controlla ogni collegamento interno dalla pagina che stai modificando e contrassegna quelli interrotti, non sicuri o puntati da qualche parte che un visitatore non può seguire.
 

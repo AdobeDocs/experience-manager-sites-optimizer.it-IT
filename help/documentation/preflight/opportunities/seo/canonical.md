@@ -1,15 +1,16 @@
 ---
 title: Verifica preliminare dell'audit canonico
 description: Scopri il controllo Canonical in Verifica preliminare per AEM Sites Optimizer.
+badgePreflightSEO: label="Verifica preliminare - SEO" type="Caution" url="../seo.md" tooltip="Verifica preliminare - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 5c97431c2029e117339877219c2d6e4e30902a70
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
 ---
-# Audit canonico
+# Verifica preliminare - Controllo canonico
 
 L&#39;audit di **Canonical** esamina il collegamento canonico nella pagina. Il collegamento canonico è un tag `<link rel="canonical">` in `<head>` della pagina che denomina l&#39;URL preferito per il contenuto della pagina. Il controllo di audit flag collegamenti canonici mancanti, impostati in modo errato o che puntano a un punto diverso dalla pagina stessa.
 
@@ -25,7 +26,7 @@ L&#39;audit verifica la presenza di problemi in tre settori:
 
 * **Indica se la pagina include un solo collegamento canonico:** il collegamento canonico è mancante o se la pagina ne contiene più di uno. Diversi collegamenti canonici che puntano a URL diversi vengono segnalati separatamente, perché i motori di ricerca potrebbero ignorarli tutti.
 * **Indica se il tag è configurato correttamente:** il tag si trova all&#39;esterno di `<head>`, non ha un attributo `href` o ne ha uno vuoto oppure contiene un attributo come `hreflang`, `media` o `type` che può far sì che i motori di ricerca lo ignorino.
-* **Indica se l&#39;URL è corretto:** l&#39;URL canonico è relativo anziché assoluto, contiene lettere maiuscole nel percorso o nella stringa di query, utilizza un protocollo diverso (`http://` o `https://`) dalla pagina oppure punta a una pagina diversa da quella che si sta modificando.
+* **Indica se l&#39;URL è corretto:** l&#39;URL canonico è relativo anziché assoluto, contiene lettere maiuscole nel percorso o nella stringa di query, utilizza `http://` invece di `https://` oppure punta a una pagina diversa da quella che si sta modificando.
 
 ## Confronto dell’URL canonico
 
@@ -38,4 +39,4 @@ La verifica preliminare viene eseguita sulle pagine di anteprima, il cui host è
 
 ## Come risolvere
 
-Quando il controllo di audit trova delle opportunità, ognuna di esse descrive il problema e la modifica consigliata. Nella maggior parte dei casi la pagina deve avere esattamente un collegamento canonico, in `<head>`, con un URL assoluto con un percorso in minuscolo che punta alla pagina stessa. Se la pagina punta intenzionalmente a un’altra pagina come versione canonica, ad esempio una copia duplicata o compatibile con la stampante, puoi lasciarla invariata. L&#39;audit continuerà a riferire in merito. Per informazioni su come esaminare e risolvere le opportunità, vedere [Risultati dell&#39;audit in Verifica preliminare](../../audit-results.md).
+Quando il controllo di audit trova delle opportunità, ognuna di esse descrive il problema e la modifica consigliata. Nella maggior parte dei casi la pagina deve avere esattamente un collegamento canonico, in `<head>`, con un URL `https://` assoluto con un percorso in minuscolo che punta alla pagina stessa. Se la pagina punta intenzionalmente a un’altra pagina come versione canonica, ad esempio una copia duplicata o compatibile con la stampante, puoi lasciarla invariata. L&#39;audit continuerà a riferire in merito. Per informazioni su come esaminare e risolvere le opportunità, vedere [Risultati dell&#39;audit in Verifica preliminare](../../audit-results.md).
