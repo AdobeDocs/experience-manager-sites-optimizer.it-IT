@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
+source-git-commit: e522ca835da67851faebe486165ba8f7fc850998
 workflow-type: tm+mt
-source-wordcount: '4063'
+source-wordcount: '4702'
 ht-degree: 1%
 ---
 
@@ -19,12 +19,54 @@ In questa pagina sono documentati gli ultimi aggiornamenti, le nuove funzioni e 
 
 Le funzionalità contrassegnate **(Accesso anticipato)** sono disponibili su richiesta. Contattare il team del proprio account o il Customer Success Engineer per abilitarle per la propria organizzazione.
 
-## 11 novembre 2026 {#november-11-2026}
+## 9-12 novembre 2026 {#november-9-12-2026}
+
+### Nuove funzioni
+
+- **Ulteriori opportunità di accesso facilitato (accesso anticipato)** — Trovare l&#39;accesso da tastiera, la lingua e il titolo della pagina, la tabella dati, i file multimediali e animati, nonché i problemi relativi alla spaziatura e alle dimensioni del target come opportunità di accesso facilitato separate, ciascuna con la propria pagina dei dettagli.
 
 ### Miglioramenti
 
 - **Verifica preliminare pannello elementi** - Nella sezione **Elemento** è ora visualizzata una miniatura immagine o un testo leggibile anziché un selettore CSS e consente di copiare il testo o il selettore CSS dell&#39;elemento.
 - **Verifica preliminare HTTPS canonico**: il controllo Canonical ora contrassegna un URL canonico che utilizza `http://` invece di `https://`, invece di contrassegnare un URL canonico il cui protocollo è diverso da quello della pagina.
+- **Priorità correzioni di Core Web Vitals** — Nella scheda **Corrente** sono ora elencati i problemi di Core Web Vitals con le patch del codice più testate, in modo da poter iniziare con le correzioni più affidabili.
+
+### Correzioni di bug
+
+- È stato risolto un problema che poteva nascondere un&#39;opportunità dalle schede **Corrente** e **Distribuita**.
+- Il collegamento Linee guida per l’utente di IA nella divulgazione di IA ora si apre nella lingua selezionata.
+- Gli annunci Novità vengono ora visualizzati in cinese semplificato e tradizionale anziché in inglese.
+
+## 2-8 novembre 2026 {#november-2-8-2026}
+
+### Nuove funzioni
+
+- **Correzioni del codice di etichetta ARIA (accesso anticipato)** — Rivedi e scarica le patch del codice a livello di componente per i problemi di etichetta ARIA supportati. Scopri quali etichette richiedono prima una modifica del codice e identifica i problemi che richiedono uno sviluppatore.
+- **Opportunità per gli agenti (accesso anticipato)**: scopri come il tuo sito offre servizi efficaci agli agenti di intelligenza artificiale che navigano per conto dei visitatori, con opportunità per gli strumenti degli agenti, accessibilità leggibile dagli agenti, stabilità e reperibilità del sito.
+
+### Miglioramenti
+
+- **Copertura del valore stimato (accesso anticipato)**: il valore stimato è ora disponibile per i collegamenti interrotti, i collegamenti interni interrotti, i dati canonici, strutturati, i tag Meta, il consenso per i cookie e le opportunità di conversione dei moduli quando sono disponibili i dati di supporto. Le opportunità di interruzione del lavoro possono inoltre mostrare risparmi di manodopera una tantum stimati.
+- **Dettagli valore stimato (accesso anticipato)** — Le schede delle opportunità e le pagine dei dettagli ora mostrano un&#39;unica stima del titolo, con intervalli e spiegazioni più chiare nel raggruppamento. I risparmi di manodopera Core Web Vitals sono identificati come risparmi una tantum anziché mensili.
+- **Biglietti Jira per Core Web Vitals (accesso anticipato)**: creazione di biglietti Jira per pagine selezionate con problemi relativi a desktop e dispositivi mobili, raccomandazioni e patch di codice disponibili, anche quando una pagina non dispone di patch distribuibili.
+- **Ticket Jira per utenti di prova** — Gli utenti di prova possono collegare Jira e creare ticket per Testo alternativo, Backlink interrotti, Collegamenti interni interrotti, Core Web Vitals, Accessibilità, Contrasto colore e problemi di accessibilità dei moduli.
+- **Revisione testo alternativo immagine-prima**: la scheda Testo alternativo **Corrente** elenca ora i suggerimenti per immagine, mostra ogni pagina interessata e aggiunge un pannello dei dettagli per la modifica e la distribuzione. Per i siti di AEM Multi-Site Manager, scegliere se applicare una correzione all&#39;origine o localmente nello stesso flusso di distribuzione.
+- **Conferma della distribuzione della correzione del codice (accesso anticipato)** - Conferma da una scheda di correzione del codice dell&#39;etichetta ARIA se la modifica distribuita è attiva.
+- **Stati opportunità di valutazione** — Testo alternativo, Backlink interrotti e schede Core Web Vitals rimangono disponibili quando non vengono trovati problemi correnti e le relative pagine di dettaglio distinguono un elenco di problemi vuoto da una quota di ottimizzazione mensile completata.
+- **Suggerimenti per l&#39;accesso facilitato** — Vengono visualizzati per primi i suggerimenti con patch di codice scaricabili, semplificando la ricerca delle correzioni pronte all&#39;uso.
+- **Guida alla distribuzione di moduli di terze parti**: le opportunità di visualizzazione di moduli elevati e conversioni basse ora spiegano quando un modulo non viene creato in AEM e non può essere distribuito automaticamente e disabilitano la distribuzione per tali moduli.
+- **Consigli per moduli mirati**: le opportunità per moduli non mostrano più consigli incompleti, ad esempio quelli senza una variante utilizzabile o una correzione distribuibile, o le relative varianti di test collegate.
+
+### Correzioni di bug
+
+- I rapporti sull’accessibilità per dispositivi mobili ora utilizzano i risultati della scansione mobile anziché le correzioni da desktop nei dettagli dei problemi e nelle esportazioni CSV. Inoltre, i rapporti unificati non si collegano più a un rapporto approfondito sostituito.
+- È stato risolto un problema che poteva nascondere i consigli di Core Web Vitals per le pagine di traffico a pagamento.
+- Le schede Velocità sito e Tempo medio di caricamento su Monitor stato home e sito ora visualizzano l&#39;unità dei secondi nella lingua selezionata.
+- Gli errori generici durante l’aggiunta di membri in Autorizzazioni ora vengono visualizzati nella lingua selezionata.
+- Le schede delle opportunità di sospensione non visualizzano più un&#39;etichetta di sottotipo ridondante.
+- L’onboarding di prova spiega ora perché non è possibile aggiungere un dominio invece di mostrare un errore generico.
+- Le opportunità di testo alternativo non elencano più immagini identificate come decorative.
+- Il segnaposto &quot;NA&quot; nella home page viene ora visualizzato nella lingua selezionata.
 
 ## 26 ottobre - 1 novembre 2026 {#october-26-november-1-2026}
 
